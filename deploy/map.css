@@ -1,0 +1,14 @@
+.cell
+{
+	background-repeat: no-repeat;
+	background-position: center center;
+	position: absolute;
+	background-color: white;
+	cursor: pointer;
+}
+
+body
+{
+	background-color: white;
+	color: black;
+}
