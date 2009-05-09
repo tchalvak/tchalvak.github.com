@@ -1,0 +1,88 @@
+asdfasdfasasdfasdfasasdfasdfasasdfasdfasasdfasdfasasdfasdfasasdfasdfasasdfasdfas
+
+
+[[Advance the idea of the ocean island and the underground enterance/exit in the blue. For the library.]]
+
+                                The Temple Ruins[Wrong, Library]
+ 
+ 
+                                 -Area:-
+ 
+        The Temple Ruins is the remains of an ancient temple, it's origins and meaning mostly lost to time, though the truth is that it once housed a dark rift to another plane and the destruction of that rift brought down the temple as well.  
+        In essence, now it's like a stonehenge of broken slabs of stone that once made up the temple walls and structure.
+        Below that, of course, lies Xz' area/home/thing.
+ 
+Anyway:
+        It's made up of a cross-formation of rooms, with rooms 2-5 containing only ruins, descs, E.D.s, furniture-type atmospheric objects, and some overgrown plants.  
+Room 1 is centered on vmap location 45775, coord 215, 101.
+Room 6 has 6 vmap rooms between it and room 5.
+ 
+      |
+    -[2]-
+  |       |                                  |
+-[3]-[1]-[5]-                              -[6]-
+  |   |   |                                  |
+    -[4]-
+      |
+ 
+        Four stone building-type rooms and a courtyard(5*6k=30k)
+{{Running Total: k gold}}
+ 
+        Room 2 isn't connected south to room one, description has a wall south of room 2 that holds the door that connects to a stairway leading down into the middle level of the underground.  The door, "a thick slab," is a hidden, key-lockable door, (50k*2*2=200k) with it's stone, engraved key (20k) resetting inside some "piled slabs of stone" (a scenic, furniture object) in the southern arm of the ruins.
+ 
+                       -Vmap representation:-
+ 
+ /
+\O\
+ /
+ 
+Slashes in grey with green background.
+ 
+ 
+{{Running Total:244.9k}}
+ 
+                       -Underground rooms and notake furniture:-
+      Key:d,u,n,s,w,e, exit in that direction. h= east and west exit, r= up and down exit. p= portal.
+ 
+Stairway level: (2 rooms)
+   [d]                     [d]
+Upper level: (6 rooms)
+   [s]
+[e][u][w]                  [r]
+   [n]
+Underground tunnel level: (9 rooms)
+   [p][h][h][h][h][h][h][h][u]
+Bottom level: (1 room)
+   [p]
+Seven underground rooms(18 * 1k=18k)
+{{Running Total:262.9k}}
+ 
+Inside the underground rooms:
+two portals to the rooms above (2*250k=500k)
+an underground spring object (5k), 
+a magic bubble-type mob, (100k)
+The summoner, a rosterer mob (100k)
+lvl 25 blocking floating orb (race floating object) clanguard, hitpoint reservoir, no attacking ability, only mana drain(150k)
+{{Running Total: 1117k}}
+
+Store name:  The Runecasting Matrix (250k)
+In "bottom level" room, accompanied by a notake metals furnace object "runecasting matrix" (350k) 
+[for the pool of metals that make the armor.]
+
+{{Running Total: 1,617.k gold}}
+
+Store Objects:
+Note:  Have some of the objects that Xz wears be living armor... creatures, human figures, in addition to the centipede rune-armor.
+All objects: size small, material energy, humming, melt_drop, rot_death, enchantable
+Weapons:2 daggers, level 100, damtype slash, flaming/vampiric,  (2*.5Million=1Million)
+Shield: level 100 (.25 Million)
+Cloak: level 100, insulation:5, (.25Million)
+Hooded Cloak: covers_body, covers_hood, size medium, loosefit, level 1(.25Million)
+
+Rune/Tattoo Objects (clothing object-types): (for slots: finger, finger, wrist, wrist, waist, body, arms, hands, feet, legs, head, torso, neck, neck) 14 slots, (14 * 100k since they're essentially less enchantable silks with their appearance changed=1.4Million)
+
+Subtotal for Store Objects: 3,150,000 gold
+
+{{Grand Total: 5,356k gold}}
+
+

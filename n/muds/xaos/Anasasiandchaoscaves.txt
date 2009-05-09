@@ -1,0 +1,83 @@
+[158] Alariesilon: A cluster of notes left in several city squares, the Hearth, 
+and tacked to the second sign north of Visari.
+Tue Apr  6 15:22:02 2004
+To: moria tritower visari vulcania kydelia harstan all
+Herein find maps, as best maps can be rendered, of the caves wherein
+dwells the spider-queen, Anasasi.  Accept the artist's apologies for
+the hasty, schematic nature of these drawings, knowing that, were the
+subject matter only slightly more conducive to plotting, a fully
+rendered blueprint, complete with portraits of the inhabitants, would
+have been made.
+
+
+
+In this rendering of the pathways through the upper portions of the
+caves mentioned above, all symbols which repeat are to be known as
+signifying the identical place in all repititions, despite any rule of
+logic, geometrics, or architecture which might mandate otherwise.
+The entrance of the cave has been labeled as such, and the stairwell
+leading to the regions inhabited by Anasasi and her children likewise.
+ 
+   S
+   |
+   U--T
+   |
+W--V     U--T--R     Q--S--Down
+   |           |     |  |
+   |     K  P  |     |  U
+   |     |  |  |     |
+   I--J--H  G--K--P--O
+   |     |  |  |  |  |
+   D     |  |  H  G  N
+         |  |
+O        E--F
+|        |
+N      A-C-A
+|        |
+|     I  |
+|     |  |
+M--L--D--B
+         |
+       C-A-C
+         |
+      Entrance
+
+
+
+In this rendering of the pathways through the upper portions of the
+caves mentioned above, all symbols which repeat are to be known as
+signifying the identical place in all repititions, despite any rule of
+logic, geometrics, or architecture which might mandate otherwise.
+While there was insufficient room to clearly label certain points, 
+know that the symbol resembling a spider and that resembling a spiral
+stairwell as viewed from above represent the lair of Anasasi herself,
+and the staircase mentioned in the preceding paragraph, respectively.
+
+Q--P--O--N
+         |
+   J  F  |
+   |  |  |
+   I--J--K
+   |  |
+R  |  I
+|  |
+L--D--A
+   |  |
+   E  @  *-V
+      |    |
+   D  B    U
+   |  |    |
+   E--C    T--S
+   |          |
+   G--H----M--F
+   |          |
+   |          J
+   |
+R--Q--P
+|
+L
+
+
+
+Lastly know that Alariesilon Nir'essaea, unassisted, has imposed order
+and understanding on this portion of the plane of Chaos.

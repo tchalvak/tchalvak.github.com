@@ -1,0 +1,86 @@
+
+
+
+[1].
+
+The Dexedrine has been purified to the body's chirality, while the benzedrine is still a racemic mixture.
+
+
+[2].
+
+Option b, acidic vinegar/lemon juice
+
+We want to increase the ratio of A-/HA, since the ionized compound will be more soluble in water.
+
+pH=pKa-log10(A-/HA)
+pH-pka=-log10(A-/HA)
+pKa-pH=log10(A-/HA)
+10^(pKa-pH)=(A-/HA)
+10^(8-pH)=large number
+
+a low pH will increase the solubility of the compound, which would allow the poison ivy to be washed away.
+
+[3].
+
+a.
+C-Y-F-Q-N-F-P-R-G
+
+b.
+Glycine
+
+c.
+Net positive charge, from Arginine
+
+d.
+
+
+
+
+
+
+
+
+
+
+
+[4].
+
+a.
+Tyr
+
+b.
+Gly
+
+c.
+Cys,Met
+
+d.
+Proline
+
+e.
+Tyr
+
+f.
+Asp,Glu
+
+g.
+Cys
+
+
+[5].
+Energy and catalysts are used to form the bond, and the lack of catalysts and long reaction time for the hydrolysis keeps the peptide bond stable.
+
+
+[6].
+LEARNINGSCIENCEISGREAT
+
+[7].
+Spontaneous at 58 degrees C.  Equilibrium at 57 degrees C.
+
+[8].
+
+deltaG=deltaGzero + RT Ln ( [ADP][Pi] / [ATP]  )
+
+deltaG=-35700J/mol + 8.314J/mol*K * (298degreesK) Ln ( [4.8*10^-3] [1.3*10^-3] / [3.4*10^-3] ) mol
+
+deltaG= -51,310 J

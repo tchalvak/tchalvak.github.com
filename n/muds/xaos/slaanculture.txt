@@ -1,0 +1,52 @@
+12345678901234567890123456789012345678901234567890123456789012345678901234567890
+Start helpfile:
+ 
+Slaan/Naga:
+ 
+Slaan are viscious, savage creatures, but their rather ancient and stratified society lies in stark contrast to their individual savagery.  
+ 
+-
+<Insert slaan racial description here>
+-
+ 
+To curb their destructive nature, the culture has developed with a extremely harsh punishment system.  It essentially amounts to a one-strike system.  One strike and you're dead.  And if you escape somehow to live another day, you become one of the hunted, simply delaying your fate for a time.
+Slaan culture is therefore -extremely- codified, with ritualized methods for everything from public executions to embarking upon excursions for prey to rituals for addressing more powerful ranks in the hierarchy, and it has a very close-knit loyalty structure.
+ 
+Slaan/Naga are fanatics about their culture, and their culture revolves around their religion, and their religion revolves around their diety.  An act of purposeful disloyalty or treason against any of these groups would not only earn hunting by the culture itself, but would also be the type of thing that would cause internal struggle, since their concept of reputation is inextricably linked with that loyalty, and without their reputation, they are nothing.
+ 
+From birth, each slaan is paired with another slaan to whom they are bonded inseperably. Slaan born in twins (the normal case) are raised side by side, and usually trained to complement each-other's abilities.  Mating-bonds are arranged from birth, and slaan are therefore also trained to be able to favorably complement their future mate in some way.  All slaan are either soldiers, either keepers (the warriors) or watchers (the shaman), and almost exclusively fight in pairs of some kind, whether as siblings, mates or simply another pairing.
+ 
+Single children born to a family are offered as sacrifices to Seht, which usually means painful ritualized sacrifice of the semi-defenseless infant.  If Seht happens to favor an infant in some way, as shown through rather spectacular omens (earthquakes, flash-flooding of the tunnels, obliteration of the sun, moon falling out of the sky, etc) that occur during the 36 hour-long grace period after birth but before the sacrifices are preformed, then the slaan is considered to have been adopted by Seht, it's parents are killed for having stolen one of Seht's chosen ones, their bodies preserved, and the infant is given the privelidge of being fet it's parents over an extended period of time by the watchers that take responsibility for it's care.  The watchers also begin the laborious process of the rituals that will make the child both physically and in attitude into a Naga, one of Seht's chosen.
+ 
+-
+<Insert naga racial description here>
+-
+ 
+Since each slaan family exists in at most three generations of two slaan each, the maximum tally of any family is six.  The death of the parents of a Naga cuts a family down to at most two of the oldest generation (though slaan of both sexes are fertile until death), so Seht choosing a child is a devastating event for any slaan family.  The young naga, however, instantly receives a higher rank within the society, and in general finds itself in a better position.
+ 
+Slaan that die are preserved and ritually eaten by the rest of Zil'Gos.  Naga are cremated.  Both red meat and metal are rare in Zil'Gos, and both are prized.  Only the keepers (priest caste) can read and write, and the language is based on runes.  Both genders are equal, though males usually avoid females for half of each month.  The Keepers oversee the building of the monolithic stone carvings that are the guardian spirits of Zil'Gos.
+ 
+---The Unwritten Code---
+(In order of importance)
+ 
+Obey Seht
+Protect and keep secret Zil'Gos.
+Do not kill Naga
+Do not kill Slaan
+(Outcaste Slaan are considered "tainted ones" and thus no longer under this protection. There is no such thing as an outcaste Naga)
+Protect the Watchers
+Obey the Watchers
+ 
+End helpfile.
+ 
+I also want to make the following final changes to slaan/naga:  Changing slaan back to medium, as per popular opinion, (with naga remaining size large) making naga ridable and giving them the tail-lash and charge skills as per the original idea for them.
+ 
+Slaan are hours, Naga are even more hours?
+ 
+Next up, replies to the slaan ideas.
+ 
+Idea subject:  On slaan/naga.
+idea reply 2250
+idea read 2250
+
+ Finish obj 24674

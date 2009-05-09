@@ -1,0 +1,6 @@
+Login, with putty: xaos.ath.cx, port 22
+Mendus says 'the php install is at /usr/local/etc/php'
+Mendus says 'the mysql stuff if you want to play with it is also under /usr/loca
+l/etc/mysql'
+Mendus says 'the apache stuff is under /www'
+ 

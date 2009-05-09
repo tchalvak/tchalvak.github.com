@@ -1,0 +1,101 @@
+------------------3rd Revision-------------------------------
+
+Notes:   You don't like honor, then suggest what will replace it.
+
+
+
+
+
+NinjaWars 2 Design Document
+
+[Manifesto]:
+
+Use Superior Tactics and Devotion to become the Warlord of your clan and make war upon all who would challenge your clan's supremacy or your honor.
+
+[Vision]:
+
+NinjaWars 2 is to be a BBG that takes about 20 to 45 minutes per day to play. Gameplay will focus on PvP with the goal of acheiving the most recognition. Players will play the role of a Ninja of a specific type with unique powers and use their turns to engage in activities to help them advance, like combat.  Keeping true to the minimalist, yet exotic feel of the Ninja is of utmost importance. Multiple classes, skills, and items will provide for customizable characters.
+
+[Player Structure]:
+
+Account Name - Unique, different from Ninja name for security purposes
+Email Address - Unique
+IPs - Unique with exceptions, flagged when duplicated.
+Name - Unique, must adhere to naming standard.
+Nickname - For use when communicating with players.
+Password - Flagged when duplicated?
+Type - Admin, Developer, Moderator, Player
+Access - Normal, Flagged, Restricted, Banned, Observer
+Logins - number of successful logins
+Faileds - number of failed login attempts
+Last Login - Date of last successful login
+Created - Date account was created
+Question and Answer - Security question and secret answer for password retrieval, flagged when duplicated
+
+
+[Ninja Structure]:
+
+Base Stats:
+Name - Unique, must adhere to naming standard.
+Ninja Animal (class) - Determines base stat setup, and an initial unique set of abilities.
+Created - Date Ninja was created.
+Player - The player who controls this Ninja.
+Sex - Male/Female
+Strength - Determines amount of damage in melee combat, and str. action points.
+Speed - Compared to opponent's speed to determine reaction time, number of attacks per round of combat, and speed action points.
+Stealth - Determines chance of avoiding an attacker's enchantments and skills, of detection while attacking an enemy clan, and stealth action points.
+Ninja Color (level) - Determined by experience points, provides access to certain level-restricted features and used in newbie protection.
+Skill Points - Determined by level, the total amount of points a player has put towards their skills.
+Status - Alive, Hiding, or Dead.
+
+Dynamic Values:
+Honor - Quantifies the value of the accomplishments of the Ninja.
+Bounty - Reward for other Ninja to kill this Ninja.
+Gold - The in-game currency used to purchase items and services.
+
+Pools:
+Health/Health Max - Amount of damage a Ninja can sustain before death, shown as a percent.
+Turns/Turns Max - The amount of actions a Ninja may take. Each action costs turns.
+Experience/Experience Total - Gained through gameplay and used to raise skillpoints and stats. Some experience is lost upon death.
+
+Equipment:
+Weapon - An item that modifies a Ninja's offensive combat ability.
+Armor - An item that modifies a Ninja's defensive ability.
+Inventory - The total amount of items the Ninja currently posses. Limited space dependent on level.
+
+Skills:
+Combat - Combat skills are used through the tactics interface.
+Activated - Activated skills are manually used outside of combat.
+Passive - Passive skills are always in effect, altering the Ninja in some way.
+
+Tactics:
+Available - Available tactics are determined by a Ninja's skills, bought with skillpoints.
+Active - The active tactic is the one a Ninja will use the next time they enter combat, either actively or passively.
+
+Misc:
+Clan - The clan to which a Ninja belongs, or no clan.
+Description - A description of a Ninja created by the player.
+Avatar - An image representing a Ninja.
+Effects - A list of special states a Ninja, usually caused by enchantment skills.
+Location - The current location of a Ninja.
+
+[Clan Structure]:
+
+Clan Attributes:
+Clan Name - Name of the clan.
+Clan Warlord - Present Leader of the Clan.
+Clan Master Ninja - The next five ninja in line for the leadership if the leader goes absent.
+Clan Strength - Total of all active members' levels, tallied at the end of each day.
+Clan Honor - total of all active members' honor, tallied at the end of each day.
+Clan Gold - Gold in the clan's bank, donated by members or spoils of war.
+Clan Inventory - Items being held by the clan for its members.
+Clan Tactics - Set of instructions used for defending the clan and for when a clan attacks an enemy clan.
+Clan Enemy - An enemy ninja or clan.
+
+[World Structure]:
+
+
+				<<<<Interface Section>>>>
+
+
+				<<<<Income Section>>>>

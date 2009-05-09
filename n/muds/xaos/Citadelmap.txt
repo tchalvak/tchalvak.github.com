@@ -1,0 +1,58 @@
+12345123451234512345123451234512345123451234512345123451234512345123451234512345
+look map:
+
+A scale model of the citadel's tunnels, water trickles down the pathways made by it's 
+
+
+ 
+Upper level of the citadel:
+ 
+ 
+                     
+     [^yD^^][^BA^^][^yD^^]          ^yD^^ = Spiralling Tunnels (Down to lower level)
+        [O]             ^BA^^ = The Azure Circle
+     [ ][^TP^^][^RG^^]          O = The musk-lily Pool  
+        [^tF^^]             ^TP^^ = The Dais of pools (Down to the drowned tunnels)
+     [^yD^^][ ][^yD^^]          ^tF^^ = Pillars of flame
+                        ^RG^^ = The Gathering Chamber  
+ 
+(Remember to color this)
+ 
+12345123451234512345123451234512345123451234512345123451234512345123451234512345
+ 
+Lower level of the citadel:
+ 
+ 
+                      
+     [^YU^^]         [^YU^^]         ^YU^^ = Spiralling Tunnels (Up to Enterance level)
+     [ ]         [ ]         A = The Armorer
+  [A][ ][T][^yD^^][B][ ][^TC^^]      ^yD^^ = The Basin (Down to the Eating Caverns)
+     [ ]         [ ]         B = The Bone Golems
+     [^YU^^]         [^YU^^]         ^TC^^ = The Crystals
+                             T = The Blackwood Tree       
+ 
+The Drowned Tunnels:
+      
+         [^YO^^]     ^YO^^ = Out (To fens)
+         [^RT^^]     ^TE^^ = Enterance (To Citadel)     
+         [^RT^^]     D = Down to more of the tunnels
+   [ ][^TE^^][^RT^^]     U = Up to the final room
+   [D]           ^RT^^ = The Traps
+                 
+   [D]           
+                 
+[ ][D]           
+   [U]           
+ 
+   [D]
+ 
+12345123451234512345123451234512345123451234512345123451234512345123451234512345
+
+
+12345123451234512345123451234512345123451234512345123451234512345123451234512345
+ 
+The Fens:
+ 
+Use Gmud's automapping process.
+ 
+12345123451234512345123451234512345123451234512345123451234512345123451234512345

@@ -1,0 +1,193 @@
+Combat: 
+minor malison
+searing orb
+acid blast
+energy drain
+blind
+charm
+dehydration
+flesh to stone
+soften defense
+gravity variation
+ice sphere
+blink
+sonic boom
+fear
+web
+polymorph other
+
+
+Enhancement:[Possibly permanency]
+cast invis
+cast talons
+cast battery
+cast stone
+cast 'stone fist'
+cast globe
+cast haste
+cast lighten
+cast enlarge
+cast endurance
+cast titan
+
+[Nothing held]
+[permanencypossible point]
+cast acccelerate
+cast 'magic armor'
+cast ring
+
+cast 'life to mana'
+cast dark
+cast fly
+cast pass
+cast 'detect invis'
+
+phase
+shape change
+ladden
+shrink
+
+Lvl 1  :call chaos          100%  100      oral   conjuration religion
+        magic missile       100%   15      oral   invocation
+        tiger form          100%   20    mental   alteration
+        ventriloquate       100%    5    mental   illusion
+        ticket slave pit    100%    1    mental   none
+Lvl 2  :create rabbit       100%    7    mental   conjuration
+        detect magic        100%    5      oral   divination
+        guider              100%   10      oral   conjuration
+Lvl 3  :detect invis        100%    5      oral   divination
+Lvl 4  :chill touch         100%   15      oral   alteration
+        floating disc       100%   40      oral   conjuration
+Lvl 5  :invisibility        100%    5      oral   illusion
+Lvl 6  :continual light     100%    7      oral   conjuration
+        faerie fire         100%    5      oral   alteration
+        ring of shielding   100%   40   gesture   conjuration
+Lvl 7  :magic armor         100%    5   gesture   abjuration
+        burning hands       100%   15      oral   alteration
+Lvl 8  :refresh             100%   12      oral   invocation
+Lvl 9  :mana charge         100%  150      oral   enchantment
+        infravision         100%    5      oral   alteration
+        locate object       100%   20      oral   divination
+Lvl 10 :create food         100%    5      oral   conjuration
+        fly                 100%   10      oral   alteration
+        shocking grasp      100%   15      oral   invocation
+        sleep               100%   15      oral   beguilery
+Lvl 11 :detect evil         100%    5      oral   divination
+        detect good         100%    5      oral   divination
+        giant strength      100%   20      oral   alteration
+        weaken              100%   20      oral   alteration
+Lvl 12 :blindness           100%    5      oral   alteration
+        know alignment      100%    9      oral   divination
+Lvl 13 :fireproof           100%   10      oral   enchantment
+        lightning bolt      100%   15      oral   invocation
+Lvl 14 :create spring       100%   20      oral   conjuration
+        faerie fog          100%   12      oral   alteration
+        farsight            100%   36      oral   divination
+Lvl 15 :control weather     100%   25      oral   alteration
+        detect poison       100%    5      oral   divination
+        identify            100%   12      oral   divination
+Lvl 16 :colour spray        100%   15      oral   invocation
+        create rose         100%   30      oral   conjuration
+        dispel magic        100%   15      oral   invocation
+        enchant armor       100%  100      oral   enchantment
+Lvl 17 :guardian            100%   45      oral   conjuration
+        poison              100%   10      oral   maladictive
+Lvl 18 :cancellation        100%   20   gesture   abjuration
+        enchant accuracy    100%  170      oral   enchantment
+Lvl 19 :energy drain        100%   35      oral   necromantic
+        recharge            100%   60      oral   enchantment
+Lvl 20 :charm person        100%   15      oral   beguilery
+        magic shield        100%   12      oral 
+Lvl 21 :haste               100%   30      oral   alteration
+        replenishment       100%   60   gesture   enchantment
+Lvl 22 :fireball            100%   15      oral   invocation
+        mass invis          100%   20      oral   illusion
+Lvl 23 :locate person       100%    5      oral   divination
+        slow                100%   30      oral   alteration
+Lvl 24 :empower staff       100%  250      oral   enchantment
+        pass door           100%   20      oral   alteration
+Lvl 25 :stone skin          100%   12      oral   abjuration
+        teleport            100%   35      oral   alteration
+Lvl 26 :call lightning      100%   15      oral   invocation
+        minor malison       100%   25      oral   alteration
+Lvl 27 :enchant damage      100%  100      oral   enchantment
+        gate                100%   80      oral   conjuration
+Lvl 28 :acid blast          100%   20      oral   invocation
+        reverse gravity     100%   40      oral   alteration
+Lvl 29 :knock               100%   25   gesture   enchantment
+        pose old            100%    5      oral   illusion
+        pose youth          100%    5      oral   illusion
+Lvl 30 :common cold         100%   20      oral   maladictive
+        pose strength       100%    6      oral   illusion
+Lvl 31 :pose weakness       100%    7      oral   illusion
+Lvl 32 :create ioun         100%   60   gesture   conjuration
+Lvl 33 :chain lightning     100%   25      oral   invocation
+Lvl 34 :endurance           100%   20   gesture   alteration
+Lvl 35 :blink               100%   20   gesture   alteration
+Lvl 36 :feather fall        100%   10 
+        invisible stalker   100%   80      oral   conjuration
+Lvl 37 :cloud kill          100%   45      oral   conjuration
+        nightmares          100%   25      oral   beguilery
+Lvl 38 :life to mana        100%   40   gesture   necromantic
+Lvl 40 :ghoulish touch      100%   45      oral   necromantic
+Lvl 41 :levitate            100%   25   gesture   alteration
+Lvl 42 :detect undead       100%   30      oral   divination
+Lvl 43 :seal gate           100%   25   gesture   enchantment
+Lvl 44 :encase fibers       100%   85      oral   enchantment
+Lvl 45 :cryogenesis         100%    5      oral   necromantic
+        web                 100%   75      oral   conjuration
+Lvl 46 :permanency          100%  140      oral   alteration
+Lvl 47 :phase               100%   30      oral   abjuration
+Lvl 48 :calm                100%   30      oral   beguilery
+Lvl 49 :random return       100%   25   gesture   alteration conjuration
+Lvl 50 :trueform            100%   20    mental   alteration
+Lvl 51 :ladden              100%   30      oral   alteration
+        lighten             100%   30      oral   alteration
+        sonic boom          100%   80      oral   invocation
+Lvl 52 :change sex          100%   15      oral   alteration
+        mass fly            100%   35      oral   none
+Lvl 53 :anchor gate         100%   40   gesture   enchantment
+        water to wine       100%    5   gesture   alteration
+Lvl 55 :mass armor          100%   40   gesture   none
+Lvl 57 :enlarge             100%   60      oral   alteration
+        mass haste          100%   55      oral   none
+        shrink              100%   60      oral   alteration
+Lvl 58 :hibernation         100%   35      oral   alteration
+Lvl 60 :accelerate healing  100%   35   gesture   religion
+        augment undead      100%   35   gesture   necromantic
+Lvl 61 :dark sight          100%   24      oral   alteration
+        liquid pet          100%   50      oral   conjuration
+Lvl 62 :fear                100%   15      oral   beguilery
+Lvl 64 :earthen grasp       100%   60   gesture   alteration conjuration
+        resist lightning    100%   15      oral   abjuration
+Lvl 65 :confusion           100%   25      oral   beguilery
+        resist cold         100%   15      oral   abjuration
+        resist heat         100%   15      oral   abjuration
+Lvl 66 :iron will           100%   40    mental   abjuration
+        water breathing     100%   15      oral   alteration
+Lvl 67 :spores              100%   35      oral   maladictive
+Lvl 70 :cone of cold        100%   25      oral   invocation
+        resist poison       100%   25      oral   abjuration
+Lvl 71 :battery             100%   80      oral   abjuration
+        resist paralysis    100%   30      oral   abjuration
+Lvl 72 :itch                100%   60      oral   alteration
+Lvl 74 :animate golem       100%  150      oral   enchantment beguilery
+Lvl 75 :acid coat           100%  250      oral   enchantment
+        raise ghoul         100%  150      oral   necromantic
+Lvl 76 :soften defense      100%   25   gesture   invocation
+Lvl 78 :transfer object     100%   70      oral   conjuration
+Lvl 81 :bind golem          100%   50      oral   enchantment
+        stone fist          100%   35      oral   alteration
+Lvl 85 :globe of force      100%   40      oral   abjuration
+Lvl 86 :talons              100%   60      oral   alteration
+Lvl 88 :needle strike       100%   50      oral   invocation
+Lvl 89 :create golem        100%  350      oral   conjuration
+Lvl 90 :titan might         100%   40   gesture   alteration
+Lvl 91 :gravity variation   100%   75   gesture   alteration invocation
+Lvl 95 :dehydration         100%  150      oral   alteration
+Lvl 97 :flesh to stone      100%   50   gesture   alteration
+        ice sphere          100%   45   gesture   invocation
+Lvl 99 :prismatic wall      100%  200      oral   conjuration
+Lvl 100:polymorph other     100%  300      oral   alteration
+        searing orb         100%   60      oral   alteration
+        shape change        100%  200      oral   alteration

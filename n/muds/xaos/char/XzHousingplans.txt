@@ -1,0 +1,146 @@
+asdfasdfasasdfasdfasasdfasdfasasdfasdfasasdfasdfasasdfasdfasasdfasdfas
+
+[  3] Xz: Legion Clanhall Additions Intro
+Wed May 26 14:57:44 2004
+To: admin albach
+The list of things that I'm buying are organized into sections that will be
+replied to this note.  Each note's subject will contain the type of things
+being bought and the total costs of all of the items contained in each note.
+
+   There will then be notes showing the TOTAL KNOWN COSTS and the
+NEGOTIATION COSTS that may change the costs.  
+ 
+(Descriptions will be posted following finalized costs)
+Needed descriptions:  
+Banker, Storekeeper, "Shadow Beast", hidden "entrails" object,
+ all Equipment, bottomless pit object, fountain of blood.
+
+
+[Doors]
+Combo Redo: 25k
+Custom Lockable Door(resets to open): 50k x 2(hidden) +
+ 10k(custom key, buyable at store)= 110k
+Combination Vault Door: 25k x 2(hidden) x 2(raised difficulty) x
+ 5(passproof) = 500 k
+           {Subtotal: 110+500= 610k}
+
+note subject [Rooms] {Subtotal: (R)+(A)}
+note ++
+Four Underground Norecall rooms: ?(R)
+Two Terrain Air Rooms: ?(A)
+          {Subtotal: (R)+(A)}
+@
+
+note subject [Objects] {Subtotal: 50+10+50+225= 335k}
+note ++
+Bottomless Pit: 50k
+Fountain of Blood: 10k
+Safe: 50k
+Safe2:50k+25k(ton)+150k(difficulty)=225k
+          {Subtotal: 50+10+50+225= 335k}
+@
+
+note reply 96
+note subject [Furnaces] {Subtotal: 125+35+100+95+65= 415k}
+note ++
+Metal: 100+25(Ton)= 125k
+Stone: 25+10(Ton)= 35k
+Glass: 75+25(Ton)= 100k
+Sewing Machine: 75+20(Ton)= 95k
+Meat Vat: 50+15(Ton)= 65k
+          {Subtotal: 125+35+100+95+65= 415k}
+@
+
+note reply 96
+note subject [Portals] {Subtotal: 2250k + (N)}
+note ++
+Minsil, Vulcania, Claws, Kydelia,
+Gobold, Adventurer's Guild, Aarador,
+Albach's "Ruined Citadel" in the mists,
+and the Vondonni City: 250k*9= 2250k base + Negotiations: ?(N)
+          {Subtotal: 2250k + (N)}
+@
+note post
+note reply 96
+note subject [Food/Drink] {Subtotal: (W)+(F)}
+note ++
+Hidden Fountain of Water: ?(W)
+Hidden "entrails" Food Object: ?(F)
+          {Subtotal: (W)+(F)}
+@
+note post
+note reply 96
+note subject [Training Mobs] {Subtotal: 80+100= 180k}
+note ++
+Training Pole: 80k
+Magic Bubble: 100k
+          {Subtotal: 80+100= 180k}
+@
+note post
+note reply 96
+note subject [Clanguard] {Subtotal: 1000+260= 1260k}
+note ++
+Stage 5, lvl 99 "shadow beast" clanguard of race shadow: 1000k
+Clanguard upgrade, stats maxed,
+str 30, wis 9, int 9, dex 54, con 45: 260k
+10 Stage 1, lvl 25 prisoner mobs, of races
+Werewolf, Vondonni, Imp, Tiger, Gremlin, Avariel, Kobold, Wolf, Maca,
+Drow: 1,500k
+          {Subtotal: 1000+260+1500= 2760k}
+@
+
+note post
+note reply 96
+note subject [Licenses] {Subtotal: 1350k + (S)}
+note ++
+Bank: 100k + 1000k(carrying capacity increase)=1100k
+Store: 250k + negotiations ?(S)
+          {Subtotal: 1350k + (S)}
+@
+note post
+
+note reply 96
+note subject [Store Equipment] {Subtotal: (E)}
+note ++
+ (all size small, level 100)
+Vampiric steel dagger
+Flaming steel dagger
+cloth cloak
+cloth robe
+cloth hood
+cloth hood (size medium, loosefit, makes wearer hooded)
+steel necklace (humming)
+steel ring
+steel bracer
+cloth gloves
+cloth pants
+cloth boots
+steel floater (humming, size large, weight 0)
+steel shield
+Costs: ?(E)
+         {Subtotal: (E)}
+@
+note post
+
+note subject [Gladiators] {Subtotal: (G)}
+note reply 96
+note ++
+I'd also like to know the cost of buying and making a few, say
+maybe 5 level 100, gladiators for the arenas. These would be
+resetting mobs, but not clanguard type, so I'm not sure what
+you want as far as cost.  
+@
+note post 
+
+note reply 96
+note subject {TOTAL KNOWN COSTS: 1350+2760+180+2250+415+335+610 = 7900k (7.9 million)
+
+note reply 96
+note subject [NEGOTIATION COSTS] {TOTAL: Unknown}
+note ++
+COSTS FOR NEGOTATIONS FOR: Equipment (E), Store license (S),
+ Hidden Fountain of water (W) and hidden Food object (F), Portal
+ negotiations (P), Norecall rooms (R), Gladiators (G), and 
+ Air Terrain rooms (A)
+@
+note post

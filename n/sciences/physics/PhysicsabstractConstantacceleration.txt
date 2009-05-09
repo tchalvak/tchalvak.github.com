@@ -1,0 +1,3 @@
+The purpose of this lab was to compare the measurement of a rate of acceleration with the theoretical rate at which it should accelerate.
+A relatively frictionless inclined surface was provided for a mechanism that an electric spark, which arced to the surface below at a constant interval of sixty times per second, accelerated down.  The sparker left behind precise marks at it's location at the time of the arc upon the spark tape below.  The distance between each mark and the next in line was measured for all of the marks between where the sparker was started and where it was stopped.
+A graph of Velocity vs time was made and fit with a straight line.  The slope of the best fit line 

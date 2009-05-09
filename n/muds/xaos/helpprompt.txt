@@ -1,0 +1,45 @@
+Syntax: ^Wprompt^^
+Syntax: ^Wprompt all^^
+Syntax: ^Wprompt newbie^^
+Syntax: ^Wprompt <any other combination of characters and variables>^^
+ 
+PROMPT without any arguments will display one's current prompt setup.
+ 
+PROMPT ALL will give you the standard "<hits mana moves>" prompt.
+ 
+PROMPT NEWBIE will give you "<hit mana moves> [xp_to_lvl] gold/silver"
+ 
+PROMPT <whatever> where whatever is a combination of characters
+and variables.  Variables are put in by %[letter].
+ 
+Variables that can be inserted into your prompt:
+        [Main Character Attributes]
+        %h :  Displays your current hits
+        %H :  Displays your maximum hits
+        %m :  Displays your current mana
+        %M :  Displays your maximum mana
+        %v :  Displays your current moves
+        %V :  Displays your maximum moves
+        [Other character details]
+        %x :  Displays your experience points to next level.
+        %X :  Displays experience percent to next level.
+        %b :  Displays hunger/thirst/drunk as HTD or F for fine.
+        %B :  Displays the words hungry, etc. instead of the letters.
+        %P :  Displays your current posture.
+        %g :  Displays gold carried.
+        %s :  Displays silver carried.
+        %a :  Displays your alignment.
+        %S :  Displays your current race, useful for shape-changers.
+        [Area Details]
+        %r :  Displays the name of the room you are in.
+        %e :  Displays the room exits as letters, NESWDU style.
+        %t :  Displays the time of day.
+        %R :  (IMMORTAL ONLY)Displays the vnum you are in.
+        %z :  (IMMORTAL ONLY)Displays the area name you are in.
+        [Other]
+        %c :  Displays a carriage return, useful for multi-line prompts.
+ 
+Example: ^Wprompt <%hhp %mm %vmv>^^
+        Will set your prompt to "<10hp 100m 100mv>"
+ 
+See also:  ^Whelp info^^

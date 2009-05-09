@@ -1,0 +1,50 @@
+From: Mike Levine <mrunix@ic.net>
+
+Haven't put 2-cents in recently so here my thoughts on gaining coding
+experience before you decide to run a mud.
+
+1.  Download a fresh copy of whatever code base you would like to try.
+2.  Purchase an introductory and intermediate book on Coding in C.
+3.  Purchase an introductory book on Software Engineering.
+4.  Purchase an introductory book on Data Types in C.
+5.  Read, Read, Read.
+6.  Run your mud locally and play with it as an administrator and player
+    until such time as you really understand the structure of the code and
+    mud base you are going to create your ultimate mud with. DO NOT
+    CODE AT THIS STAGE.
+7.  At some point you'll have an idea or two. *Start with *very small*
+    changes. Understand exactly what you want to do *before* you do it.
+    This is where software engineering comes into play. Plan your changes,
+    write them down, test them on paper first - before - you alter one bit
+    of code.
+8.  Test, Test, Test
+9.  Always have a copy of your last working version of the mud. For that
+    matter, if disk space allows, keep a copy of each working version of
+    your mud so that you can at least go back one step if things go wrong;
+    they shouldn't if you planned things right - but hard drive crashes
+    are another thing - keep your copies external to the hard drive you
+    are developing on.
+10. There's always some excitement with the idea of opening up your first
+    or subsequent muds. Don't open them up or advertise too early. Work
+    on them until there is a lot more to offer than just stock zones and
+    mobs. Experienced mudders visiting your mud will expect *something*
+    different and will go away very quickly if all you have on offer is a
+    stock mud. I mean, we all can download bpl11, compile it and open it
+    up to the public.
+11. The most difficult part of developing a good mud is BALANCE. Good
+    zone/player/mob/eq balance *is* the most critical and often overlooked
+    aspect of administrating muds. A good example of bad balance is when
+    someone downloads stock bpl11, increases levels to 100 and does 
+    nothing with mob levels/hps/exp or equipment/spells. Try to get to
+    grips with understanding what balance really is, how much and what
+    code it affects, and what you envision your players may want to have.
+12.  Test, Test, Test
+
+IMHO. Please add if you feel necessary. If you disagree or have
+personal comment please address it directly to me: mrunix@ic.net .
+
+Best Regards
+Mike Levine
+mrunix@ic.net
+
+

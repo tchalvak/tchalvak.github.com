@@ -1,0 +1,80 @@
+asdfasdfasasdfasdfasasdfasdfasasdfasdfasasdfasdfasasdfasdfasasdfasdfasasdfasdfasasdfa
+ 
+Room 27050
+The third like of the desc is indented, not sure if you meant to do
+or not.
+^Y>>>^^Just a peculiarity with how the .f command works, but I got rid of the indentation manually.
+ 
+Room 27097 etc
+I like the atmosphere added by the dripping water echoes..
+^Y>>>^^I agree, though the dripping water echo occurs far too frequently for my 
+taste, but I'd rather have it do it a lot than not be there at all.
+ 
+Room 27077
+How about replacing the dripping water echoe with an echoe for the
+exploding spore capsules?  Might spice it up a bit, as there are
+dripping water ones all over the place.
+^Y>>>^^Yeah, a pretty cool idea for an echo to add, but the echos would overlap and 
+become rather spammy.  Perhaps if it were possible to decrease the dripping echo I'd 
+do this, but I'm not going to worry about it at the moment.  Perhaps if players 
+complain about the excess dripping.  These echos don't go by room, they spread out a 
+certain distance from each room that you place them on, like gate runes, so it's not 
+so easy to use multiple ones and still avoid overlap.
+ 
+Room 27084 (and other lava rooms)
+What about adding an echo for the bubbles of lava that burst?  Could 
+just add to the atmopshere of the place.
+^Y>>>^^I think that the effects of the lava will probably give enough (painful) 
+atmosphere on their own.
+ 
+Mob 27051
+"Long descr:A large black dog with red eyes lies on it's haunches."
+Sits on its haunches would work better.
+And it says it's level 101.
+^Y>>>^^You're right, having it say sit does work better, so it does now.  And it is 
+supposed to be level 101.
+ 
+Mob 27057
+I thought all crystalline type dragons were neutral only.  And this one is
+and evil hydra.  If I'm wrong, then it looks good.  If I'm right, then perhaps
+a chromatic brown tone would work.
+^Y>>>^^This is the result of the fact that the hydra only exists as an index to the 
+hydra npc, which is where I put the actual description that would appear on the 
+npc-mob (one that fits how a hydra would look) but I also added the right desc to the mob index, so it's all good now.
+ 
+Mob 27057
+Level 103 (Hero 200)  ... I dind't know that was possible.  I'm assuming it's 
+supposed to be possible?  I think?
+^Y>>>^^Purposeful.
+ 
+Mob 27064
+Second line of desc is indented.
+^Y>>>^^Another instance of .f formatting gone awry, fixed manually.
+ 
+Mob 27066
+Desc just needs to be formatted.
+^Y>>>^^You're right, good catch.
+ 
+Mob 27073
+There's no desc for this mob.
+^Y>>>^^Right again, though I remember writing the desc for it out before, not sure 
+where it went.  Has a desc now.
+ 
+Obj 17050
+If mouths is going to be used in short and names, then perhaps you should add it so the long desc as well.
+^Y>>>^^Nah, when they step through it they'll get a message with the short desc, so 
+it'll get seen that way.
+ 
+Obj 27087
+It's at level 107.
+^Y>>>^^Level 1 now, good catch.
+ 
+Obj 27088
+Not sure if you're using this one.  If you are, it has no names.
+Obj 27094
+No names, no short.
+^Y>>>^^I ended up using other objects, which made these ones unecessary.
+ 
+^Y>>>^^So, who wants to help the Slaan/Naga go online by reviewing one or more of the 
+two remaining areas?  You know you want to.  Reply to this note if you're available, 
+or simply use the request for reviews that I posted earlier.

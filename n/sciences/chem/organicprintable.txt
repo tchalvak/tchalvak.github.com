@@ -1,0 +1,12 @@
+Functional Group Name Formula Suffix (when highest precedence) Prefix(when lower precedence) 
+
+carboxyl -COOH -oic acid carboxy- 
+aldehyde -CHO -al formyl- 
+ketone   -CO- -one oxo- 
+alcohol  -OH -ol hydroxy- 
+amine    -NH2 -amine amino- 
+ether    -OR none alkoxy- 
+alkene   C=C -ene en- 
+alkyne   -yne yn- 
+http://www.chem.uic.edu/web1/232F2002/232PE1A.PDF
+http://chem.neopages.com/orgo/alk_rxn.shtml

@@ -1,0 +1,34 @@
+<html><head><title>The XAOSMud Homepage</title></head>
+<noscript><!--<body>
+<!-- '"NorthSky"' -->
+<!-- Auto Banner Insertion Begin -->
+<div id=aws_2407 align=center><script><!--
+var g=new Date(); g=(window.bRand726 ? window.bRand726 : g.getTime()%1000); window.bRand726=g;
+document.writeln('<iframe name=ns_7185 width="726" height="64" bgcolor="white" hspace=0 vspace=0 src=http://xaos.s5.com/cgi-bin/b/726/64/dXNlcmJhbm5lcg==/is/'+g+'/?ns_7185 scrolling=no marginwidth=0 marginheight=0 frameborder=0></iframe>');
+//--></script><noscript><iframe name=ns_7185 width="726" height="64" bgcolor="white" hspace=0 vspace=0 src=http://xaos.s5.com/cgi-bin/b/726/64/dXNlcmJhbm5lcg==/in/7185/?ns_7185 scrolling=no marginwidth=0 marginheight=0 frameborder=0></iframe></noscript></div><!-- Auto Banner Insertion Complete THANK YOU -->
+
+<!-- </html> -->
+<style><!--
+body: {
+scrollbar-base-color: #FF0000;
+scrollbar-face-color: #FF0000;
+scrollbar-track-color: #FF0000;
+scrollbar-3dlight-color: #FF0000;
+scrollbar-highlight-color: #FF0000;
+scrollbar-darkshadow-color: #FF0000;
+scrollbar-shadow-color: #FF0000;
+scrollbar-arrow-color: #FF0000
+} -->
+</style>
+
+<body bgcolor="#000000" text="#D69452" vlink="#990000" alink="#99ff99">
+<class=Body>
+<center>
+<a href="main.html">
+<img src="img/xaosbig.png" border=0 alt='XaosMud - xaos.slf.cx:5000'></a>
+<br>
+<font style="font-size: 9px; font-family: verdana;">
+[ Click on the above image to enter XaosWeb ]
+<br>
+<font style="font-size: 15px; font-family: timesroman;">
+Connect to <a href="telnet://xaos.slf.cx:5000">Xaos.slf.cx Port 5000</a>

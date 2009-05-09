@@ -1,0 +1,12 @@
+The possibility of an evolutionary link between lactose intolerance and the developement of a dairy-rich society.
+
+
+Research on lactose intolerance seem to indicate that it is hard to diagnose conclusively using current methods due to the fact that other diseases cause the same general symptoms.  Research has also turned up the possibility that lactose persistence in north american and european populations is the result of a single mutation, in a region close to the lactase gene which is probably necessary for the important in the regulation of lactase transcription.  This mutation is present predominantly in those of european ancestry, and it is possible that this genetic difference can be examined in the view of the geneological context of the prevalence and availability of cattle and dairy products in europe and only to a lesser extent on the other continents.
+
+
+Examining the research that has been done on lactose intolerance and the molecular mechanisms of it has brought me to the conclusion that there is not really enough of the research being done in the area that I was looking for: the mechanism (in this case, a genetic one) for the regulation of the loss of the ability to degrade lactose, and therefore the developement of lactose intolerance.
+Instead, I want to change my subject of interest to look more specifically at the protein folding mechanisms that we saw in a previous article ("Are proteins made from a limited parts list?") simply because I found it to be a very interesting article, despite the rather obtuse nature of its writing, and am specifically interested in the possibility inherrent in there being blocks and hierarchies of protein building instead of a bottom-up amino acid approach.  The concept seems to address the same question that I have found myself asking in the past:  How are proteins able to be so specific, and so conserved?
+
+
+NEW TITLE
+The universal nature of DNA and transgenic insertion

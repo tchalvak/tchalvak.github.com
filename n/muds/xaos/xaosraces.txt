@@ -1,0 +1,350 @@
+Race Data is LOCKED.
+Name:vondoni Species:vondoni Mat.:meat Size:medium Max Level:112
+Age(start/max):17/70 Pronoun:vondoni
+Density: 1650  Projected weight: 1650
+Form:edible animal sentient biped mammal
+Parts:head arms legs heart brains guts hands feet fingers ear eye claws
+Eq size: medium
+left finger   right finger  neck          neck2         torso         
+head          legs          feet          hands         arms          
+shield        body          waist         left wrist    right wrist   
+right hand    left hand     float         
+Resistances/Immunities/Vulnerabilities
+None.
+Natural attacks: none  Bite Damage: 5-10
+Damdice:10d5(av25) Damtype:claw Combat Round:normal
+Natural AC:none  
+Deathtype:normal     Spits: reserved
+Fear Factors: level based 0 modifier none
+Hp_modifier:100 Mv_rate:150 
+Traits:canbite speaks canhowl shape_change Affects:detect_hidden infrared
+Temperature range: 5/15/25/35
+Can breath: air
+Lang:common Mortpick:Yes Diet:meat vegetable grain
+Magical Affinity:4 Casting modifier:0  Vision Range:7
+Stomach Size:60  Digestion Rate:2
+Align Angelic:[ ] Good:[X] Neutral:[X] Evil:[X] Satanic:[ ]
+Sex values allowed: none male female either 
+Str:18 Int:17 Wis:16 Dex:19 Con:19
+Base xp:3000
+Skills:hand to hand path finding perception hearing hunt tracking 
+Harvestable items of the race:
+  1 skinning creates a vondoni's skin(1838), occurance: 100%
+
+Name:shadow Species:None Mat.:etherealness Size:medium Max Level:112
+Age(start/max):17/100 Pronoun:
+Density: 1  Projected weight: 1
+Form:magical intangible
+Parts:none
+Eq size: medium
+float         
+Resistances/Immunities/Vulnerabilities
+slash       30% bash        30% pierce      30% fire       -75% 
+light      -100% negative    50% lightning  -50% poison     100% 
+disease    100% 
+Natural attacks: none  
+Damdice:7d5(av17) Damtype:punch Combat Round:puddle
+Natural AC:none  
+Deathtype:baator claw Spits: reserved
+Fear Factors: level based 0 modifier none
+Hp_modifier:100 Mv_rate:100 
+Traits:noblood tireless Affects:dark_vision
+Temperature range: 15/20/25/30
+Can breath: air water
+Lang:common Mortpick:No Diet:none
+Magical Affinity:4 Casting modifier:0  Vision Range:4
+Stomach Size:0  Digestion Rate:0
+Align Angelic:[ ] Good:[ ] Neutral:[ ] Evil:[ ] Satanic:[ ]
+Sex values allowed: none male female either 
+Str:10 Int:3  Wis:3  Dex:18 Con:15
+Base xp:1000
+Skills:
+
+Name:slaan at present Species:slaan Mat.:flesh Size:large Max Level:112
+Weight:7000  Age(start/max):25/125 Pronoun:
+Form:animal biped reptile
+Parts:head arms legs heart brains guts hands feet fingers ear eye long_tongue tail claws fangs
+Eq size: large
+left finger   right finger  neck          neck2         torso         
+head          legs          arms          shield        body          
+waist         left wrist    right wrist   right hand    left hand     
+float         tail armor    
+Resistances/Immunities/Vulnerabilities
+fire        10% cold        10% poison      25% 
+Natural attacks: tailattacks  Bite Damage: 5-9
+Damdice:6d10(av30) Damtype:claw Combat Round:normal
+Natural AC:none  
+Deathtype:normal     Spits: reserved
+Fear Factors: level based 2 modifier none
+Hp_modifier:100 Mv_rate:100 
+Traits:canbite speaks Affects:infrared
+Temperature range: 15/20/25/30
+Can breath: air
+Lang:slaan Mortpick:No Diet:meat vegetable rawmeat grain
+Magical Affinity:4 Casting modifier:0  Vision Range:5
+Stomach Size:60  Digestion Rate:1
+Align Angelic:[ ] Good:[ ] Neutral:[X] Evil:[X] Satanic:[X]
+Sex values allowed: none male female either 
+Str:18 Int:18 Wis:16 Dex:19 Con:19
+Base xp:2500
+Skills:taillash 
+
+
+
+Name:slaan Species:slaan Mat.:flesh Size:medium Max Level:112
+Weight:2500  Age(start/max):20/100 Pronoun:
+Form:animal biped reptile
+Parts:head arms legs heart brains guts hands feet fingers ear eye long_tongue ta
+il claws fangs
+Eq size: medium
+left finger   right finger  neck          neck2         torso         
+head          legs          arms          shield        body          
+waist         left wrist    right wrist   right hand    left hand     
+float    
+Resistances/Immunities/Vulnerabilities
+fire        10% cold        10% poison      25% light -10%
+Natural attacks: tailattacks  Bite Damage: 4-8
+Damdice:5d10(av25) Damtype:claw Combat Round:normal
+Natural AC:none  
+Deathtype:normal     Spits: reserved
+Fear Factors: level based 2 modifier none
+Hp_modifier:100 Mv_rate:100 
+Traits:canbite speaks Affects:infrared
+Temperature range: 0/10/25/30
+Can breath: air water
+Lang:slaan Mortpick:No Diet:meat vegetable rawmeat grain
+Magical Affinity:4 Casting modifier:0  Vision Range:5
+Stomach Size:60  Digestion Rate:1
+Align Angelic:[ ] Good:[ ] Neutral:[X] Evil:[X] Satanic:[X]
+Sex values allowed: none male female either 
+Str:18 Int:18 Wis:16 Dex:19 Con:19
+Base xp:??
+Skills:taillash 
+
+
+
+Name:naga Species:naga Mat.:flesh Size:large Max Level:112
+Weight:7000  Age(start/max):25/125 Pronoun:
+Form:animal reptile poison sentient ?snake?
+Parts:head arms heart brains guts hands fingers eye long_tongue ta
+il claws fangs
+Eq size: large
+left finger   right finger  neck          neck2         torso         
+head          arms          shield        body          
+waist         left wrist    right wrist   right hand    left hand     
+float         tail armor
+Resistances/Immunities/Vulnerabilities
+fire        10% cold        15% poison      25% light -15%
+Natural attacks: tailattacks  Bite Damage: 5-10
+Damdice:6d10(av30) Damtype:claw Combat Round:constricting?python?Or something to fit their snake-like body?
+Natural AC:none  
+Deathtype:normal     Spits: reserved
+Fear Factors: level based 3 modifier none
+Hp_modifier:100 Mv_rate:110 
+Traits:canbite speaks selfcharge Affects:infrared
+Temperature range: -20/-10/30/40
+Can breath: air water
+Lang:slaan Mortpick:No Diet:meat vegetable rawmeat grain
+Magical Affinity:4 Casting modifier:0  Vision Range:5
+Stomach Size:60  Digestion Rate:1
+Align Angelic:[ ] Good:[ ] Neutral:[X] Evil:[X] Satanic:[X]
+Sex values allowed: none
+Str:18 Int:18 Wis:16 Dex:19 Con:19
+Base xp:??
+Skills:taillash swimming ?charge/jousting/whatever the skill is?
+
+Race Data is LOCKED.
+Name:red dragon Species:dragon Mat.:meat Size:giant Max Level:112
+Weight:21000  Age(start/max):17/1400 Pronoun:red dragon
+Form:edible poison sentient dragon
+Parts:head arms legs heart brains guts hands feet fingers ear eye
+long_tongue wings tail claws fangs horns scales tusks
+Eq size: giant
+left finger   right finger  neck          neck2         shield        
+left wrist    right wrist   right hand    left hand     tail wield    
+float         tail armor    Resistances/Immunities/Vulnerabilities
+fire       100% cold       -50% 
+Natural attacks: breath wingstall buffet  Bite Damage: 15-30
+Damdice:10d5(av25) Damtype:claw Combat Round:dragon
+Natural AC:dragon  Breath:fire breath Mod:100%
+Deathtype:normal     Spits: reserved
+Fear Factors: level based 0 modifier none
+Hp_modifier:100 Mv_rate:100 
+Traits:can_fly can_roar draconic ridable canbite speaks has_breath
+shape_change selfcharge Affects:infrared
+Temperature range: 5/15/25/35
+Can breath: air
+Lang:draconic Mortpick:No Diet:meat vegetable rawmeat grain
+Magical Affinity:4 Casting modifier:0  Vision Range:6
+Stomach Size:250  Digestion Rate:20
+Align Angelic:[ ] Good:[ ] Neutral:[ ] Evil:[X] Satanic:[ ]
+Sex values allowed: none male female either 
+Str:22 Int:22 Wis:21 Dex:22 Con:22
+Base xp:15000
+Skills:haggle hand to hand dragon skills
+
+Race Data is LOCKED.
+Name:archon Species:None Mat.:energy Size:large Max Level:112
+Weight:12000  Age(start/max):17/2000 Pronoun:archon
+Form:edible sentient intangible
+Parts:arms hands claws
+Eq size: large
+shield        right hand    left hand     float         Resistances/Immunities/Vulnerabilities
+magic       15% holy        50% unholy     -50% lightning   25% 
+Natural attacks: none  
+Damdice:13d5(av32) Damtype:magic Combat Round:normal
+Natural AC:base 500  
+Deathtype:blinding flash Spits: reserved
+Fear Factors: level based 2 modifier none
+Hp_modifier:250 Mv_rate:100 
+Traits:can_fly angelic speaks ageless Affects:detect_evil detect_good
+Temperature range: 5/15/25/35
+Can breath: air
+Lang:common Mortpick:No Diet:none
+Magical Affinity:4 Casting modifier:0  Vision Range:4
+Stomach Size:200  Digestion Rate:0
+Align Angelic:[X] Good:[X] Neutral:[ ] Evil:[ ] Satanic:[ ]
+Sex values allowed: none male female either 
+Str:21 Int:19 Wis:19 Dex:20 Con:20
+Base xp:3000
+Skills:flight
+
+Name:shadow Species:None Mat.:etherealness Size:medium Max Level:112
+Weight:1  Age(start/max):17/100 Pronoun:
+Form:magical intangible
+Parts:none
+Eq size: medium
+Resistances/Immunities/Vulnerabilities
+light      -100% negative    50% 
+Natural attacks: none  
+Damdice:5d10(av25) Damtype:punch Combat Round:puddle
+Natural AC:none  
+Deathtype:baator claw Spits: reserved
+Fear Factors: level based 0 modifier none
+Hp_modifier:100 Mv_rate:100 
+Traits:noblood tireless Affects:none
+Temperature range: 15/20/25/30
+Can breath: air water
+Lang:common Mortpick:No Diet:none
+Magical Affinity:4 Casting modifier:0  Vision Range:4
+Stomach Size:0  Digestion Rate:0
+Align Angelic:[ ] Good:[ ] Neutral:[ ] Evil:[ ] Satanic:[ ]
+Sex values allowed: none male female either 
+Str:10 Int:3  Wis:3  Dex:18 Con:15
+Base xp:0
+Skills:
+
+Name:wyvern Species:lizard Mat.:meat Size:huge Max Level:112
+Weight:850  Age(start/max):17/5 Pronoun:
+Form:edible animal reptile
+Parts:head legs heart brains guts feet eye wings tail fangs
+Eq size: huge
+neck          back          
+Resistances/Immunities/Vulnerabilities
+fire        50% 
+Natural attacks: none  Bite Damage: 2-5
+Damdice:5d10(av25) Damtype:claw Combat Round:scorpion
+Natural AC:none  
+Deathtype:normal     Spits: reserved
+Fear Factors: level based 0 modifier none
+Hp_modifier:100 Mv_rate:100 
+Traits:can_fly ridable animal canbite Affects:none
+Temperature range: 15/20/25/30
+Can breath: air
+Lang:common Mortpick:No Diet:meat rawmeat grain
+Magical Affinity:4 Casting modifier:0  Vision Range:4
+Stomach Size:90  Digestion Rate:3
+Align Angelic:[ ] Good:[ ] Neutral:[X] Evil:[ ] Satanic:[ ]
+Sex values allowed: none male female either 
+Str:24 Int:10 Wis:10 Dex:19 Con:19
+Base xp:1000
+Skills:breath 
+
+
+Name:kobold Species:None Mat.:meat Size:small Max Level:112
+Weight:650  Age(start/max):3/45 Pronoun:kobold
+Form:edible poison sentient biped mammal
+Parts:head arms legs heart brains guts hands feet fingers ear eye tail
+Eq size: small
+left finger   right finger  neck          neck2         torso         
+head          legs          feet          hands         arms          
+shield        body          waist         left wrist    right wrist   
+right hand    left hand     float         
+Resistances/Immunities/Vulnerabilities
+None.
+Natural attacks: none  Bite Damage: 2-5
+Damdice:10d5(av25) Damtype:claw Combat Round:normal
+Natural AC:none  
+Deathtype:normal     Spits: reserved
+Fear Factors: level based -5 modifier none
+Hp_modifier:90 
+Traits:canbite speaks canhowl Affects:infrared
+Temperature range: 5/15/25/35
+Can breath: air
+Lang:orcish Mortpick:Yes Diet:meat vegetable grain
+Magical Affinity:4 Casting modifier:0  Vision Range:4
+Stomach Size:30  Digestion Rate:1
+Align Angelic:[ ] Good:[ ] Neutral:[X] Evil:[X] Satanic:[ ]
+Sex values allowed: none male female either 
+Str:15 Int:14 Wis:13 Dex:22 Con:15 Total:79
+Base xp:1000
+Skills:
+Harvestable items of the race:
+  1 skinning produces a kobold skin(1878) 100% of time
+
+Name:gnome Species:gnome Mat.:meat Size:small Max Level:112
+Weight:700  Age(start/max):17/100 Pronoun:gnomish
+Form:edible sentient biped mammal
+Parts:head arms legs heart brains guts hands feet fingers ear eye
+Eq size: small
+left finger   right finger  neck          neck2         torso         
+head          legs          feet          hands         arms          
+shield        body          waist         left wrist    right wrist   
+right hand    left hand     float         
+Resistances/Immunities/Vulnerabilities
+None.
+Natural attacks: none  
+Damdice:5d10(av25) Damtype:punch Combat Round:normal
+Natural AC:none  
+Deathtype:normal     Spits: reserved
+Fear Factors: level based 0 modifier none
+Hp_modifier:100 
+Traits:speaks shape_change Affects:infrared
+Temperature range: 15/20/25/30
+Can breath: air
+Lang:common Mortpick:Yes Diet:meat vegetable grain
+Magical Affinity:4 Casting modifier:1  Vision Range:4
+Stomach Size:45  Digestion Rate:2
+Align Angelic:[ ] Good:[X] Neutral:[X] Evil:[X] Satanic:[ ]
+Sex values allowed: none male female either 
+Str:15 Int:19 Wis:19 Dex:18 Con:17 Total:
+Base xp:1500
+Skills:haggle gnomish 
+
+
+Name:puddle Species:None Mat.:water Size:small Max Level:112
+Weight:300  Age(start/max):17/100 Pronoun:
+Form:intangible blob
+Parts:arms hands
+Eq size: small
+right hand    left hand     float         
+Resistances/Immunities/Vulnerabilities
+slash       50% bash        50% pierce      50% fire       -50% 
+cold        75% lightning   50% poison     100% disease    100% 
+Natural attacks: none  
+Damdice:10d10(av50) Damtype:slime Combat Round:puddle
+Natural AC:none  
+Deathtype:puddle     Spits: reserved
+Fear Factors: level based 0 modifier none
+Hp_modifier:125 Mv_rate:100 
+Traits:burrower speaks cantclimb noblood Affects:dark_vision
+Temperature range: 15/20/25/30
+Can breath: air water
+Lang:common Mortpick:No Diet:vegetable energy
+Magical Affinity:4 Casting modifier:0  Vision Range:4
+Stomach Size:200  Digestion Rate:1
+Align Angelic:[ ] Good:[ ] Neutral:[X] Evil:[ ] Satanic:[ ]
+Sex values allowed: none male female either 
+Str:10 Int:10 Wis:10 Dex:15 Con:15
+Base xp:1000
+Skills:

@@ -1,0 +1,167 @@
+Premise:
+
+This area is made up of four rooms.  The initial 
+room is accessed easily through the square door, while the other rooms
+are all inaccessable [At least I want them to be so] save if one answers
+the riddles posed by the arachnid within the center room [using talk-
+files].  The answer to each riddle opens up a certain door [scripts
+needed?].  Within each room is another puzzle involving an object 
+[Think play-acting, i.e. invisible script-mob watches players action
+for certain string and if string is present, triggers a responding effect[conjecture, 
+unsure if possible]]. Correct usage opens the container in that room and allows access
+to the spell-learning device within that container.
+
+Note: that I have no idea which parts of this, if any, are feasable under
+the current constraints of the present building system.  Thus, if you see
+something that you don't think will work, tell me.
+
+
+Templates:
+
+Room 
+
+asdfasdfa asdfasdfa asdfasdfa asdfasdfa asdfasdfa asdfasdfa asdfasdfas
+*add r <#>
+*rdesc
+The curving black walls of this chamber turn it into a smooth
+sphere, interrupted by four portals in each direction.  Each
+gate is closed by flawlessly interlocking plates, and each is
+of a different shape.  There is a square of dull black metal,a
+red-bronze circle, a silver triangle, and a grey iron oval.
+.
+s
+*set x oval gate
+*xapp oval <exit to #> .
+*xset oval k <key id#>
+*xset oval t <timeout>
+*set x red circle
+*xapp red <exit to #> .
+*xset red k <key id#>
+*xset red t <timeout>
+*set x black portal
+*xapp black <exit to #> .
+*xset black k <key id#>
+*xset black t <timeout>
+*set x silver triangle
+*xapp silver <exit to #> .
+*xset silver k <key id#>
+*xset silver t <timeout>
+*set r act 50
+*set r act0 The floor and walls slowly begin to move as, with only a whisper of sound, sections of the room slide against each-other.  The metal gates move with the sections until moments later the motion stops, with the portals now resting in a different order.
+*set r act1 The lower, middle and upper sections of the room become split from each-other by hair-line cracks form, and the three peices then beg
+*set r act2 A wide, circular strip of the room suddenly splits from the rest and slides half of the distance of the sphere and stops, interchanging the location of two of the gates.
+
+
+[Note:  the /immhelp/cname made little sense]
+Creature:
+*add c [?]
+*cname clay The four-armed statue
+[Note:  Hyphens would be another appropriate addition to usable characters
+in keywords, i.e. this next key-word could then be keyworded be four-armed,
+ allowing players to type "l four-armed" "l statue" and "l four"... but I digress.]
+*cname form -k1 statue
+*cname statue -k2 four
+*cname statue -k3 armed
+*cname statue -t
+[I'm guessing that I shouldn't set this, as I want to attach a talkfile to the mob.]
+123457890123457890123457890123457890123457890123457890123457890
+*cdesc statue
+The figure appears to be an an alien creature, with a four-
+armed torso set upright upon a scaly, sinuous lower body
+that extends to the ground behind it, tapering into a tail.
+The statue is supported by four thick legs, long and multi-
+jointed, which attach to the bottom of it's lower body. It's
+angular, black head has six faceted jewels set on opposite
+sides along the edge, large and irregular rubies. Each of the
+eight limbs are composed of three sections of smooth silver
+metal, seperated by thinner joint areas, where the metal is 
+slightly cracked and tarnished. At the end of the limbs are
+three triangular black claws, shining obsidian with jagged
+edges.
+.
+s
+*cset statue act0 %M%j makes a slight cracking noise, as of grinding rock.
+*cset statue act1 Something within %M%j makes a harsh grating sound.
+*cset statue act2 Some part of %M%j emits a series of ticks, then silence.
+*cset statue act3 %M%j emits a hissing noise that slowly diminishes to silence.
+
+*cset statue r 25
+*cset statue sz 5
+*cset statue l 10
+[*cset statue ge ?]
+*cset statue dp 10
+*cset statue dn 10
+*cset statue ds 10
+*cset statue thac 10
+*cset statue ac 45
+*cset statue exp 900
+*cset statue str 15
+*cset statue con 15
+*cset statue dex 15
+*cset statue int 10
+*cset statue pie 11
+*cset statue cha 10
+*cset statue st 160
+*cset statue stm 160
+*cset statue hp 160
+*cset statue hm 160
+*cset statue m 160
+*cset statue mm 160
+*cset statue f +haste
+[*cset statue cac ?]
+[*cset statue spc ?]
+[*cset statue spa0 ]
+*cset statue dist 0
+.perm c statue i 1 t 10
+
+[Note: Eventually, attackers would probably either A: Die, B:
+Kill it and find themselves trapped, or C: kill it and find that
+only the opening back out has opened up, none of the doors for
+a successful answer to the riddle, depending upon how the script
+is eventually set up. This is because the point of the creature
+is not to engage in combat, but to set forth the riddles and 
+reward correct answers.]
+
+Talkfile:
+
+
+
+
+
+Object Template:
+
+
+
+*add o
+*oname clay -k1
+*oname  -k2
+*oname  -k3
+*oname
+*oname  -o
+asdfasdfa asdfasdfa asdfasdfa asdfasdfa asdfasdfa asdfasdfa asdfasdfas
+*odesc
+.
+s
+*oset  t
+*oset  v
+*oset  sz
+*oset  wg
+*oset  wr
+*oset  sh
+*oset  sm
+*oset  m
+*oset  dn
+*oset  ds
+*oset  dp
+*oset  f
+*oset  cac
+*oset  act0
+*oset  act1
+*oset  act2
+*oset  act3
+
+1234567890123456789012345678901234567890123456789012345678901234567890
+
+
+What force and strength cannot get through, I with a gentle touch can do. 
+And many in the street would stand, were I not a friend at hand. 

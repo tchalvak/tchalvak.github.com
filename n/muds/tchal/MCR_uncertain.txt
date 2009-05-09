@@ -1,0 +1,121 @@
+General mud creation rules: Systematic, flexible, 
+
+I'm a freaking madman genius. Anyway, I'm starting a mud, and I want to put these opening ideas out there for people to comment on and expand upon as practices when creating ideas/systems/whatever on a mud. [I just picked up the Smaug code and data today from in ftp://ftp.game.org/ somewhere and it's so freaking simple to alter things and make things the way that you want them that I know that I'm going to have to create my own mud now. There's really no question any longer.
+I may or may not check back on the progress of this thread, if there happens to be one. We'll see. If you want to contact me, use my e-mail address, of course.
+
+Down to business. Here are a list of general policies that are what make or break a mud, interspersed with specific ideas that I plan to use on my mud. Comments, expansions of ideas or creation of new ideas, and criticisms encouraged.
+Planned mud stats: Fantasy heavy on the Roleplaying, Smaug/Merc/Diku codebase. 
+
+Groundwork rules: Everything must be extremely systematic, no matter what, otherwise it will all fall to pieces. 
+I plan to have races, languages, skills/spells, areas, dieties and anything else I can think of that would work under this system fall under a "cluster" system. 
+For example, all skills will have a certain number of macro-groups with specific skills inside these groups. Let's say that there is the language of the Lizard men and that of the Dragons. Obviously they would not be the same, yet perhaps they would be more alike to each-other than to the human tongue, therefore they would reside within the same group, one that is different from that of the human speech. Therefore, for a human to learn draconian would take first breaking into understanding of the rudiments of that speech type, then learning that specific language of draconian.
+Another example is with weapons. Using a bladed weapon would take effort and practice, and after the background of that is understood, then comes using a dagger or sword.
+When it comes to races, there will start out being three main categories of those: Humanoids, Beastials, and Created Ones. Humanoids would include elves and humans, Beastials lizard men and dragons, Created Ones golems and elementals, though this would be by no means all. Each subset-race would have other possible divisions, depending on what makes sense, like drow and sylvan elves, fire and earth elementals, the northern waste barbarians and the desert dwelling humans, different dragon-types, etc. The very last division would be the "true-race", but each category would hold some things in common, thus their purpose. For example, humanoids "bleed" if hurt too much, while created ones do not, though created ones are more succeptible to magical control.
+
+This brings us to our next step: Advantages/Disadvantages. Nothing should be without it's cost, whether choice of race or of skills. Too often mud creators tend to focus only on providing access to advantages and not to disadvantages that make characters more real. An elemental with an elemental weakness [of course] is much more interesting than one with only advantages. Of course, in mud terms, having pros and cons to everything is a bit idealistic, so I'll settle to as much "real" advantages and disadvantages as I can manage instead.
+
+This leads into the very next fraction of the picture:
+Flexibility. Everything should be able to be altered on a sliding scale. Taking that elemental in the previous example. I plan to have a system set up so that when people play elementals and find them to be too weakened [or strong] as a result of their elemental disadvantage, and I and the masses agree with the decision, their weakness can altered to a more reasonable level on the fly, probably by simple adjustment of an integer value.
+It may not sound like much, and probably there are other ways to alter attributes of systems, but the ability to change something quickly and easily when it doesn't work or when it needs adjustment is something missing in many muds.
+
+Roleplaying: Without roleplaying and character interaction, there can hardly be said to be any point to muds. Combat, skills/spells, mobs, rooms, objects, none of these compare to the amusement that comes from roleplaying with other characters. Therefore, the more a player has freedom to choose, the better. 
+For this reason, there will be a very limited amount of classes on my mud, perhaps a few per race. The classes will just set the background basis for skills and little else. Essentially, all skills will be open to everyone, though their rarity and access will depend upon outside factors such as whether one belongs to the same clan as the prospective teacher, or whether one's prior understanding of the rudimentary skills is sufficient. [Skills will work based upon both a cluster system and a prerequisite system, for example, to get eternal darkness one must advance sufficiently with darkness first, etc.] 
+Alignment will not exist, though "Destiny" will. The difference is taking in the over-all picture as opposed to the immediate one. For example, to have Destiny: Chaos and Darkness, would mean that that character is to eventually cause a shift of the whole balance more in the direction of those two forces of existence. 
+A character who chooses a destiny [unformed will be an alternative possibility] does not conform to being an alignment, like evil or chaotic, but simply works overall in the direction of the purposes of darkness, and choosing a destiny is completely up to the player. After all, you can't for a player to play, so why force a player to play a certain way? Since it is the player who controls the action of the character, let them decide whether the character is good or evil, etc.
+Experience. There will be multiple categories of experience, at least the two of combat and roleplaying. Roleplaying will be managed by a "referral" system, by which good roleplayers are referred by their peers to the administration to receive roleplaying points. Combat experience works in the same way. However, Combat experience will only be able to progress so far before more advancement in the area of roleplaying will have to accompany it. Combat experience will be able to buy combat skills, while roleplaying experience will enable a broader range of advancement. Other possible experience categories include magical, religious, quest... ...who knows?
+Now this all may in the end be idealism and I may get nothing of this accomplished, but these are some of the many things that I'm going to work towards. I believe that any of these systems would make sense if put into use by other muds as well.
+
+Naex 
+
+End One
+
+RE: General mud creation rules: Brainstorming
+
+Another thing that I thought of:
+Building in groups: Builders should never build alone, that just allows them to hit a snag and be stopped. Building an area should involve at least two builders in all cases, one who is the main builder and the other who is the reviewer/helper of the main builder. As a way to keep things even, builders can be set up as main builder of their own area and reviewer of another builder's area while the other builder does the same in reverse.
+It's a system of checks and balances that would hopefully make more productivity and better areas. 
+
+End Two
+
+RE: RE: General mud creation rules: Player Input
+
+Another issue that has to be addressed is players being able to alter and effect the mud. If players feel or know that they have no choice or input into the way that the mud runs, then they will leave. Therefore, ideas that work towards assuaging this:
+
+Player building creation: Give players the means [whether just by notes or by actually making a player olc] to build their own rooms. There's really little room for abuse in room creation, and if the process is monitored enough, object/mob creation can be incorporated as well. Of course, you need to have some way to weed out the people who will just try to waste your time, and it has to be something that depends upon how much effort a player has taken, essentially. 
+ICly, it makes sense for there to be no obstacle to someone who has money or power creating buildings, land, etc. However, if everyone who gets enough money icly want's to have a building built, who get's to create will depend upon the horrible system of a character's ability to get money. Now the fact that the character has to go to the work of setting down the descriptions and the structuring for the room is a -slight- deterrent to those who are too lazy or can't write worthwhile sentences.
+So, what is needed is another check to hold off the hounds, so to speak. Perhaps having the players establish a concrete ic system for how this area is going to be built, whether gathering a number of powerful magical objects that could be sacrificed to fuel their magic so that they could create it on their own, or gathering compatriots, NPCs by Notes to the immortals detailing how the NPCs were swayed to the character's cause and PCs simply by their consent.
+Then, once the plan, resources, and workers have all been accounted for by the player is the area built, and, of course, the work that the player put into it makes it that much more valuable to him/her. Buildings should not be limited to personal things alone, of course. If a player wishes to create something that is not directly linked to their character, then all the better, as long as they are willing to design it and set up the ic atmosphere and rationale behind it.
+
+This same system can apply for any ic thing. For example, let's say that Player Bob wants to immortalize his argument with NPC Xes where he threw a chair at him that gave him a gaping wound in the head that would not heal right. By a note to the immortals and their agreement with a rough draft of the story, he then writes up the story of Xes' wound. Perhaps the immortals rule that he too was wounded during the fight, so if he wants to go through with the story he must also change his own description to match that fact.
+
+To allow players to get full use out of this, a sytematic policy should be set up where it is available to be read by the players, perhaps in a referenced helpfiles, so that they know the effort they will be required to put into changing things, but also that -they can indeed change things-.
+
+Player input spools:
+
+It's always essential to have some way that players can voice their problems and ideas for the mud, whether through ideas and bugs [and if you really feel up to it, typos] or through an outside system. Usually there's no reason to give players incentive to do this other than fixing the bugs or at least acknowledging the ideas, as they are all to willing to take a part. [If you actually have players, that is.] 
+The reason that I brought up the idea of an outside system is that I am considering the possibility of having a website with a system of postings [once again referenced within the mud] set up that would be reviewed and voted on by other members of the posting board, so that ideas are posted, voted upon whether they should be implemented, and if they get a high enough scoring before they are cycled out of existence, they go into a buffer of things for the admin to consider.
+
+Players, Builders, and Coders: Players are the damn life-blood of the mud, Builders are the veins and Coders are it's network of nerve cells, to kill a mud, treat any of those groups as if they aren't worth anything. It's the quickest way that I know to murder it. This is not to say that there aren't builders and coders who will work for someone who treats them like piss, but who can enjoy a mud where the people who create it don't? 
+Always remember this fact and create your mud around it: A mud is not supposed to be an elite club of people who believe their own superiority just because a few symbols tell them so. The person who is playing that character on the other end, be it coder, builder or player, is your equal in real life. No matter what level/class/etc. on the mud, the two of you are -equal-, so act like it. In the same way, your builders are not below your rank. 
+If possible, take the concept of level and rip it to shreds. Stomp it into the ground. Boil the bits and then feed them to the crows. If you can't/won't get rid of levels themselves, make damn sure that there is no way that a player can know another players "level" unless that player tells them himself. If you depend upon it with mobs, then fine, allow levels to exist with relation to mobs and players, but not player to player. 
+Be an example of this policy. Builders are not below your rank, none of your team is below your rank. Eliminate ranking among immortals, and assign skills and titles according to what they do or what you want them to do, not where they are on a ladder that leads to no*CENSORED*ingwhere. 
+Make sure that the players don't know of any ranking system among the immortals other than what they do. If you have a who-list, have all your immortals choose their own prefix or what-have-you, and keep them to nouns, e.g. Darkness, Light, Reaver, Storm, Reaver, Sex, Succubi, Magic, Technology, Spirit, Chaos. You want it so that when a newbie logs on and looks at the who list they're just as likely to ask the newest member of your team "are you the imp?" and just as likely to get the response back "No, but tell me what you want anyway and I'll probably be able to manage it." None of that "Supreme Entity" *CENSORED*, no "Gods" and "Demi-gods". A who list is not an ic medium, so keep ic deityhood out of it. If you can't manage individual titles, keep it to job descriptions, builder, coder, website, whatever. If ic a character is a god, that's fine, but ooc it's just pathetic.
+Make your wizlist like a list, not a ladder. Put groups side-by-side as opposed to underneath and above. If you must keep the up and down, reverse it so that the newest additions to your team are on the top and you, as the imp, are on the bottom, the foundation if you will.
+In the end, after you've done these things and ran with them for a time you'll have a team willing to work
+who provide a united front for your players and who make judgements fairly and in a group. You'll have less "Bob did this to me, are you going to allow that to happen?" and will be able to deal with real issues, as the players will know from experience that if it was done, the fact that it was done has already been communicated to everyone else, and there was no significant disagreement.
+
+
+P.S. I've decided that this will be my forum for examining all facets of mud creation, where I can write down ideas when I get them and will know where they are when I return, so expect me to talk to myself for a while here. Of course, that's not to say that I won't talk to the rest of you as well, but no matter.
+
+Note: All my ideas are expressed as ideals which then would have to be wrangled to work around the fact that they have to actually be coded. 
+
+End Three
+
+RE: RE: RE: General mud creation rules: Disadvantages of Class
+
+
+
+
+     While reading a post from somewhere or other, ah yes, it was the introduction to Cthulumud, I saw this short thing about being able to gain the power of a mage, but there being the disadvantage of chance of insanity. 
+     Now, in most traditional semi-stock muds, and many other muds that base their system off of classes; mages, fighters, etc, it becomes a problem that magic is used as a believable way to justify anything, while the "non-magical classes" like the traditional fighters and theives, do not have access to the many useful things that the mages do; a gate spell, for instance, or invisibility. 
+     I believe that it is usually this blind adherence to classing that tends to cause trouble, as nearly all muds have as their basis this sytem, which because it is well entrenched, tends to foul up attempts to create a more interesting and unique system.      In fact, thinking about it, I realize that I have been rather unconsciously following that idea as well. There is certainly no reason that I should, I mean, what sense does it make that two completely equal characters in every other respect should have no access to the same skills just because of their starting "class"? In essence, there is no such thing as class, so it really is non-essential.
+     I also believe that the class system may be an impediment to roleplaying, to a certain extent, as the "classes" have a certain stereotypes associated with them that can make players wish to roleplay that class type as opposed to whatever comes natural for them.
+     On the other hand, classes are familiar, known, and they allow the players a certain sense of knowing what they're doing. I certainly do not advocate a full class system, meaning that only some classes can get some skills. I much prefer the idea of skill trees to keep characters so that they have different skill sets and therefore will interact differently. In other words, one player will choose to specialize in a different area from another, thus choosing his own class as he goes. 
+
+End Four
+
+RE: RE: RE: RE: General mud creation rules: World Background
+
+     As always, there's another thing that muds tend to lack, and that is a comprehensive world theory, whether it's why things are the way that they are, or just a rough outline of the biggest, most well-known events in the past, muds tend to just work from a void, as if there were no past, only future.
+     However, I'm also of the mind that muds that start out with too static of a history tend to make it so that players are more limited when creating their own part in it, which certainly is not good.
+     For example, one mud that I have played on had a quite detailed timeline, with events pinned down into years and other specific increments. While this was quite interesting, to read, it seemed almost too detailed, pinning down things too much. I think that I have to consider this a bit more, I'm uncertain if I even know what I'm talking about, really.
+     Certainly though, a mud should have some sort of historical background for the players to work from. It can even be a specific vague type of history, meaning that it would contain bits like "the source of X is unknown, shrouded in the course of time." and such, to keep the mystery and let the characters discover these things on their own.
+
+naex 
+
+End Five
+
+General mud creation rules: Miscellaneous
+
+Possible Principles:
+
+      No coded hunger or thirst as it's mostly redundant and a useless waste of code and space, etc.
+      Non-Verbal languages, guild-cants which can be purchased by clans for a price [i.e. rXp points or character attributes that are subtracted from groups of willing clan members as payment. ICly they expend their life-power and/or make deals with outer-planar powers, whatever.] and then taught by the leaders to their ranks, in some instances skills could be learnable from mobs, for a higher price due to the fact that they are harder to learn to understand and speak than verbal languages.
+      All ooc channels toggleable on and off with one command, perhaps called 
+     Differing language descriptors, i.e. each and every language does not repeatedly use "says".
+     Spellcaster Linking, by which magic spells can be cast in more powerful ways or in different ways by people who are linked, with the spell link.
+     Summoning spells where character chooses the attribute of the summoned creature, at least with some of the more advanced spells.
+     Mudschool which allows characters to fully develope things such as their description, walkin, walkout, etc, before entering the world, and gives them examples of different characteristics of each race, etc, as well as allowing them to get a few skills before enterance so that they can already portray a full character, if they so choose.
+     Spells with components which allow blocking by certain actions, like the powerful spell silence, which would make unusable other spells with verbal component, etc.
+     Character run creation of a select few non-magical items.
+     Guest characters which new players can log on quickly with to circumvent the longer creation process. Any imm can lock these characters out, though, of course, to prevent abuse. Guest characters are randomly created and temporary, of course, acting only as npcs, even though they are player run, and in addition, they cannot engage in combat, though they can be attacked and killed [very easily, as well], as to do otherwise would be ooc. Perhaps guest characters will/can be drawn from a pool of npcs, say Ersth the beggar, Zhuel the crazy, Nialen the Drunkard [to rationalize the strange ways that these characters act, of course.]
+     Player names vs. Character names. Player names are displayed over ooc while character names are displayed in an ic medium. Player names also act as the category for things. For example, a newbie creates a player name [optionally supplying an e-mail address as well], then has the option of logging on a guest character or creating a character. Guest characters would only be able to be used once every period of time, though any player, newbie or no, could use them. After creating a character, the player would then have an option of creating another, up to a maximum of two. Logging on happens first by the player name, then the player chooses which character to play after that.
+     I have to rethink damage to consider whether there is a way that I can better the system.
+
+     Forgot whether I mentioned this idea or not, but here: Damage to characters is based upon two categories, depending upon the severity of the damage done according to the percentage, Total and Critical Wounds. If a character with 100 hitpoints is hit for 10 hitpoints [because it's 10%] or more worth of damage, that registers as a critical wound and the damage-type is remembered in the character's wounds list and displayed as it's damage type added to the total wounds [For example, Bob has quite a few wounds, two large burns and a wide slash. Some small damage and three over 10% wounds, two of which originated from fire, the other from a slashing source]. 
+     If less than that, then it is registered towards the total wounds, which displays as something along the lines of excellent condition, etc, etc, though I'm going to have to think up some better descriptions for the total percentage categories.
+     That's enough for now.
+
+-Naex 
+
+End Six

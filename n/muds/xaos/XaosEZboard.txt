@@ -1,0 +1,18 @@
+ You are now the proud owner of the Xaos ezboard online community. You are about to enter your control center and from there you can manage your community and make customizations. Here is some information that you should know for future reference. 
+
+This is the URL (Universal Resource Locator) of your ezboard:
+
+http://pub34.ezboard.com/bxaos 
+
+Use this to link to go directly to your community. If you have a website, you can use this url to make a link from your home page to your ezboard. The HTML code should look something like:
+
+<a href=http://pub34.ezboard.com/bxaos>My ezboard community</a>
+
+Accessing your control center
+There are two other ways you can get to your control center: you log in from our home page www.ezboard.com, or go to your ezboard, click on the MY CONTROL CENTER link and log in from there. 
+
+IMPORTANT - Categorizing your ezboard
+Your ezboard is not yet categorized. You may wish to take the time now to put your community into one or more categories, so that people can find it more easily.
+Click here to categorize your ezboard 
+ 
+ 

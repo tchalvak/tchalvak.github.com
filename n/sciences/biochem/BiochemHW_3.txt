@@ -1,0 +1,40 @@
+
+
+										Roy Ronalds
+										Biochemistry I
+										Fall 2004
+										Problem Set #3 - Carbohydrates
+										
+1. In the monosaccharide derivates known as sugar alcohols, the carbonyl oxygen is reduced to a hydroxyl group.  For example, D-glyceraldehyde can be reduced to glycerol.  However, this sugar alcohol is no longer designated D or L.  Why?
+
+This is because the structure of glycerol is symmetric, with two CH2OH groups on the outside of the central carbon, and four different groups are necessary for chirality.
+
+2.
+
+
+
+
+
+
+
+
+3. The fructose in honey is mainly in the B-D-pyranose form.  THis is one of the sweetest substances known, about twice as sweet as glucose.  The B-D-furanose form of fructose is much less sweet.  The sweetness of honey gradually decreases at a high temperature.  Also, high fructose corn syrup (a commercial product in which much of the glucose in corn syrup is converted to fructose) is used for sweetening cold but not hot drinks.  What chemical property of fructose could account for both of these observations?
+							
+Since the Beta-D-pyranose form of fructose is a more stable configuration, higher temperatures could push it to unstable configurations with different chiralities, or the reducing nature of fructose could simply cause it to react with other materials in the honey, either way decreasing the molarity of the Beta-D-pyranose in the substance and thus the registered level of sweetness. 
+
+4. The enzyme glucose oxidase isolated form the mold Penicillum notatum catalyzes the oxidation sof -D-glucose to D-glucono-(delta)l-lactone.  This enzyme is highly specific for the B anomer of glucose and does not affect the (alpha) anomer.  In spite of this specificity, the reactions catalyzed by glucose oxidase is commonly used in a clinical assay for total blood glucose - that is, for solutions consisting of a mixture of B- and A-D-glucose.  How is this possible?  Aside from allowing the detection of smaller quantities of glucose, what advantage does glucose oxidase offer over Fehling's reagent for the determination of blood glucose?
+
+Fehling's reagent's alteration to the chemical makeup of any solution that it were added to would make the enzyme glucose oxidase preferrable in many circumstances, as the addition of the enzyme would less drastically change the chemical makeup of the solution, since it is a non-dissassociative macromolecule that would only need to be added to the solution in small quantities in order to make massive changes.  In addition, the enzyme would be extremely specific in what it would effect, i.e. it would only effect the alpha form of glucose and nothing more, while Fehling's reagent could have side effects, such as the precipitation of copper oxide in response to other reducing sugars.
+
+5.  The almost pure cellulose obtained from the seed threads of Gossypium *cotton) is tough, fibrous, and completely insoluble in water.  In constract, glycogen obtained from muscle or liver disperses readily in hot water to make a turbid solution.  Although they have markedly different physical properties, both substances are composed of 1->4-linked D Glucose polyumers of comparable molecular weight.  What structural features of these two polysaccharides underlie their different physical properties?  Explain the biological advantages of their respective properties.
+
+The differences between the two forms stems from the Alpha(Cellulose) and Beta(Glycogen) linkages.  In the cellulose, the linear Alpha linkage allows the cellulose to lie in straight chains and through extensive hydrogen bonding between the adjacent chains, form a structural matrix that bonds in all three dimensions, making for a very protected, stable building material.  On the other hand, the predominantly Beta lines, interspersed with Alpha 1->6 branches makes for an accessable system of porous branches, which allows instantaneous access and utilization of the sugar chains for energy in the muscles or for the liver to transfer glucose to the blood.
+
+6. Glucose and other aldoses are oxidized by an aqueous solution of a silver-ammonia complex (Tollen's reagent).  What are the reaction products?
+
+The aldehyde would be oxidized to a carboxylate anion (plus H+ to make a carboxylic acid) the Ag+ would be reduced to silver metal, and we would get NO2.
+
+6.  Glucose reacts slowly with hemoglobin and other proteins to form covalent compounds.  Why is glucose reactive?  What is the nature of the adduct formed?
+
+Glucose reacts with the free amino groups of proteins.  The end result is a protein with a new, polar combination group on it that can agglutinate with other macromolecules in its environment.  Thus excess glucose can can cause things like cataracts and other such problems from changes to proteins. The glucose-protein complexes, however, themselves cause further problems by combining with other molecules, like LDL cholestrol, and thus as a whole these reactions are implicated in aging and other bad stuff.
+

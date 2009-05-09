@@ -1,0 +1,33 @@
+To view the helpfiles type ^Whelp <keyword>^^
+ 
+Completed:
+ 
+To be created:
+Starting Locations:
+Visari
+Harstan
+Taros
+Ironhoof
+Minsil
+Gobold
+Tinka
+Vulcania
+Arador
+
+Cities:
+Bren
+Keylandria
+Moria
+Thorongil
+Anduin
+Kharak
+Static
+Zil'gos
+
+Non-City Locations:
+Dark Tower
+Castle of Conrad
+Astral Temple
+Bazawaza Estate
+Vulcanian Slave Ring
+Fort Rimril

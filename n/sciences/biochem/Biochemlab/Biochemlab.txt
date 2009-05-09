@@ -1,0 +1,60 @@
+Prelab for Purification of Lactate Dehydrogenase from Beef Heart, Part I,
+ September 27th, 2004
+
+
+[Theory/Background]
+
+Centrifugation of broken cells at 600 g seperates out nuclei and cell debris, 20,000g gets mitochondria, peroxisomes, and lysosomes, 100,000 g gets microsomes, leaving cytosol as the supernatant.
+Assaying is a test of the activity of a certain protein in the solution, measured in activity.  Activity is measured in micromoles of product per minute.
+
+[Goals/Purpose]
+
+To seperate the cytosolic enzyme LDH from the proteases before it degrades and to purify it by centrifugation and salting the solution to saturation in an attempt to help the many proteins to precipitate out.  The stages will be assayed to figure out the activity of the protein, whether it is still working.
+
+[Techniques/Instruments]
+
+Materials:
+Beef Heart Crude Homogenate
+Assay buffer, 0.15 M, pH 10
+NAD+, 6 mM
+Ammonium Sulfate
+BSA Standard, 0.5 mg/mL
+Bradford reagent
+
+
+Procedure:
+35 mL beef heart in buffer, set aside 1ml for assays/protein determinations.
+Put homogenate into centrifuge tube and balance with an equivalent weight.
+Centrifuge at 20,000g's for 20 minutes (should be set at 4degrees C)
+While centrifuging:
+
+Assay of the crude homogenate, using:
+
+Assay Buffer, 1.9 mL
+Lactate, 0.5 mL
+NAD+, 0.5mL
+
+this adds to one Assay.
+
+Zero spectrophotometer with water @340 nm.  Test reaction-host-mix, it should be near zero.
+To host-mix, Add extra assay buffer and then LDH from the crude to make a volume of 3 mL.
+Seperate 10 microL of the sample, fill to 100 microL with assay buffer, cap, invert three times, and then measure absorbance changes.
+If necessary to get better reading, dilute with assay buffer.
+Freeze leftover Crude and dilutions for next Week.
+
+When centrifugation ends:
+
+discard pellet, save supernant.
+measure supernant volume, save 1 mL for enzyme assay.  Slowly add .230 g of powdered ammonium sulfate for each mL supernant.  Stir constantly.  This should bring the % saturation to 40%.
+Let solution stand on ice for 10 min.
+Balance tubes and centrifuge @ 15,000g's for 15 min.
+Discard pellet, save and measure supernant.  Take 1ML supernant and assay.
+To larger volume of supernant, add 0.166g powdered Ammonium Sulfate for every 1mL, slowly with constant stirring.  This should result in a 65% saturated concentration.
+Let solution stand on ice for 10 min.
+Assay the free 40% supernant in the meantime.
+Spin 65% solution again, save supernatant -AND- pellet.
+Add pellet to 2-5 mL of homogenization buffer, and measure that volume.  Assay for LDH activity.
+Assay 65% supernatant.
+Save all samples in microfuge tubes (crude homogenate, 20k supernatant, 40% supernatant, 65% pellet, and 65% supernatant) for next week.
+Do calculations of the Activity, Relative activity, and total activity.
+

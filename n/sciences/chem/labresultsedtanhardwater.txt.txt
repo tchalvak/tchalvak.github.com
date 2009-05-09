@@ -1,0 +1,46 @@
+          S T A N D A R D I Z A T I O N   O F   E D T A           5-MAY-02
+
+ID NO: 11192      SAMPLE NO:      1     NUMBER OF TRIALS:      3
+WEIGHT OF CACO3 USED:   0.4972    
+VOLUMES OF CA++ SOLUTION USED:       49.460         49.810         49.590    
+VOLUMES OF EDTA USED:                31.860         32.050         30.320    
+CONCENTRATION OF CA++ YOU CALCULATED:  0.19870E-01
+FORMALITIES OF EDTA YOU CALCULATED:    0.30847E-01   0.30881E-01   0.32498E-01
+YOUR AVER:  0.31409E-01     T-SIGMA:  0.23440E-02     PREC:   185.41    
+CONCENTRATION OF EDTA IN MGCACO3/ML:   3.1437    
+
+**** You have calculation errors *****
+Check your calculations and reenter your results.
+See your lab instructor if you have any question.
+
+THIS IS A 10 POINT EXPERIMENT
+YOUR GRADE IS:    7.5
+
+POINTS DEDUCTED FOR:
+CALCULATIONS
+    AVER:   0.0     CA++ CONC:   0.0     PREC:   0.5
+MAGNITUDE
+    ACCY:   0.0     PREC:   2.0
+PRESS ANY KEY TO LOGOUT
+
+          H A R D N E S S   O F   W A T E R           5-MAY-02
+
+ID NO: 11192      SAMPLE NO:      1     NUMBER OF TRIALS:      3
+YOUR EDTA FORMALITY:         0.31409E-01
+YOUR VOLUMES OF SAMPLE USED:            25.000         25.000         25.000    
+VOLUMES OF EDTA USED:                   31.860         32.050         30.320    
+TOTAL HARDNESS (IN PPM) YOU CALCULATED:    4006.3         4030.2         3812.7 
+   
+YOUR AVER:   3949.7         T-SIGMA:   27.043         PREC:  6.8464    
+
+**** You have calculation errors *****
+Check your calculations and reenter your results.
+See your lab instructor if you have any question.
+
+THIS IS A 10 POINT EXPERIMENT
+YOUR GRADE IS:    7.5
+POINTS DEDUCTED FOR:
+CALCULATIONS          AV:   0.0          T-SIGMA:   0.0          PREC:   0.5
+MAGNITUDE:
+         ACC:   0.0          PREC:   2.0
+PRESS ANY KEY TO LOGOUT

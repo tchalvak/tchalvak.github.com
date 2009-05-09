@@ -1,0 +1,19 @@
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Certainly, finding the right codebase [or creating the right properties in a custom one] is an integral part of generating a mud, so I'm going to try to come up with a number of criteria for the code that could be used to decide what codebases are best for what situations.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Of necessity I do not know multiple codebases, so perhaps if you have any arguments for the merits of certain codebases, post them with what you believe are the codebase's major strengths/weaknesses, etc.
+
+Clean code is, of course, the most important consideration.
+Flexible/easily alterable. 
+Understandable; well-documented, well-commented, etc.
+Level of knowledge necessary; a consideration when there is a gap in the area of coding ability.
+Support; not being a proponent of paying for something available open source, I'm certainly not talking about conventional tech-support, but perhaps it should be a consideration along the lines of:  If the coders get into a bind, will they have somewhere to turn?  Multiple locations?  Well established and tested locations?
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Accessible, in that both coder(s) and builder(s) should be able to gain access to the resources that they need for the most part all in one place, for the builders this would mean that there would need to be OLC or OFFLC, some relatively easy method for them to build.  For the coders it would mean that the code is seperated, to a certain extent, into divisions that allow the right area to be found when alteration/additions are necessary.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The inclusion of different facets of building in this matter is called into question by this, i.e. what level of power/access do the builders have?  Mob/obj/room is essentially standard and necessary, but speech ability, mobprogs, roomprogs and objectprogs in my view should never be deprived from the builders, being necessary for the creation of an interesting and well-fleshed out world.  Amazing things can be done with objects/rooms/and mobs, of course, but once progs come into the picture, it transcends merely being amazing.  The more ability is given to more people to create, the better off the mud will be.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;If necessary, of course, a system could be set up so that the builders can link peices of mobprogs [and others] in different ways, a prog creation system could be something such as a form to be filled out, For example: 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Trigger mobprog- [Choices, pc_enter_room, anychar_enter_room, pc_enter_<direction>, pc_gets_obj, anychar_tryexit, pc_tryexit_<direction>, pc_speaks, etc, etc.]  Then one of those choices is chosen, say pc_enter_room.  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Next comes the resulting mobprog, Result- [kill_char, emote, speak, fleerandomly, etc, spellcasting, skills, etc.]
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Then there are two other entries that would have to be included, What the mob would say, and what the mob would emote, both of which would only be called if the mob prog result referred to it.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;And then you would have a stable system that any of the builders could make use of for small progs, and since each room/mob/obj has only one slot for a prog, larger progs are referred to the coders, but it would allow builders not to have to wait/rely completely on coders for every single small task.  Certainly a huge amount of utility is acheived from these simple combinations.
+
+Enough for now.

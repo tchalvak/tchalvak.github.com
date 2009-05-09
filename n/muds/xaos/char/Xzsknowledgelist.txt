@@ -1,0 +1,186 @@
+          Skills
+Advanced dagge/master  Advanced staff/expert          Dagger/master  
+         Staff/expert            Whip/advanc   Expert dagger/master  
+  Expert staff/expert         Alchemy/advanc            Brew/advanc  
+         Dodge/master      Dual wield/expert     Golem craft/advanc  
+  Hand to hand/master  Unarmed combat/skille          Scribe/advanc  
+ Second attack/master  Mountaineering/advanc          Powder/advanc  
+       Butcher/advanc        Skinning/advanc          Haggle/advanc  
+    Meditation/master    Path finding/master            Peek/advanc  
+        Riding/advanc     Armor craft/advanc          Sewing/advanc  
+  Weapon craft/advanc      Metallurgy/advanc        Swimming/advanc  
+    Spellcraft/master      Spelunking/advanc    Street sense/advanc  
+       Scrolls/advanc          Staves/advanc           Wands/advanc  
+          [Spells]
+[Name             Proficiency  Met. Focus]
+Reveal shadows   master       G    alteration illusion
+Acid blast       master       O    invocation
+Mana charge      advanced     O    enchantment
+Anchor gate      advanced     G    enchantment
+Animate golem    advanced     O    enchantment beguilery
+	Magic armor      expert       G    abjuration
+Bind golem       advanced     O    enchantment
+Blink            master       M    alteration
+Blindness        master       O    alteration maladictive
+
+Blur             master       O    illusion
+
+Burning hands    expert       O    alteration
+Call lightning   advanced     O    invocation
+Calm             advanced     O    beguilery
+Cancellation     master       G    abjuration
+Chain lightning  master       O    invocation
+	Charm person     expert       O    beguilery
+Chill touch      advanced     O    alteration
+Cloud kill       advanced     O    conjuration
+Colour spray     master       O    invocation
+Common cold      advanced     O    maladictive
+Cone of cold     expert       O    invocation
+Animate shadow   master       G    conjuration illusion
+
+Cloak of shadows master       G    alteration illusion
+
+	Confusion        expert       O    beguilery
+Continual light  advanced     O    conjuration
+Control weather  advanced     M    alteration
+	Talons           sliver       O    alteration
+Create food      expert       O    conjuration
+Create ioun      advanced     G    conjuration
+Create rabbit    expert       M    conjuration
+Create rose      advanced     O    conjuration
+Create spring    expert       O    conjuration
+Cryogenesis      advanced     O    necromantic
+Dark sight       master       O    alteration
+
+	Deafen           advanced     O    alteration maladictive
+
+Detect evil      advanced     O    divination
+Detect good      advanced     O    divination
+Detect invis     master       O    divination
+Detect magic     advanced     O    divination
+Detect poison    advanced     O    divination
+	Detect undead    advanced     O    divination
+Dispel magic     master       O    invocation
+Enduring light   advanced     O    enchantment
+Empower staff    advanced     O    enchantment
+Encase fibers    advanced     O    enchantment
+Enchant accuracy advanced     O    enchantment
+Enchant armor    advanced     O    enchantment
+Enchant damage   expert       O    enchantment
+	Endurance        expert       G    alteration
+
+Energy drain     master       O    necromantic maladictive
+
+Faerie fire      advanced     O    alteration
+Faerie fog       advanced     O    alteration
+Farsight         advanced     O    divination
+	Fear             expert       O    beguilery
+Fireball         master       O    invocation
+Fireproof        advanced     O    enchantment
+Fly              master       O    alteration
+Floating disc    advanced     O    conjuration
+Forest mask      advanced     O    illusion
+Gate             master       O    conjuration
+	Ghoulish touch   expert       O    necromantic
+	Giant strength   expert       O    alteration
+Globe of force   master       O    abjuration
+Guardian         advanced     O    conjuration
+
+	Hallucination    advanced     O    illusion
+
+Haste            master       O    alteration
+Ice sphere       master       G    invocation
+Identify         master       O    divination
+
+	Impersonate      advanced     O    illusion
+
+Infravision      advanced     O    alteration
+
+Invincibility    master       O    illusion
+	Invisibility     advanced     O    illusion
+
+Invisible stalker expert       O    conjuration
+Knock            advanced     G    enchantment
+Know alignment   advanced     O    divination
+Levitate         expert       G    alteration
+Life to mana     master       G    necromantic
+	Lightning bolt   advanced     O    invocation
+
+	Living mirage    advanced     G    illusion
+
+Locate object    master       O    divination
+Locate person    master       O    divination
+Magic missile    advanced     O    invocation
+Minor malison    master       O    alteration
+
+Mirror image     master       O    illusion
+	Mislead          expert       O    illusion
+
+Mask alignment   advanced     O    illusion beguilery
+Mass armor       advanced     G    abjuration
+Mass fly         expert       O    alteration
+Mass haste       advanced     O    alteration
+Mass invis       advanced     O    illusion
+Needle strike    advanced     O    invocation
+Nightmares       advanced     O    beguilery
+Pass door        expert       O    alteration
+Permanency       master       O    alteration
+	Phase            expert       O    abjuration
+
+	Poison           expert       O    maladictive
+
+Pose old         advanced     O    illusion
+Pose youth       advanced     O    illusion
+Pose strength    advanced     O    illusion
+Pose weakness    advanced     O    illusion
+Prismatic wall   master       O    conjuration
+Random return    advanced     G    alteration conjuration
+Recharge         advanced     O    enchantment
+Refresh          master       O    invocation
+Replenishment    advanced     G    enchantment
+	Resist paralysis advanced     O    abjuration
+Seal gate        advanced     G    enchantment
+
+Searing orb      master       O    alteration invocation
+Shadow travel    master       G    alteration illusion
+
+Magic shield     master       O    abjuration
+Suppress magic   master       O    abjuration
+Ring of shielding advanced     G    conjuration
+Shocking grasp   advanced     O    invocation
+
+Sleep            master       O    beguilery
+Slow             master       O    alteration
+	Soften defense   expert       G    invocation maladictive
+
+Sonic boom       master       O    invocation
+Starve spring    advanced     M    necromantic enchantment
+Stature          master       G    illusion
+Stone skin       master       O    abjuration
+Teleport         master       O    alteration
+Ventriloquate    advanced     M    illusion
+
+	Ward of deception advanced     O    enchantment
+
+Water breathing  advanced     O    alteration
+
+	Weaken           expert       O    alteration maladictive
+
+Web              advanced     O    conjuration
+Witch light      advanced     O    illusion
+
+          [Groups]
+Beguiling       Combat          Conjuration     Detection       
+Enchantment     Enhancement     Illusion        Maladictions    
+Protective      Transportation  Weather         Masking         
+Masquerade      Reality warps   Necrolyte       Shadow mastery  
+
+          [Languages]
+Common        Elven         Orcish        Vulcanian     Taurian       
+Slaan         Gnomish       f
+
+Need to enchant my clothes for: maladictive, illusion, and invocation spell-levels.
+Need to set up a "phase casting" outfit as well, abjurational.
+
+Need to advance these skills:
+phase, resist paralysis,

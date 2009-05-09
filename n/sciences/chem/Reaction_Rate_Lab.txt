@@ -1,0 +1,87 @@
+			Rates of Reaction
+
+
+     Purpose
+
+     The Purpose of this laboratory experiment is to examine the effect that a change in the concentration of a reactant has upon the rate of a chemical reaction, to examine the effect that a change in temperature has upon the rate of chemical reaction, and to formulate hypotheses about how reaction rates are affected by change in temperature and in concentration of reactants.
+
+
+     Equipment 
+
+250 mL beaker
+four 100 mL beakers
+two 10 mL graduated cylinders
+two test tubes
+thermometer
+clock
+safety goggles
+lab apron, slightly mangled
+
+
+     Materials
+
+distilled water
+crushed ice
+Solution A [containing IO3 - ion]
+Solution B [containing HSO3 - ion and soluble starch]
+
+
+     Procedure
+
+     -Part A
+
+     Approximately 70 mL of Solution A was put into the clean 100 mL beaker.  
+     Approximately 70 mL of Solution B was put into the other  100 mL beaker. 
+     10 mL of Solution A was measured into a 10 mL graduated cylinder, and this
+amount was then transfered to one of the 100 mL beakers.  
+     10 mL of Solution B was measured into a 10 mL graduated cylinder, and this amount was then transfered to one of the 100 mL beakers.  
+     Solution A and Solution B were combined in one or the other of the containers.  The Solutions were poured back and forth from one of the containers to the other in order to thoroughly mix the two substances.  The time elapsed from the start of the reaction, when the two substances were mixed, to the finish of the reaction, indicated by the color change, was recorded.  The beakers and the graduated cylinders were cleaned and dried.
+    The process from the first trial was then duplicated with the next 5 trials except for the fact that the Solution A was used in increasingly more dilute amounts, 9 mL, 8 mL, 7 mL, 6 mL, and 5 mL, with a coresponding amount of distilled water added each time, 1 mL, 2 mL, 3 mL, 4 mL, and 5 mL respectively.  
+
+     Part B-
+
+     Approximately 60 mL of Solution A was put into the clean 100 mL beaker.  
+     Approximately 60 mL of Solution B was put into the other  100 mL beaker. 
+     10 mL of Solution A was measured into one of the test tubes, and 10 mL of Solution B was measured into another.  
+     The 250 mL beaker was filled two thirds of the way full with cold water, and ice was added to get the temperature of the water down to approximately 5 degrees Celcius.
+     The two test tubes were then placed into the cold water, and were let to be brought to the same temperature as the water, according to the thermometer.
+     When the two Solutions were about the same temp as the water, the two Solutions were combined and at the same instant, the reaction began to be timed.   The Solutions were then quickly mixed back and forth before being put into one of the test tubes and put back into the water.  The moment the color of the mixture changed, the time elapsed was noted and was then recorded along with the temperature of the water at that time.  The test tubes were rinsed and dried.
+     The proceeding process was repeated four more times, each trial varying the water temperature to 15, 25, 35, and then 45 degrees Celcius.  The 250 mL beaker was then washed and dried, along with any other equipment left.
+
+
+     Observations and Data
+
+Part A
+
+Solution B (mL)     Solution A (mL)     H2O(mL)     Time(sec)
+
+10                              10                               0                     13
+10                              9                                 1                      16
+10                              8                                 2                      18
+10                              7                                 3                      19
+10                              6                                 4                      20
+10                              5                                 5                      23
+
+
+Part B
+
+Data Table
+
+Trial     Temperature (in degrees Celcius) Time(sec)
+
+1             7                                                           20
+2             15                                                         16
+3             25                                                         13
+4             33                                                         10
+5             43                                                          8
+
+
+     Calculations
+
+On attached Graph Paper
+
+
+     Conclusions and Questions
+
+Based upon this experiment, it seems that a higher concentration of reactants will let a reaction proceed faster.  It also seems evident that temperature will also speed up a reaction.  Other factors that affect the rate of reaction are the size of the reactant particles, the amount of surface area of the reactants in contact, and the presence of catalysts.  The collision theory is the idea that all chemical reactions come about as a result of the collision of the particles of the reacting substances at high enough speed to alter the substances involved.  The higher the kinetic energy of the particles as they collide, the easier it is to get the reaction to take place.  Higher temperatures causes faster reactions.
+

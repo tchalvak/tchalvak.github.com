@@ -1,0 +1,131 @@
+
+[Mobs]
+
+Mob 162200: a vicious crackling harpy
+Descriptions: Pretty good, pretty good.
+Mechanics: Looks good.
+
+Mob 162201: a bright spark
+Descriptions: Minor typo, figures -> figure's, and might be better to cut down 
+the keywords a smidge to avoid conflicts.  
+Mechanics: Mmm, the faerie fire flagging a lightning spark looks strange, seems 
+like you'd be better off just giving them + light.
+
+Mob 162202: a lightning golem
+Descriptions: Nothing major.
+Mechanics: Looks fine, assuming that having it level 100 but base warrior was 
+purposeful.
+
+
+Mob 162203: the matriarch
+Descriptions: Looks good.
+Mechanics: Looks good.
+
+Mob 162250: an undead mine worker
+Descriptions: Whoa, I'd suggest trying to pare down the keywords a little, if 
+you can. Otherwise looks good.
+Mechanics: Looks good.
+
+Why the single object and single mob vnum at the end of the area, with nothing 
+inbetween?  Made me have to look through lots of empty vnums for more.
+And, 5 mob vnums seems kinda... sparse, but maybe that'll be made up by other 
+sections.
+
+
+[Objects]
+
+Object 162200: a pile of loose rubble
+Descriptions: Hahah, was puzzled for a moment there, but I like it.
+Mechanics: Looks good, traps are fun.
+
+Object 162201: a heap of rubble
+Descriptions: Good enough.
+Mechanics: Nopurge usually jus' causes annoyances if the object gets changed, 
+doesn't seem necessary on furniture, but whatever.
+
+Object 162202: a tremendous statue
+Descriptions: Look good.
+Mechanics: Nopurge seems unnecessary.
+
+Object 162203: a tremendous statue
+Descriptions: Almost identical to previous object, would have been more 
+exciting if it were a trap, but not all objects can aspire so high.  :p  
+Otherwise fine.
+Mechanics: Nopurge seems unnecessary.
+
+Object 1162204: a scattered pile of stone debris
+Descriptons: Fine.
+Mechanics: Fine.
+
+Object 162205: the cracked statue of a giant
+Descriptions: Fine.
+Mechanics: Fine.
+
+Object 162206: a huge marble pillar
+Descriptions: Fine.
+Mechanics: Eh, nopurge again.
+
+Object 162207: rusting armplates
+Descriptions: Fine.
+Mechanics: Fine.
+
+Object 162208: rusted leggings
+Descriptions: Long description, it's -> its
+Mechanics: Fine.
+
+Object 162209: a rusty copper ring
+Descriptions: A lot of keywords, but otherwise fine.
+Mechanics: Fine.
+
+Object 162210: a pair of rusted gauntlets
+Descriptions: Fine.
+Mechanics: Fine.
+
+Object 162211: the remains of iron-bound gates
+Descriptions: Fine.
+Mechanics: Fine.
+
+Object 162212: a rusted iron key
+Descriptions: Fine.
+Mechanics: Fine.
+
+Object 162213: the matriarch's nest
+Descriptions: Fine.
+Mechanics: Fine.
+
+Object 162214: a silver speckled blue egg
+Descriptions: Fine.
+Mechanics: Fine.
+
+Object 162215: a cracked skull and some bone fragments
+Descriptions: Fine.
+Mechanics: Fine.
+
+Object 162216: a partially devoured corpse
+Descriptions: Fine.
+Mechanics: Fine.
+
+Object 162250: a random hero item
+Descriptions: Fine for a random.
+Mechanics: Hard for me to say how powerful of a random this is, I guess just 
+matters that it goes on something appropriate.
+
+
+[Rooms]
+
+Mechanics:
+add indoors for room: 162200, 162203, 162205,
+Nowhere flag doesn't do anything, but that won't hurt anything.
+Descriptons:
+Room 162203: A watch tower: it's head -> its head, it's body -> it's body, 
+Room 162246: Before the Garrison: it's ruin -> its ruin
+
+
+[Overall]
+
+The objects are numerous and help tell the story of the place, and there's a 
+trap in there to liven things up, and some of the mobs seem to be configured 
+with the area to assist in an interesting way, so it should be a fun area.  I 
+kinda want to know what caused all the destruction, now.  And the miner's path 
+sign is sweet.  So other than the things above and the testing that you 
+mentioned, the area should be great.

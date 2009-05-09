@@ -1,0 +1,56 @@
+Combat: 
+minor malison
+malison 
+acid blast
+energy drain
+blind
+charm
+symbol of pain
+soften defense
+ice sphere
+blink
+poison
+wildstrike
+sonic boom
+razor field  
+fear
+web
+confusion
+
+searing orb[when I get it]
+starburst[when I get it]
+
+
+Enhancement:[possible location to cast permanency]
+cast 'globe of nondetection'  [shield, globe, or reflect]
+cast invis
+cast stone
+cast anti
+cast flurry
+cast haste
+cast 'symbol of power'
+cast endurance
+cast titan
+
+
+cast 'permanency' [possible permanency point]
+cast acccelerate
+cast 'magic armor'
+cast ring
+
+cast 'life to mana'
+cast dark
+cast fly
+cast pass
+cast 'detect invis'
+
+phase
+
+cast kenetic <object>
+
+Miscellaneous:
+ward of abjuration   ward of invocation          
+kenetic defense
+
+
+And not: delayed blast        

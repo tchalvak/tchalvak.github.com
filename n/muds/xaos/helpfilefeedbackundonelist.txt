@@ -1,0 +1,5 @@
+help slicing
+No help on that word.
+help mining
+No help on that word.
+

@@ -1,0 +1,180 @@
+Xz's eyes are blind slits lacking pupils, but they blaze with a ^Rcrimson^^ 
+light. Most of his face is bound in coarse black cloth, the same material
+that clothes the rest of his body save for a few curved plates of mithril
+armor. Where visible under the cloth, the skin of the left side of his body
+is rough, covered with overlapping, angular ebon scales. On the right side,
+the skin becomes smooth, like a worn stone. His right arm is fluidly
+muscled, while his left is withered and gaunt, ravaged as if by a burning
+hunger. Bright, ^Rblood-red^^ tattoos cover the visible parts of his skin, a
+stylized design that taken in parts resembles nothing more than strange
+runes, but as a whole forms a writhing centipede. Seared above his eyes is
+an unhealed crescent that forms the jaws of the insectoid beast. There is
+the slight scent of seared flesh. His mouth is usually twisted into an
+amused smile, almost a snarl, showing a few sharp white teeth that contrast
+against his skin.  
+
+Xz's eyes are blind slits lacking pupils, but they blaze with a crimson 
+light. Most of his face is bound in coarse black cloth, the same material
+that clothes the rest of his body save for a few curved plates of mithril
+armor. Where visible under the cloth, the skin of the left side of his body
+is rough, covered with overlapping, angular ebon scales. On the right side,
+the skin becomes smooth, like a worn stone. His right arm is fluidly
+muscled, while his left is withered and gaunt, ravaged as if by a burning
+hunger. Bright, blood-red tattoos cover the visible parts of his skin, a
+stylized design that taken in parts resembles nothing more than strange
+runes, but as a whole forms a writhing centipede. Seared above his eyes is
+an unhealed crescent that forms the jaws of the insectoid beast. There is
+the slight scent of seared flesh. His mouth is usually twisted into an
+amused smile, almost a snarl, showing a few sharp white teeth that contrast
+against his skin. 
+
+
+
+
+
+
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Xz's eyes are blind slits lacking pupils, but they blaze with a crimson
+light. Most of his face is bound in coarse black cloth, the same material
+that clothes the rest of his body under a few curved plates of mithril
+armor. Where visible where the cloth, the skin of the left side of his body
+is rough, covered with overlapping, angular ebon scales. On the right side,
+the skin becomes smooth like a worn stone.  Seared above his eyes is an
+unhealed burn, the shape of a crescent, which glows a dull red. There is the
+slight scent of seared flesh. His right arm is fluidly muscled, while his
+left is withered and gaunt, ravaged as if by a burning hunger.
+
+[[Replace with the crimson centipede tattoo, which is how the object will come afterwards.]]
+
+
+ Many
+phosphorescent runes cover his body, hovering designs etched onto
+nothingness like a complicated puzzle. They closely surround his form, never
+quite touching, and flare softly when he moves. 
+
+He often displays an
+amused smile, almost a snarl, barely showing sharp, white teeth that contrast
+with his skin. 
+
+
+
+
+Xz's eyes are blind slits lacking pupils, but they blaze with a crimson
+light. Most of his face is bound in coarse black cloth, the same material
+that clothes the rest of his body under a few curved plates of mithril
+armor. Where visible where the cloth, the skin of the left side of his body
+is rough, covered with overlapping, angular ebon scales. On the right side,
+the skin becomes smooth like a worn stone.  Seared above his eyes is an
+unhealed burn, the shape of a crescent, which glows a dull red. There is the
+slight scent of seared flesh. His right arm is fluidly muscled, while his
+left is withered and gaunt, ravaged as if by a burning hunger. Many
+phosphorescent runes cover his body, hovering designs etched onto
+nothingness like a complicated puzzle. They closely surround his form, never
+quite touching, and flare softly when he moves. He most often displays an
+amused smile, almost a snarl, showing a few sharp white teeth that contrast
+against his skin.  
+
+
+|--------------------------------------------------------------------|
+| Name:Xz          Hero Level:32             Align:True Neutral      |
+| Sex:male         Class:Invoker             Religion:none           |
+| Age:64           Race:Gnome                Caste:none              |
+| Weight:84        Xp/level:0                Favour:none             |
+|--------------------------------------------------------------------|
+| Str:15/23        HP:54/100                 Xp Earned:0             |
+| Int:26/26        Mana:35/100               Trains:1                |
+| Wis:20/20        Moves:100/100             Practices:1             |
+| Dex:18/19                                  Hitroll:10              |
+| Con:17/17        Hero Points:2             Damroll:11              |
+|--------------------------------------------------------------------|
+| Gold:1439        Items:15/175                                      |
+| Silver:69        Eq weight:98/487                                  |
+|--------------------------------------------------------------------|
+| Style:defensive                                                    |
+| Armor:-256                                                         |
+| Wimpy: 40%                                                         |
+| XTL:21                                                             |
+|--------------------------------------------------------------------|
+
+
+sq:The House Entrance
+tower:The Tower Peak
+minsil:The Merchantile Bank
+anchorchaos:Masoned Hallway
+unknown:A four way junction
+home:vMap
+chaos:vMap
+vulcan:The great bank of Vulcanian
+albach:A crumbling shack
+astral:The open clearing
+
+     -=Completed Quests=-
+You hauled a large pile of lumber for a lumbercamp.
+You have recovered many manticore hides.
+You have slain the master ghoul for Rakos.
+You have gathered the bones of Rakos's ancestors.
+You found a lost child in the gremlin woods.
+The fur trader is happy with the chinchlla furs.
+You recovered a Chaos axe for the Tritower
+You slew a basillisk which inhabited an old mine.
+You have retrieved a githyanki dirk for the white beholder.
+You have found a truffle for the old tree.
+
+     -=Current Quests=-
+You are not currently on any quests.
+
+     -=Completed Quests=-
+You have slain the master ghoul for Rakos.
+You have gathered the bones of Rakos's ancestors.
+The fur trader is happy with the chinchlla furs.
+You have recovered many manticore hides.
+You discovered the fate of the lost cartographer.
+You slew a basillisk which inhabited an old mine.
+You've delivered some red mycanungus to Winston.
+You have found a truffle for the old tree.
+You should find the mammoth tusks for the guy in harstan.
+
+Home is directly south from the hut at the northwest end of the forests to the west of visari.
+Gold is in that room: vnum 45810.

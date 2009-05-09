@@ -1,0 +1,110 @@
+12345678901234567890123456789012345678901234567890123456789012345678901234567890
+
+Note:  Do Xz' note about gating from Albach's Temple as well.
+
+My vision for managing movement, terrain, blockage, ranged attacks, etc, etc.
+
+Room Features:
+Custom, Keyword-based exits [as opposed to simply n,s,e,w,u,d]
+
+Default room sizes, set in OLC, and over-ridden by specific sizes set on individual exits. 
+[In other words, setting the default size would make all exits inaccessable to any creature over that size, while setting a size on a specific exit would make that exit inaccessable to any over that size, regardless of what the room was set to.]
+
+Co-ordinate system based upon number of exits and terrain type.
+
+
+Character Commands:
+
+Go <exit keyword>  [To move through custom exits]
+
+Move <object, exit, mob or character keyword> [To move one's self to the co-ordinate location of that exit/character/object]
+move 2.<whatever> [This would act upon the second
+
+Altered Commands:
+
+All commands that act upon exits would also have to be made to act upon the custom exits, according to keyword.
+
+How it all would work:
+
+Builders would create the exits for a room, and set the terrain type, much as they do now.  They would also have the option of setting exit's max sizes, just as they do now, and a max size for a whole room of exits as well, to save effort.
+
+Each type of terrain would also have a certain spacial modifier, minimum of one, which would determine the "area" of the room, so to speak.
+
+Regardless of terrain type, each room would have a pool of center points and a number of satellite pools of exit points directly taken from the number of exits.  It's less complicated than it sounds.
+Imagine a pencilled in circle. It represents a room with no exits.
+The terrain modifier for the room is makes that many dots appear in that circle, for example, modifier of 1.
+Now add an exit, e.g. [North].  Now a smaller circle is attached to the original circle, and both circles gain a dot, making 1 for the small and 2 for the center circle.  Another exit; [South], comes into being as another smaller circle on the outside of the center circle, a dot materializing inside both that circle and the center one, making the tally 1 1 and 3.  Each new exit adds another pool of dots.
+The effect so far:  Inside a room, a character, e.g. Bob, could now type "move north" and move from the center circle to the "north" circle, with a delay time of 1x.  Any characters that subsequently entered the room would by default move from their enterance to the center circle of the room, after which they would be unable to attack that character with non-ranged weapons until they, too, typed "move Bob", suffered the minute delay, and then arrived at bob's location, and could then hit him with their axe.  The only other effect would be that movement into and out of that room would take 3X delay, One for an outer circle, one for the center circle, and another to go into another outer circle.  [Thus entering costs 2X of delay, while exiting only costs 1X]
+
+Now, if the terrain type is changed to something that has a modifier of two, we get two in each outer circle and five in the center circle [One beginning and two * two for the outer circles that were added.]  This change would only effect  the delay time for movement, making it cost 3X delay to move into the room, and  2X out. Adding more exits will not alter the delays, because the center always costs 1x.  Altering the terrain modifier, however, can cause sharp increases in the delay times, of course.
+
+We'll add another exit into the mix, a custom exit named Wooden Door, which would result in the following:
+
+A sample set of actions:
+look
+
+Room name, weather if outside
+
+Room Description
+
+Exits: North South
+Exits: [Wooden Door]
+[Human]Bob, dark-skinned, black-haired, and heavily cloaked, lies bleeding.
+Objects: [Medium] A two-handed bastard sword. [Small] An eagle helm.
+move bob
+You're both in the center already.
+move north [Miniscule Delay]
+You move north.
+move wooden [Slightly longer delay]
+You move to the Wooden Door.
+wield lockpick
+You remove your Black Knife and hold a Lockpick.
+pick wooden
+You work on the wooden door for a moment, and succeed on picking it's lock.
+get helm [slight delay]
+You go and get the helm.
+
+
+
+
+An alteration of the terrain, say to one with 
+
+
+
+
+Exits: [North] [South]
+
+
+
+s
+What follows is setup for rooms and terrains that I believe would satisfy
+both players and builders. However, I believe that we imms [read: Ragnar]
+do[es] have many other more pressing matters to attend to, thus this is
+mainly just for public consideration of the idea.  
+  
+Each room has the six default exits which are available, i.e. u,d,n,s,w,e,
+Note: These exits would not necessarily be created, but they would
+ always be available to be easily built.effect, just that they're 
+defa
+ult.
+ 8. However, builders would have the option of adding special exits to a dynamic
+ list that is keyword based and accessed by the Go command.
+ 9. i.e. The room would show:
+10. Exits:  [North] [South] [East]
+11. Exits: [Temple Doors] [Wooden Gate]
+12. and typing go temple, or go wooden gate, or even go north
+13. would make one attempt to exit through that exit.
+14. Of course, the normal n,s,w,e,u,d commands would still be in effect, 
+15. and this would require the gossip command to be taken out from the ic channe
+l, but I digres
+modifier [to a minimum of one] which would be multiplied by the number of
+available exits*2.  The resulting number would determine the co-ordinates
+for that specific room.
+Thus, a simple north-south tunnel, flagged as terrain "indoors", and with no
+default exit size set [either for the room as a whole or any of the individual
+exits] would result in the following formation, * counting for co-ordinates.
+
+             * * * *
+
+
+Thus, using the "move" command to "move north" would position one next

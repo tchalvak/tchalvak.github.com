@@ -1,0 +1,78 @@
+Ftping from the command line.
+a  LAT GEN ese O: start->run->ftp
+a  LAT GEN ese O: open
+a  LAT GEN ese O: lcd -> local change directory
+a  LAT GEN ese O: put, get, mput, mget -> send, receive, multi-file send, multi-file recv
+a  LAT GEN ese O: lcd c:\dev\NinjaWars\admin
+a  LAT GEN ese O: mget *
+a  LAT GEN ese O: mput *
+For easy total updating of the \admin contents.
+ftp://www.ninjawars.net
+nwtest@ninjawars.net
+nwtest
+site, uname, pass
+
+http://www.ninjawars.net/nwtest
+http://www.ninjawars.net/nwtest/admin/login.php
+admin
+nwtest
+password for the Developer's Only forum is nwtest
+
+AlatGeneseo: you have ftp access?
+AlatGeneseo: ftp://24.169.5.91/
+AlatGeneseo: guest
+AlatGeneseo: audubonspecial
+AlatGeneseo: grab the 3 php files attack_*
+AlatGeneseo: and look at them in conjunction with http://www.php.net
+Tchalvak: Audobonspecial, ey?
+Tchalvak: *grins*
+AlatGeneseo: you can search the site for eveything in the file pretty much, really nice documentation
+AlatGeneseo: audubonspecial it is
+Tchalvak: Err, with a u.
+
+--Protocol for developement--
+
+a  LAT GEN ese O: ok, just a quick thing about changing code
+a  LAT GEN ese O: if you're going to edit code, notify everyone via aim and email
+a  LAT GEN ese O: if we're online, we need to make sure we're not editting the same fil
+a  LAT GEN ese O: if we're not online, we need to make sure everyone knows changes were made
+a  LAT GEN ese O: if you're going to edit a file, download, edi, upload
+a  LAT GEN ese O: if you need to edit over a long period of time, email us a "lock" on the file
+JavaChi: if we had the space i'd put on a cvs server
+a  LAT GEN ese O: "Guys, I'm locking attack_mod.php until further notice"
+a  LAT GEN ese O: yeah, CVS would be nice, but we'll make do
+Tchalvak: *nods*
+a  LAT GEN ese O: on second thought, let's make it less chaotic
+a  LAT GEN ese O: I am keeping a mirror of the test bed locally, John is keeping a back up of live
+a  LAT GEN ese O: you guys always tell me when you edit a file
+JavaChi: k
+a  LAT GEN ese O: and always be online when you're editting
+JavaChi: i need to find out when google pays
+a  LAT GEN ese O: I will refrain from sending you emails every day with the 5 -10 files I updated to save on your mailbox space
+Tchalvak: *laughs*
+a  LAT GEN ese O: So look to me as the point of contact for all code changes
+Tchalvak: *nods*
+a  LAT GEN ese O: So John, should I just give Roy access to the test server and test admin panel?
+JavaChi: yeah
+JavaChi: but you might wanna hit some php tutorials before u look at the code on here
+JavaChi: there
+
+Later
+
+a  LAT GEN ese O: Roy, we're doing a big live push this Sunday at 2pm
+a  LAT GEN ese O: So Roy, we need to try our best to break the test server
+a  LAT GEN ese O: Roy can you be on Sunday at 2?
+Tchalvak: Yep.
+
+JavaChi: did u want tchalvak@ninjawars.net ?
+JavaChi: hmm a masuse ?
+
+JavaChi: should have access to the dev forum now
+JavaChi: oh u can check your email by going to
+JavaChi: http://www.ninjawars.net:2095
+username: tchalvak@ninjawars.net
+password: whatyoudexpect
+a  LAT GEN ese O: and you can set up forwading to your normal account
+
+JavaChi: and your login is tchalvak@ninjawars.net 
+JavaChi: eh ?

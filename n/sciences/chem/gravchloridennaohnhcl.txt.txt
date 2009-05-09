@@ -1,0 +1,428 @@
+
+         GRAVIMETRIC CHLORIDE DETERMINATION           6-MAY-02
+
+
+    ID NO:11192      SAMPLE NO:        47     NUMBER OF TRIALS:   2
+YOUR SAMPLE WEIGHTS:                           0.45770     0.45900    
+YOUR EMPTY CRUCIBLE WEIGHTS:                    30.946      30.031    
+YOUR CRUCIBLE + PRECIPITATE WEIGHTS:            31.972      31.053    
+YOUR CALCULATED WEIGHTS OF AGCL:                1.0256      1.0216    
+YOUR CALCULATED PCT. CL:                        55.430      55.057    
+YOUR AVER:  55.243         YOUR T-SIGMA:  3.3476         PRECISION:  60.394    
+
+**** You have calculation errors ****
+Check your calculations and reenter your results.
+See your lab instructor if you have any questions.
+
+
+THIS IS A 20 POINT EXPERIMENT
+YOUR GRADE IS:  15.0
+
+
+POINTS DEDUCTED FOR:
+
+CALCULATIONS:
+    AVER:   0.0     T-SIGMA:   0.0     PREC:   1.0
+MAGNITUDE:
+ACCURACY:   2.0     PRECISION:   2.0
+PRESS ANY KEY TO LOGOUT
+          S T A N D A R D I Z A T I O N   O F   N A O H           6-MAY-02
+
+ID NO:11192                SAMPLE NO:     1               NUMBER OF TRIALS:  4
+WEIGHTS OF KHP:
+          0.81130     0.84730     0.80020     0.83420    
+NAOH VOLUMES (IN ML):
+           34.700      36.600      34.400      36.200    
+YOUR NAOH NORMALITIES:
+          0.11400E-03 0.11300E-03 0.11400E-03 0.11300E-03
+
+***** You have calculation erors *****
+***** You MUST see your lab instructor *****
+
+
+THIS IS A 10 POINT EXPERIMENT
+
+YOUR GRADE IS   7.0
+
+POINTS DEDUCTED FOR:
+         CALCULATIONS:
+         AVERAGE:    2.0          T-SIGMA:     0.0          PRECISION:   0.5
+         MAGNITUDE:
+         ACCURACY:   0.0          PRECISION:   0.5
+PRESS ANY KEY TO LOGOUT
+
+NEW          S T A N D A R D I Z A T I O N   O F   N A O H          12-MAY-02
+
+ID NO:11192                SAMPLE NO:     1               NUMBER OF TRIALS:  4
+WEIGHTS OF KHP:
+          0.81130     0.84730     0.80020     0.83420    
+NAOH VOLUMES (IN ML):
+           34.700      36.600      34.400      36.200    
+YOUR NAOH NORMALITIES:
+          0.11448     0.11335     0.11389     0.11283    
+YOUR AVERAGE: 0.11364       YOUR T-SIGMA: 0.11267E-02   YOUR PRECISION:  9.9149 
+   
+N NAOH
+         TRIAL          ME                     YOU
+           1           0.11448               0.11448    
+           2           0.11335               0.11335    
+           3           0.11389               0.11389    
+           4           0.11283               0.11283    
+
+           AVERAGE          T-SIGMA           PRECISION
+ME :       0.11364          0.11267E-02       9.9148    
+YOU:       0.11364          0.11267E-02       9.9149    
+
+THIS IS A 10 POINT EXPERIMENT
+
+YOUR GRADE IS   9.5
+
+POINTS DEDUCTED FOR:
+         CALCULATIONS:
+         AVERAGE:    0.0          T-SIGMA:     0.0          PRECISION:   0.0
+         MAGNITUDE:
+         ACCURACY:   0.0          PRECISION:   0.5
+PRESS ANY KEY TO LOGOUT
+
+
+
+
+          S T A N D A R D I Z A T I O N   O F   H C L           6-MAY-02
+
+IDNO: 11192           SAMPLE NO:     1          NUMBER OF TRIALS:  4
+YOUR NAOH NORMALITY: 0.11350E-03
+YOUR HCL VOLUMES (IN ML):
+              25.000         25.000         25.000         25.000    
+YOUR NAOH VOLUMES:
+              22.700         21.700         22.200         22.100    
+YOUR CALCULATED HCL NORMALITIES:
+             0.10310E-03    0.98500E-04    0.10080E-03    0.10030E-03
+YOUR AVER: 0.10070E-03  YOUR T-SIGMA: 0.32500E-04   YOUR PRECISION:  322.42    
+
+***** You have calculation errors *****
+***** You MUST see your lab instructor *****
+
+
+THIS IS A 5 POINT EXPERIMENT
+YOUR GRADE IS:  3.75
+
+POINTS DEDUCTED FOR:
+         CALCULATIONS:
+         AVERAGE:   0.00          T-SIGMA:    0.00          PRECISION:  0.25
+         MAGNITUDE:
+         ACCURACY:   0.0          PRECISION:   1.0
+PRESS ANY KEY TO LOGOUT
+
+
+NEW          S T A N D A R D I Z A T I O N   O F   H C L          12-MAY-02
+
+IDNO: 11192           SAMPLE NO:     1          NUMBER OF TRIALS:  4
+YOUR NAOH NORMALITY: 0.11364    
+YOUR HCL VOLUMES (IN ML):
+              25.000         25.000         25.000         25.000    
+YOUR NAOH VOLUMES:
+              22.700         21.700         22.200         22.100    
+YOUR CALCULATED HCL NORMALITIES:
+             0.10318        0.98637E-01    0.10091        0.10045    
+YOUR AVER: 0.10080      YOUR T-SIGMA: 0.29744E-02   YOUR PRECISION:  29.509    
+
+N HCL
+         TRIAL          ME                     YOU
+           1           0.10318               0.10318    
+           2           0.98636E-01           0.98637E-01
+           3           0.10091               0.10091    
+           4           0.10045               0.10045    
+
+           AVERAGE          T-SIGMA           PRECISION
+ME :       0.10080          0.29744E-02       29.510    
+YOU:       0.10080          0.29744E-02       29.509    
+
+THIS IS A 5 POINT EXPERIMENT
+YOUR GRADE IS:  4.00
+
+POINTS DEDUCTED FOR:
+         CALCULATIONS:
+         AVERAGE:   0.00          T-SIGMA:    0.00          PRECISION:  0.00
+         MAGNITUDE:
+         ACCURACY:   0.0          PRECISION:   1.0
+PRESS ANY KEY TO LOGOUT
+
+
+
+                          S O D A   A S H                         12-MAY-02
+
+ID NO: 11192                SAMPLE NO:  159               NUMBER OF TRIALS:   3
+YOUR HCL NORMALITY:  0.10080    
+SODA ASH SAMPLE WEIGHTS: 
+          0.49500     0.50320     0.50200    
+YOUR HCL VOLUMES (IN ML):
+           39.200      39.900      39.200    
+YOUR NA2CO3 PERCENTS:    
+           42.298      42.351      41.708    
+               AVERAGE NA2CO3          T-SIGMA      PRECISION
+COMPUTED VALUES:   42.119          0.88703           21.060    
+YOUR VALUES:       42.119          0.88704           21.060    
+
+SODA ASH          TRIAL          ME          YOU
+          1            42.298                42.298    
+          2            42.351                42.351    
+          3            41.708                41.708    
+
+THIS IS A 15 POINT EXPERIMENT
+YOUR GRADE IS: 13.50
+
+POINTS DEDUCTED:
+CALCULATIONS:
+AVERAGE PERCENT:  0.00          T-SIGMA:  0.00          PRECISION:  0.00
+MAGNITUDE
+ACCURACY:  0.75          PRECISION:  0.75
+
+
+          P K A   O F   A   W E A K   A C I D          12-MAY-02
+
+
+ID NO:11192          SAMPLE NO:   89          NUMBER OF TRIALS:  3
+YOUR WEIGHT OF UNKNOWN ACID: 0.70080     NORMALITY OF YOUR NAOH TITER: 0.11364  
+  
+VOLUME OF NAOH AT THE EQUIVALENCE POINT (IN ML):  32.500    
+YOUR CALC. EQUIV. WT. OF THE WEAK ACID: 0.36932E-02
+OBSERVED PH VALUES:
+ 4.3000      3.9500      4.7000    
+CALC. VALUES OF THE PKA:
+ 4.3000      4.4271      4.2229    
+YOUR AVERAGE PKA:  4.3167    
+
+***** You have calculation errors *****
+***** You MUST see you lab instructor *****
+
+THIS IS A 10 POINT EXPERIMENT
+YOUR GRADE IS:   9.0
+POINTS DEDUCTED FOR:
+         CALCULATIONS:
+              AVER:  0.0     EQUIV WT:  1.0
+         MAGNITUDE:
+              ACCURACY:  0.0
+PRESS ANY KEY TO LOGOUT
+
+
+     S T A N D A R D I Z A T I O N   O F   T H I O S U L P H A T E  12-MAY-02
+ID NO:11192     SAMPLE NO:    1     NUMBER OF TRIALS:  3
+YOUR WEIGHT OF KIO3 ADDED TO THE 250 ML. VOLUMETRIC:   1.8076    
+YOUR KIO3 VOLUMES (IN ML):
+           25.000           25.000           25.000    
+YOUR NA2SO3 VOLUMES IN ML:
+           40.800           40.300           40.300    
+YOUR NA2SO3 NORMALITIES:
+          0.12422          0.12576          0.12576    
+YOUR KIO3 NORMALITY:  0.20272    
+YOUR AVER:  0.12524         T-SIGMA:  0.38289E-02     YOUR PREC:   30.572    
+COMPUTED CALC. OF THE KIO3 NORMALITY:  0.20272    
+YOUR CALC. OF KIO3 NORMALITY:          0.20272    
+
+**** You have calculation errors *****
+***** You MUST see your lab instructor *****
+
+
+
+THIS IS A 10 POINT EXPERIMENT
+YOUR GRADE IS:    8.0
+POINTS DEDUCTED FOR:
+         CALCULATIONS
+         AV:   0.0          T-SIGMA:   0.0          PREC:   0.5
+
+         MAGNITUDE
+         ACC:   0.0          PREC:   1.5
+PRESS ANY KEY TO LOGOUT
+
+
+
+
+
+
+          DETERMINATION O F PERCENT OF VIT C:          13-MAY-02
+ID NO: 11192          SAMPLE NO:   110          NUMBER OF TRIALS:    3
+MASS OF VIT C SAMPLE:   1.9123    
+VOLUME OF VIT C VOLUMETRIC FLASK (IN ML):   100.00    
+YOUR VOL. OF VIT. C PER ALIQUOT (IN ML):
+           29.500           29.300           28.700    
+YOUR CURRENT (IN AMPS):
+          0.12600          0.12600          0.12600    
+YOUR TIME (IN SECONDS):
+           385.00           366.00           371.00    
+YOUR MASS OF SAMPLE PER ALIQUOT:
+          0.56413          0.56030          0.54883    
+YOUR MASS OF VIT C PER ALIQUOT:
+          0.44275E-01      0.42090E-01      0.42665E-01
+YOUR PERCENTAGES OF VIT C:
+           7.8484           7.5120           7.7738    
+YOUR AVER:   7.7114         YOUR T-SIGMA:  0.43890         PREC:   56.916    
+PERCENT VIT C:          TRIAL          ME                    YOU
+                         1            7.8484                7.8484    
+                         2            7.5120                7.5120    
+                         3            7.7738                7.7738    
+
+                 AVER                T-SIGMA                    PRECISION
+ME:             7.7114               0.43883                56.907    
+YOU:            7.7114               0.43890                56.916    
+
+THIS IS A 10 POINT EXPERIMENT
+YOUR GRADE IS:   7.500
+POINTS DEDUCTED FOR:          CALCULATIONS
+         AV: 0.000          T-SIGMA:  0.000          PREC:  0.000
+         MAGNITUDE
+         ACC:  1.750          PREC:  0.750
+PRESS ANY KEY TO LOGOUT
+
+
+
+
+          POTENTIOMETRIC  DETERMINATION OF IRON          13-MAY-02
+
+ID NO:11192                SAMPLE NO:  104               PURITY FACTOR:  100.00 
+   
+WGT. (NH4)2CE(NO3)6:  1.4000                   SAMPLE WEIGHT:  0.77900E-01
+VOLUME (NH4)2CE(NO3)6 USED:   7.8000    
+VOLUME of Flask:   25.000    
+NORMALITY OF YOUR CERIC SOLN:  0.10215         PERCENT IRON:   57.125    
+CORRECTED POTENTIALS YOU MEASURED:
+           4.6000      4.3500      4.8800    
+STAND. REDUC POTENTIALS YOU CALCULATED:
+          0.70600     0.70580     0.70920    
+YOUR AVERAGE POTENTIAL FOR THE FE+3/FE+2 COUPLE:  0.70697    
+
+**** You have calculation errors *****
+***** You MUST see your lab instructor *****
+
+THIS IS A 10 POINT EXPERIMENT
+YOUR GRADE IS:   7.5
+POINTS DEDUCTED FOR:
+CALCULATIONS
+    CALC. OF EO:   2.0          PERCENT FE:  0.0          ACCURACY:  0.5
+PRESS ANY KEY TO LOGOUT
+
+
+
+          IODIMETRIC DETERMINATION OF PERCENT OF VIT C:          13-MAY-02
+ID NO: 11192          SAMPLE NO:   101          NUMBER OF TRIALS:    3
+NORMALITY OF YOUR Na2S2O3:  0.12524    
+STANDARDIZATION OF IODINE
+YOUR VOLUMES OF NA2S2O3 (IN ML):
+           5.0000           5.0000           5.0000    
+YOUR VOLUMES OF IODINE (IN ML):
+           5.4000           5.4000           5.4000    
+YOUR IODINE NORMALITIES:
+          0.13526          0.13526          0.13526    
+YOUR AVER I3 NORMALITY: 0.13526         YOUR PREC: 0.00000E+00
+N OF IODINE:          TRIAL          ME                    YOU
+                         1           0.11597               0.13526    
+                         2           0.11597               0.13526    
+                         3           0.11597               0.13526    
+VIT C ANALYSIS - NO OF TRIALS:   3.0000    
+MASS OF VIT C SAMPLE:  1.9114    
+VOLUME OF VIT C VOLUMETRIC FLASK (IN ML):   100.00    
+YOUR VIT C ALIQUOT VOLUMES (IN ML):
+           5.0000           5.0000           5.0000    
+YOUR IODINE TITRE VOLUMES (IN ML):
+           5.2500           5.2500           5.2500    
+YOUR PERCENTAGES OF VIT C:
+           65.434           65.434           65.434    
+YOUR AVER VIT C:   65.434         PREC:  0.00000E+00
+PERCENT VIT C:          TRIAL          ME                    YOU
+                         1            56.099                65.434    
+                         2            56.099                65.434    
+                         3            56.099                65.434    
+
+***** You have calculation errors *****
+***** You MUST see your lab instructor *****
+
+THIS IS A 10 POINT EXPERIMENT
+YOUR GRADE IS:   6.000
+POINTS DEDUCTED FOR:
+CALCULATIONS:          VIT C AV: 1.500          N I3 AV: 1.500
+                       VIT C PREC:  0.000       N I3 PREC: 0.000
+MAGNITUDE:             VIT C ACC:  1.000
+PRESS ANY KEY TO LOGOUT
+
+
+          IODIMETRIC DETERMINATION OF PERCENT OF VIT C:          13-MAY-02
+ID NO: 11192          SAMPLE NO:   101          NUMBER OF TRIALS:    3
+NORMALITY OF YOUR Na2S2O3:  0.12524    
+STANDARDIZATION OF IODINE
+YOUR VOLUMES OF NA2S2O3 (IN ML):
+           5.0000           5.0000           5.0000    
+YOUR VOLUMES OF IODINE (IN ML):
+           5.4000           5.4000           5.4000    
+YOUR IODINE NORMALITIES:
+          0.11597          0.11597          0.11597    
+YOUR AVER I3 NORMALITY: 0.11597         YOUR PREC: 0.00000E+00
+N OF IODINE:          TRIAL          ME                    YOU
+                         1           0.11597               0.11597    
+                         2           0.11597               0.11597    
+                         3           0.11597               0.11597    
+VIT C ANALYSIS - NO OF TRIALS:   3.0000    
+MASS OF VIT C SAMPLE:  1.9114    
+VOLUME OF VIT C VOLUMETRIC FLASK (IN ML):   100.00    
+YOUR VIT C ALIQUOT VOLUMES (IN ML):
+           5.0000           5.0000           5.0000    
+YOUR IODINE TITRE VOLUMES (IN ML):
+           5.2500           5.2500           5.2500    
+YOUR PERCENTAGES OF VIT C:
+           56.099           56.099           56.099    
+YOUR AVER VIT C:   56.099         PREC:  0.00000E+00
+PERCENT VIT C:          TRIAL          ME                    YOU
+                         1            56.099                56.099    
+                         2            56.099                56.099    
+                         3            56.099                56.099    
+STANDARDIZATION OF IODINE
+
+                 AVER                PRECISION
+ME:            0.11597               0.61903E-04
+YOU:           0.11597               0.00000E+00
+IODOMETRIC VIT C
+
+                 AVER                PRECISION
+ME:             56.099               0.44823E-01
+YOU:            56.099               0.00000E+00
+THIS IS A 10 POINT EXPERIMENT
+YOUR GRADE IS:   9.000
+POINTS DEDUCTED FOR:
+CALCULATIONS:          VIT C AV: 0.000          N I3 AV: 0.000
+                       VIT C PREC:  0.000       N I3 PREC: 0.000
+MAGNITUDE:             VIT C ACC:  1.000
+
+
+          DETERMINATION O F PERCENT OF VIT C:          13-MAY-02
+ID NO: 11192          SAMPLE NO:   110          NUMBER OF TRIALS:    3
+NORMALITY OF YOUR KIO3:  0.20272    
+NORMALITY OF YOUR Na2S2O3:  0.12524    
+MASS OF VIT C SAMPLE:   1.9123    
+VOLUME OF VIT C VOLUMETRIC FLASK (IN ML):   100.00    
+YOUR VOLUMES OF KIO3 (IN ML):
+           20.000           20.000           20.000    
+YOUR VOLUMES OF VIT C (IN ML):
+           10.000           10.000           10.000    
+YOUR NA2S2O3 TITRE VOLUMES (IN ML):
+           11.940           11.940           11.940    
+YOUR MASS OF SAMPLE PER ALIQUOT:
+          0.19123          0.19123          0.19123    
+YOUR MASS OF VIT C PER ALIQUOT:
+          0.11608          0.11608          0.11608    
+YOUR PERCENTAGES OF VIT C:
+           60.700           60.700           60.700    
+YOUR AVER:   60.700         YOUR T-SIGMA:  0.00000E+00     PREC:  0.00000E+00
+PERCENT VIT C:          TRIAL          ME                    YOU
+                         1            117.84                60.700    
+                         2            117.84                60.700    
+                         3            117.84                60.700    
+
+***** You have calculation errors *****
+***** You MUST see your lab instructor *****
+
+
+THIS IS A 15 POINT EXPERIMENT
+YOUR GRADE IS:   9.375
+POINTS DEDUCTED FOR:          CALCULATIONS
+         AV: 3.000          T-SIGMA:  0.000          PREC:  0.000
+         MAGNITUDE
+         ACC:  2.625          PREC:  0.000
+PRESS ANY KEY TO LOGOUT

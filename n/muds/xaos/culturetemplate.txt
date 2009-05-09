@@ -1,0 +1,77 @@
+			Possible Aspects of a Culture (Template)
+
+
+
+		[Structure]
+
+Culture Internal/External names:
+
+Political/Religious Institutions:
+-Powerbases:
+-Systems:
+-Castes/Ethnicities:
+-Leaders:
+-Defensive/Antagonistic Aspects:
+-Levels of Fanaticism:
+-Disciplines:
+
+Economy:
+-Basis:
+-Natural Resources:
+-Products:
+-Management:
+-Currency:
+-Exports/Imports:
+
+Family Structures:
+-Gender Roles:
+
+Technologies:
+-Sciences:
+-Weaponry:
+-Transport:
+-Agricultural:
+
+
+		[Environment]
+
+Regions/locations:
+
+Clothing/:
+-Materials source:
+-Producers:
+
+Homes:
+-Materials/Production sources:
+
+Staple Foods:
+-Animal:
+-Plants:
+-Materials/Production sources:
+
+Unique/Major Crafts:
+-Materials/Production Sources:
+
+
+
+
+		[Practices]
+
+Verbal/Written/Visual/Sense-based Languages:
+
+Occult:
+-Taboos:
+-Superstitions:
+-Magic:
+
+Recreation types:
+-Music:
+-Games:
+-Arts:
+-Sports:
+
+Cultural History:
+-Historical Locations:
+-Historical Leaders:
+-Historical Enemies/Allies:
+-Historical Events:

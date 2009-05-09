@@ -1,0 +1,41 @@
+Jabbernet
+Original By Lewis Carol, adapted by Me
+
+'Twas brillig and the broadcast storm 
+Did gyre and gimble with the Lan: 
+All mimsy was the college dorm, 
+for the network never ran. 
+
+"Beware the Lag Wyrm, my son! 
+The routers that tear, the hubs that catch! 
+Beware the Telnet app, and shun 
+The faulty bandwith hatch!" 
+
+He took his terminal in hand: 
+Long time the signal noise he sought
+Until pinged he, by the file tree, 
+And stood awhile in thought. 
+
+And, as in uffish thought he stood, 
+The Lag Beast, with it's broadcast burst, 
+Came tunnelling through it's cable cursed,
+And doubled when it could!
+
+One, two! One, two! And through and through 
+the ethernet went snicker-snack! 
+He left it stable, and with its cable 
+He went galumphing back. 
+
+"And hast thou slain the Lag Wyrm? 
+Come to my arms, my network tech! 
+O frabjous day! Callooh! Callay!" 
+He tracerouted in his joy. 
+
+'Twas brillig and the broadcast storm
+Did gyre and gimble with the Lan: 
+All mimsy was the college dorm,
+for the network never ran. 
+And the mome raths outgrabe.
+
+(No Lag Wyrms were killed in the production of
+this poem.)

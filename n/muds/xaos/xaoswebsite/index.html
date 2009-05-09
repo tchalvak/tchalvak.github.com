@@ -1,0 +1,216 @@
+<html><head>
+<title>XaosMUD <xaos-mud.org:5000> ::/maps</title><style type="text/css">
+<!--
+
+  body{
+		color: black; 
+		background-color: white; 
+		font-family: verdana, arial, helvetica, geneva, sans-serif;
+		font-size: .7em;
+	}
+	
+	select{
+  	width:150px;
+		font:8pt "Verdana","Arial","Helvetica",sans-serif;
+	  background-color:#f1f1f1;
+	  letter- spacing:0px;
+  } 
+
+	A:link{
+  	color: #5a7bad;
+  	text-decoration: none;
+	}
+	
+	A:hover{
+    color: red; 
+    text-decoration: none
+    }
+  A:visited{
+    color: #5a7bad;
+    text-decoration:none;
+  }
+    
+	A.hoverMenu {
+		display: block;
+		padding: 4px;
+		border: none;
+		font-family: verdana, tahoma, arial, helvetica, sans-serif;
+		font-size: .7em;
+		color: black;
+		text-decoration: none;
+
+		/* Hack (err, workaround ;) for IE box model problems... */
+		width: 100%; /* Width for IE */
+		voice-family: "\"}\""; /* IE stops process any rules after this */
+	  	voice-family:inherit;
+		width: auto;	/* Width for "good" browsers */
+	}
+	A.hoverMenu:link {
+		/* A:link style is for IE5; redundant for newer browsers */
+		color: black;
+		text-decoration: none;
+	}
+	A.hoverMenu:hover {
+		padding: 3px;
+		border: solid 1px #333333;
+		background-color: #DDDDDD;
+		color: black;
+		text-decoration: bold;
+	}
+	
+	A.hoverMenu:visited{
+    color:black;
+    text-decoration:none;
+  }
+
+	.para1 
+   { 
+      margin-top: -48px; 
+      margin-left: 140px; 
+      margin-right: 10px; 
+      font-family: "Verdana"; 
+      font-size: 15px; 
+      line-height: 35px; 
+      text-align: right; 
+      color: #5a7bad;
+   }
+
+ .para2 
+   { 
+      margin-top: 0px; 
+      margin-left: 15px; 
+      margin-right: 50px; 
+      font-family: "Verdana"; 
+      font-size: 20px; 
+      line-height: 40px; 
+      text-align: right; 
+      color: #d1d1d1; 
+   }
+  A.para2:link{
+    color: #d1d1d1;
+    text-decoration: none;
+  }
+  A.para2:hover{
+    color: red;
+    text-decoration: none;
+  }
+	
+  pre {
+	  margin: 10px 25px;
+	  padding: 15px;
+	  font-family: "Lucida Console","Courier New",Courier,monospace;
+	  font-size: 8pt;
+	  line-height: normal;
+    color: black;
+  	background-color: #FFFFEF;
+	  border: 1px solid #CCCCCC;
+	  text-align: left; 
+    }
+   
+-->
+</style><script src="includes/popup.js" type="text/javascript"></script>
+<script>
+function popup(image,width,height) { 
+window.open(image,'_blank','width='+width+',height='+height+',screenX=0,screenY=0,top=0,left=0'); } 
+</script>
+</head>
+
+<body>
+<center>
+<img src="images/xaosheader.jpg"><p>
+
+<!-- %%%%%%%%%%%% MENU -->
+
+<table border="0" cellpadding="2" cellspacing="1" width=700 style = "border:solid 1px black; background-color: #F1F1F1;">
+
+<tr>
+	<td align = "center"><a href="index.php" class = "hoverMenu">       Home</a></td>
+  <td align = "center"><a href="index.php?page=rules" class = "hoverMenu">       Rules</a></td>
+  <td align = "center"><a href="index.php?page=factions" class = "hoverMenu">               Factions</a></td>
+	<td align = "center"><a href="index.php?page=classes" class = "hoverMenu">     Classes</a></td>
+	<td align = "center"><a href="index.php?page=races" class = "hoverMenu">       Races</a></td>
+	<td align = "center"><a href="index.php?page=deities" class = "hoverMenu">     Deities</a></td>
+	<td align = "center"><a href="index.php?page=maps"  class = "hoverMenu">              Maps</a></td>
+	<td align = "center"><a href="index.php?page=gallery" class = "hoverMenu">   Galleries</a></td>
+	<td align = "center"><a href="forum/" class = "hoverMenu">   Forums</a></td>
+	<td align = "center"><a href="webmail/" class = "hoverMenu">   Webmail</a></td>
+	<td align = "center"><a href="index.php?page=connect" class = "hoverMenu">     Connect</a></td>
+	<td align = "center"><a href="index.php?page=contact"  class = "hoverMenu">              Contact</a></td>
+</tr></table>
+</td></tr>
+<tr><td>
+
+
+<!-- %%% CONTENT -->
+<table width=696 height="200" border="0" cellpadding="2" cellspacing="1" style="border:solid 1px black; background-color:#FFFFFF; margin-top:3px;">
+  <tr>
+    <td>
+  <tr colspan=6>    <td colspan=6>
+        <div class = "para2" align = "center">    <p>Main</p>    </div>
+        <div class = "para1" align = "center"><p></p>Maps</div>
+  </tr></td>
+  <tr style="color: #5a7bad;text-decoration: none;font-size:8pt;cursor: pointer">
+     <td align="left" valign="top">
+                 <div class="subcategory"><a><b>World Maps</b></a><p></p></div>
+		  <b>·</b><a onclick="Map.src='images/map_xaosworldsmall.jpg';Map.width='480';Map.height='682';return true">Small</a><br>
+		  <b>·</b><a onclick="Map.src='images/map_xaosworldmedium.png';Map.width='1161';Map.height='1806';return true">Medium</a><br>
+		  <b>·</b><a onclick="Map.src='images/map_xaosworldhuge10102003.png';Map.width='4080';Map.height='5456';return true">Huge</a><br>
+		  <b>·</b><a onclick="Map.src='images/map_world.gif';Map.width='487';Map.height='352';return true">Known Lands</a><br>
+	 </td>
+      <td align="left" valign="top">
+	                   <div align="subcategory"><a><b>Northwest</b></a><p></p></div>
+          <b>·</b><a onclick="Map.src='images/map_arador.gif';Map.width='559';Map.height='470';return true">Arador</a><br>
+		  <b>·</b><a onclick="Map.src='images/map_blackthorn.gif';Map.width='520';Map.height='310';return true">Blackthorn</a><br>
+		  <b>·</b><a onclick="Map.src='images/map_brownieoutpost.gif';Map.width='291';Map.height='257';return true">Brownie Outpost</a><br>
+		  <b>·</b><a onclick="Map.src='images/map_faerieforest.gif';Map.width='607';Map.height='588';return true">Faerie Forest</a><br>
+		  <b>·</b><a onclick="Map.src='images/map_keydelia.gif';Map.width='639';Map.height='537';return true">Keydelia</a><br>
+  		  <b>·</b><a onclick="Map.src='images/map_pixietree.gif';Map.width='625';Map.height='440';return true">Pixie Tree</a><br>
+		  <b>·</b><a onclick="Map.src='images/map_tinka.gif';Map.width='562';Map.height='374';return true">Tinka</a><br>
+	</td>
+       <td align="left" valign="top">
+                 <div align="subcategory"><a><b>Northeast</b></a><p></p></div>
+		  <b>·</b><a onclick="Map.src='images/map_bren.gif';Map.width='573';Map.height='282';return true">Bren</a><br>		  
+		  <b>·</b><a onclick="Map.src='images/map_harstan.gif';Map.width='580';Map.height='267';return true">Harstan</a><br>
+		  <b>·</b><a onclick="Map.src='images/map_humantrainingcamp.gif';Map.width='343';Map.height='180';return true">Human Camp</a><br>
+		  <b>·</b><a onclick="Map.src='images/map_minsil.gif';Map.width='291';Map.height='289';return true">Minsil</a><br>
+		  <b>·</b><a onclick="Map.src='images/map_moria.gif';Map.width='559';Map.height='272';return true">Moria</a><br>
+		  <b>·</b><a onclick="Map.src='images/map_redrock.gif';Map.width='364';Map.height='384';return true">Redrock</a><br>
+      </td>
+ <td align="left" valign="top">
+                 <div align="subcategory"><a><b>Southeast</b></a><p></p></div>
+		  <b>·</b><a onclick="Map.src='images/map_visari.gif';Map.width='490';Map.height='419';return true">Visari</a><br>
+		  <b>·</b><a onclick="Map.src='images/map_vulcaniandesert.gif';Map.width='531';Map.height='354';return true">Vulcanian Desert</a><br>
+		  <b>·</b><a onclick="Map.src='images/map_vulcaniafloor1.gif';Map.width='442';Map.height='520';return true">Lower Vulcania</a><br>
+		  <b>·</b><a onclick="Map.src='images/map_vulcaniafloor2.gif';Map.width='442';Map.height='393';return true">Middle Vulcania</a><br>
+		  <b>·</b><a onclick="Map.src='images/map_vulcaniafloor3.gif';Map.width='442';Map.height='353';return true">Upper Vulcania</a><br>
+	</td>
+	<td align="left" valign="top">
+                 <div align="subcategory"><a><b>Southwest</b></a><p></p></div>
+  		  <b>·</b><a onclick="Map.src='images/map_gobold.gif';Map.width='557';Map.height='399';return true">Gobold</a><br>
+		  <b>·</b><a onclick="Map.src='images/map_halforccave.gif';Map.width='535';Map.height='212';return true">Halforc Cave</a><br>
+		  <b>·</b><a onclick="Map.src='images/map_swamps.gif';Map.width='575';Map.height='257';return true">Swamps</a><br>		  
+ 		  <b>·</b><a onclick="Map.src='images/map_vondonicamp.gif';Map.width='526';Map.height='271';return true">Vondoni Camp</a><br>
+	</td>
+      <td align="left" valign="top">
+                 <div align="subcategory"><a><b>Elsewhere</b></a><p></p></div>
+		  <b>·</b><a onclick="Map.src='images/map_underdark.gif';Map.width='470';Map.height='600';return true">Underdark</a><br>
+      </td>
+  </tr>
+</table>
+<table width=696 height="293" border="0" cellpadding="2" cellspacing="1" style="border:solid 1px black; background-color:#FFFFFF; margin-top:3px;">
+  <tr>
+  <td align="center" valign="top"><img border="0" src="images/map_xaosworldsmall.jpg" name="Map" width="480" height="682">
+  <td>  
+  </tr>
+  </tr>
+</table>
+<!-- %%% FOOTER -->
+<table border="0" cellpadding="2" cellspacing="1" width=700 style="border:solid 1px black; background-color:#F1F1F1; margin-top:3px;">
+<tr><td align = center>
+<font style = "font-size:7pt;">
+This page and its contents &copy;2004 XaosMUD unless otherwise specified.
+Questions? Comments? <a href="mailto:xaos@xaos-mud.org">Contact us</a>
+</td></tr>
+</table>
+
+</body></html>

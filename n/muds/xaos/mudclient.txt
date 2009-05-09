@@ -1,0 +1,37 @@
+How to connect to Xaos:
+
+host: xaos.ath.cx
+port: 5000
+
+Easiest, simplest connection method:  Put "telnet://xaos.ath.cx:5000" into the address bar.
+(Works on most browsers.)
+
+[Recommended connection method]:
+
+Download Gmud from "http://www.geneseo.edu/~ror1/AGmud.exe".
+Open Gmud.
+Select "Connect" from the "File" menu.
+Click the "Add" button and save the world as "Xaos".
+For "Host," type: xaos.ath.cx 
+For "Port", type: 5000 
+Click the "Connect" button to connect to Xaos.
+
+-Gmud- "http://www.geneseo.edu/~ror1/AGmud.exe"; 350 KB Download; can run on the spot, from a floppy, or from the hard-drive; no registration necessary; essentially all necessary features available.
+
+[Other Windows Applications]:
+
+-Putty- "http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html"; 220 KB Download; can run on the spot, from a floppy, or from the hard-drive; much better than telnet, though no features specifically for muds.
+
+-Zmud-  "http://www.zuggsoft.com/zmud/zmudinfo.htm"; unable to run without being installed onto about 7 MB of hard-drive space; all the features you could ever need and much more; 30-day trial before it stops working unless you pay the 25$ registration fee.
+
+-Other windows mudclients available-: wintin; mud-master; zmud 3.62; mudzilla, etc, etc.
+
+[For Macs]:
+
+-Rapscallion- "http://www.rapscallion.co.uk"; unable to run without being installed onto about 2.2 MB of hard-drive space; a number of features.
+
+
+
+
+(If any of the applications can't be found at the above sites, simply do a google search for "download <mudclientname>" instead.)
+

@@ -1,0 +1,62 @@
+123456789012345678901234567890123456789012345678901234567890123456789012345
+
+Applying to become an Imm again.
+
+
+^rAreas built:  ^x
+ 
+The underground fortress of the Tchalvak and Surroundings.
+(linked North of Minsil)
+ 
+^rMajor edits:  ^x
+ 
+The city of Minsil
+(overhauled all the descriptions and added new material)
+ 
+The Tritower
+(overhauled all the descriptions and added new material, though most of the
+ new material is no longer available since it was later edited by Daigar)
+ 
+Old Mortal Housing Place under the waterfall East of Visari/aka "Sybell 
+House"?
+ 
+Many many helpfiles
+see:  "Help filechanges"
+and:  "Help old filechanges" for a partial list.
+ 
+And of course I've worked on revising/updating the Xaos website.
+ 
+ 
+^rMinor Edits:  ^x
+ 
+The Tritower (helped Daigar with some editing after his overhaul)
+South Visari (did some work on it with Albach, though the work was later 
+lost in "The Great Builder Crash".
+ 
+ 
+^rUnfinished Area:  ^x
+ 
+The Slaan Starting Location and Surroundings
+Area starting at 15550 and encompassing vnums:
+ 
+15550 to 15599
+27050 to 27099
+(there may be another set of vnums attached, but if so I can't remember 
+its range)
+ 
+Last I knew this area was in the "final reviews" stage, and though I tried
+to get people to help it through the last bits when I was no longer an imm,
+nothing ever really came of that.
+ 
+ 
+^rGoals of being an Immortal:  ^x
+Complete the Slaan starting area.
+Build a Circus area.
+Stage Quests.
+Maybe build a Library area 
+(or jus' help Mij build whatever she's workin' on)
+ 
+ 
+-Nsaris.
+ 
+P.S.  OOoooooOooOookkkkk.

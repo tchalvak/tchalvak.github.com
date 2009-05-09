@@ -1,0 +1,25 @@
+c cloak
+c living
+c invinci
+c stature
+c 'pose youth'
+c 'pose strength'
+c endurance
+c haste
+c stone
+c globe
+c blur
+c permanency
+c permanency
+c 'magic armor'
+c 'resist paralysis'
+c 'detect invis'
+c 'detect undead'
+c 'reveal shadows'
+c 'water breath'
+c 'dark sight'
+c 'mask align'
+c giant
+c 'passdoor'
+c 'life to mana'
+c 'phase'

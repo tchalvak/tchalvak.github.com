@@ -1,0 +1,10 @@
+Area proposal [# of vnums][area name]
+
+The circus
+
+
+Junk beast:
+
+So, I've been playing "Shadow of the Colossus" and that got me thinking about the way that combat against mobs (and in general) happens, and I realized that killing mobs inevitably involves little or no variety.  You don't have to figure out -how- to kill them, just how to do damage to them.  And I thought that it'd be nice if there were some This one involves a mobprog.  
+
+mob_prog: resurrect_if_items_on_ground

@@ -1,0 +1,61 @@
+Protein degradation or Free Radicals, Protein Oxidation, and aging, or Oxidized protein accumulation
+
+
+Now, I was going to do my paper and my presentation on Lactose intolerance, but I found that Lactose Intolerance is really boring.  
+Now, you may be thinking “What topic is more interesting than Lactose Intolerance?” and I tell you that it is much more interesting 
+than that.  My topic is protein degradation, or more importantly, protein senescence, since the degradation of proteins themselves, 
+while interesting, are less interesting than the question of how cellular mechanisms deal with the protein degradation, and whether 
+there are pathways that allow for a stepwise process of dealing with degradation.  
+Now, the first step of this is to determine how proteins degrade in the first place, so we do have to deal with this before we can talk 
+about protein senescence, because we have to understand how quickly and what it is that causes proteins to fall apart.  Proteins are 
+very stable molecules, of course, that’s understood, but the question of whether they are also…
+…but regardless of their stability they do eventually fall apart, and another important question that we have to deal with is when a 
+protein falls apart, what do we then have to deal with, because if you have an incomplete protein, for instance it was made up of two 
+subunits, and they were compartmentalized in different areas, and one of the subunits falls off, say, then that would not be simply the 
+making of a broken protein, degrading a protein, as making a new mutant protein.  Even though the subunit would be broken, it could 
+still potentially react with the things around it.  We assume that it won’t react in the same way since it has become incomplete, but 
+reacting in the same way may be worse than just a failed catalysis of a reaction.
+For example, if you have a process whereby a molecule is bound to the active site of a protein and then transferred to another section 
+of the protein in the normal state of affairs.  It is bound to section A, it is modified somehow, and then it is transferred to section B, in 
+the normal course of events.  Now if that section is removed, then the result might be that the substrate would bind to section A and 
+be unable to be transferred to section B.  That effect of an incomplete reaction, a failure of the catalysis, is going to cause much 
+much different results than a new reaction.
+
+The first scenario is a reaction catalyzed by an enzyme.  The second scenario that fails to be catalyzed or does not react, due to a 
+broken enzyme.  A third scenario is that protein has degraded in a way that allows it to react in a new way.  That would be a perilous 
+situation, because it could react in a way that would be bad for the cell.
+
+This would mean that it would be in the cell’s best interest to remove proteins that are broken.
+
+Now in the question of bacterial protein degradation or senescence, we know that it happens on a much faster scale.  Now 
+obviously, the degradation of different proteins will happen at different rates, so it is hard to generalize and say that bacterial proteins 
+degrade faster, but at the same time, the trend is towards bacterial proteins turning over at a faster rate than eukaryotic proteins.
+
+Enzyme turnover is definitely an issue, because a replacement must be made for proteins that are essential to cell functioning.  That is 
+usually done by positive feedback mechanisms, meaning that a low concentration of the enzyme causes the enzyme to be replenished. 
+ So low enzyme concentration triggers the cell to make more of the enzyme.
+
+So really, since we assume that all proteins that easily degrade, yet have a necessary purpose must be replenished, we need to talk 
+about the turnover rate of enzymes.  There are certainly experimental processes out there that are useful for determining how the 
+protein in the absence of a source of replacement, how quickly the protein will degrade.
+
+For example, attachment of radioactively tagged tRNA amino acids to proteins…...
+
+Radioactivity or luminosity are able to show how the protein concentration decreases over time as a result of degradation.  That 
+would account for the breakdown of enzymes because if the tag or the indicator was in the structure of the protein or enzyme itself, 
+then only by the breakdown of that enzyme will we see a loss of the signal.
+
+On the other hand, we can also assume that the lessening of the reactivity of the enzyme in conditions that are perfect for it correlates 
+direction with the breakdown of the proteins themselves, or where it has full forwards stimulus, like ATP to allow the reaction to 
+continue, and sufficient reactants, a removal of products in order to drive the reaction forwards.  There are a lot of factors, but we 
+can set up a situation designed to monitor protein deactivation simply by the mechanism of how the enzyme is reacting to its 
+substrate.
+That is the beginning concept.
+
+What we are really looking to get into is the question of where and how the cellular mechanisms detect broken proteins to monitor the 
+degradation of proteins and replenish them.  A protein is a high-energy molecule, or rather it takes a lot of energy to create it.  For 
+example the bond energy given off by the linking of amino acids is an average of <X> (insert reference from Garrett and Grisham book), 
+which indicates that the proteins that result will be very stable molecules.  Nevertheless,
+
+The idea behind the paper that I want to write should incorporate the presentation as well as a more comprehensive examination of the 
+researching involved, as well as incorporate images from the presentation in the body of the paper itself in the scientific format.

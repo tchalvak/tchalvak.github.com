@@ -1,0 +1,359 @@
+mlist
+[143800] A yellow asp     [143801] A yellow asp     [143817] A snake          
+[143828] A half grown nag [143838] A brown python   [143840] A yellow asp     
+[143849] The Master       
+
+olist
+[143812] An old stone arc [143828] A thick short st [143831] An ancient statu 
+[143837] The head of the  [143848] (no short descri [143849] A nest  
+
+
+
+
+ Name(keywords):asp giant  Short descr:A yellow asp
+Long descr:A giant asp lays coiled here staring at you.
+Vnum:143800  Sex:neutral  Race:yellow asp  Age:2(adult)
+Level:50  Align:Neutral  Group:143800 XP modifier:100
+Class:animal  Speaking:common  Religion:none
+Act:npc homesick
+Assist:race area group species
+Start pos:standing  Default pos:standing  Silver:0
+Training Data:None
+Typing Behavior will let you view and edit its actions.
+AFF[ 0]: Misc custom affect, lvl 0 affecting size by 2 permanently.
+AFF[ 1]: Misc custom affect, lvl 0 affecting size by 1 permanently.
+Description:
+Colored an incredible shade of ochre, this asp is the largest of it's kind
+you have ever seen.  It's thin body is still thick enough to wrap around a
+troll and the length of it is unfathomable by just looking at it.  A low
+hiss escapes its mouth whenever it's forked tongue flickers into the air. It
+keeps it's head raised as it slithers towards you swaying it's head
+hypnotically, it's large snake eyes centered on you.  
+Behavior of Creature 143800(A yellow asp)
+ combat:none                      defensive:none                  
+ movement:none                    aggression:none                 
+ equipment:none                   attacked:none                   
+ disarm:none                      assistance:none                 
+ speech:none                      scavenging:none                 
+ ranged:none                      reactions:none                  
+ arena:none                       aiding:none                     
+ hired:none                       armament:none                   
+ tasks:none                       escape:none                     
+               -=Directional Behaviors=-
+ north_enter:none                 north_leave:none                
+ east_enter:none                  east_leave:none                 
+ south_enter:none                 south_leave:none                
+ west_enter:none                  west_leave:none                 
+ up_enter:none                    up_leave:none                   
+ down_enter:none                  down_leave:none                 
+
+
+ Name(keywords):giant yellow asp  Short descr:A yellow asp
+Long descr:A giant asp lays coiled here staring at you.
+Vnum:143801  Sex:neutral  Race:yellow asp  Age:2(adult)
+Level:50  Align:Neutral  Group: 0 XP modifier:100
+Class:animal  Speaking:common  Religion:none
+Act:npc homesick
+Assist:species
+Start pos:standing  Default pos:standing  Silver:0
+Training Data:None
+Typing Behavior will let you view and edit its actions.
+AFF[ 0]: Misc custom affect, lvl 0 affecting size by 3 permanently.
+Description:
+Behavior of Creature 143801(A yellow asp)
+ combat:none                      defensive:none                  
+ movement:none                    aggression:none                 
+ equipment:none                   attacked:none                   
+ disarm:none                      assistance:none                 
+ speech:none                      scavenging:none                 
+ ranged:none                      reactions:none                  
+ arena:none                       aiding:none                     
+ hired:none                       armament:none                   
+ tasks:none                       escape:none                     
+
+               -=Directional Behaviors=-
+ north_enter:none                 north_leave:none                
+ east_enter:none                  east_leave:none                 
+ south_enter:none                 south_leave:none                
+ west_enter:none                  west_leave:none                 
+ up_enter:none                    up_leave:none                   
+ down_enter:none                  down_leave:none                 
+
+
+ Name(keywords):purple snake  Short descr:A snake
+Long descr:A large purple snake slithers along here.
+Vnum:143817  Sex:neutral  Race:snake  Age:2(adult)
+Level:55  Align:Neutral  Group:143800 XP modifier:100
+Class:rogue  Speaking:common  Religion:none
+Act:npc homesick
+Assist:group species
+Start pos:standing  Default pos:standing  Silver:0
+Training Data:None
+Typing Behavior will let you view and edit its actions.
+AFF[ 0]: Misc custom affect, lvl 0 affecting size by 2 permanently.
+Description:
+A large purple snake slithers along the over ground with little effort
+considering it's size. A long and thick body seems to go on endlessly as it
+moves slowly and rythmically. Purple and blue patterns on the snake's body
+seem to distract any prey it hunts. A pale forked tongue and gleaming yellow
+eyes seem to tell you that the snake might just be hungry.  
+Behavior of Creature 143817(A snake)
+ combat:none                      defensive:none                  
+ movement:none                    aggression:none                 
+ equipment:none                   attacked:none                   
+ disarm:none                      assistance:none                 
+ speech:none                      scavenging:none                 
+ ranged:none                      reactions:none                  
+ arena:none                       aiding:none                     
+ hired:none                       armament:none                   
+ tasks:none                       escape:none                     
+               -=Directional Behaviors=-
+ north_enter:none                 north_leave:none                
+ east_enter:none                  east_leave:none                 
+ south_enter:none                 south_leave:none                
+ west_enter:none                  west_leave:none                 
+ up_enter:none                    up_leave:none                   
+ down_enter:none                  down_leave:none                 
+
+
+ Name(keywords):naga half  Short descr:A half grown naga
+Long descr:A half grown naga grins as it stares it you.
+Vnum:143828  Sex:female  Race:naga  Age:20(teenage)
+Level:65  Align:Neutral  Group:143800 XP modifier:100
+Class:warrior  Speaking:common  Religion:none
+Act:npc subdue homesick
+Assist:race group
+Start pos:standing  Default pos:standing  Silver:300
+Training Data:None
+Typing Behavior will let you view and edit its actions.
+AFF[ 0]: Misc custom affect, lvl 0 affecting size by -1 permanently.
+Description:
+A medium sized naga stands before you, half serpant half woman. The lower
+half is decorated with pink and green patterns in her scales while the upper
+half of her body resembles a young teenage girl with dark red skin and deep
+purple hair that is uncut and hangs down defeated over her head. Long,
+strong arms have dark runes painted onto them and in her right hand a club
+of stone is gripped tightly. Her face is hidden partly because of the hair
+but a malicious grin with dirty razor sharp teeth can be seen as she grins
+at you.  
+Behavior of Creature 143828(A half grown naga)
+ combat:warrior                   defensive:none                  
+ movement:none                    aggression:none                 
+ equipment:none                   attacked:none                   
+ disarm:none                      assistance:none                 
+ speech:none                      scavenging:none                 
+ ranged:none                      reactions:none                  
+ arena:none                       aiding:none                     
+ hired:none                       armament:none                   
+ tasks:none                       escape:none                     
+               -=Directional Behaviors=-
+ north_enter:none                 north_leave:none                
+ east_enter:none                  east_leave:none                 
+ south_enter:none                 south_leave:none                
+ west_enter:none                  west_leave:none                 
+ up_enter:none                    up_leave:none                   
+ down_enter:none                  down_leave:none                 
+
+
+ Name(keywords):large brown python  Short descr:A brown python
+Long descr:A large brown python is here glaring at you.
+Vnum:143838  Sex:neutral  Race:python  Age:2(adult)
+Level:60  Align:Neutral  Group:143800 XP modifier:100
+Class:animal  Speaking:common  Religion:none
+Act:npc homesick
+Assist:group species
+Start pos:standing  Default pos:standing  Silver:0
+Training Data:None
+Typing Behavior will let you view and edit its actions.
+Description:
+A large brown python is here coiled and waiting.  Larger and thicker then
+the other snakes this one has a brown and yellow pattern on it.  Dark
+circular eyes peer out unblinkingly from a large flat head.  Occasionally it
+will open it's mouth to hiss showing off a fearsome row of long curved fangs
+on the upper jaw and the immense mouth is a bottomless pit.  
+Behavior of Creature 143838(A brown python)
+ combat:none                      defensive:none                  
+ movement:none                    aggression:none                 
+ equipment:none                   attacked:none                   
+ disarm:none                      assistance:none                 
+ speech:none                      scavenging:none                 
+ ranged:none                      reactions:none                  
+ arena:none                       aiding:none                     
+ hired:none                       armament:none                   
+ tasks:none                       escape:none                     
+               -=Directional Behaviors=-
+ north_enter:none                 north_leave:none                
+ east_enter:none                  east_leave:none                 
+ south_enter:none                 south_leave:none                
+ west_enter:none                  west_leave:none                 
+ up_enter:none                    up_leave:none                   
+ down_enter:none                  down_leave:none                 
+
+
+ Name(keywords):yellow giant asp  Short descr:A yellow asp
+Long descr:A giant asp lays coiled here staring at you.
+Vnum:143840  Sex:neutral  Race:yellow asp  Age:2(adult)
+Level:50  Align:Neutral  Group: 0 XP modifier:100
+Class:animal  Speaking:common  Religion:none
+Act:npc homesick
+Assist:species
+Start pos:standing  Default pos:standing  Silver:0
+Training Data:None
+Typing Behavior will let you view and edit its actions.
+AFF[ 0]: Misc custom affect, lvl 0 affecting size by 3 permanently.
+Description:
+Behavior of Creature 143840(A yellow asp)
+ combat:none                      defensive:none                  
+ movement:none                    aggression:none                 
+ equipment:none                   attacked:none                   
+ disarm:none                      assistance:none                 
+ speech:none                      scavenging:none                 
+ ranged:none                      reactions:none                  
+ arena:none                       aiding:none                     
+ hired:none                       armament:none                   
+ tasks:none                       escape:none                     
+               -=Directional Behaviors=-
+ north_enter:none                 north_leave:none                
+ east_enter:none                  east_leave:none                 
+ south_enter:none                 south_leave:none                
+ west_enter:none                  west_leave:none                 
+ up_enter:none                    up_leave:none                   
+ down_enter:none                  down_leave:none                 
+
+
+ Name(keywords):roc master  Short descr:The Master
+Long descr:The Master of the mountain is here.
+Vnum:143849  Sex:male  Race:roc  Age:50(ancient)
+Level:70  Align:Neutral  Group:143800 XP modifier:100
+Class:gladiator  Speaking:common  Religion:none
+Act:npc sentinel homesick
+Assist:group
+Start pos:standing  Default pos:standing  Silver:0
+Training Data:None
+Typing Behavior will let you view and edit its actions.
+Description:
+A tall, majestic and powerful looking bird is here.  A strong chest is
+thrust out proudly as he struts about in its nest.  Large claws each have a
+sinister edge to them looking as if they are capable of tearing a large
+beast into shreds effortlessly.  A feathered head holds itself up proudly as
+it snaps it's long curved beak into the air.  In it's eyes you can see a
+wisdom in them that could only be bestowed by nature.  However it is now
+staring at you, the intruder, with a hungry gleam.  
+Behavior of Creature 143849(The Master)
+ combat:gladiator                 defensive:none                  
+ movement:none                    aggression:attack_all           
+ equipment:none                   attacked:none                   
+ disarm:none                      assistance:none                 
+ speech:none                      scavenging:none                 
+ ranged:none                      reactions:none                  
+ arena:none                       aiding:none                     
+ hired:none                       armament:none                   
+ tasks:none                       escape:none                     
+               -=Directional Behaviors=-
+ north_enter:none                 north_leave:none                
+ east_enter:none                  east_leave:none                 
+ south_enter:none                 south_leave:none                
+ west_enter:none                  west_leave:none                 
+ up_enter:none                    up_leave:none                   
+ down_enter:none                  down_leave:none                 
+Default fighting style:kick boxing
+
+
+ Keywords(name):stone arch  Short desc: an old stone arch is here.
+Long desc: A naturally formed stone arch stands here weathered down by time and nature.
+Vnum:143812  Type:trash  Level:  101  Wear flags:none 
+Material:stone  Extra flags:none/none
+Size:giant  Fitted:Any species  Enchantment level:0
+Condition:25  Weight: 5000  Cost: 0  Quality: average
+Furniture Flags:none
+Max size:Unlimited  Max weight:Unlimited  heal rate:100%  mana rate:100%
+Temperature modifier:0
+Weapon Catagory:exotic  Damtype:hit
+Weapon Flags:none
+Fullness:0  Hunger:0  Status:uncookable  Effect level:0
+Effect1:none  Effect2:none  Effect3:none
+Liquid type:water  Capacity:0  Current:0  Flags:none
+ 
+
+Keywords(name):short thick stone maul  Short desc: a thick short stone maul
+Long desc: A short thick stone maul, battered from use.
+Vnum:143828  Type:mace  Level:   65  
+Material:stone  Extra flags:none/none
+Size:medium  Fitted:Any species  Enchantment level:150
+Condition:100  Weight: Auto  Cost: 1500  Quality: average
+Furniture Flags:none
+Max size:Unlimited  Max weight:Unlimited  heal rate:100%  mana rate:100%
+Temperature modifier:0
+Weapon Catagory:mace  Damtype:crush
+Weapon Flags:frost impact
+Fullness:0  Hunger:0  Status:uncookable  Effect level:0
+Effect1:none  Effect2:none  Effect3:none
+Liquid type:water  Capacity:0  Current:0  Flags:none
+
+
+ Keywords(name):ancient statue  Short desc: an ancient statue
+Long desc: An ancient statue is here, destroyed beyond recognization.
+Vnum:143831  Type:trash  Level:  101  Wear flags:none 
+Material:stone  Extra flags:none/none
+Size:immense  Fitted:Any species  Enchantment level:0
+Condition:10  Weight: 10000  Cost: 0  Quality: average
+Furniture Flags:none
+Max size:Unlimited  Max weight:Unlimited  heal rate:100%  mana rate:100%
+Temperature modifier:0
+Weapon Catagory:exotic  Damtype:hit
+Weapon Flags:none
+Fullness:0  Hunger:0  Status:uncookable  Effect level:0
+Effect1:none  Effect2:none  Effect3:none
+Liquid type:water  Capacity:0  Current:0  Flags:none
+
+
+ Keywords(name):head statue ancient  Short desc: the head of the statue
+Long desc: The head of the ancient statue pokes up over the ledge.
+Vnum:143837  Type:trash  Level:  101  Wear flags:none 
+Material:stone  Extra flags:none/none
+Size:immense  Fitted:Any species  Enchantment level:0
+Condition:10  Weight: 1000  Cost: 0  Quality: average
+Furniture Flags:none
+Max size:Unlimited  Max weight:Unlimited  heal rate:100%  mana rate:100%
+Temperature modifier:0
+Weapon Catagory:exotic  Damtype:hit
+Weapon Flags:none
+Fullness:0  Hunger:0  Status:uncookable  Effect level:0
+Effect1:none  Effect2:none  Effect3:none
+Liquid type:water  Capacity:0  Current:0  Flags:none
+
+
+ Keywords(name):no name  Short desc: (no short description)
+Long desc: (no description)
+Vnum:143848  Type:trash  Level:  101  Wear flags:none 
+Material:yeti fur  Extra flags:none/none
+Size:tiny  Fitted:Any species  Enchantment level:0
+Condition:100  Weight: 0  Cost: 0  Quality: average
+Furniture Flags:none
+Max size:Unlimited  Max weight:Unlimited  heal rate:100%  mana rate:100%
+Temperature modifier:0
+Weapon Catagory:exotic  Damtype:hit
+Weapon Flags:none
+Fullness:0  Hunger:0  Status:uncookable  Effect level:0
+Effect1:none  Effect2:none  Effect3:none
+Liquid type:water  Capacity:0  Current:0  Flags:none
+
+
+ Keywords(name):nest bone wood  Short desc: a nest
+Long desc: A large nest made of bones and wood rests here.
+Vnum:143849  Type:hole  Level:  101  Wear flags:none 
+Material:wood  Extra flags:none/none
+Size:giant  Fitted:Any species  Enchantment level:0
+Condition:100  Weight: Auto  Cost: 0  Quality: average
+Furniture Flags:none
+Max size:Unlimited  Max weight:Unlimited  heal rate:100%  mana rate:100%
+Temperature modifier:0
+Container type: standard  Capacity: 1000.0lbs  Max items: 5  
+Mult: 100%  Key: 0  Largest: 0.0lbs  Flags: none  
+Message: drop  Difi: 0  Mx Size: none  
+Weapon Catagory:exotic  Damtype:hit
+Weapon Flags:none
+Fullness:0  Hunger:0  Status:uncookable  Effect level:0
+Effect1:none  Effect2:none  Effect3:none
+Liquid type:water  Capacity:0  Current:0  Flags:none
+ 

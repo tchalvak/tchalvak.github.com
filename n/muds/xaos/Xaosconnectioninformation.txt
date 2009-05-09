@@ -1,0 +1,30 @@
+http://www.arin.net/cgi-bin/whois.pl
+
+Rogers@Home Ontario (NETBLK-ROGERS-1-BLOCK) ROGERS-1-BLOCK
+						   24.112.0.0 - 24.112.255.255
+Rogers@Home (NETBLK-ON-ROG-RCMD-3) ON-ROG-RCMD-3 24.112.132.0 - 24.112.133.255
+
+telnet://24.112.132.197
+telnet://24.112.132.196
+telnet://24.112.132.198
+telnet://24.112.132.195
+telnet://24.112.132.199
+telnet://24.112.132.200
+telnet://24.112.132.194
+
+Displays
+<%@LANGUAGE=PerlScript%>
+<html>
+<body>
+
+<%
+  $Response->write( 
+    sprintf( "IP address = %s", 
+      $Request->ServerVariables( 
+        "REMOTE_ADDR" )->item ) );
+%>
+
+</body>
+</html>
+
+ 

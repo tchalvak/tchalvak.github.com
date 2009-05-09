@@ -1,0 +1,25 @@
+pushedupon@yourthroat.net
+Subject: In Awe...
+
+Well, I was just doing a (relatively speaking) exhaustive search of the pages that are displayed as personal student homepages on the web, and I haven't found anything close to as excellent a site as yours is, so I figured that I should appeal to you for any tips that you might want to give out.  Not that I really can't sum up all of the problems with my site just by asking myself: "Does my site contain more than one image?  Is my site visually pleasing?" and getting the two negative answers in return.
+
+By the way, who -did- you murder to get that hosting site?  I'm envious.  *gkkk*  Of course, that describes my emotion about the rest of your site as well...  Which reminds me... Do you use a editor?
+
+Anyway, in addition to any general critique, help or suggestion that you might have for me about nxs.vze.com, I was wondering if you'd have any suggestion as to how I can work around the following problem:
+
+Background:
+nxs.vze.com is simply my redirection site, and I keep it for the following three reasons.  First, the true location of the host that I use is the address www.geocities.com/nexusscathe, and that is certainly unappealing actetically compared to nxs.vze.com, which I like.  The second reason is that the address masking provided by shorturl.com, the redirection host, kills the geocities ads with only the most minor of side effects, and though sometimes an add slips through as a seperate window, that is infinitely preferrable to the normal geocities setup.  The final reason is that having a redirection site allows me to change site locations without relying upon the previous sites that I had to redirect me, I can just change where nxs.vze.com points to.
+
+Primordial wish:
+Having looked at your site, one of my most heartfelt wishes was shown to me in the form of a window, and that is the uncluttered and actually pleasing chromeless window that starts out your site.  My goal for the purpose of the site is to have a base-of-operations, so to speak, from which to launch all of my online endeavors, from browsing to taking over the world, and this includes having an astetically pleasing interface.
+Therefore, my long-term plan for the format is to have a site that when I access it, opens into a nochrome, non-square window, preferrably circular, housing an eventual circular flash-based navigation format that I will make, but then, chromeless circular windows do not seem to be in evidence at present, while chromeless square windows do, thus my newest goal is to set myself up with one of those instead.  I dislike too much excess, i.e. the internet explorer window, with it's buttons and ugliness.
+
+Problem:
+However, there's a snag in this plan, and that snag is that I do not know how to have them subsist at once, both the redirection address-masking that destroys the geocities ads on my site, and the direction of anyone entering my site in a new, chromeless window.  *shrugs*
+
+Of course, this is certainly a matter for after those annoying finals that everyone keeps telling me about.  Perhaps, though, sometime this summer you could give any suggestions that you might be willing to make.
+
+Love,
+Ro.
+
+p.s.  After having gone through all of the student sites on geneseo, as well as all of the faculty sites on there, and looking for diamonds in the rough, I've found only a very few of any use to me, and an approximate sum of 4 good websites in the student sections, though this is just from quick perusal, and from the teacher's section I saw that whoever set up the majority of those sites, or helped the teachers set them up, knows the important fact:  that less is more when it comes to the web.

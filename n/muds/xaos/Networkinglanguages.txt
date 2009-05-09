@@ -1,0 +1,63 @@
+ Alright, here is the way that I see it. Imagine that you are a draconian
+who only speaks draconian.  You are listening to a slaan [you know, the
+lizard men who are soon to be] next to you speak. Now, you still have no
+idea whatsoever what that slaan is saying when it speaks, but you know that
+-mode- of language quite a bit better than the human sitting next to you. 
+Now, suppose that an elf was speaking next to a human and a draconian, each
+of whom only know their 'own' language.  The draconian would be way out of
+it's depth, while the human would at least understand the concept of words
+[though since they are precisely pitched and modulated -elven- words, they
+are still mostly inconprehensible] as opposed the hissing tones or cadences
+and things like that that the draconian would be better able to understand. 
+  What I'm proposing here is language groups.  Say, for example, elvish,
+dwarvish, gnomish, and common all in one group, with slaan and draconian in
+another, hive and protoss in another, and the remaining languages all on
+their own.  If you only knew, say, ancient, then you would get something
+like "Bob makes some low, rasping noises. "" for the dwarvish language, "Bob
+makes a terse snarling sound. " for the draconian language. However, if you
+knew elvish and slaan, it would appear to you as "Bob rasps ";lkd fsdre
+ewsdfkjl slk dj. " and "Bob snarls "as dkj dkljjsd sdkf lkwe. " And, of
+course, if you knew dwarvish and draconic, they would then appear to you as
+"Bob rasps "The large and voracious dragons are coming.  " and "Bob snarls
+"Suppertime. " Accompanying these groupings would be language skills e.  g. 
+  snarlhiss or something like that for the slaan/draconian group and speech
+for the elvish/etc.  group, that would have to be learned prior to even
+being able to learn from a language group. Thus, if a char knew slaan, they
+would have to buy the ability to speak like humans/elves/etc. which would
+allow them to see "Bob rasps "skjja skj a kjs" and then they would have to
+next buy the language dwarven to see "Bob rasps "My legs are on fire. " the
+same would apply to all of the rest of the groupings. The languageskills
+would, of course, have varying costs according to the difficulty of learning
+them, so snarlhiss would perhaps be 3 while speech would be two. I also
+propose that some of the languages themselves be more costly than at
+present, like elvish being two, meaning that a human learning elvish would
+be 2 trains, while a draconian learning elvish [almost an oxymoron] would
+cost 2 for the langgroup and another two for the language itself. Now,
+finally, we have reached the good part, the why.  All along you may have
+short-sightedly been saying to yourself "Why the hell would we go to the
+trouble? " but I'm going to prove to you that this action would be a good
+move. We want Roleplaying to happen, 'cause roleplaying is fun, enticing,
+and immersing, right? Well, how does one go about roleplaying on a mud?
+Essentially, one either speaks, emotes, attacks/fights, or uses a specific
+command. So how does one see roleplaying happen?  Essentially, one either
+sees an action or hears someone speak.  Classes are roleplayed by actions,
+but a troll bash shows up the same as a dragon bash, so actions are limited
+in that way.   Speech, however, should not be. If a char doesn't understand
+a language, then he's going to notice, you can be sure, the race or class or
+whatever of the speaker a bit more. Unless the languages are treated as
+different, this opportunity is lost, people take it for granted that their
+human can understand the ancient draconic lich just fine, it's not like he's
+a dragon or undead or anything, right?  I mean, I know that his race thing
+says [ancient black dragon lich] but perhaps he's just lying.  I'd have to
+actually look at his desc to be sure.  However, speech is not something that
+you have to actively do, so it would pull people into roleplaying instead of
+just giving them t he option of roleplaying.  So you say "Hah, but all of
+the languages alltogether only cost 10 trains, that's easy to get 'em all,
+and then we'll all be bland humans again, all "Bob says" and "Bob yells".
+And that, my friends, is why the price for languages has to be upped. The
+additional advantage that this will give?  If you buy something for 4 four
+trains, you want your money's worth, so you'll be more likely to use it.  If
+you don't want to spend that exorbitant four trains, then all the better,
+just spend two and partially understand multiple languages, or don't and
+roleplay only knowing your own language.  Either way, the potential for more
+roleplaying has just been upped a few decibels.  

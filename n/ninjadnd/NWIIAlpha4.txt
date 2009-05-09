@@ -1,0 +1,224 @@
+
+------------------4th Revision-------------------------------
+
+                                              I. Intro
+--A. Developer objectives
+NinjaWars 2 is to be a BBG that takes about 20 to 45 minutes per day to play. Gameplay will focus on PvP with the goal of achieving the most recognition. Players will play the role of a Ninja of a specific type with unique powers and use their turns to engage in activities to help them advance, like combat.  Keeping true to the minimalist, yet exotic feel of the Ninja is of utmost importance. Multiple classes, skills, and items will provide for customizable characters.  Development of a storyline will provide for something to think about beyond the mechanics.
+
+                                             II. Gameplay
+--A. Data, definitions, objects
+
+-Player Structure:
+Account Name - Unique, different from Ninja name for security purposes
+Email Address - Unique
+IPs - Unique with exceptions, flagged when duplicated.
+Name - Unique, must adhere to naming standard.
+Nickname - For use when communicating with players.
+Password - Flagged when duplicated?
+Type - Admin, Developer, Moderator, Player
+Access - Normal, Flagged, Restricted, Banned, Observer
+Logins - number of successful logins
+ - number of failed login attempts
+Last Login - Date of last successful login
+Created - Date account was created
+Question and Answer - Security question and secret answer for password retrieval, flagged when duplicated
+
+
+-Ninja Data:
+Name - Unique, must adhere to naming standard.
+Ninja Class (Element/Color) - Determines base stat setup
+Ninja Subclass (Animal) - Determines an initial unique set of abilities.
+Created - Date Ninja was created.
+Player - The player who controls this Ninja.
+Sex - Male/Female
+Strength - Determines amount of damage in melee combat, and str. action points.
+Speed - Compared to opponent's speed to determine reaction time, number of attacks per round of combat, and speed action points.
+Stealth - Determines chance of avoiding an attacker's enchantments and skills, of detection while attacking an enemy clan, and stealth action points.
+Ninja Level - Determined by experience points, provides access to certain level-restricted features and used in newbie protection.
+Ninja Rank - Statuses standing for ranks of levels.
+Skill Points - Determined by level, the total amount of points a player has put towards their skills.
+Status - Alive, Hiding, or Dead.
+Honor - Quantifies the value of the accomplishments of the Ninja.
+Bounty - Reward for other Ninja to kill this Ninja.
+Gold - The in-game currency used to purchase items and services.
+Health/Health Max - Amount of damage a Ninja can sustain before death, shown as a percent.
+Turns/Turns Max - The amount of actions a Ninja may take. Each action costs turns.
+Experience/Experience Total - Gained through gameplay and used to raise skillpoints and stats. Some experience is lost upon death.
+Weapon - An item that modifies a Ninja's offensive combat ability.
+Armor - An item that modifies a Ninja's defensive ability.
+Inventory - The total amount of items the Ninja currently possesses. Limited space dependent on level.
+Combat Skills- Combat skills are used through the tactics interface.
+Activated Skills- Activated skills are manually used outside of combat.
+Passive Skills- Passive skills are always in effect, altering the Ninja in some way.
+Available Tactics- Available tactics are determined by a Ninja's skills, bought with skillpoints.
+Active Tactics- The active tactic is the one a Ninja will use the next time they enter combat, either actively or passively.
+Clan - The clan to which a Ninja belongs, or no clan.
+Description - A description of a Ninja created by the player.
+Avatar - An image representing a Ninja.
+Effects - A list of special states a Ninja, usually caused by enchantment skills.
+Location - The current location of a Ninja.
+
+
+-Clan Data:
+Clan Name - Name of the clan.
+Clan Warlord - Present Leader of the Clan.
+Clan Master Ninja - The next five ninja in line for the leadership if the leader goes absent.
+Clan Strength - Total of all active members' levels, tallied at the end of each day.
+Clan Honor - total of all active members' honor, tallied at the end of each day.
+Clan Gold - Gold in the clan's bank, donated by members or spoils of war.
+Clan Inventory - Items being held by the clan for its members.
+Clan Tactics - Set of instructions used for defending the clan and for when a clan attacks an enemy clan.
+Clan Enemy - An enemy ninja or clan.
+
+-Town Data:  (For 6 towns)
+Items in stock-
+Quests-
+Clan Halls attached-
+Ninja Present-
+
+Clanhall Data:
+Ninja Present-
+Items-
+Gold-
+Guards- NPC Ninja presently guarding for the Clan.
+Ninja Guard Strength- Combined levels of members presently guarding for clan.
+
+
+--B. Player Manifesto
+
+-Objective:
+Use Superior Tactics and Devotion to become the Warlord of your clan and make war upon all who would challenge your clan's supremacy or your honor.
+-Motivations:
+Rankings: Level, Honor, clan rank, clan's rank, clan's strength, clan's honor, class level, class honor
+Neat skills
+Neat Quests
+Killing Enemies
+Leadership possibility of being highly ranked in a clan
+Reward possibility of being highly ranked on the lists
+Break into Clan Halls
+
+--C. Player Actions
+
+-Character Creation:
+-Combat:
+-Communication:
+-Tactics:
+-Clans:
+-Travel:
+
+                                      III. Content
+
+--A. Backstory
+
+-History: 
+Magic
+Emperor
+Warlords and Assassin Clans
+The Barbarian Hordes
+City Histories
+
+-Methods for player contribution towards the story: (storytelling contests? voting? in game prizes for winning? Reward for being top ranked honor is being able to add to the Ninja History/story each month or the like?  Different reward again for being top ranked killer, maybe items?)
+
+--B. Gameplay content (quests, items, locations, etc)
+
+-Quest types: (insert categories of quests here)
+-item types: (insert categories here)
+-Towns: Draw better names from ancient japan.  Perhaps five elements?
+Capitol -
+Tajo Village -
+Meto Village -
+Biho Village -
+Jano Village -
+Wilderness -
+-Locations: (Sometimes options will be unavailable)
+Combat - Find Ninja in the Area to fight.
+Doshin Office - View wanted List, hire protection, or report lawbreakers (alliance or enemy breakers).
+Dojo - View skills and stats or Study under the village's dojo master.
+Shop - buy Items, weapons, equipment
+Shrine - Healing and Temporary Lodging
+Work - Fields (minor pay) or Guarding for a Warlord (Major pay,longer time frame, some danger)
+Dice Hall - Gambling, Rumors, Quests, and Messages
+Clan - View your clans, or interact with clan halls at your location.
+
+                                     IV. Interface
+
+--A. Gameplay element implementation
+-Primary Page:
+Attack Menu-
+Recently-attacked-by list-
+Village-
+Stats-
+Inventory-
+Main Menu -
+Recent News-
+Cycling Chat List (by entry number, not day)-
+
+--B. Graphic Representations Needed:
+Five elements
+Animals
+Five Towns
+Pentagonal Designs to fit theme
+Building Pictures
+
+--C. Music
+Section for links to ninja music.
+Music Suggestion Methods.
+Player voting on ninja music.
+Ninja Music Favorites List.
+
+                              V. Feedback
+-A. Statistics
+Element and animal choices. (weekly, monthly)
+Skill choices (weekly, monthly)
+Items bought (weekly)
+Top Levelling Rates (daily, weekly, monthly)
+Top Income Rates (daily, weekly, monthly)
+
+-B. Directed
+Major Rewards (gold) for first person to report an abusable bug.
+Medium Rewards (gold) for broken links and other non-volatile bugs.
+Lesser Rewards (gold) for typo reports.
+
+Rewards for quest suggestions that get used.
+Rewards for stories that get used.  (maybe voting structure)
+
+                              V. Income Structure
+-A.  Types
+Energy
+Health
+Gold
+Items
+Honor
+Experience
+
+-B.  Sources
+-Energy: Time, static (two day) cap.
+-Health: Time, Gold, has dynamic cap based on health stat.
+-Gold: Work, Kills, Wins, Quests.
+-Items: Gold, kills, wins, quests.
+-Honor: Quests, Kills, Wins.
+-Experience: Wins, Kills, Quests.
+
+
+
+-C.  Uses
+-Energy: Travel, Combat, Quests.
+-Health: Combat, Quests.
+-Gold: Items, Healing.
+-Items: Combat, Quests, Health.
+-Honor: Clan Ranking, Overall Ranking.
+-Experience: Skills, Stats.
+
+                              VI. Appendix
+
+--A. Example play session(s)
+
+
+
+--B. End Notes
+Rename "honor" into "renown" or even "infamy"?
+Characters more unique as a result of: the five japanese elements (color and base stats), an animal(unique skill set) and rank (based on level).
+For example:  <Novice> <Fire> <Dragon> Ninja or <Master> <Void> <Tiger> Ninja
+ A link on those elements: http://www.geocities.com/fascin8or/jsp_godai.htm
+
+Not sure if that was what you guys meant by income.  Did whoever came up with it mean "fundraising" or "in-game income"?

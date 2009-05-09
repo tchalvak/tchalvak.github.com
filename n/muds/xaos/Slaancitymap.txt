@@ -1,0 +1,16 @@
+                     (impassable cliff/mountain/whatever) 
+                       |------------------| 
+                       |                  |                    /Temple| 
+ Swamps-Fens---------- |                  /-------Ziligos-----/        
+                  \-----Citadel------------/                           
+                                           |----Mycanoids              
+                                                      \Undeaddrow
+                                                                |
+								|
+								|
+								|
+								\Exit from Tunnels into Vondonni Jungle.
+
+
+
+Everything below the level of the citadel is underwater.

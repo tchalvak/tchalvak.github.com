@@ -1,0 +1,79 @@
+^RIntro:^^
+Having too many multiple starting locations is causing us major problems.
+ 
+^RLook at the facts: ^^
+ 
+Newbies enter the mud, find themselves isolated in a place far from other players, not knowing how to get to where they -can- contact other players, with their only change for salvation the possibility of either one, that a player takes them under their wing over one of the global channels [Considering the prevalence of HCRP, the ooc channel is almost obsolete as a way for newbies to get help from mortals, which makes newbie abuse of the IC channel even more prevalent] -and- takes the time to go out and get them or gives them directions, which the newbie may or may not understand, or two, an immortal attempts to help keep xaos' playerbase going up and helps out the newbie in some manner.  Either way may not work to keep the newbie entranced with xaos, and I am willing to bet that this is part of the reason that we lose so many newbies.
+ 
+Veteran players invariably just proceed immediately [or level up a scant few levels first] to Visari and use it as their base of operations.  And who can blame them?  Everyone is at Visari, and everything is there as well, "all roads lead to Visari" so to speak.
+ 
+^RWhat this means:^^
+ 
+Multiple starting locations are becoming more and more counterproductive the more of them that we make.  All that building, coding, creation of mobiles, areas, quests, objects, and rooms going to waste, not to mention the resources that these areas/things take up when they are there with no-one using them. Higher level players have no use for the low level stuff that exists at these starting locations, so they tend not to explore these starting locations. 
+We have well over 15 starting locations, which means more than 15 newbie 
+helping sets:  trainer, practice golems, food store, basic equipment 
+stores, etc, etc, etc.  A simple "vnum torch" command brings up 9 
+duplicate vnums for the same torches that can be bought in visari, which 
+only a newbie would want, since almost all higher level characters use 
+the other light sources out there [You can't dual wield with a torch in your hand].
+
+^RWhat I propose:^^
+ 
+Part one:
+Newbie school acts as a "the murky beginnings" of a characters life, the time when he/she is playing doctor with neighborhood girls, torturing small animals, being born, you know, the years before the character becomes an "adventurer".  Perhaps newbie school becomes mandatory for any new profiles, now that we have that code, and newbie school should made -much- better, from descriptions to scope to ic content.  
+I know that newbie school is an ooc area, so it seems that the effort made in descriptions, etc, can be slacked off on, but it's actually the opposite.  Newbie school is not for the veteran players but for newbies, and if you're new to a mud and you see an area with minimalist descriptions and a completely ooc setup that doesn't give you the idea that the mud you just entered really is a -roleplaying- mud [it is, right?], then newbie school could be driving away some of our prospective playerbase.
+ 
+Part Two:
+Obviously, having one common starting location after the newbie school is not the solution, as it would simply make no sense whatsoever.  For that reason, I propose that there be three "common" starting areas and a very select few races that have their own seperate starting locations and cannot start in these areas.
+These locations would be set up in an approximately triangular formation across the continent.  Not excessively far from each-other, but far enough to be distinct.  These common starting locations would be inter-racial towns, not a human town, elven town, etc, but "city-states" of a sort, controlled by the iron fists of a military council, who obliterate trouble-makers in the city.
+For example, humans would have the option of starting at any of the three "common" starting locations, While elves would be able to start at the north-western-most and the southern, dwarves at the north-eastern, etc, etc, continuing with the races as makes sense.  Some of the most isolated and "xenophobic" races would still have their own starting locations, but this would be noted on the creation menu:
+ 
+ 
+Xaos has the following races available:
+(More races will appear as development contines)
+    human             gnome             centaur
+   ^R*^^giant             dwarf             kender
+    minotaur         [avariel]         [troll]
+   [goblin]          [pixie]
+ 
+Typing:  Help <race> will give more information on these races.
+^R*^^ Asterix indicate species with sub-races to choose from.
+[Races in [brackets] are not recommended for players new to 
+xaos due to their isolated starting locations.]
+ 
+What will be your race?
+ 
+ 
+^RAdvantages:^^
+ 
+Newbie-Friendly.  Playerbase helper.
+Mudschool becomes useful.
+Quests would be able to be consolidated in a few places, thus a few quests would add a whole lot of npc-interaction with newbies.
+Lessening of the duplication of resources.
+Movement of the focus off of Visari.
+Less "50 non-human characters, no human characters" in a supposedly human-dominated town.
+More characters lumped together from the start,
+thus more character interaction.
+ 
+ 
+^RDisadvantages:^^
+Characters would not start out in a purely one race town, therefore might have a tendency to play different races as if they were the same.  If we manage to make the three starting locations right, though, and drill into their brains the fact that the different races really are different, then it shouldn't be a problem.  [Besides which, in the human-only town, it seems to be the tendency to play as if all races were were human and players tend to forget to roleplay their character in a manner that makes it obvious what race they are.  Players watching other players roleplay mostly like humans tend to do the same, making a viscious circle.
+ 
+Building the three areas will take work/effort/time, of course.  However, if their creation is done peicemeal as opposed to in one chunk, it will work out better.  Certainly multiple immortals should be involved in the project, and whenever the parts are done they could be put online so that players can investigate them and they can be changed if they don't quite fit, then once all of the peices of the area are done they can become the actual starting locations.
+ 
+^RBuilding the Three Common Starting Locations:^^
+ 
+I personally believe that it's a mistake to have only one builder building an area.  If only one person is working on it, then whenever 
+they hit an obstacle, mental block, whatever, then their building is done until they can overcome it, and often other imms who aren't building onto it are often little help [I speak from experience in this, both as being powerless to give useful help in building and to get the kind of help to start me back up again].  The bigger the area, the more this is the case.
+With newbie builders, it's even harder, so assigning a more experienced builder to aid the newbie in the area's construction and doing OLC in general might help us keep the numerous newbie builders that we've cycled through.  If not, at very least it's possible that the area could still be finished.
+The problem with having multiple builders is their potential to butt heads.  Then again, which is better, having two builders contest to make the area better as they see it, or having one builder lose interest in building the area and not get it completed.
+Perhaps a way that manages better to address this is having two builders for each area, but having one be the "main" builder, while the other is more of the "reviewer/helper", i.e. Bob is building an area which Nsaris also has access to, but Bob is the main builder, while Nsaris is more of the person to bounce ideas and such off of.  Meanwhile, in Nsaris' area, Nsaris is the main builder, while Bob acts more as the watcher.
+Sort of a Checks-and-Balances system could be set up, in this way.
+ 
+In addition, I don't think that having multiple builders work on a project at the same time has really even ever been done to any great extent, so it's hardly sensible to say that it can't work if it's never been tried.  If it doesn't work, then the old system can be reverted to.  If it does work, then it would presumably be a huge advantage in the building process.
+ 
+^REnding-Note:^^
+ 
+If the rest of the admin agrees, I'll eventually post this note to all to get the general masses response to it.  I figured that I'd keep it as an imm thing for the moment.
+ 
+P.S. Vheruuka asked me what I was writing, which is why I included the character in the to: part of the post.  *shrugs*

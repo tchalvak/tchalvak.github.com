@@ -1,0 +1,204 @@
+Combat: 
+k bubble
+c minor;c searing;c acid;c energy;c blind;c soften;c slow;c ice;c poison;c weaken;c fear;c web;c confusion;c deafen;c colour;c ghoulish;c nightmares;c hallu
+
+mir
+
+k bubble
+c charm
+c sleep
+c calm
+
+c sonic boom;c chain;c fireball
+
+
+
+searing orb[at level 100]
+starburst[at level 500]
+
+
+Enhancement:
+cast 'cloak'
+cast globe
+cast stone
+cast blur
+c mislead
+cast haste
+cast endurance
+
+
+cast 'permanency' [possible permanency point]
+cast invinci
+cast giant
+cast 'magic armor'
+cast 'life to mana'
+cast dark
+cast pass
+cast 'detect invis'
+cast reveal
+cast phase
+c stature
+c 'mask align'
+c 'pose strength'
+c 'pose age'
+cast fly
+
+Summoning:
+mir
+shadow
+c continual
+c 'create food'
+c 'create spring'
+
+Transport:
+c blink
+c tele
+shift
+c gate
+c anchor gate
+
+Miscellaneous:
+lcp <entity>
+c ventrilo
+c imper <entity>
+c prismatic <direction>
+c float
+c cancel
+c levitate
+
+Enchantment:
+c ward <object>
+c 'encase fibers'
+
+
+Level   Name                Skill Mana  Casting      Categories
+Lvl 1  :magic missile       advanced   15      oral   invocation
+        ventriloquate       skilled    5    mental   illusion
+Lvl 2  :create rabbit       advanced    7    mental   conjuration
+        detect magic        skilled    5      oral   divination
+Lvl 3  :detect invis        master     5      oral   divination
+Lvl 4  :chill touch         skilled   15      oral   alteration
+        floating disc       skilled   40      oral   conjuration
+Lvl 5  :invisibility        advanced    5      oral   illusion
+Lvl 6  :continual light     advanced    7      oral   conjuration
+        faerie fire         skilled    5      oral   alteration
+        ring of shielding   advanced   40   gesture   conjuration
+Lvl 7  :magic armor         advanced    5   gesture   abjuration
+        burning hands       advanced   15      oral   alteration
+Lvl 8  :refresh             master    12      oral   invocation
+Lvl 9  :mana charge         skilled  150      oral   enchantment
+        infravision         skilled    5      oral   alteration
+        locate object       master    20      oral   divination
+Lvl 10 :create food         skilled    5      oral   conjuration
+        fly                 master    10      oral   alteration
+        shocking grasp      skilled   15      oral   invocation
+        sleep               master    15      oral   beguilery
+Lvl 11 :detect evil         skilled    5      oral   divination
+        detect good         skilled    5      oral   divination
+        giant strength      advanced   20      oral   alteration
+        weaken              advanced   20      oral   alteration maladictive
+Lvl 12 :blindness           master     5      oral   alteration maladictive
+        know alignment      skilled    9      oral   divination
+Lvl 13 :fireproof           skilled   10      oral   enchantment
+        lightning bolt      skilled   15      oral   invocation
+Lvl 14 :create spring       advanced   20      oral   conjuration
+        faerie fog          skilled   12      oral   alteration
+        farsight            skilled   36      oral   divination
+Lvl 15 :control weather     skilled   85      oral   alteration
+        detect poison       skilled    5      oral   divination
+        identify            master    12      oral   divination
+        starve spring       skilled   15    mental   necromantic enchantment
+Lvl 16 :colour spray        master    35      oral   invocation
+
+
+        create rose         skilled   30      oral   conjuration
+        dispel magic        master    15      oral   invocation
+        enchant armor       skilled  100      oral   enchantment
+Lvl 17 :guardian            skilled   45      oral   conjuration
+        poison              advanced   10      oral   maladictive
+Lvl 18 :cancellation        master    20   gesture   abjuration
+        enchant accuracy    skilled  170      oral   enchantment
+Lvl 19 :energy drain        master    35      oral   necromantic maladictive
+        recharge            skilled   60      oral   enchantment
+Lvl 20 :charm person        advanced   15      oral   beguilery
+        magic shield        master    12      oral   abjuration
+Lvl 21 :haste               advanced   30      oral   alteration
+        replenishment       skilled   60   gesture   enchantment
+Lvl 22 :fireball            advanced   15      oral   invocation
+        mass invis          skilled   20      oral   illusion
+Lvl 23 :locate person       master     5      oral   divination
+        slow                advanced   30      oral   alteration
+Lvl 24 :empower staff       skilled  250      oral   enchantment
+        pass door           advanced   20      oral   alteration
+Lvl 25 :stone skin          master    12      oral   abjuration
+        teleport            master    35      oral   alteration
+Lvl 26 :call lightning      skilled   15      oral   invocation
+        minor malison       master    25      oral   alteration
+Lvl 27 :enchant damage      skilled  100      oral   enchantment
+        gate                master    80      oral   conjuration
+Lvl 28 :acid blast          master    20      oral   invocation
+Lvl 29 :knock               skilled   25   gesture   enchantment
+        pose old            skilled    5      oral   illusion
+        pose youth          skilled    5      oral   illusion
+Lvl 30 :common cold         skilled   20      oral   maladictive
+        pose strength       skilled    6      oral   illusion
+Lvl 31 :pose weakness       skilled    7      oral   illusion
+Lvl 32 :create ioun         skilled   60   gesture   conjuration
+Lvl 33 :chain lightning     master    25      oral   invocation
+Lvl 34 :endurance           advanced   20   gesture   alteration
+Lvl 35 :blink               master    20    mental   alteration
+Lvl 36 :invisible stalker   skilled   80      oral   conjuration
+
+
+Lvl 37 :cloud kill          skilled   45      oral   conjuration
+        nightmares          skilled   25      oral   beguilery
+Lvl 38 :life to mana        master    40   gesture   necromantic
+Lvl 40 :ghoulish touch      skilled   45      oral   necromantic
+Lvl 41 :levitate            advanced   25   gesture   alteration
+Lvl 42 :detect undead       skilled   30      oral   divination
+Lvl 43 :seal gate           skilled   25   gesture   enchantment
+Lvl 44 :encase fibers       skilled   85      oral   enchantment
+Lvl 45 :cryogenesis         skilled    5      oral   necromantic
+        web                 skilled   75      oral   conjuration
+Lvl 46 :permanency          master   140      oral   alteration
+Lvl 47 :phase               advanced   30      oral   abjuration
+Lvl 48 :calm                skilled   30      oral   beguilery
+Lvl 49 :random return       skilled   25   gesture   alteration conjuration
+Lvl 51 :sonic boom          skilled   80      oral   invocation
+        stature             master    40   gesture   illusion
+Lvl 52 :mask alignment      skilled   75      oral   illusion beguilery
+        mass fly            advanced   35      oral   none
+Lvl 53 :anchor gate         skilled   40   gesture   enchantment
+Lvl 55 :reveal shadows      master   200   gesture   alteration illusion
+        invincibility       master     5      oral   illusion
+        mass armor          advanced   40   gesture   abjuration
+Lvl 56 :mirror image        master    45      oral   illusion
+Lvl 57 :mass haste          skilled   55      oral   none
+Lvl 58 :deafen              skilled   45      oral   alteration maladictive
+Lvl 60 :forest mask         skilled   20      oral   illusion
+Lvl 61 :dark sight          master    24      oral   alteration
+Lvl 62 :fear                skilled   15      oral   beguilery
+        mislead             advanced   40      oral   illusion
+Lvl 65 :animate shadow      master   120   gesture   conjuration illusion
+        confusion           skilled   25      oral   beguilery
+        witch light         skilled   80      oral   illusion
+Lvl 66 :water breathing     skilled   15      oral   alteration
+Lvl 68 :blur                advanced   50      oral   illusion
+Lvl 70 :cone of cold        skilled   25      oral   invocation
+Lvl 71 :resist paralysis    skilled   30      oral   abjuration
+Lvl 74 :animate golem       skilled  150      oral   enchantment beguilery
+Lvl 75 :shadow travel       master   100   gesture   alteration illusion
+
+
+Lvl 76 :soften defense      advanced   25   gesture   invocation maladictive
+Lvl 77 :enduring light      skilled  150      oral   enchantment
+Lvl 80 :ward of deception   skilled  350      oral   enchantment
+Lvl 81 :bind golem          skilled   50      oral   enchantment
+Lvl 85 :globe of force      master    40      oral   abjuration
+Lvl 88 :needle strike       skilled   50      oral   invocation
+Lvl 93 :impersonate         skilled  120      oral   illusion
+Lvl 97 :ice sphere          advanced   45   gesture   invocation
+Lvl 99 :living mirage       skilled  200   gesture   illusion
+        prismatic wall      master   200      oral   conjuration
+Lvl 100:cloak of shadows    master   250   gesture   alteration illusion
+        searing orb         skilled   60      oral   alteration invocation

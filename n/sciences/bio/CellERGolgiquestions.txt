@@ -1,0 +1,45 @@
+A few minor miniscule tiny questions about the cell poster homework.
+
+I plan to be coming in during your office hours at 9-10 tomorrow to go over these with you in person, but just to prepare you for my bombardment of questions, I made this list.
+
+
+
+Not so tiny questions:
+
+Does the vesicle moving constitutively from TGN -> Plasma membrane and filled with Na/K pumps bud off without help?
+If it needs the aid of COPI and dynamin, how does this occur considering the questionable functionality of a viable receptor for a protein that is already transmembrane?
+
+
+How do we determine if a proteins came from the ribosomes or the cytosol itself?  Or which (other than HEXA) became glycosylated?
+
+
+Is the only difference between the neurotransmitter and HEXA vesicles moving off of the TGN the two adaptins and the aggregation of the Neurotransmitter?  And should their two clathrin coats in fact be differentiated as clathrin 1 and clathrin 2?
+
+
+
+Less crucial or less uncertain questions:
+
+Does the late endosome itself mature into the lysosome?
+
+
+Are there trans cisterna assembly/alteration/etc enzymes?  If so, how can they be retained if there is no more mature cisterna to return from?
+
+
+Does the Neurotransmitter remain attached to it's receptor through the period that it is stored?
+How can regulated secretions aggregate in the TGN if they're limited by being attached to receptors?
+
+
+How do V-snares return to their origin, or are they simply degraded?
+
+
+Is it necessary to include the ATP --> pi + ADP anywhere other than in the unravelling of T/V snares?
+
+
+Should we include oligosaccharide modification in any cases (e.g. the transferase or neurotransmitter) where it was not expressly requested?
+
+
+Thanks in advance, and see you tomorrow.
+
+----
+nxs.vze.com
+
