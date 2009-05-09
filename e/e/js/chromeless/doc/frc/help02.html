@@ -1,0 +1,161 @@
+<html>
+<head>
+<META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+<TITLE>&nbsp;CHROMELESS WINDOWS</TITLE>
+<link rel=stylesheet href=../main.css type=text/css>
+</head>
+<BODY bgcolor=#ffffff text=#000000>
+<span style="font:25px impact; color:#808080">MICROBIANS CHROMELESS WINDOWS 3.5</span><br><br><br>
+<table width=420 cellspacing=0 cellpadding=0 border=0>
+<!---->
+<tr>
+    <td class=NEURcategoria nowrap align=right>UTILISATION<span class=REMARKtit></span>&nbsp;</td>
+    <td>&nbsp;</td></tr>
+<tr><td colspan=2><img src=/microbians/img/none.gif width=1 height=1></td></tr>
+<tr><td>&nbsp;</td>
+    <td width=320><span class=NEWSbody> 
+      <p align=justify>Pour g&eacute;n&eacute;rer une fen&ecirc;tre Chromeless, 
+        la premi&egrave;re &eacute;tape consiste &agrave; ajouter la ligne de 
+        code ci-dessous, dans le Head du document HTML:
+      </span><p>&nbsp;</p><span class=NEWSbody><p><span class=CODEtxt>&#60script src="js/chromeless_35.js"&#62&#60/script&#62</span> 
+      <p align=justify><img src=/microbians/img/none.gif width=1 height=5><br>
+      <p align=justify>Cette ligne doit &ecirc;tre ajout&eacute;e entre les balises 
+        &lt;HEAD&gt; &lt;/HEAD&gt; de la page HTML qui lancera le popup Chromeless. 
+        Cette ligne sert &agrave; pr&eacute;charger le code n&eacute;cessaire, 
+        qui sera donc pr&ecirc;t &agrave; &ecirc;tre utilis&eacute; lorsqu'il 
+        sera appel&eacute;.
+      <p align=justify>&nbsp; 
+      <p align=justify>Apr&egrave;s que cette ligne ait &eacute;t&eacute; ajout&eacute;e 
+        dans le Head, vous devez alors de la m&ecirc;me mani&egrave;re implanter 
+        et appeler la fonction &quot;openIT&quot;. Consultez maintenant l'exemple 
+        inclus dans le fichier ZIP.<br>
+      
+      <p align=justify>&nbsp;
+      <p align=justify>La fonction &quot;openIT&quot; est un script Javascript 
+        simplifi&eacute; qui va servir &agrave; lancer la fen&ecirc;tre Chromeless. 
+        C'est en quelque sorte l'interface utilisateur du script Chromeless.<br>
+        <br>
+      <p align=justify>Comme toute les lignes de codes Javascript, la fonction 
+        &quot;openIT&quot; semble difficile &agrave; appr&eacute;hender au premier 
+        abord. Lisez attentivement le code, et essayez de constater par vous-m&ecirc;mes 
+        que chaque modification apport&eacute;e aux variables a comme r&eacute;sultat 
+        un changement d'aspect ou de fonctionnalit&eacute; sur le popup Chromeless 
+        cr&eacute;&eacute; au final.
+      <p align=justify> <br>
+        A l'int&eacute;rieur de la fonction &quot;openIT&quot;, vous devez modifier 
+        un certain nombre de variables, pour profiter au mieux des fonctionnalit&eacute;s, 
+        de la flexibilit&eacute; et de la robustesse de Chromeless Windows. Voici 
+        ces variables:<br>
+      
+      </span> 
+      <p><span class=NEWSbody> <br>
+        <br>
+        <span class=REMARKtxt>BOUTONS</span><br>
+        <br>
+        <span class=CODEtxt><b>cU&nbsp;&nbsp;</b></span> | gif de l'ic&ocirc;ne 
+        &quot;fermeture&quot;.<br>
+        <span class=CODEtxt><b>cO&nbsp;&nbsp;</b></span> | gif de l'ic&ocirc;ne 
+        &quot;fermeture&quot; lors du survol par le curseur.<br>
+        <span class=CODEtxt><b>cL&nbsp;&nbsp;</b></span> | gif pour l'indicateur 
+        de chargement.<br>
+        <span class=CODEtxt><b>mU&nbsp;&nbsp;</b></span> | gif de l'ic&ocirc;ne 
+        &quot;minimiser vers la barre des t&acirc;ches&quot;.<br>
+        <span class=CODEtxt><b>mO&nbsp;&nbsp;</b></span> | gifde l'ic&ocirc;ne 
+        &quot;minimiser vers la barre des t&acirc;ches&quot; lors du survol par 
+        le curseur.<br>
+        <span class=CODEtxt><b>xU&nbsp;&nbsp;</b></span> | gifde l'ic&ocirc;ne 
+        &quot;maximiser&quot;.<br>
+        <span class=CODEtxt><b>xO&nbsp;&nbsp;</b></span> | gif de l'ic&ocirc;ne 
+        &quot;maximiser&quot; lors du survol par le curseur.<br>
+        <span class=CODEtxt><b>rU&nbsp;&nbsp;</b></span> | gif de l'ic&ocirc;ne 
+        &quot;minimiser&quot;.<br>
+        <span class=CODEtxt><b>rO&nbsp;&nbsp;</b></span> | gif de l'ic&ocirc;ne 
+        &quot;minimiser&quot; lors du survol par le curseur.<br>
+        <br>
+        <br>
+        <span class=REMARKtxt>TITRE</span><br>
+        <br>
+        <span class=CODEtxt><b>tH&nbsp;&nbsp;</b></span> | titre de la barre de 
+        titre.<br>
+        <span class=CODEtxt><b>tW&nbsp;&nbsp;</b></span> | titre de la barre des 
+        t&acirc;ches Windows.<br>
+        <br>
+        <br>
+        <span class=REMARKtxt>COULEURS</span><br>
+        <br>
+        <span class=CODEtxt><b>wB&nbsp;&nbsp</b></span> | Couleur de la bordure.<br>
+        <span class=CODEtxt><b>wBs&nbsp;</b></span> | Couleur de la bordure lors 
+        du d&eacute;placement.<br>
+        <span class=CODEtxt><b>wBG&nbsp;</b></span> | Couleur de la barre de titre.<br>
+        <span class=CODEtxt><b>WBGs</b></span> | Couleur de la barre de titre 
+        lors du d&eacute;placement.<br>
+        <br>
+        <br>
+        <span class=REMARKtxt>COMPATIBILIT&Eacute;</span><br>
+        <br>
+        <span class=CODEtxt><b>wNS&nbsp;</b></span> | Param&egrave;tres Html pour 
+        Netscape.<br>
+        <span class=CODEtxt><b>fSO&nbsp;</b></span> | Param&egrave;tres Html pour 
+        le frame du contenu principal.<br>
+        <br>
+        <br>
+        <span class=REMARKtxt>PARAM&Eacute;TRES SUPPL&Eacute;MENTAIRES</span><br>
+        <br>
+        <span class=CODEtxt><b>brd&nbsp;</b></span> | Largeur de bordure.<br>
+        <span class=CODEtxt><b>max&nbsp;</b></span> | Option maximiser(true|false).<br>
+        <span class=CODEtxt><b>min&nbsp;</b></span> | Option minimiser vers la 
+        barre des t&acirc;ches (true|false).<br>
+        <span class=CODEtxt><b>res&nbsp;</b></span> | Option fen&ecirc;tre redimensionnable 
+        (true|false).<br>
+        <span class=CODEtxt><b>tsz&nbsp;</b></span> | Taille en hauteur de la 
+        barre de titre.<br>
+        <br>
+        <br>
+        <span class=REMARKtxt>FONCTION OPENIT</span><br>
+        <br>
+        </span>
+      <p>Ces informations sont valables uniquement pour la fonction 'openit' incluse 
+        dans le fichier 'test_html.html' d'exemple, qui facilite l'appel de la 
+        fonction 'chromeless' principale. Pour d'autres usages ou d'autres effets, 
+        il est bien &eacute;videmment conseill&eacute; d'&eacute;crire votre propre 
+        fonction 'openIT', selon vos besoins.
+      <p><span class=NEWSbody> <br>
+        <span class=CODEtxt>openIT(u,W,H,X,Y,n,b,x,m,r)</span><br>
+        <br>
+        <span class=CODEtxt><b>u&nbsp;&nbsp;&nbsp;</b></span> | page html &agrave; 
+        ouvrir dans la nouvelle fen&ecirc;tre.<br>
+        <span class=CODEtxt><b>W&nbsp;&nbsp;&nbsp;</b></span> | Largeur du contenu 
+        de la fen&ecirc;tre.<br>
+        <span class=CODEtxt><b>H&nbsp;&nbsp;&nbsp;</b></span> | Hauteur du contenu 
+        de la fen&ecirc;tre.<br>
+        <span class=CODEtxt><b>X&nbsp;&nbsp;&nbsp;</b></span> | Position horizontale 
+        (null=center).<br>
+        <span class=CODEtxt><b>Y&nbsp;&nbsp;&nbsp;</b></span> | Position verticale 
+        (null=center).<br>
+        <span class=CODEtxt><b>n&nbsp;&nbsp;&nbsp;</b></span> | Nom de la fen&ecirc;tre 
+        (handler).<br>
+        <span class=CODEtxt><b>b&nbsp;&nbsp;&nbsp;</b></span> | Taille de bordure. 
+        <br>
+        <span class=CODEtxt><b>x&nbsp;&nbsp;&nbsp;</b></span> | Maximiser (true|false).<br>
+        <span class=CODEtxt><b>m&nbsp;&nbsp;&nbsp;</b></span> | Minimiser vers 
+        la barre des t&acirc;ches (true|false).<br>
+        <span class=CODEtxt><b>r&nbsp;&nbsp;&nbsp;</b></span> | Redimensionner 
+        (true|false).<br>
+        </span> <br>
+        <br>
+        <span class=REMARKtxt>EXEMPLE D'OPENIT</span><br>
+        <br>
+        <span class=CODEtxt>&#60a href="#" onclick="mywindow=openIT('mypage.html',200,200,null,null,'mywindowname')"&#62 
+        OPEN CHROMELESS&#60/a&#62</span><br>
+        <br>
+      <p>Ceci devrait ouvrir une fen&ecirc;tre Chromeless contenant la page mypage.html, 
+        avec une taille de contenu de 200x200 pixels, au milieu de l'&eacute;cran. 
+        Assurez-vous bien que la page appel&eacute;e soit situ&eacute;e dans le 
+        m&ecirc;me dossier que la page appellante; dans le cas contraire, tapez 
+        l'URL compl&egrave;te de la page &agrave; appeler.<br>
+        <br>
+      </td></tr>
+<tr><td colspan=2><img src=/microbians/img/none.gif width=1 height=5></td></tr>
+<!---->
+</table>
+</body></html>

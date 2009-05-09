@@ -1,0 +1,73 @@
+<html>
+<head>
+<META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+<TITLE>&nbsp;CHROMELESS WINDOWS</TITLE>
+<link rel=stylesheet href=../main.css type=text/css>
+</head>
+<BODY bgcolor=#ffffff text=#000000>
+<span style="font:25px impact; color:#808080">MICROBIANS CHROMELESS WINDOWS 3.5</span><br><br><br>
+<table width=420 cellspacing=0 cellpadding=0 border=0>
+<!---->
+<tr><td class=NEURcategoria nowrap align=right>&nbsp;<span class=REMARKtit>HOW TO USE IT</span>&nbsp;</td><td>&nbsp;</td></tr>
+<tr><td colspan=2><img src=/microbians/img/none.gif width=1 height=1></td></tr>
+<tr><td>&nbsp;</td><td width=320><span class=NEWSbody><p align=justify>
+In order to generate a Chromeless window, the first step is to add in the Head of your HTML document, the following line of script:
+<p><span class=CODEtxt><br>&#60script src="js/chromeless_35.js"&#62&#60/script&#62</span>
+<p align=justify><img src=/microbians/img/none.gif width=1 height=5><br>
+This sentence must be added between the <span class=CODEtxt>&#60HEAD&#62 &#60/HEAD&#62</span>tags of the html page that will launch the Chromeless Window.  This feature assures that all the necessary code will be preloaded and ready for use when called upon.<br><br>
+After that line is added in the Head section, the "openIT" function can be employed.  Please see the example included in the ZIP file.
+<br><br>
+An "openIT" function is a simplified JavaScript programming service that will launch the Chromeless Window.
+<br><br>As in any coding, an “openIT” function looks difficult until you carefully read the functions and visualize how changes to each function result in a corresponding change to a feature of Chromeless Windows.  
+<br><br>
+Within the openIT function are definable fields that give Chromeless Window its flexibility, beauty and robustness.  Those functions are:
+<br><p>
+<br><br><span class=REMARKtxt>BUTTONS</span><br><br>
+<span class=CODEtxt><b>cU&nbsp;&nbsp;</b></span> | gif for close on normal state.<br>
+<span class=CODEtxt><b>cO&nbsp;&nbsp;</b></span> | gif for close on mouseover.<br>
+<span class=CODEtxt><b>cL&nbsp;&nbsp;</b></span> | gif for loading indicator.<br>
+<span class=CODEtxt><b>mU&nbsp;&nbsp;</b></span> | gif for minimize to taskbar on normal state.<br>
+<span class=CODEtxt><b>mO&nbsp;&nbsp;</b></span> | gif for minimize to taskbar on mouseover.<br>
+<span class=CODEtxt><b>xU&nbsp;&nbsp;</b></span> | gif for maximize normal state.<br>
+<span class=CODEtxt><b>xO&nbsp;&nbsp;</b></span> | gif for maximize on mouseover.<br>
+<span class=CODEtxt><b>rU&nbsp;&nbsp;</b></span> | gif for minimize on normal state.<br>
+<span class=CODEtxt><b>rO&nbsp;&nbsp;</b></span> | gif for minimize on mouseover.<br>
+<br><br><span class=REMARKtxt>TITLE</span><br><br>
+<span class=CODEtxt><b>tH&nbsp;&nbsp;</b></span> | title for the title bar in html format.<br>
+<span class=CODEtxt><b>tW&nbsp;&nbsp;</b></span> | title for the task bar of Windows.<br>
+<br><br><span class=REMARKtxt>COLORS</span><br><br>
+<span class=CODEtxt><b>wB&nbsp;&nbsp</b></span> | Border color.<br>
+<span class=CODEtxt><b>wBs&nbsp;</b></span> | Border color on window drag.<br>
+<span class=CODEtxt><b>wBG&nbsp;</b></span> | Background of the title bar.<br>
+<span class=CODEtxt><b>WBGs</b></span> | Background of the title bar on window drag.<br>
+<br><br><span class=REMARKtxt>COMPATIBILITY</span><br><br>
+<span class=CODEtxt><b>wNS&nbsp;</b></span> | Html parameters for Netscape.<br>
+<span class=CODEtxt><b>fSO&nbsp;</b></span> | Html parameters for main content frame.<br>
+<br><br><span class=REMARKtxt>EXTRA PARAMETERS</span><br><br>
+<span class=CODEtxt><b>brd&nbsp;</b></span> | Extra border size.<br>
+<span class=CODEtxt><b>max&nbsp;</b></span> | Maxzimize option (true|false).<br>
+<span class=CODEtxt><b>min&nbsp;</b></span> | Minimize to taskbar option (true|false).<br>
+<span class=CODEtxt><b>res&nbsp;</b></span> | Resizable window (true|false).<br>
+<span class=CODEtxt><b>tsz&nbsp;</b></span> | Height of title bar.<br>
+<br><br><span class=REMARKtxt>OPENIT FUNCTION</span><br><br>
+This information is only for 'openIT' included on the 'test_html.html' example that make easy to use the main 'chromeless' function. For other uses or fx is better if you make your own 'openIT' as your needs.<br><br>
+<span class=CODEtxt>openIT(u,W,H,X,Y,n,b,x,m,r)</span><br><br>
+<span class=CODEtxt><b>u&nbsp;&nbsp;&nbsp;</b></span> | html page we want to open in the window.<br>
+<span class=CODEtxt><b>W&nbsp;&nbsp;&nbsp;</b></span> | Width of the window content size.<br>
+<span class=CODEtxt><b>H&nbsp;&nbsp;&nbsp;</b></span> | Height of the window content size.<br>
+<span class=CODEtxt><b>X&nbsp;&nbsp;&nbsp;</b></span> | Horizontal position (null=center).<br>
+<span class=CODEtxt><b>Y&nbsp;&nbsp;&nbsp;</b></span> | Vertical position (null=center).<br>
+<span class=CODEtxt><b>n&nbsp;&nbsp;&nbsp;</b></span> | Window name (handler).<br>
+<span class=CODEtxt><b>b&nbsp;&nbsp;&nbsp;</b></span> | Extra border size<br>
+<span class=CODEtxt><b>x&nbsp;&nbsp;&nbsp;</b></span> | Maximize (true|false).<br>
+<span class=CODEtxt><b>m&nbsp;&nbsp;&nbsp;</b></span> | Minimize to taskbar (true|false).<br>
+<span class=CODEtxt><b>r&nbsp;&nbsp;&nbsp;</b></span> | Resize (true|false).<br>
+</span>
+<br><br><span class=REMARKtxt>OPENIT EXAMPLE</span><br><br>
+<span class=CODEtxt>&#60a href="#" onclick="mywindow=openIT('mypage.html',200,200,null,null,'mywindowname')"&#62 OPEN CHROMELESS&#60/a&#62</span><br><br>
+This would open a Chromeless Window with <span class=CODEtxt>mypage.html</span> as the subject and <span class=CODEtxt>200x200 pixels </span> of content size, in the center of the screen.  Please make sure that the page to be opened is in the same folder as the calling page; if (for some reason it is not) provide a complete URL to the page.<br><br>
+</span></td></tr>
+<tr><td colspan=2><img src=/microbians/img/none.gif width=1 height=5></td></tr>
+<!---->
+</table>
+</body></html>

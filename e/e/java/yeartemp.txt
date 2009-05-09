@@ -1,0 +1,140 @@
+/*  Ro Ronalds
+	Yeartemp project, exercise 1, lab 9
+    CompSci 119*/ 
+import java.util.Random;
+import java.lang.Math;
+import java.text.DecimalFormat;
+import cs1.Keyboard;
+
+public class yeartemp 
+{
+
+public static void main(String args[]) 
+{//Random setup of array of temperatures, and the distribution of days in each month.
+float[] daytemp = new float[365];
+int[] dayspermonth={31,28,31,30,31,30,31,30,31,30,31,30};
+Random generate = new Random();
+for (int i=0;i<daytemp.length;i++)
+	{
+	float randfloat = generate.nextFloat();
+	daytemp[i] = (float) (Math.abs(randfloat)*110);
+	//Makes all temperatures be between 0 and 110.
+	}
+//End of days setup.
+menu(daytemp, dayspermonth);
+}
+
+public static void menu(float[] daytemp, int[] dayspermonth)
+{
+int choice = 0;
+int semicycle=0;
+do{//Menu, input, and printing loop.
+if((semicycle%2)==0)//Prints menu every two cycles.
+	{
+	System.out.println("Menu:");
+	System.out.println("[1] Average Temperature for any Month,");
+	System.out.println("[2] Hottest and Coldest day of the year,");
+	System.out.println("[3] Temp of any given day,");
+	System.out.println("[4] Difference between hottest and coldest temperatures for every month.");
+	System.out.println("[0] Quit.");
+	}
+System.out.print("\nChoice: ");
+choice = Keyboard.readInt();
+
+if (choice == 1)
+{avetemp(daytemp, dayspermonth);}
+if (choice == 2)
+{hotcold(daytemp, dayspermonth);}
+if (choice == 3)
+{specificday(daytemp, dayspermonth);}
+if (choice == 4)
+{monthhc(daytemp, dayspermonth);}
+else if (choice !=0&&choice !=1&&choice !=2&&choice !=3&&choice!=4)
+{System.out.println("Improper Choice.");}
+semicycle++;//counts to determine need for menu appearance.
+}while (choice!=0);//end of menu, input, and printing loop.
+}
+
+public static void avetemp(float[] daytemp, int[] dayspermonth)
+{
+DecimalFormat fmt = new DecimalFormat("0.#");
+System.out.print("Input Month Number: ");
+int month= Keyboard.readInt();
+if (month>=0&&month<=12)
+	{
+	int countup=dayspermonth[month-1];
+	double sumoftemps=0;
+	for(int i =0;i<countup;i++)
+		{
+		sumoftemps=sumoftemps+daytemp[i];
+		}
+	System.out.println("Average: "+fmt.format(sumoftemps/(dayspermonth[month-1])));
+	}
+else {System.out.println("No such number for a month.");}
+}
+
+public static void monthhc(float[] daytemp, int[] dayspermonth)
+{
+DecimalFormat fmt = new DecimalFormat("0.#");
+int start=0;
+for (int i=0;i<dayspermonth.length;i++)//Sets up 12 cycles.
+	{
+	if(i>0)//Doesn't set up a day
+	{start=dayspermonth[(i-1)]+start;}//Sets the # of the starting day of the month.
+	double hottest=daytemp[start];//Starts them at the first temp.
+	double coldest=daytemp[start];//See above.
+	for(int y=1;y<(dayspermonth[i]);y++)
+		{
+		if(hottest<daytemp[start+y])
+			{hottest=daytemp[start+y];}
+		if(coldest>daytemp[start+y])
+			{coldest=daytemp[start+y];}
+		}
+	System.out.println("Difference for month "+(i+1)+": "+fmt.format(hottest-coldest));
+	}
+}
+
+public static void specificday(float[] daytemp, int[] dayspermonth)
+{
+DecimalFormat fmt = new DecimalFormat("0.#");
+System.out.print("Input Month Number: ");
+int month= Keyboard.readInt();
+if (month>=0&&month<=12)
+	{
+	System.out.print("Input Day Number: ");
+	int day=Keyboard.readInt();
+	if (day<=dayspermonth[month-1]&&day>=1)
+		{
+		int daylocation=0;
+		for(int i=0;i<(month-1);i++)
+			{
+			daylocation=dayspermonth[i]+daylocation;
+			}
+		daylocation=daylocation+day;
+		System.out.println(fmt.format(daytemp[daylocation])+" was the temperature on day "+day+", month "+month+".");
+		}
+	else {System.out.println("Number does not correspond to a day in that month.");}
+}
+else {System.out.println("No such number for a month.");}
+}
+
+public static void hotcold(float[] daytemp, int[] dayspermonth)
+{
+DecimalFormat fmt = new DecimalFormat("0.#");
+double hottest=daytemp[0];
+double coldest=daytemp[0];
+for(int y=1;y<daytemp.length;y++)//Cycles through and compares the 365 temps,...
+	{//...to get the hottest and coldest of the year.
+	if(hottest<daytemp[y])
+		{hottest=daytemp[y];}
+	if(coldest>daytemp[y])
+		{coldest=daytemp[y];}
+	}
+System.out.println("Hottest: "+fmt.format(hottest));
+System.out.println("Coldest: "+fmt.format(coldest));
+}
+
+}
+//public DecimalFormat fmt = new DecimalFormat("0.#");
+//System.out.println(fmt.format(daytemp[1])+" "+fmt.format(daytemp[364]));
+

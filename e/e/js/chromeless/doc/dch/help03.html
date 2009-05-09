@@ -1,0 +1,59 @@
+<html>
+<head>
+<META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+<TITLE>&nbsp;CHROMELESS WINDOWS</TITLE>
+<link rel=stylesheet href=../main.css type=text/css>
+</head>
+<BODY bgcolor=#ffffff text=#000000>
+<span style="font:25px impact; color:#808080">MICROBIANS CHROMELESS WINDOWS</span><br><br><br>
+<table width=420 cellspacing=0 cellpadding=0 border=0>
+<!---->
+<tr><td width=100 class=NEURcategoria nowrap align=right>&nbsp;<span class=REMARKtit>MINI FAQ</span>&nbsp;</td><td>&nbsp;</td></tr>
+<tr><td colspan=2><img src=/microbians/img/none.gif width=1 height=1></td></tr>
+<tr><td>&nbsp;</td><td width=320><span class=NEWSbody><p align=justify>
+Hieronder volgend zijn een aantal van de meest gestelde vragen,die gesteld zijn door actuele gebruikers van <span class=REMARKtxt>MICROBIANS CHROMELESS WINDOWS</span>.
+<!---->
+
+
+
+<br><br><br><span class=REMARKtxt>HOE GEBRUIK IK VERSCHILLENDE PAGINA'S IN VERSCHILLENDE SCHERMEN?</span><br><br>
+Gebruik verschillende <span class=CODEtxt><b>n</b></span> waarden voor elke verschillende scherm in de functie:<br><br>
+<span class=CODEtxt>openIT(u,W,H,X,Y,<b>n</b>)</span>
+<br><br>Zodat de oproepen:<br><br><span class=CODEtxt>mywin1=openIT('p1.html',200,200,null,null,<b>'mywin1'</b>)</span><br><span class=CODEtxt>mywin2=openIT('p2.html',200,200,null,null,<b>'mywin2'</b>)</span><br><br>2 verschillende schermen moet openen.
+<!---->
+
+
+
+<br><br><br><br><span class=REMARKtxt>HOE VERANDER IN DE PAGINA VAN DE TE OPENEN SCHERM?</span><br><br>
+Als voorbeeld wanneer de scherm was gecreëerd met:<br><br><span class=CODEtxt>mywin1=openIT('p1.html',200,200,null,null,'mywin1')</span><br><br>Kunnen we het veranderen naar p2.html pagina door hetvolgende te gebruiken:<br><br><span class=CODEtxt>mywin1.setURL('p2.html')</span>.
+<!---->
+
+
+
+<br><br><br><br><span class=REMARKtxt>HOE OPEN IK EEN SCHERM VANUIT FLASH?</span><br><br>
+Om een scherm te openen vanuit flash, moet je een kijkje nemen naar het voorbeeld <span class=CODEtxt>launch_flash5.html</span> dat is bijgevoegd in de ZIP bestand en de <span class=CODEtxt>launch.fla</span> in de <span class=CODEtxt>SWF</span> map, ook te vinden in de ZIP bestand.
+<br><br>In de HTML bestand kan je zien dat de openIT is veranderd in openIT4FLASH.  Omdat de Flash functie de javascript functie niet teruggeeft van het scherm, het is beter om de openIT4FLASH te gebruiken met een Flash programma. De actie script om in Flash een scherm te openen is:
+<br><br><span class=CODEtxt>getURL("javascript:openIT4FLASH('p1.html',400,400, null, null, 'mywin1')")</span>
+<br><br>Voor Flash, werkt dit hetzelfde als de normale openIT functie.
+<!---->
+
+
+
+
+<br><br><br><br><span class=REMARKtxt>HOE GEBRUIK IK SPECIALE KARAKTER CODES IN EEN TITEL?</span><br><br>
+Voor speciale karakter code's zoals <span class=CODEtxt>Ñ</span> of karakters met een teken, is het beter om codes te gebruiken als het volgende: <span class=CODEtxt>&#38;#64;</span> of <span class=CODEtxt>&#38;Agrave;</span>. Om een To find the individuele karakter code te vinden, bekijk dan alstublieft de informatie over de "ISO Latin-1 Character Set". 
+<!---->
+
+
+
+<br><br><br><span class=REMARKtxt>HOE SCROLL IK OF SCHAKEL IK DE SCROL FUNCTIE UIT?</span><br><br>
+Om de scrolfunctie uit te schalen in de MICROBIANS CHROMELESS WINDOWS compatibile schermen, gebruik je een style sheet zoals:
+<br><br>
+<span class=CODEtxt>&nbsp;&nbsp;&#60style&#62<br>&nbsp;&nbsp;&nbsp;&nbsp;body { overflow:hidden }<br>&nbsp;&nbsp;&#60/style&#62</span>
+<br><br>in de hoofd van elke html pagina of <span class=CODEtxt>scroll=no</span> in de <span class=CODEtxt>body</span> tag van de pagina's waar je geen scrolling wilt.<br><br>
+Maar om alle pagina's "niet scrollen" te maken, kan je ook de <span class=CODEtxt>fSO ='scrolling=no noresize'</span> variabele van de <span class=CODEtxt>openIT</span> functie aanpassen. Deze variabele bestuurt de weergave van de hoofd frame.<br><br>Er is een soortgelijke weergave voor niet MICROBIANS CHROMELESS WINDOWS compatibile schermen met de <span class=CODEtxt>wNS</span> variabele in de <span class=CODEtxt>openIT</span> functie. We kunnen bijvoorbeeld een scrolfunctie toevoegen aan Netscape met:<br><br><span class=CODEtxt>var wNS ='scrollbars=1'</span><br><br>binnen de openIT fuctie.
+</span></td></tr>
+<tr><td colspan=2><img src=/microbians/img/none.gif width=1 height=5></td></tr>
+<!---->
+</table>
+</body></html>

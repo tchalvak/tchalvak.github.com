@@ -1,0 +1,174 @@
+<HTML>
+<HEAD>
+<TITLE>DEF CON</TITLE>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="GENERATOR" content="Mozilla/4.76 [en] (Windows NT 5.0; U) [Netscape]">
+<meta name="Author" content="The Dark Tangent">
+<meta name="Description" content="DEF CON Computer Underground Hackers Convention is comming summer 2001">
+<meta name="KeyWords" content="Hackers, Computer, Security, Underground, Convention, Party, Phreak, Phones, Network, Crime, Virus, tcp/ip, unix, attack, defend, fraud, encryption, crypto, speakers, training, radio, cellular">
+
+<style type="text/css">
+<!--
+  .textwhitebold {color: #CCCCCC;
+  		       font-family: verdana, helvetica;
+  		       font-weight: ;
+  		       font-size: 8pt
+  		        }
+  .textwhiteHeader {color: #CCCCCC;
+  		       font-family: verdana, helvetica;
+  		       font-weight: ;
+  		       font-size: 10pt
+  		        }
+
+   A:link, A:visited { font-weight=bold; text-decoration: none; color: #FFFFFF}
+   A:hover { text-decoration: none; color: #F7E400 }
+
+   A.header:link, A.header:visited {
+   				font-size: 11pt
+   				font-weight: bold;
+   				text-decoration: underline;
+   				color: white;
+   				}
+   A.header:hover {
+   				text-decoration: none;
+   				color: #F7E400;
+   			}
+
+-->
+</style>
+</head><body bgcolor=#41478A alink=white vlink=white link=white marginwidth=0 marginheight=0 topmargin=0 leftmargin=0><MAP NAME="top4menumap">
+  <AREA SHAPE=RECT COORDS="620,102,632,115" HREF="/html/defcon-1.html"  ALT=""  TARGET="_blank"  OnMouseOut="window.status=''; return true"  OnMouseOver="window.status=''; return true">
+  <AREA SHAPE=RECT COORDS="637,101,650,115" HREF="/html/defcon-2.html"  ALT=""  TARGET="_blank"  OnMouseOut="window.status=''; return true"  OnMouseOver="window.status=''; return true">
+  <AREA SHAPE=RECT COORDS="657,104,668,114" HREF="/html/defcon-3.html"  ALT=""  TARGET="_blank"  OnMouseOut="window.status=''; return true"  OnMouseOver="window.status=''; return true">
+  <AREA SHAPE=RECT COORDS="673,102,686,116" HREF="/html/defcon-4.html"  ALT=""  TARGET="_blank"  OnMouseOut="window.status=''; return true"  OnMouseOver="window.status=''; return true">
+  <AREA SHAPE=RECT COORDS="692,103,704,114" HREF="/html/defcon-5.html"  ALT=""  TARGET="_blank"  OnMouseOut="window.status=''; return true"  OnMouseOver="window.status=''; return true">
+  <AREA SHAPE=RECT COORDS="709,102,722,115" HREF="/html/defcon-6.html"  ALT=""  TARGET="_blank"  OnMouseOut="window.status=''; return true"  OnMouseOver="window.status=''; return true">
+  <AREA SHAPE=RECT COORDS="727,102,739,115" HREF="/html/defcon-7-post.html"  ALT=""  TARGET="_blank"  OnMouseOut="window.status=''; return true"  OnMouseOver="window.status=''; return true">
+  <AREA SHAPE=RECT COORDS="745,103,758,115" HREF="/html/defcon-8-post.html"  ALT=""  TARGET="_blank"  OnMouseOut="window.status=''; return true"  OnMouseOver="window.status=''; return true">
+</MAP>
+
+
+
+
+
+<table cellpadding=0 cellspacing=0 border=0 width=100%>
+<tr><td valign=top width=765 height=125><img src=/images/top4menu.jpg USEMAP="#top4menumap" border=0></td>
+<td colspan=2 background=/images/topright.gif valign=top>&nbsp;</td></tr>
+<tr><td width=765 valign=top>
+	<table cellpadding=0 cellspacing=0 border=0>
+	<tr><td background=/images/center.jpg valign=top height=450>
+		<!-------------------------- BODY --------------------------------->
+		<table cellpadding=0 cellspacing=0 border=0 width=765 height=450>
+		<tr background=><td width=2 rowspan=3 bgcolor=black><img src=/images/transpixel.gif width=3 height=1></td>
+
+		<td width=7 rowspan=2>&nbsp;</td>
+		        <td colspan=2 height=100 width=755 valign=center align=center> 
+                  <font face="verdana" size="2" color="white"><b>DEF CON 10 will 
+                  be August 2nd-4th, 2002 in Las Vegas. More details soon.<br>
+                  </b>Check out the New <a href="http://forum.defcon.org">DEF 
+                  CON Forums!</a></font> <font size=2 face=verdana color=white><a class="header" href=http://www.freesklyarov.org/><br>
+                  www.freesklyarov.org</a> - Info on how Adobe went after Dmitry 
+                  for doing security research. - (<a href=http://media.defcon.org:554/ramgen/defcon/dc-9/video/dc-9-dmitry-quarter-video.rm>video</a>/<a href=http://media.defcon.org:554/ramgen/defcon/dc-9/audio/dc-9-dmitry-surestream-audio.rm>audio</a>)<br>
+                  <a class="header" href=http://www.defcon.org/TEXT/9/open-letter-dc9.txt><BOLD></BOLD></a><br>
+                  <!-- ANNOUNCEMENT TEXT GOES HERE -->
+                  </font></td>
+              </tr>
+		<tr background=><td valign=top align=center width=535 height=100%>
+			<table cellpadding=0 cellspacing=0 border=0 width=535>
+			<tr><td width=5%>
+			</td><td width=50% valign=top height=110>
+				<font size=1 face=verdana color=white class=textwhitebold>
+				<img src=/images/sections_things.gif><br>
+				<!-- THINGS TO DO -->
+				Join the <a href=/distributed.html>Goons of DEF CON</a> cracking team<br>
+				Contribute to the <a href=http://www.attrition.org/hosted/dcstuff/ target=_blank>DEF CON Mailing List</a><br>
+				Waste time with <a href=http://www.attrition.org/mal/ target=_blank>mal_vu</a> on the IRC #dc-stuff on EF Net!<br>
+
+			</font></td><td width=5%>
+			</td><td width=40% valign=top>
+				<font size=1 face=verdana color=white class=textwhitebold>
+				<img src=/images/sections_confu.gif><br>
+				<!-- EXPERIENCE MY CON-FU -->
+				DEF CON <a href=/around-the-world.html>Around the World</a><br>
+				<a href=/past-defcons.html>Past</a> DEF CON Conventions<br>
+				Grab DEF CON Swag @ <a href=http://www.JinxHackwear.com/defcon/ target=_blank>Jinx Hackwear</a><br>
+			</font></td></tr>
+
+			<tr><td width=5%>
+			</td><td width=50% valign=top height=110>
+				<font size=1 face=verdana color=white class=textwhitebold>
+				<img src=/images/sections_leech.gif><br>
+				<!-- LEECH NEW AND COOL FILES -->
+				<a href=/defcon-ftp-archives.html>FTP Archive</a><br>
+				<a href=/defcon-media-archives.html>Media Archives</a><br>
+				<a href=/ftp.html>Other FTP Sites</a><br>
+
+			</font></td><td width=5%>
+			</td><td width=40% valign=top>
+				<font size=1 face=verdana color=white class=textwhitebold>
+				<img src=/images/sections_who.gif><br>
+				<!-- WHO IS DEF CON -->
+				Our <a href=/privacy.html>Privacy Statement</a><br>
+				Meet the <a href=/who-is-defcon.html>Goons of DEF CON</a><br>
+				Projects in the works...
+			</font></td></tr>
+
+			<tr><td width=5%>
+			</td><td width=50% valign=top height=110>
+				<font size=1 face=verdana color=white class=textwhitebold>
+				<img src=/images/sections_gain.gif><br>
+				<!-- GAIN SOME KNOWLEDGE -->
+				Other <a href=/other-peoples-pages.html>Groups and People</a> pages<br>
+				<a href=/mailing-lists.html>Mailing Lists</a> to subscribe to<br>
+				<a href=/other-conventions.html>Other conventions</a> to go to<br>
+				<a href=/book-list.html>Books</a> you must read
+
+			</font></td><td width=5%>
+			</td>
+                      <td width=40% valign=middle align=center> 
+                        <div align="center"><font size=2 face=verdana color=white> 
+                          <br>
+                          <br>
+                          <br>
+                          </font> 
+                          <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                            <tr> 
+                              <td colspan="2">
+                                <div align="center"><font size=2 face=verdana color=white><a class="header" href=http://www.defcon.org/TEXT/9/open-letter-dc9.txt><bold>DC 
+                                  9 Open Letter to the Community - Your feedback 
+                                  requested.</bold></a></font></div>
+                              </td>
+                            </tr>
+                            <tr> 
+                              <td>&nbsp;</td>
+                              <td>&nbsp;</td>
+                            </tr>
+                          </table>
+                          <font size=2 face=verdana color=white><br>
+                          </font></div>
+                      </td>
+                    </tr>
+
+			</table>
+		</td><td align=right valign=bottom width=220>
+			<img src=/images/girl.gif width=216 height=309></td></tr>
+		</table>
+		<!-------------------------- END BODY --------------------------------->
+	</td></tr>
+	</table>
+</td>
+<td width=2 bgcolor=black><img width=1 height=1 src=/images/transpixel.gif></td>
+<td background=/images/backtile.jpg width=100% height=80%>&nbsp;</td>
+</tr>
+
+
+
+<tr><td height=91 valign=bottom align=left width=765 background=/images/bottom.jpg>
+	<font size=1 face=verdana color=white>
+	Maintained by <a href=mailto:dtangent@defcon.org>Dark Tangent</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Designed by <a href=http://www.jinxhackwear.com target=_blank>Jinx Hackwear</a>
+	<br>All content (c) 2000, 2001 <a href=/dtangent.html>Dark Tangent</a>
+</font></td>
+<td colspan=2 background=/images/bottomright.gif>&nbsp;</td></tr></table>
+
+</body>
+</html>

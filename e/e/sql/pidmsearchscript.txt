@@ -1,0 +1,10 @@
+declare
+v_table varchar(10) := &table;
+begin
+&table||'_pidm' := &tablepidm
+spool pidminstances.sql
+select * from &table where &table||'_pidm'= 341148;
+spool off
+start pidminstances.sql
+end;
+/

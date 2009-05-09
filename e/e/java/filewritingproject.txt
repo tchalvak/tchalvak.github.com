@@ -1,0 +1,33 @@
+/*  Ro Ronalds
+	FileWriting Project
+*/
+
+import java.io.*;
+
+public class filewriting 
+{
+public static void main(String args[]) throws IOException
+{
+String file = "C:\\Documents and Settings\\ror1\\My Documents\\filewriting\\testfile.txt";
+PrintWriter outfile =new PrintWriter (new BufferedWriter (new FileWriter (file)));
+
+int [] scorearr=new int[5];
+String scorelist = new String();
+int count=0;
+while (count<18)//Loop that outputs the 18 lines.
+	{
+	for (int b=0;b<5;b++)
+		{
+		scorearr[b]=(int)((Math.random() * 6));//Sets up the four random scores, including par.
+		}
+	scorelist=(scorearr[0]+" "+scorearr[1]+" "+scorearr[2]+" "+scorearr[3]+" "+scorearr[4]);
+	outfile.print (scorelist);
+	outfile.println();
+	count++;
+	}
+outfile.close();
+System.out.println("Output file: "+file);
+
+
+}
+}

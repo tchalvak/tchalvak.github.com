@@ -1,0 +1,98 @@
+Output:
+Enter a positive integer: 333444
+That number reversed is 444333
+Input choice, 1 for reverse, two for greatest common divisor, zero to quit:1
+Enter a positive integer: 12345678
+That number reversed is 87654321
+Input choice, 1 for reverse, two for greatest common divisor, zero to quit:2
+Enter two positive integers.
+First: 34
+Second: 16
+GCD is: 2
+Input choice, 1 for reverse, two for greatest common divisor, zero to quit:2
+Enter two positive integers.
+First: 24
+Second: 18
+GCD is: 6
+Input choice, 1 for reverse, two for greatest common divisor, zero to quit:0
+
+
+ Press Enter to continue
+
+
+//                                     [Main Class]
+/*  Ro Ronalds
+	Object Use MathWiz Project,
+	CompSci 119*/
+
+import cs1.Keyboard;
+import MathWiz;
+
+public class Mather
+{
+public static void main (String args[])
+{
+MathWiz Math = new MathWiz();//Creates Object space in the Mather Class for use on MathWiz declarations.
+
+int choice;
+do
+{
+System.out.print("Input choice, 1 for reverse, two for greatest common divisor, zero to quit:");
+choice = Keyboard.readInt();
+if (choice==1)
+{
+Math.reverse();//Calls reverse method from the MathWiz class by way of the Math object.
+}
+else if (choice ==2)
+{
+Math.GCD();//Calls GCD method from the MathWiz class by way of the Math object.
+}
+else if (choice !=0)
+System.out.println("Improper Choice.");
+}
+while (choice !=0);
+}
+}
+
+
+//					[End of Main Class, beginning of MathWiz Class]
+/*  Ro Ronalds
+	Object Use MathWiz Project,
+	CompSci 119*/
+
+import cs1.Keyboard;
+public class MathWiz
+{
+{
+public static void reverse ()
+{
+int number, lastDigit, reverse=0;
+
+System.out.print ("Enter a positive integer: ");
+number = Keyboard.readInt();
+
+do
+{
+lastDigit=number%10;
+reverse=(reverse*10) +lastDigit;
+number=number/10;
+}
+while(number>0);
+System.out.println("That number reversed is " + reverse);
+}
+public static void GCD()
+{
+System.out.println("Enter two positive integers.");
+System.out.print("First: ");
+int num1 = Keyboard.readInt();
+System.out.print("Second: ");
+int num2 = Keyboard.readInt();
+while (num1 !=num2)
+	if (num1>num2)
+		num1 = num1 - num2;
+	else num2 = num2 - num1;
+System.out.println("GCD is: "+num1);
+}
+}
+
+//						[End of MathWiz Class]

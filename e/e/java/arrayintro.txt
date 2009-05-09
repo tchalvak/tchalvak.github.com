@@ -1,0 +1,29 @@
+/*  Ro Ronalds
+	Array Introduction Project, Lab 7, Exersize 1
+	CompSci 119
+*/
+import cs1.Keyboard;
+import java.text.DecimalFormat;
+
+public class arrayintro 
+{
+public static void main(String args[])
+{
+int i = 0;
+double sum = 0;
+double grade [] = new double[i];
+for (i=0;i<grade.length;i++)//Input section
+	{
+	System.out.println("Input grade number " + (i+1)+ ":");
+	grade[i] = Keyboard.readDouble();
+	sum = grade[i] + sum;
+	}
+double average = sum / grade.length;
+for (i=0;i<grade.length;i++)//Print Section
+	{
+	DecimalFormat fmt = new DecimalFormat ("0.##");
+	double difference = Math.abs(grade[i]-average);
+	System.out.println((i+1)+" "+grade[i]+" "+fmt.format(difference));
+	}
+}
+}

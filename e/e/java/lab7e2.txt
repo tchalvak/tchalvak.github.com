@@ -1,0 +1,28 @@
+Lab Seven, Excersize 2:
+
+6.4:
+
+Import Cs12.keyboard for all of the following.
+
+A: String names[] = new String [25]
+
+B: int grades[] = new int [40]
+
+C: Transaction numbers[] = new Transaction [i][i][i]
+
+D: Object students[] = new Object [grades][names]
+
+E: Object corporation[] = new Object [int][date][raiseamounts]
+
+
+6.5:
+
+public static int sum (Object Integers[])
+{
+for (int i=0;i<Integers.length;i++)
+	{
+	int sum = 0;
+	sum += Integers[i]
+	}
+return sum;
+}

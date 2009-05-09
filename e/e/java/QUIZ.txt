@@ -1,0 +1,503 @@
+/*
+Ro Ronalds
+Grading, object array project, Final Project
+CompSci 119	
+*/
+		Was unable to get the valid output with either of the two trials.
+		Semi-output....
+Warning: could not create runjava.out
+Input args:
+   [1] C:\Documents and Settings\ror1\My Documents\quiz\quiz_Data\Java_Applicati
+on_Release\Java Application Release.jrf
+   [2] inputfile.txt
+   [3] outputfile.txt
+Output string:
+   "C:\program files\jdk1.3.1_01\bin\java.exe" -cp ".;C:\Documents and Settings\
+ror1\My Documents\quiz\AppClasses.jar" GradeQuiz inputfile.txt outputfile.txt
+Debugnameinput:JONES
+32212End of responses input
+Debugnamenresponsesafterobject: JONES: 32212Debugnameinput:JACKSON
+32513End of responses input
+Debugnamenresponsesafterobject: JACKSON: 32513Debugnameinput:CHANG
+33513End of responses input
+Debugnamenresponsesafterobject: CHANG: 33513D:N+R: JONES 33513D:N+R: JACKSON 335
+13D:N+R: CHANG 33513
+Debugscoresafterobj: 12 2.0 F
+Debugscoresafterobj: 12 2.0 F
+Debugscoresafterobj: 12 2.0 F
+        JONES   12              2.0             F
+        JACKSON 12              2.0             F
+        CHANG   12              2.0             F
+        NAME    RAW SCORE       PERCENT         GRADE
+Exception in thread "main" java.lang.NullPointerException
+        at Quiz.printGrades(Quiz.java)
+        at GradeQuiz.main(GradeQuiz.java:16)
+
+
+ Press Enter to continue
+
+
+
+
+
+		----Trial 2----
+
+import java.io.*;
+import java.util.StringTokenizer;
+import java.text.*;
+
+class Quiz
+{
+private static Student[] quizes=new Student[3];
+public static int stunum, questionnum;
+public static BufferedReader in;
+public static PrintWriter out;
+public static int[] responselist;
+public static int[] key;
+public static int[] frequency=new int[5];
+public static char[] freletter={'A','B','C','D','F'};
+
+
+public Quiz(BufferedReader infile, PrintWriter outfile) throws IOException//Sets up the quiz data space.
+{
+in = infile;
+out=outfile;
+readFile();
+tasks();
+}
+public void readFile() throws IOException
+{
+String studentname;
+StringTokenizer line;
+line=new StringTokenizer(in.readLine());//First line.
+stunum=Integer.parseInt(line.nextToken());//1st no.(no. of students) called and set.
+questionnum=Integer.parseInt(line.nextToken());//2nd no.(no. of questions) called and set.
+//Sets up all arrays with sizes needing qnum or stunum.
+responselist=new int[questionnum];
+frequency=new int[questionnum];
+key = new int[questionnum];
+line=new StringTokenizer(in.readLine());//Second line.
+for(int i=0;i<questionnum;i++)
+	key[i]=Integer.parseInt(line.nextToken());//Loop sets up the key.
+//Something is very wrong with the area that follows.
+for(int i=0;i<3;i++)
+	{
+	line=new StringTokenizer(in.readLine());//Lines 3-5.
+	studentname=line.nextToken();//Name from line.
+	System.out.println("Debugnameinput:"+studentname);
+	for(int x=0;x<5;x++)
+		{responselist[x]=Integer.parseInt(line.nextToken());//Loop sets up responses.
+		System.out.print(responselist[x]);
+		}
+	System.out.println("End of responses input");
+	quizes[i]=new Student(studentname, responselist);	
+	System.out.print("Debugnamenresponsesafterobject: "+quizes[i].getname()+": ");
+	for(int j=0;j<5;j++)
+		System.out.print(quizes[i].getresponse(j));
+	}
+for (int i=0;i<3;i++)
+	{System.out.print("D:N+R: "+quizes[i].getname()+" ");
+	for(int j=0;j<5;j++){System.out.print(quizes[i].getresponse(j));}
+	}
+System.out.println();
+}
+public static void tasks()//Sections off the tasks
+{
+for(int i=0;i<questionnum;i++)//Any questionnum array inits.
+	frequency[i]=0;
+for(int i=0;i<stunum;i++)//Any init of stunum arrays.
+	{
+	quizes[i].setraw(raw(quizes[i].getresponses(), key));
+	quizes[i].setpercent(percent(quizes[i].getraw(), questionnum));
+	quizes[i].setletter(lettergrade(quizes[i].getpercent()));
+	System.out.println("Debugscoresafterobj: "+quizes[i].getraw()+" "+quizes[i].getpercent()+" "+quizes[i].getletter());
+	}
+}
+public static char lettergrade(double p)
+//Calcs lettergrade and tallies frequencies.  
+//Remember that it will tally for the average as well...
+{
+char ltrgrd;
+//Chooses letter grade to accompany percentscore.
+if (p<=100&&p>90)
+	{ltrgrd='A';frequency[0]++;}
+if (p<=90&&p>80)
+	{ltrgrd='B';frequency[1]++;}
+if (p<=80&&p>70)
+	{ltrgrd='C';frequency[2]++;}
+if (p<=70&&p>60)
+	{ltrgrd='D';frequency[3]++;}
+else
+	{ltrgrd='F';frequency[4]++;}//Percent Range Catch
+return ltrgrd;
+}
+public static double percent(int raw, int total)
+{
+double p=(double)(Math.round((raw/total)*1000));//Calculates percent, rounded.
+p=(double)(p/1000);
+return p;
+}
+private static int raw(int[] responselist, int[] key)
+{
+int score;
+score=0;//initial score set to zero, the default.
+for(int i=0;i<3;i++)
+	{
+	for (int x=0;x<5;x++)
+		{
+		if (quizes[i].getresponse(x)==key[x])//If key=response, add 1 to score.
+			score++;
+		}
+	}
+return score;
+}
+public static void scoreSort()//Checks each student's responses vs. the key.
+{
+for(int i=0;i<3;i++)
+	{
+	System.out.println("\t"+quizes[i].getname()+"\t"+quizes[i].getraw()+"\t\t"
+	+quizes[i].getpercent()+"\t\t"+quizes[i].getletter());
+	}
+//Changes location of the students in their megaobject.
+Student[] passoff=new Student[3];
+//Simply checks getraw()s and shifts higher scores upwards.
+Student a=quizes[0];Student b=quizes[1];Student c=quizes[2];
+if (b.getraw()>a.getraw())
+	{passoff[0]=b;passoff[1]=a;a=passoff[0];b=passoff[1];}
+if (c.getraw()>a.getraw())
+	{passoff[0]=c;passoff[2]=a;a=passoff[0];c=passoff[2];}
+if (c.getraw()>b.getraw())
+	{passoff[1]=c;passoff[2]=b;}
+quizes=passoff;
+}
+public static void printGrades()//Prints out Grade sheet in present order of the array.
+{
+int avg;
+int sum=0;
+System.out.println("\tNAME \tRAW SCORE \tPERCENT \tGRADE");
+for(int i=0;i<3;i++)
+	{
+	System.out.println("\t"+quizes[i].getname()+"\t"+quizes[i].getraw()+"\t\t"
+	+quizes[i].getpercent()+"\t\t"+quizes[i].getletter());
+	sum+=quizes[i].getraw();
+	}
+avg=(int)(percent(sum, 3));
+int[] switchout=new int[5];
+switchout=frequency;//To avoid having the average up the graphing tally.
+System.out.println("\tClass Avg:"+avg+"\t\t"+(percent(avg,5)));
+frequency=switchout;//Returns frequency to previous count unchanged.
+}
+public static void printGraph()
+{
+for(int i=0;i<5;i++)
+	{
+	System.out.print(freletter[i]+" | ");
+	for (int z=0;z<frequency[i];z++)
+		{
+		System.out.print("*");
+		}
+	System.out.print("\n");
+	}
+System.out.println();
+System.out.println("\tFrequency");
+}
+public static void nameSort()
+{
+
+}
+}
+import java.io.*;
+import java.util.StringTokenizer;
+import java.text.*;
+class Student
+{
+private String name;
+private int responses[];
+private int rawscore;
+private double percentscore;
+private char gradeletter;
+
+Student(String n, int[] r)
+{
+name=n;
+responses=r;
+rawscore=0;
+percentscore=0;
+gradeletter=' ';
+}
+public String getname()
+{
+String x=new String();
+x=name;
+return x;
+}
+public int getraw()
+{
+int x;
+x=rawscore;
+return x;
+}
+public double getpercent()
+{
+double x;
+x=percentscore;
+return x;
+}
+public char getletter()
+{
+char x;
+x=gradeletter;
+return x;
+}
+public int[] getresponses()
+{
+int[] x=new int[5];
+x=responses;
+return x;
+}
+public int getresponse(int index)
+{
+int x;
+x=responses[index];
+return x;
+}
+public void setraw(int anotherrawscore)
+{
+rawscore=anotherrawscore;
+}
+public void setpercent(double pcnt)
+{
+percentscore=pcnt;
+}
+public void setletter(char lttr)
+{
+gradeletter=lttr;
+}
+public void setname(String x)
+{
+name=x;
+}
+public void setresponses(int[] inputset)
+{
+for(int i=0;i<5;i++)
+	responses[i]=inputset[i];
+}
+}
+
+
+			--------Trial 2--------
+
+import java.io.*;
+import java.util.StringTokenizer;
+
+/*The class Quiz contains:  
+Constructor of an array of "student" type objects, i.e. a megaobject,
+a print-to-file method, two methods to sort the order of the students in the megaobject,
+a method to print-to-file a graph, and a rounding method.
+*/
+
+public class Quiz
+{
+public static int questionnum, stunum;
+public static int[] key=new int[5];
+public static String line;
+//Object data placeholders.
+public static String[] name=new String [3];public static double[] percentscore=new double[3];
+public static int[] response=new int[5];public static int[] rawscore=new int[3];
+public static char[] gradeletter=new char[3];
+//End of object data placeholders.
+private static BufferedReader infile;private static PrintWriter outfile;
+public static student[] quizes=new student[3];//Array of objects.
+public static char ltrgrd;public static int[] frequency=new int[5];
+	
+//May need to assign more public values...
+public Quiz(BufferedReader inputfile, PrintWriter outputfile) throws IOException
+/*Constructor, makes three of the studentdataobjects, which contain the variables:
+name, responses[], rawscore, percentscore, and gradeletter.*/
+{
+infile=inputfile;
+outfile=outputfile;
+System.out.println("Debug: Outfile printing passed.");
+System.out.println("Debug:  Array of student objects creation passed.");
+//Placeholder object Array.
+//Sets initial data into the student objects and returns it for use in the main.
+System.out.println("Debug: Call for data setting into Quiz object started.");
+line=infile.readLine();
+StringTokenizer tokenizer=new StringTokenizer(line);//Prepares to chop line into parts,
+//and first line called.
+System.out.println("Debug: Inputfile line 1: "+line+" Clear.");
+int stunum=Integer.parseInt(tokenizer.nextToken());//Extracts student number.
+int questionnum=Integer.parseInt(tokenizer.nextToken());//Extracts question number.
+line=infile.readLine();
+tokenizer=new StringTokenizer(line);//Second Line
+for(int z=0;z<5;z++)//Loop sets the key grade values.
+	{
+	/*Problem Area*/
+	key[z]=Integer.parseInt(tokenizer.nextToken());
+	System.out.println("Debug: Loop Key input entry:"+key[z]);
+	}
+System.out.println("Key input cleared.");
+for (int i =0;i<3;i++)
+//Loop sets values in the student objects that come from the 
+	{
+	line=infile.readLine();
+	tokenizer=new StringTokenizer(line);//All lines from Third-(2+ number of loopings(in this case to 5th line)).
+	System.out.println("Debug: Line: "+line);
+	name[i]=tokenizer.nextToken();//Reads name of student into placeholder array.
+	System.out.println("Debug: "+name[i]+" input into array"+i+" cleared.");
+	System.out.print("Debug: Response array entries: ");
+	for (int j=0;j<5;j++)
+	//Nested loop to read the student's scores into the placeholder response array.
+		{
+		response[j]=Integer.parseInt(tokenizer.nextToken());
+		System.out.print(response[j]+" ");
+		}
+	System.out.print("\n");
+	}
+infile.close();//End reading in of data from the input file.
+System.out.println("Debug: Call for File read-in ended.");
+System.out.println("Debug: Score Declaration and sorting reached.");
+answerit();
+System.out.println("Debug: End of scoresort reached.");
+}
+public static void scoreSort()//Checks each student's responses vs. the key.
+{
+//Changes location of the students in their megaobject.
+student[] passoff=new student[3];
+student a=quizes[0];student b=quizes[1];student c=quizes[2];
+if (b.rawscore>a.rawscore)
+	{passoff[0]=b;passoff[1]=a;a=passoff[0];b=passoff[1];}
+if (c.rawscore>a.rawscore)
+	{passoff[0]=c;passoff[2]=a;a=passoff[0];c=passoff[2];}
+if (c.rawscore>b.rawscore)
+	{passoff[1]=c;passoff[2]=b;}
+quizes=passoff;
+}
+public static void nameSort()
+{
+
+}
+public static void printGrades()//Prints out Grade sheet in present order of the array.
+{
+int avg;
+int sum=0;
+System.out.println("printGrades begun.");
+System.out.println("\tNAME \tRAW SCORE \t\tPERCENT \t\tGRADE");
+for(int i=0;i<3;i++)
+	{
+	System.out.println("\t"+quizes[i].name+"\t"+quizes[i].rawscore+"\t\t"+quizes[i].percentscore+"\t\t"+quizes[i].gradeletter);
+	sum+=quizes[i].rawscore;
+	}
+avg=(int)(round((sum/3)*100));
+System.out.println("\tClass Avg:"+avg+"\t\t"+(inconsequentials(avg,questionnum)));
+}
+public static void printGraph()
+{
+System.out.println("Debug: Call for printGraph reached.");
+for(int i=0;i<5;i++)
+	{
+	System.out.print(freletter[i]+" | ");
+	for (int z=0;z<frequency[i];z++)
+		{
+		System.out.print("*");
+		}
+	System.out.print("\n");
+	}
+System.out.println();
+System.out.println("\t\t\tFrequency");
+}
+public static double inconsequentials(int questnum, int raw)
+//Calcs percent and lettergrade.
+{
+double p=(double)(round((raw/questnum)*100));//Calculates percent,
+System.out.println("D: Incon: P: "+p);
+//Chooses letter grade to accompany percentscore.
+System.out.println("D: Incon: P: "+p);
+if (p<=100&&p>90)
+	{ltrgrd='A';frequency[0]++;}
+if (p<=90&&p>80)
+	{ltrgrd='B';frequency[1]++;}
+if (p<=80&&p>70)
+	{ltrgrd='C';frequency[2]++;}
+if (p<=70&&p>60)
+	{ltrgrd='D';frequency[3]++;}
+else
+	{ltrgrd='F';frequency[4]++;}//Percent Range Catch
+System.out.println("Incon. passed. Letter:"+ltrgrd);
+return p;
+}
+private static double round(double roundee)
+//Takes in doubles between 100.00 and 0.0
+//And rounds to the nearest .01.
+{
+//Sets all important place values on the left of the decimal place
+//and is then rounded to nearest 1's place, then after rounding,
+//redivides the number back down.
+System.out.println("Round Called.");
+double rounded;
+rounded=Math.round(roundee*100);
+System.out.println("Rounded number: "+(rounded/100));
+return (rounded/100);
+}
+
+}
+
+
+public class student
+{
+public String name;
+public int[] responses=new int[5];
+public double percentscore;
+public int rawscore;
+public char gradeletter;
+
+public student(int id,String n, int[] r, int rs, double p, char g)//Constructor that sets up the spaces for the objects...
+{
+System.out.println("D: Student: Constructor run.");
+name=n;
+System.out.print("D: Student: Responses:");
+for (int i=0;i<5;i++)
+	{
+	responses[i]=r[i];
+	System.out.print(responses[i]+","+r[i]);
+	}
+rawscore=rs;
+percentscore=p;
+gradeletter=g;
+System.out.println("D: Student: Constructor completed.");
+}
+}
+
+
+
+
+ import java.io.*;
+ import Quiz;
+ import student;
+ 
+ public class GradeQuiz
+ {
+ public static void main (String args[]) throws IOException
+ {
+ if (args.length>=2)
+ {
+ BufferedReader infile = new BufferedReader(new FileReader(args[0]));
+ PrintWriter outfile = new PrintWriter(new FileWriter(args[1]));
+ Quiz thisquiz = new Quiz(infile, outfile);
+
+ 
+ thisquiz.printGrades();
+ /*On hold for now.
+ thisquiz.scoreSort(); 
+ thisquiz.nameSort();
+ thisquiz.printGrades();
+ thisquiz.printGraph();
+ */
+ infile.close();
+ outfile.close();
+
+ }
+ else
+	 System.out.println("\tNot enough files specified on command line.");
+}
+}

@@ -1,0 +1,29 @@
+<HTML><HEAD><title>21</title>
+<link rel="stylesheet" type="text/css" href="min.css">
+</HEAD><BODY scroll="no" background="21yo.gif" bottomMargin=0 bgColor=#ffffff leftMargin=0 topmargin=0 rightMargin=0 marginheight="0" marginwidth="0">
+<div id="mynote" style="z-index:102;position:absolute;left:10px;top:115px;">
+<span class="date"><b>11235813</b></span><br>
+<span class="post">
+<PRE><a href="mailto:cody@newphobia.com?subject=douchebag">emsharas</a>           <a href="http://www.newphobia.com" target="_blank">*link;</a>
+September 2, 2001 @ 12:22:30 AM PST
+
+ok, now im really serious, 11235813
+is retarded. look at this semi-colon
+usage, now this "chaos is beautiful"
+bullshit. ohhh chaos, neat! i'm into
+the chaos theory.. yeah i'm smart
+and different.. damn, bowdownbitch!
+
+<a href="mailto:t@cellpattern.com?subject=douchebag">cell</a>          <a href="http://www.cellpattern.com" target="_blank">*link;</a>
+September 2, 2001 @ 12:37:33 AM PST
+
+Semicolons come from writing too much
+javascript, and talking about chaos
+must come from listening to Josh
+too much.
+
+Chaos is sooo 1995.</PRE>
+<br></span>
+<br>
+<a href="add.blog.php3">&add($this);</a>
+</div><div id="myframe" style="z-index:101;position:absolute;left:435px;top:115px;"><iframe src="blog.php3" height="265" width="250" frameborder="0"></iframe></div></BODY></HTML>

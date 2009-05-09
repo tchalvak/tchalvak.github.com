@@ -1,0 +1,34 @@
+<html>
+<head>
+<META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+<TITLE>&nbsp;CHROMELESS WINDOWS</TITLE>
+<link rel=stylesheet href=../main.css type=text/css>
+</head>
+<BODY bgcolor=#ffffff text=#000000>
+<span style="font:25px impact; color:#808080">MICROBIANS CHROMELESS WINDOWS</span><br><br><br>
+<table width=420 cellspacing=0 cellpadding=0 border=0>
+<!---->
+<tr><td width=100 class=NEURcategoria nowrap align=right>&nbsp;<span class=REMARKtit>MINI FAQ</span>&nbsp;</td><td>&nbsp;</td></tr>
+<tr><td colspan=2><img src=/microbians/img/none.gif width=1 height=1></td></tr>
+<tr><td>&nbsp;</td><td width=320><span class=NEWSbody><p align=justify>
+Aquí se reflejan las dudas más comunes de los usuarios que han usado y usan las <span class=REMARKtxt>MICROBIANS CHROMELESS WINDOWS</span>.
+<br><br><br><span class=REMARKtxt>DIFERENTES PÁGINAS EN DIFERENTES VENTANAS</span><br><br>
+Usa diferentes <span class=CODEtxt><b>n</b></span> para cada ventana diferente en la función:<br><br>
+<span class=CODEtxt>openIT(u,W,H,X,Y,<b>n</b>)</span>
+<br><br>Así, las llamadas:<br><br><span class=CODEtxt>miwin1=openIT('p1.html',200,200,null,null,<b>'miwin1'</b>)</span><br><span class=CODEtxt>miwin2=openIT('p2.html',200,200,null,null,<b>'miwin2'</b>)</span><br><br>abrirían dos ventanas diferentes.
+<br><br><br><br><span class=REMARKtxt>CAMBIAR DE PÁGINA DESDE LA VENTANA DE ORIGEN</span><br><br>
+Por ejemplo si se creó la ventana con:<br><br><span class=CODEtxt>miwin1=openIT('p1.html',200,200,null,null,'miwin1')</span><br><br>para cambiar a la página p2.html podemos usar:<br><br><span class=CODEtxt>miwin1.setURL('p2.html')</span>.
+<br><br><br><br><span class=REMARKtxt>ABRIR UNA VENTANA DESDE FLASH</span><br><br>
+Para abrir una ventana ver el ejemplo incluido en el zip <span class=CODEtxt>launch_flash5.html</span> y el archivo <span class=CODEtxt>launch.fla</span> de la carpeta <span class=CODEtxt>SWF</span>.
+En el archivo html se puede apreciar que he cambiado openIT por openIT4FLASH y la función no retorna el objeto de la ventana. La acción de action script es de la forma del siguiente ejemplo:<br><br><span class=CODEtxt>getURL("javascript:openIT4FLASH('p1.html',400,400, null, null, 'miwin1')")</span><br><br>que funciona de forma similar a openIT mencionado anteriormente.
+<br><br><br><br><span class=REMARKtxt>SÍMBOLOS ESPECIALES PARA EL TÍTULO</span><br><br>
+Con los caracteres especiales como la <span class=CODEtxt>Ñ</span> o caracteres acentuados se recomienda forzarlos en la forma <span class=CODEtxt>&#38;#64;</span> o <span class=CODEtxt>&#38;Agrave;</span>. Buscar información acerca de "ISO Latin-1 Character Set".
+<br><br><br><span class=REMARKtxt>CONTENIDO CON y SIN SCROLL</span><br><br>
+Para eliminar el scroll podemos usar una hoja de estilo como:<br><br>
+<span class=CODEtxt>&nbsp;&nbsp;&#60style&#62<br>&nbsp;&nbsp;&nbsp;&nbsp;body { overflow:hidden }<br>&nbsp;&nbsp;&#60/style&#62</span><br><br>o bien <span class=CODEtxt>scroll=no</span> en el tag <span class=CODEtxt>body</span> de las páginas que queremos que no tengan scroll.<br><br>
+Pero si lo que queremos controlar el scroll en general tenemos la opción de cambiar la variable <span class=CODEtxt>fSO ='scrolling=no noresize'</span> en la función <span class=CODEtxt>openIT</span>. Esta variable controla la forma en la que se renderiza el frame central de la ventana.<br><br>También tenemos control del scroll para navegadores no compatibles con la chromeless con la variable <span class=CODEtxt>wNS</span> en la función <span class=CODEtxt>openIT</span>. Por ejemplo activaríamos el scroll poniendo:<br><br><span class=CODEtxt>var wNS ='scrollbars=1'</span><br><br>
+</span></td></tr>
+<tr><td colspan=2><img src=/microbians/img/none.gif width=1 height=5></td></tr>
+<!---->
+</table>
+</body></html>

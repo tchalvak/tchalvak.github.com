@@ -1,0 +1,315 @@
+<html>
+<head>
+	<title>NITROCORP.org /// digital.evolution [version 6ix]</title>
+
+<SCRIPT>
+if (top.location != self.location)
+{ top.location = self.location }
+</SCRIPT> 
+
+<style>
+<!--
+.navtext {
+width:150px;
+font-size:14px;
+border-width:1px;
+border-style:outset;
+border-color:#000000;
+layer-background-color:#CADA28;
+background-color:#CADA28;
+color:#000000;
+}
+-->
+</style>
+
+
+<script  language="javascript" src="js/alttxt.js"></script>
+<SCRIPT src="js/ASM_Scroller2.js"></SCRIPT>
+
+</head>
+
+
+<script language="JavaScript">
+<!--
+self.defaultStatus = " ©2000 - 2001 NITROCORP.org All rights reserved /// digital.evolution";
+//-->
+</script>
+
+<style type="text/css">
+a:link { font: Arial; font-weight: plain; text-decoration: none; color:#FFFFFF; font-size: 14px;}
+a:visited { font: Arial; text-decoration: none; color:#BEBEBE; font-size: 14px;}
+a:active { font: Arial; text-decoration: underline; color:#31393C;  }
+a:hover { font: Arial; text-decoration: none; font-weight: plain; color:#FFFFFF; } 
+BODY 
+{scrollbar-face-color: #31393C; scrollbar-shadow-color: #31393C; 
+scrollbar-highlight-color: #31393C; scrollbar-3dlight-color: #31393C; 
+scrollbar-darkshadow-color: #31393C; scrollbar-track-color: #000000; 
+scrollbar-arrow-color: #CADA28;
+}
+
+
+
+</style>
+
+<link rel="stylesheet" href="6ix.css" type="text/css">
+
+<script src="js/fade.js" language="Javascript"></script>
+
+<SCRIPT src="js/ASM_Scroller2.js"></SCRIPT>
+
+<script language="javaScript" type="text/javascript" SRC="js/chromeless_30.js"></SCRIPT>
+
+
+<script language="javaScript" SRC="js/pz_nosecondmouse.js"></script>
+
+<script language="javaScript">
+
+function open6IX(theURL,W,H, wname) {
+	CLOSEdwn 		= "images/close_dwn.gif"
+	CLOSEup 		= "images/close_up.gif"
+	CLOSEovr 		= "images/close_ovr.gif"
+	MINIdwn 		= "images/mini_dwn.gif"
+	MINIup 			= "images/mini_up.gif"
+	MINIovr 		= "images/mini_ovr.gif"
+	NONEgrf 		= "images/none.gif"
+	CLOCKgrf		= "images/clock.gif"
+	titHTML 	    	= "<font face=verdana size=1 color=CADA28>&nbsp;ù <b><i>6ix</i></b> /// Nitrocorp Internet Explorer</font>"
+	titWIN			= "&nbsp; 6ix /// Nitrocorp Internet Explorer &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"
+	winBORDERCOLOR   	= "#000000"
+	winBORDERCOLORsel	= "#CADA28"
+	winBGCOLOR    		= "#000000"
+	winBGCOLORsel 		= "#CADA28"
+	return openchromeless(theURL, wname, W, H, NONEgrf, CLOSEdwn, CLOSEup, CLOSEovr, MINIdwn, MINIup, MINIovr, CLOCKgrf, titHTML, titWIN, winBORDERCOLOR, winBORDERCOLORsel, winBGCOLOR, winBGCOLORsel)
+}
+</SCRIPT>
+
+
+
+
+
+
+<body bgcolor="#31393C" bgproperties="fixed" topmargin="0" leftmargin="0" marginwidth="0" marginheight="0">
+
+
+
+
+<IMG SRC="images/splash.jpg" WIDTH=1024 HEIGHT=768 BORDER=0 USEMAP="#splash_Map">
+<MAP NAME="splash_Map">
+
+<AREA SHAPE="poly" ALT="" COORDS="405,310, 395,318, 390,326, 387,332, 390,340, 386,344, 392,351, 391,354, 398,360, 394,367, 401,370, 401,378, 406,378, 406,384, 415,386, 416,390, 425,393, 429,398, 435,396, 440,399, 446,393, 452,396, 460,391, 470,386, 474,379, 482,378, 485,366, 490,363, 486,351, 489,347, 483,340, 484,332,
+479,327, 474,317, 462,307, 450,303, 445,301, 442,302, 438,297, 435,301, 427,299, 423,306, 419,301, 416,308, 407,305" HREF="index2.php" onmouseover="writetxt('/// English')" onmouseout="writetxt(0)" onclick="mywinname01=open6IX('main.html',600,320, 'mywinname01');">
+
+
+<AREA SHAPE="poly" ALT="" COORDS="496,427, 486,431, 484,436, 476,444, 469,452, 464,462, 464,470, 462,478, 464,487, 466,498, 471,506, 479,514, 492,519, 507,520, 530,519, 548,507, 557,489, 560,466, 554,446, 545,435, 531,424, 513,425" HREF="index2.php" onmouseover="writetxt('/// PortuguÍs')" onmouseout="writetxt(0)" onclick="mywinname01=open6IX('main_blue.html',600,320, 'mywinname02');">
+
+
+<AREA SHAPE="poly" ALT="" COORDS="544,264, 535,263, 536,268, 531,271, 529,277, 526,286, 523,296, 526,299, 523,304, 526,308, 525,313, 530,317, 530,326, 534,326, 535,332, 542,333, 542,338, 549,339, 554,342, 564,341, 576,345, 581,342, 587,340, 599,335, 604,326, 609,313, 612,296, 609,284, 606,279, 603,278, 599,270, 591,268,
+583,262, 577,259, 574,262, 570,257, 567,259, 558,254, 553,261, 544,257" HREF="index2.php" onmouseover="writetxt('/// EspaÒol')" onmouseout="writetxt(0)" onclick="mywinname01=open6IX('main_orange.html',600,320, 'mywinname03');">
+</MAP>
+
+
+
+<div style="position:absolute; left:10px; top:270px;">
+
+<table width="120" height="20" border="0" cellpadding="1" cellspacing="1">
+
+<tr>
+ <td>
+ 	<font color="#000000">/// Shortcuts</font>
+ </td>
+</tr>
+<tr>
+ <td class="nav">
+	<a class="fade" href="index2.php" onmouseover="writetxt('/// <br><b><i>Webcam</b></i>')" onmouseout="writetxt(0)"  onclick="mywinname01=open6IX('nitrocam.html',320,290, 'mywinname05');">/// nitrocam</a>
+ </td>
+</tr>
+<tr>
+ <td class="nav">
+	<a class="fade" href="index2.php" onmouseover="writetxt('/// <br><b><i>News</b></i>')" onmouseout="writetxt(0)" onclick="mywinname05=open6IX('news.html',400,400, 'mywinname05');">/// news</a>
+ </td>
+</tr>
+<tr>
+ <td class="nav" valign="middle" align="center">
+	<a class="fade" href="index2.php" onmouseover="writetxt('/// <br><b><i>NC music selection</b></i>')" onmouseout="writetxt(0)" onclick="mywinname01=open6IX('musik.html',400,400, 'mywinname04');">/// &#181;-sik</a>
+ </td>
+</tr>
+<tr>
+ <td class="nav">
+	<a class="fade" href="irc://irc.breakfree.com/nitrocorp" onmouseover="writetxt('/// <br><b><i>IRC channel</b></i>')" onmouseout="writetxt(0)">/// IRC channel</a>
+ </td>
+</tr>
+<tr>
+ <td class="nav">
+	<a class="fade" href="mailto: kno3@nitrocorp.org?subject=6ix" onmouseover="writetxt('/// <br><b><i>contact us</b></i>')" onmouseout="writetxt(0)">/// kontakt</a>
+ </td>
+</tr>
+</table>
+
+</div>
+
+<div style="position:absolute; left:10px; top:366px;">
+
+<!-- Begin Poll Code --> 
+
+</form><form method="get" action="http://polls.vantagenet.com/1/0/291814910/polls/2918141324/results.htm" >
+<table width="120" cellpadding= "3" cellspacing="0" border="1" bordercolor="#000000" >
+ <tr>
+  <td class="header" ><b>/// nitro</b>poll
+</center>
+  </td>
+ </tr>
+ <tr>
+  <td class="nav" bgcolor="#31393C" ><input type="hidden" name="ptype" value="0"><input type="hidden" name="rlt" value="2918141324"><input type="hidden" name="id" value="2918141324">
+<b>nitrocorp's design is:</b><br><br>
+<table border="0">
+ <tr>
+  <td class="nav" valign="top"><input type="radio" name="poll" value="1">
+  </td>
+  <td class="nav" valign="top">cool
+  </td>
+ </tr>
+ <tr>
+  <td class="nav" valign="top"><input type="radio" name="poll" value="2">
+  </td>
+  <td class="nav" valign="top">not bad
+  </td>
+ </tr>
+ <tr>
+  <td class="nav" valign="top"><input type="radio" name="poll" value="3">
+  </td>
+  <td class="nav" valign="top">sucks
+  </td>
+ </tr>
+ <tr>
+  <td class="nav" valign="top"><input type="radio" name="poll" value="4">
+  </td>
+  <td class="nav" valign="top">time for <b>v7</b>
+  </td>
+ </tr>
+</table>
+<br>
+
+<center>
+<input type="submit" value="/// vote" name="1"><br><font size="1" color="#000000" face="Verdana" ><a class="fade" href="http://polls.vantagenet.com/1/0/291814910/polls/2918141324/results.htm?rlt=2918141324&id=2918141324" target="_Blank">Results</a></font></center>
+</td>
+</tr>
+</table>
+</form>
+
+ <!-- End Poll Code -->
+</div>
+
+
+<!-- //////////////////// NITROcomm \\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->
+
+<div style="position:absolute; left:820px; top:120px;">
+<table width="150" border="0">
+<tr>
+<td class="alpha" height="14" background="images/nitrocomm_header.gif">
+</td>
+</tr>
+<tr>
+<td class="content">
+
+
+
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<HEAD>
+
+ <META name="author" content="xpedition - kno3@nitrocorp.org - http://www.nitrocorp.org">
+
+ <META http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+
+ <META name="generator" content="UltraEdit">  
+
+ <TITLE>NITROcomm</TITLE>
+
+ 
+
+ <LINK REL="stylesheet" HREF="ie_phib.css">
+
+</HEAD>
+
+
+
+<BODY>
+
+
+
+<CENTER>
+
+
+
+<BR><BR>
+
+<TABLE WIDTH="150" BORDER="0"> 
+
+
+
+	   <TR><TD><B>xpedition - 22/09 19:12:21</B></TD></TR>
+
+	   <TD>Everyone please thank 666<br>
+		I'm disabling the shoutbox now.</TD>
+
+	   <TR>
+
+ <TD VALIGN="middle" ALIGN="center" WIDTH="100%">
+
+  <center>
+
+  <BR>
+
+   </CENTER></FONT>
+
+  <p>
+
+ </TD>
+
+</TR>
+
+</TABLE>
+
+</CENTER>
+
+</BODY>
+
+</HTML></td>
+</tr>
+<tr>
+<td class="alpha" height="14" background="images/nitrocomm_footer.gif">
+</td>
+</tr>
+</table>
+</div>
+
+
+<!-- ///////////////////////// END of NITROcomm \\\\\\\\\\\\\\\\\\\\ -->
+
+
+<div id="navtxt" class="navtext" style="position:absolute; top:-100px; left:0px; visibility:hidden">
+</div>
+<center>
+<!-- Begin Nedstat Basic code --> 
+<!-- Title: /// nitrocorp --> 
+<!-- URL: http://www.nitrocorp.org --> 
+<script language="JavaScript" src="http://m1.nedstatbasic.net/basic.js">; 
+</script> 
+<script language="JavaScript"> 
+<!-- 
+  nedstatbasic("ABEM5QSsMA8t/Fo0NssCu+rCM1mw", 0); 
+// --> 
+</script> 
+<noscript> 
+<a target="_blank" href="http://v1.nedstatbasic.net/stats?ABEM5QSsMA8t/Fo0NssCu+rCM1mw"><img 
+src="http://m1.nedstatbasic.net/n?id=ABEM5QSsMA8t/Fo0NssCu+rCM1mw"; 
+border="0" nosave width="18" height="18"></a> 
+</noscript> 
+<!-- End Nedstat Basic code --> 
+ 
+</center>
+
+
+</html>

@@ -1,0 +1,76 @@
+/*  Ro Ronalds
+	Method Overloading Project
+	CompSci 119*/
+import cs1.Keyboard;
+
+public class methodoverloading
+{
+
+public static void main(String args[]) 
+{
+int choice = 0;
+System.out.print("Input word: ");
+String word = Keyboard.readString();
+do
+{
+System.out.println("Choose 2 to replicate more than twice, 1 to replicate" +
+" twice, or 0 to quit.");
+choice = Keyboard.readInt();
+if (choice == 2)
+	{
+	System.out.print("Input integer: ");
+	int integer = Keyboard.readInt();
+	String cat =multiConcat(integer, word);
+	System.out.println(cat);
+	}
+else if (choice == 1)
+	{
+	String cat = multiConcat(word);
+	System.out.println(cat);
+	}
+else if (choice !=0)
+System.out.println("Improper input.");
+}while (choice!=0);
+}
+public static String multiConcat(int integer, String word)
+{
+String newstring = "";
+for (int a=integer;a!=0;a--)
+	{
+	newstring = (newstring+word);
+	}
+return newstring;
+}
+public static String multiConcat(String word)
+{
+String newstring = "";
+newstring = (word+word);
+return newstring;
+}
+}
+
+[Output]
+
+
+
+Input word: bing
+Choose 2 to replicate more than twice, 1 to replicate twice, or 0 to quit.
+2
+Input integer: 6
+bingbingbingbingbingbing
+Choose 2 to replicate more than twice, 1 to replicate twice, or 0 to quit.
+1
+bingbing
+Choose 2 to replicate more than twice, 1 to replicate twice, or 0 to quit.
+1
+bingbing
+Choose 2 to replicate more than twice, 1 to replicate twice, or 0 to quit.
+2
+Input integer: 3
+bingbingbing
+Choose 2 to replicate more than twice, 1 to replicate twice, or 0 to quit.
+0
+
+
+ Press Enter to continue
+

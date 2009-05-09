@@ -1,0 +1,24 @@
+<html><head><title>The XAOSMud Homepage</title></head>
+<noscript><!--<body>
+<!-- </html> -->
+<style><!--
+body: {
+scrollbar-base-color: #FF0000;
+scrollbar-face-color: #FF0000;
+scrollbar-track-color: #FF0000;
+scrollbar-3dlight-color: #FF0000;
+scrollbar-highlight-color: #FF0000;
+scrollbar-darkshadow-color: #FF0000;
+scrollbar-shadow-color: #FF0000;
+scrollbar-arrow-color: #FF0000
+} -->
+</style>
+
+<body bgcolor="#000000" text="#D69452" >
+<class=Body>
+<center>
+<a href="main.html">
+<img src="img/xaosbig.png" border=0 alt='XaosMud - xaos.slf.cx:5000'></a>
+<br>
+<font style="font-size: 9px; font-family: verdana;">
+[ Click on the above image to enter ]

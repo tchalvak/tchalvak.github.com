@@ -1,0 +1,101 @@
+/*      Ro Ronalds
+	Golf lab
+	CompSci 119*/
+
+
+		[Output]
+
+
+The winner is player 1.
+Totals:
+    P1: -16   P2: -4   P3: -5   P4: 12
+
+
+ Press Enter to continue
+
+
+/*  Ro Ronalds
+	Golf lab
+	CompSci 119*/
+
+import java.io.*;
+import java.util.StringTokenizer;
+
+public class golf
+{
+
+public static void main(String args[]) throws java.io.IOException
+{
+//sets up 5 arrays of scores, for par and the four players.
+int[] par=new int[20];
+int[] one=new int[20];
+int[] two=new int[20];
+int[] three=new int[20];
+int[] four=new int[20];
+String file = "C:\\Documents and Settings\\ror1\\My Documents\\golf\\golf.txt";
+String line;
+int i =0;
+StringTokenizer tokenizer;
+try
+{
+FileReader fr = new FileReader(file);
+BufferedReader inFile=new BufferedReader (fr);
+line = inFile.readLine();
+while (line!=null)
+	{
+	tokenizer=new StringTokenizer(line);
+	try
+	{
+	par[i] = Integer.parseInt(tokenizer.nextToken());
+	one[i] = Integer.parseInt(tokenizer.nextToken());
+	two[i] = Integer.parseInt(tokenizer.nextToken());
+	three[i] = Integer.parseInt(tokenizer.nextToken());
+	four[i] = Integer.parseInt(tokenizer.nextToken());
+	}
+	catch(NumberFormatException exception)
+	{
+	System.out.println("Error in input.  Line ignored:");
+	System.out.println(line);
+	}
+	i++;
+	line = inFile.readLine();
+	}
+int parsum = 0;int onesum = 0;int twosum = 0;int threesum = 0;int foursum=0;
+for (int z=0;z<18;z++)
+	{
+	parsum+= par[z];
+	onesum+= one[z];
+	twosum+= two[z];
+	threesum+= three[z];
+	foursum+= four[z];
+	}
+winner(onesum, twosum, threesum, foursum);
+System.out.println("Par      P1   P2   P3   P4");
+for(int q=0;q<18;q++)
+{
+System.out.print("  "+par[q]);
+if((one[q]-par[q])>=0){System.out.print(" ");}
+System.out.print("      "+(one[q]-par[q]));
+if((two[q]-par[q])>=0){System.out.print(" ");}
+System.out.print("   "+(two[q]-par[q]));
+if((three[q]-par[q])>=0){System.out.print(" ");}
+System.out.print("   "+(three[q]-par[q]));
+if((four[q]-par[q])>=0){System.out.print(" ");}
+System.out.print("   "+(four[q]-par[q])+"\n");
+}
+System.out.println("Totals:\n    P1: "+(onesum-parsum)+"   P2: "+(twosum-parsum)+"   P3: "+(threesum-parsum)+"   P4: "+(foursum-parsum));
+}
+catch (FileNotFoundException exception)
+{System.out.println("File not found.");}
+catch (IOException exception)
+{System.out.println(exception);}
+}
+public static void winner(int a, int b, int c, int d)
+{
+int w=a;int n=1;
+if(b<w){w=b;n=2;}
+if(c<w){w=c;n=3;}
+if(d<w){w=d;n=4;}
+System.out.println("The winner is player "+n+".");
+}
+}

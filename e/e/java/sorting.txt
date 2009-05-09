@@ -1,0 +1,73 @@
+/*  Ro Ronalds
+	sorting problem, lab 10
+	CompSci 119 */
+
+               [Output]
+
+89  94  69  80  97  85  73  91  77  85  93
+
+Selection sorted: 97  94  93  91  89  85  85  80  77  73  69
+
+Insertion sorted: 97  94  93  91  89  85  85  80  77  73  69
+
+ Press Enter to continue
+
+
+/*  Ro Ronalds
+	sorting problem, lab 10
+	CompSci 119 */
+import Sorts;
+
+public class sortingdriver 
+{
+public static void main(String args[]) 
+{
+int[] array={89,94,69,80,97,85,73,91,77,85,93};
+for(int index=0;index<array.length;index++)
+	{System.out.print(array[index]+"  ");}
+Sorts.selectionSort(array);
+System.out.print("\n\nSelection sorted: ");
+for(int index=0;index<array.length;index++)
+	System.out.print(array[index]+"  ");
+Sorts.insertionSort(array);
+System.out.print("\n\nInsertion sorted: ");
+for(int index=0;index<array.length;index++)
+	System.out.print(array[index]+"  ");
+
+}
+}
+
+public class Sorts
+{
+public static void selectionSort(int[] numbers)
+{
+int min, temp;
+
+for (int index = 0;index<numbers.length-1;index++)
+	{
+	min=index;//makes an alterable brother to index each time.
+	for(int scan=index+1;scan<numbers.length;scan++)
+		if(numbers[scan] >numbers[min])
+			min=scan;
+	temp=numbers[min];
+	numbers[min]=numbers[index];
+	numbers[index]=temp;
+	}
+}
+public static void insertionSort(int[] numbers)
+{
+for (int index=1;index<numbers.length;index++)
+	{
+	int key=numbers[index];
+	int position=index;
+	//Shift larger values to the left.
+	while (position>0&&numbers[position-1]<key)
+		{
+		numbers[position]=numbers[position-1];
+		position--;
+		}
+	numbers[position]=key;
+	}
+}
+
+}

@@ -1,0 +1,70 @@
+<html>
+<head>
+<META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+<TITLE>&nbsp;CHROMELESS WINDOWS</TITLE>
+<link rel=stylesheet href=../main.css type=text/css>
+</head>
+<BODY bgcolor=#ffffff text=#000000>
+<span style="font:25px impact; color:#808080">MICROBIANS CHROMELESS WINDOWS 3.5</span><br><br><br>
+<table width=420 cellspacing=0 cellpadding=0 border=0>
+<!---->
+<tr><td class=NEURcategoria nowrap align=right>&nbsp;<span class=REMARKtit>USO DEL SCRIPT</span>&nbsp;</td><td>&nbsp;</td></tr>
+<tr><td colspan=2><img src=/microbians/img/none.gif width=1 height=1></td></tr>
+<tr><td>&nbsp;</td><td width=320><span class=NEWSbody><p align=justify>
+Para generar las ventanas sin marco lo primero es añadir:
+<p><span class=CODEtxt><br>&#60script src="js/chromeless_35.js"&#62&#60/script&#62</span>
+<p align=justify><img src=/microbians/img/none.gif width=1 height=5><br>
+esta sentencia se añade entre los tags <span class=CODEtxt>&#60HEAD&#62 &#60/HEAD&#62</span> de
+la página html que vaya a lanzar la ventana. Con esto nos aseguramos de que todo el código necesario
+estará precargado y listo para su uso posteriormente.<br><br>
+A partir de aquí se puede usar la función openIT (ver el ejemplo incluido en el ZIP).<br><br>
+Esta función es una llamada simplificada que lanzará una nueva ventana sin marco y el la que podemos definir las siguientes variables.<p>
+<br><br><span class=REMARKtxt>BOTONES</span><br><br>
+<span class=CODEtxt><b>cU&nbsp;&nbsp;</b></span> | gif del botón cerrar normal.<br>
+<span class=CODEtxt><b>cO&nbsp;&nbsp;</b></span> | gif del botón cerrar en mouseover.<br>
+<span class=CODEtxt><b>cL&nbsp;&nbsp;</b></span> | gif del indicador "cargando".<br>
+<span class=CODEtxt><b>mU&nbsp;&nbsp;</b></span> | gif del botón minimizar a la barra de tareas normal.<br>
+<span class=CODEtxt><b>mO&nbsp;&nbsp;</b></span> | gif del botón minimizar a la barra de tareas en mouseover.<br>
+<span class=CODEtxt><b>xU&nbsp;&nbsp;</b></span> | gif del botón maximizar normal.<br>
+<span class=CODEtxt><b>xO&nbsp;&nbsp;</b></span> | gif del botón maximizar en mouseover.<br>
+<span class=CODEtxt><b>rU&nbsp;&nbsp;</b></span> | gif del botón minimizar normal.<br>
+<span class=CODEtxt><b>rO&nbsp;&nbsp;</b></span> | gif del botón minimizar en mouseover.<br>
+<br><br><span class=REMARKtxt>TÍTULO</span><br><br>
+<span class=CODEtxt><b>tH&nbsp;&nbsp;</b></span> | título para la barra de la ventana en formato html.<br>
+<span class=CODEtxt><b>tW&nbsp;&nbsp;</b></span> | título para la barra de tareas de Windows.<br>
+<br><br><span class=REMARKtxt>COLORES</span><br><br>
+<span class=CODEtxt><b>wB&nbsp;&nbsp</b></span> | Color del borde.<br>
+<span class=CODEtxt><b>wBs&nbsp;</b></span> | Color del borde al arrastrar la ventana.<br>
+<span class=CODEtxt><b>wBG&nbsp;</b></span> | Color de fondo de la barra.<br>
+<span class=CODEtxt><b>WBGs</b></span> | Color de fondo de la barra al arrastrar la ventana.<br>
+<br><br><span class=REMARKtxt>COMPATIBILIDAD</span><br><br>
+<span class=CODEtxt><b>wNS&nbsp;</b></span> | Define los parámetros html de la ventana para Netscape.<br>
+<span class=CODEtxt><b>fSO&nbsp;</b></span> | Define los parámetros html del frame de contenidos.<br>
+<br><br><span class=REMARKtxt>PARAMETROS EXTRA</span><br><br>
+<span class=CODEtxt><b>brd&nbsp;</b></span> | Grosor del borde extra de la ventana.<br>
+<span class=CODEtxt><b>max&nbsp;</b></span> | Maximizar (true|false).<br>
+<span class=CODEtxt><b>min&nbsp;</b></span> | Minimizar a la barra de tareas (true|false).<br>
+<span class=CODEtxt><b>res&nbsp;</b></span> | Cambio de tamaño con el ratón (true|false).<br>
+<span class=CODEtxt><b>tsz&nbsp;</b></span> | Altura de la barra de titulo.<br>
+<br><br><span class=REMARKtxt>LA FUNCIÓN OPENIT (POR DEFECTO)</span><br><br>
+Esta información es sólo para la función 'openIT' incluida en el ejemplo 'test_html.html' que simplifica el uso de la función madre 'chromeless'. Para otros usos o diferentes efectos se recomienda la creación de un 'openIT' a medida.<br><br>
+<span class=CODEtxt>openIT(u,W,H,X,Y,n,b,x,m,r)</span><br><br>
+<span class=CODEtxt><b>u&nbsp;&nbsp;&nbsp;</b></span> | La página que queremos abrir.<br>
+<span class=CODEtxt><b>W&nbsp;&nbsp;&nbsp;</b></span> | Ancho de la ventana.<br>
+<span class=CODEtxt><b>H&nbsp;&nbsp;&nbsp;</b></span> | Largo de la ventana.<br>
+<span class=CODEtxt><b>X&nbsp;&nbsp;&nbsp;</b></span> | Posición horizontal (null=centrado).<br>
+<span class=CODEtxt><b>Y&nbsp;&nbsp;&nbsp;</b></span> | Posición vertical (null=centrado).<br>
+<span class=CODEtxt><b>n&nbsp;&nbsp;&nbsp;</b></span> | Nombre identificador de la ventana.<br>
+<span class=CODEtxt><b>b&nbsp;&nbsp;&nbsp;</b></span> | Grosor del borde extra.<br>
+<span class=CODEtxt><b>x&nbsp;&nbsp;&nbsp;</b></span> | Maximizar (true|false).<br>
+<span class=CODEtxt><b>m&nbsp;&nbsp;&nbsp;</b></span> | Minimizar a la barra de tareas (true|false).<br>
+<span class=CODEtxt><b>r&nbsp;&nbsp;&nbsp;</b></span> | Resize (true|false).<br>
+</span>
+<br><br><span class=REMARKtxt>EJEMPLO DE LLAMADA A OPENIT DESDE HTML</span><br><br>
+<span class=CODEtxt>&#60a href="#" onclick="miventana=openIT('mipagina.html',200,200,null,null,'nombreventana')"&#62 Abre la ventana&#60/a&#62</span><br><br>
+Esto abriría una ventana con la página <span class=CODEtxt>mipagina.html</span> de tamaño <span class=CODEtxt>200x200</span> y posicionada en el centro de la pantalla.<br><br>
+</span></td></tr>
+<tr><td colspan=2><img src=/microbians/img/none.gif width=1 height=5></td></tr>
+<!---->
+</table>
+</body></html>

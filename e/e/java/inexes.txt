@@ -1,0 +1,79 @@
+Unknown, shattered, scattered through darkness, the Nexus of Existence.  It's harsh edges slice nothingness like blade though water.  All that remains, wisps, coalesce into my illusion, against hope.
+/*
+	Ro Ronalds
+	Lab 6, Exersize 2, Crayons in a Box
+	CompSci 119	
+*/
+
+import box;
+import crayons;
+import java.awt.*;
+import java.applet.Applet;
+
+public class crayonsinabox extends Applet
+{
+private box box1;
+private crayons c1, c2, c3;
+
+public void init ()
+	{
+	box1 = new box ();
+	c1 = new crayons (100, 150, Color.blue);
+	c2 = new crayons (200, 320, Color.green);
+	c3 = new crayons (300, 250, Color.red);
+	setBackground (Color.black);
+	setSize (500, 500);	
+	}
+public void paint (Graphics page)
+	{
+	box1.draw (page);
+	c1.draw (page);
+	c2.draw (page);
+	c3.draw (page);
+	}
+}
+/*
+	Ro Ronalds
+	Lab 6, Exersize 2, Crayons class
+	CompSci 119		
+*/
+
+import java.awt.*;
+
+public class crayons
+{
+private int width;
+private int height;
+private int location;
+private Color color;
+public crayons (int x, int y, Color z)
+	{
+	location = x;
+	height = y;
+	color = z;
+	}
+public void draw (Graphics page) 
+	{
+	int width = 50;
+	int constant = 400-height;
+	page.setColor (color);
+	page.fillRect(location, height, width, constant);
+	}
+}
+/*
+	Ro Ronalds
+	Lab 6, Exersize 2, Box class
+	CompSci 119		
+*/
+
+import java.awt.*;
+import java.applet.Applet;
+
+public class box
+{
+public static void draw (Graphics page)
+{
+page.setColor (Color.yellow);
+page.fillRect (50,50,400,400);
+}
+}

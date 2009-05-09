@@ -1,0 +1,59 @@
+<html>
+<head>
+<META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+<TITLE>&nbsp;CHROMELESS WINDOWS</TITLE>
+<link rel=stylesheet href=../main.css type=text/css>
+</head>
+<BODY bgcolor=#ffffff text=#000000>
+<span style="font:25px impact; color:#808080">MICROBIANS CHROMELESS WINDOWS</span><br><br><br>
+<table width=420 cellspacing=0 cellpadding=0 border=0>
+<!---->
+<tr><td width=100 class=NEURcategoria nowrap align=right>&nbsp;<span class=REMARKtit>MINI FAQ</span>&nbsp;</td><td>&nbsp;</td></tr>
+<tr><td colspan=2><img src=/microbians/img/none.gif width=1 height=1></td></tr>
+<tr><td>&nbsp;</td><td width=320><span class=NEWSbody><p align=justify>
+Following are some of the most asked questions from actual users of <span class=REMARKtxt>MICROBIANS CHROMELESS WINDOWS</span>.
+<!---->
+
+
+
+<br><br><br><span class=REMARKtxt>HOW DO I USE DIFFERENT PAGES IN DIFFERENT WINDOWS?</span><br><br>
+Use diferent <span class=CODEtxt><b>n</b></span> values for each different window in the function:<br><br>
+<span class=CODEtxt>openIT(u,W,H,X,Y,<b>n</b>)</span>
+<br><br>So the calls:<br><br><span class=CODEtxt>mywin1=openIT('p1.html',200,200,null,null,<b>'mywin1'</b>)</span><br><span class=CODEtxt>mywin2=openIT('p2.html',200,200,null,null,<b>'mywin2'</b>)</span><br><br>would open two different windows.
+<!---->
+
+
+
+<br><br><br><br><span class=REMARKtxt>HOW TO CHANGE OF PAGE FROM THE OPENER WINDOW</span><br><br>
+For example if the window was created with:<br><br><span class=CODEtxt>mywin1=openIT('p1.html',200,200,null,null,'mywin1')</span><br><br>we can change to the p2.html page using:<br><br><span class=CODEtxt>mywin1.setURL('p2.html')</span>.
+<!---->
+
+
+
+<br><br><br><br><span class=REMARKtxt>HOW DO I OPEN A WINDOW FROM FLASH?</span><br><br>
+In order to open a window from flash, take a look to the example <span class=CODEtxt>launch_flash5.html</span> included inside the ZIP file and the <span class=CODEtxt>launch.fla</span> in the <span class=CODEtxt>SWF</span> folder, also found in the ZIP file.
+<br><br>In the HTML file you can see that the openIT is changed to openIT4FLASH.  Because the Flash function does not return the JavaScript object of the window, it is better to use the openIT4FLASH with Flash application. The action script to use in Flash to open a window is:
+<br><br><span class=CODEtxt>getURL("javascript:openIT4FLASH('p1.html',400,400, null, null, 'mywin1')")</span>
+<br><br>For Flash, this will work the same way as the regular openIT function.
+<!---->
+
+
+
+
+<br><br><br><br><span class=REMARKtxt>HOW DO I USE SPECIAL CHARACTER'S CODES IN A TITLE?</span><br><br>
+For special character’s code like <span class=CODEtxt>Ñ</span> or tilded chars the better way is to use coding such as: <span class=CODEtxt>&#38;#64;</span> or <span class=CODEtxt>&#38;Agrave;</span>. To find the particular character coding you desire, please rely upon information about "ISO Latin-1 Character Set". 
+<!---->
+
+
+
+<br><br><br><span class=REMARKtxt>HOW DO I SCROLL, OR CEASE A SCROLL FUNCTION?</span><br><br>
+In order to eliminate scroll in the MICROBIANS CHROMELESS WINDOWS compatible browsers, use a style sheet like:
+<br><br>
+<span class=CODEtxt>&nbsp;&nbsp;&#60style&#62<br>&nbsp;&nbsp;&nbsp;&nbsp;body { overflow:hidden }<br>&nbsp;&nbsp;&#60/style&#62</span>
+<br><br>in the head of every html page or <span class=CODEtxt>scroll=no</span> in the <span class=CODEtxt>body</span> tag of the pages where you want to have no scroll.<br><br>
+But if you want to make all pages "no scroll" you can use also the <span class=CODEtxt>fSO ='scrolling=no noresize'</span> variable of the <span class=CODEtxt>openIT</span> function. This variable controls rendering of the main frame.<br><br>There is a similiar control for non MICROBIANS CHROMELESS WINDOWS compatible browsers with the <span class=CODEtxt>wNS</span> variable in the <span class=CODEtxt>openIT</span> function. For example we can add scroll for Netscape with:<br><br><span class=CODEtxt>var wNS ='scrollbars=1'</span><br><br>inside the openIT fuction.
+</span></td></tr>
+<tr><td colspan=2><img src=/microbians/img/none.gif width=1 height=5></td></tr>
+<!---->
+</table>
+</body></html>

@@ -1,0 +1,46 @@
+/*  Ro Ronalds
+	ArraysandMethods Project, Lab 8, Exersize 1
+	CompSci 119
+*/
+import cs1.Keyboard;
+import java.text.DecimalFormat;
+
+public class arraysandmethods
+{
+public static void main(String args[])
+{
+double sum = 0;
+double[] grade = new double[10];
+ReadGrades(grade, sum);
+for (int i=0;i<grade.length;i++)
+	{
+	sum = grade[i] + sum;
+	}
+double average = CalcAvg(sum);
+PrintResults(grade, average);
+}
+public static void ReadGrades(double[] grade, double sum)
+{
+
+for (int i=0;i<grade.length;i++)
+	{
+	System.out.print("Input Grade number "+(i+1)+" : ");
+	grade[i]=Keyboard.readDouble();
+	sum=sum+grade[i];
+	}
+}
+public static double CalcAvg (double sum)
+{
+double average = sum/10;
+return average;
+}
+public static void PrintResults(double[] grade, double average)
+{
+for (int i=0;i<grade.length;i++)//Print Section
+	{
+	DecimalFormat fmt = new DecimalFormat ("0.##");
+	double difference = Math.abs(grade[i]-average);
+	System.out.println((i+1)+" "+grade[i]+" "+fmt.format(difference));
+	}
+}
+}

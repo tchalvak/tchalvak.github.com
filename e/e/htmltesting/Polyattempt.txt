@@ -1,0 +1,31 @@
+<html>
+<body bgcolor="#31393C" bgproperties="fixed" topmargin="0" leftmargin="0" marginwidth="0" marginheight="0">
+
+
+
+
+<IMG SRC="images/splash.jpg" WIDTH=1024 HEIGHT=768 BORDER=0 USEMAP="#splash_Map">
+<MAP NAME="splash_Map">
+
+
+
+
+<AREA SHAPE="poly" COORDS="1,50, 40,50, 1,1" HREF="http://nxs.s5.com" onmouseover="writetxt('/// English')" onmouseout="writetxt(0)" onclick="mywinname01=open6IX('test.html',600,320, 'mywinname01');">
+
+
+
+
+
+
+<AREA SHAPE="poly" ALT="" COORDS="405,310, 395,318, 390,326, 387,332, 390,340, 386,344, 392,351, 391,354, 398,360, 394,367, 401,370, 401,378, 406,378, 406,384, 415,386, 416,390, 425,393, 429,398, 435,396, 440,399, 446,393, 452,396, 460,391, 470,386, 474,379, 482,378, 485,366, 490,363, 486,351, 489,347, 483,340, 484,332,
+479,327, 474,317, 462,307, 450,303, 445,301, 442,302, 438,297, 435,301, 427,299, 423,306, 419,301, 416,308, 407,305" HREF="index2.php" onmouseover="writetxt('/// English')" onmouseout="writetxt(0)" onclick="mywinname01=open6IX('main.html',600,320, 'mywinname01');">
+
+
+<AREA SHAPE="poly" ALT="" COORDS="496,427, 486,431, 484,436, 476,444, 469,452, 464,462, 464,470, 462,478, 464,487, 466,498, 471,506, 479,514, 492,519, 507,520, 530,519, 548,507, 557,489, 560,466, 554,446, 545,435, 531,424, 513,425" HREF="index2.php" onmouseover="writetxt('/// Português')" onmouseout="writetxt(0)" onclick="mywinname01=open6IX('main_blue.html',600,320, 'mywinname02');">
+
+
+<AREA SHAPE="poly" ALT="" COORDS="544,264, 535,263, 536,268, 531,271, 529,277, 526,286, 523,296, 526,299, 523,304, 526,308, 525,313, 530,317, 530,326, 534,326, 535,332, 542,333, 542,338, 549,339, 554,342, 564,341, 576,345, 581,342, 587,340, 599,335, 604,326, 609,313, 612,296, 609,284, 606,279, 603,278, 599,270, 591,268,
+583,262, 577,259, 574,262, 570,257, 567,259, 558,254, 553,261, 544,257" HREF="index2.php" onmouseover="writetxt('/// Español')" onmouseout="writetxt(0)" onclick="mywinname01=open6IX('main_orange.html',600,320, 'mywinname03');">
+</MAP>
+</body>
+</html>

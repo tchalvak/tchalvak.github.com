@@ -1,0 +1,7 @@
+<BODY OnLoad="document.nameform.user.focus();">
+
+<center>
+<form name="nameform">
+Name:  <input type=text name=user size=10>
+</form>
+</center>

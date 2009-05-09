@@ -1,0 +1,74 @@
+		//[[[[ Code ]]]]
+
+/*  Ro Ronalds
+	Catch and Throw lab, Lab 10, Excersize 2
+    CompSci 119*/
+
+
+
+import java.text.DecimalFormat;
+import java.io.*;
+
+public class examgrades 
+{
+public static void main(String args[]) 
+{
+try
+{
+int grade, count = 0, sum = 0, max, min;
+double average;
+BufferedReader stdin = new BufferedReader(new InputStreamReader (System.in));
+System.out.print("Enter the first grade(-1 to quit): ");
+grade = Integer.parseInt(stdin.readLine());
+
+max = min=grade;
+
+while(grade>=0)
+{
+	count++;
+	sum += grade;
+	if (grade>max)
+		max=grade;
+	else if (grade<min)
+		min=grade;
+	System.out.print("Enter the next grade (-1 to quit): ");
+	grade = Integer.parseInt(stdin.readLine());
+}
+if (count ==0)
+	System.out.println("No valid grades were entered.");
+else
+	{
+	DecimalFormat fmt=new DecimalFormat ("0.##");
+	average=(double)(sum/count);
+	System.out.println("\nTotal number of students: "+count);
+	System.out.println("Average grade: " + fmt.format(average));
+	System.out.println("Highest grade: "+max);
+	System.out.println("Lowest grade: "+min);
+	}
+}
+catch(NumberFormatException exp)
+{System.out.println("Quadractic Number Format Exception, please try again.");
+exp.printStackTrace();}
+catch(IOException exception)
+{System.out.println(exception);}
+}
+}
+
+		                //[[[[ Output ]]]]
+
+/*
+Enter the first grade(-1 to quit): 34
+Enter the next grade (-1 to quit): 54
+Enter the next grade (-1 to quit): 654
+Enter the next grade (-1 to quit): 56
+Enter the next grade (-1 to quit): 54
+Enter the next grade (-1 to quit): bing
+Quadractic Number Format Exception, please try again.
+java.lang.NumberFormatException: bing
+        at java.lang.Integer.parseInt(Integer.java:414)
+        at java.lang.Integer.parseInt(Integer.java:463)
+        at examgrades.main(examgrades.java)
+
+
+ Press Enter to continue
+*/

@@ -1,0 +1,94 @@
+/*  Ro Ronalds
+	Mortgage Project
+	CompSci 119*/
+import java.lang.Math;
+import java.text.DecimalFormat;
+//double bing = null;//reminder to self...
+
+public class Mortgage
+{
+public static double pr, in, i, p, monthlypay;
+public static int ny, bm, by;
+public static final String[] months = {"January","February","March","April","May","June","July","August","September","October","November","December"};
+public static final String[] monthsstaticlength = {"January  ","February ","March    ","April    ","May      ","June     ","July     ","August   ","September","October  ","November ","December "};
+
+public Mortgage (double principal,double interest,int noyears,int begmonth,int begyear)//Constructor.
+{
+pr=principal;
+in=interest;
+ny=noyears;
+bm=begmonth;
+by=begyear;
+
+i=(in/12)/100;//sets i as interest per month.
+p=roundit(pr);//rounds the principle and redefines it.
+}
+
+public static double topower(int N,double p)//Power method, intakes n and a double and multiplies the double by itself n times.
+{
+double powered=1;
+for(int q=0;q<N;q++)
+	{powered= powered*p;}
+return powered;
+}
+
+public static double roundit (double unrounded)//Rounds a double to two decimal places.
+{
+double result = (int) (unrounded*100);
+result=(result/100);
+return result;
+}
+
+public static void echoData(/*double p, double i, int ny*/)//Echos User Input before the Output.
+{
+double b =i;
+b=roundit((b*100));
+System.out.println("Principal: "+p+" Monthly Interest Rate: "+b+" Number of Months: "+(ny*12)+".");
+System.out.println("Beginning month: "+monthsstaticlength[bm-1]+"       Beginning year: "+by);
+}
+
+public static boolean dataValid(/*double p,double i, int ny, int bm, int by*/)
+{
+boolean checkvalid=true;
+if (!(pr>0&&in>0&&ny>0&&bm>0&&bm<=12&&by>=0))//Checks if all numbers are positive and the month is from 0-12.
+	{checkvalid=false;}//Marks the return as invalid if specifications are not met.
+return checkvalid; 
+}
+
+public static void printSchedule(/*double p,double i, int ny, int bm, int by*/)//Does calculations and Prints out main body.
+{
+int N=(ny*12);//Sets the number of months that the loan persists for.
+double unpowered, powered, interpaid, totalinterest, yearinterest ,balance, principaid, balancethen;
+balance = pr;yearinterest=0;totalinterest=0;//Starts the vars off at their initial value.
+unpowered = (i+1);//Ups the interest by one before using the topower method.
+powered = topower(N, unpowered);//Uses topower method on the new interest.
+//Problem with monthlypayment calculation, main problem of this project.
+monthlypay = ((p*i)/(1-(1/(powered))));//Computes monthly payments after the interest has been compounded for full time.
+monthlypay=roundit(monthlypay);//Rounds the montly payment.
+System.out.println("Your monthly payment is: "+(monthlypay)+"\n");
+System.out.println("Amortization Schedule, starting "+months[bm]+" of year "+by+".\n");//Prints beginning month using array of months.
+System.out.println("Key:\n        [interest paid]    =principal paid=    (balance)\n");//Key to output.
+for (int z=0;z<N;z++)
+	{//Loops printout for each month, and total interest for year after every december month.
+	int monthnumber = ((bm+z)-1)%12;//Makes the month number cycle through 0-11.
+	if (balance>=0)
+		{
+		interpaid=(balance*i);interpaid=roundit(interpaid);
+		balancethen=balance;balancethen=roundit(balancethen);
+		balance = (balance+interpaid)-monthlypay;balance=roundit(balance);
+		principaid=(balancethen-balance);principaid=roundit(principaid);
+		yearinterest =interpaid+yearinterest;yearinterest=roundit(yearinterest);
+		totalinterest=interpaid+totalinterest;totalinterest=roundit(totalinterest);
+//Main printing section of program.
+		System.out.print(z+1);
+		if ((z+1)<10)	{System.out.print(" ");}
+		System.out.println(" "+(monthsstaticlength[/*(bm-1)+*/monthnumber])+
+		"    ["+interpaid+"]    ="+principaid+"=    ("+balance+")");
+		}
+	if ((monthnumber)==11)//Displays yearly interest after every December month.
+		{System.out.println("\nTotal Interest for year "+(by+((bm+z)/11)+"")+" = $"+yearinterest+"\n");yearinterest=0;}
+	}//End of Loop.
+System.out.println("Total Interest Paid for the entire mortgage is $"+totalinterest);
+}
+
+}

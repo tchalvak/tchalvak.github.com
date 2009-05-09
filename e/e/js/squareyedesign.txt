@@ -1,0 +1,68 @@
+<html>
+<head>
+<title>squareyedesign.com - Portfolio - web designer Frédéric Caunant AKA Squareyes</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="keywords" content="portfolio,flash,actionscript,webdesigner,webmaster,freelance,job,travail,jeux,games,squareyes,Frédéric Caunant" />
+<meta name="description" content="A full scale flash enhanced website featuring the work of webdesigner Frédéric Caunant AKA Squareyes" />
+<meta name="robots" content="noimageindex" />
+<meta name="rating" content="safe for kids" />
+<meta name="Auteur" content="Frédéric Caunant AKA Squareyes" />
+<link rel="shortcut icon" href="http://www.squareyedesign.com/img/miniico.ico"> 
+<script language="javaScript" type="text/javascript" SRC="js/js.js"></SCRIPT>
+<script language="javaScript" type="text/javascript" SRC="js/chromelessf.js"></SCRIPT>
+<script language="javaScript" type="text/javascript" SRC="js/chromeless.js"></SCRIPT>
+</head>
+
+<body bgcolor="#473A49">
+<table width="100%" border="0" cellspacing="0" cellpadding="0" height="100%">
+  <tr>
+    <td align="center" valign="middle">
+      <table width="489" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td align="center" valign="middle"><img src="img/splash.gif" width="489" height="260" border="0" usemap="#Map">
+		  <img src="img/hint.gif" width="2" height="2" alt="site flash exposant le portfolio du web designer Fr&eacute;d&eacute;ric Caunant AKA Squareyes. portfolio,flash,actionscript, games,webdesigner,webmaster,freelance,travail,squareyes,Frédéric Caunant"
+		  ><img src="img/hint.gif" width="2" height="2" alt="A full scale flash enhanced website featuring the work of web designer Fr&eacute;d&eacute;ric Caunant AKA Squareyes. portfolio,flash,actionscript, games,webdesigner,webmaster,freelance,job,squareyes,Frédéric Caunant"></td>
+        </tr>
+        <tr>
+          <td>
+            <table width="490" border="0" cellspacing="0" cellpadding="0">
+              <tr> 
+                <td height="20"><img src="img/awards.gif" width="127" height="11"></td>
+              </tr>
+              <tr> 
+                <td><a href="http://www.coolhomepages.com/newstatic//Flash/90.html" target="_blank"><img src="img/CHP_3.gif" width="88" height="31" border="0" alt="Coolhomepages Award"></a>&nbsp;<a href="http://www.newwebpick.com/ " target="_blank"><img src="img/newweblogo1.gif" width="88" height="31" border="0" alt="Newwebpick Award"></a>&nbsp;<a href="http://www.coolestdesigns.com/" target="_blank"><img src="img/logo_coolestdesigns.gif" width="88" height="31" border="0" alt="Coolestdesigns Award"></a>&nbsp;</td>
+              </tr>
+              <tr> 
+                <td height="20" align="right"><img src="img/featured.gif" width="143" height="11"></td>
+              </tr>
+              <tr> 
+                <td align="right"><a href="http://www.nolimitmedia.com/" target="_blank"><img src="img/nolimitmedia01.gif" alt="NoLimitMedia - Your Inspirations Start Here! Be Original. Be Creative!" border="0" height="31" width="88"></a>&nbsp;<a href="http://www.flashkit.com/" target="_blank"><img src="img/bt_fk3.gif" width="88" height="31" border="0" alt="Flashkit ressources"></a>&nbsp;<a href="http://www.newinspirations.net/" target="_blank"><img src="img/newinspiration.gif" width="88" height="31" border="0"></a> 
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <tr>
+          <td></td>
+        </tr>
+        <tr>
+          <td align="right"></td>
+        </tr>
+        <tr>
+          <td align="right"></td>
+        </tr>
+        <tr>
+          <td></td>
+        </tr>
+      </table>
+      </td>
+  </tr>
+</table>
+<map name="Map">
+  <area shape="rect" coords="416,132,478,144" href="merci.htm" onClick="mywin=openfIT('site_f.htm', 725, 383, null, null, 'squareyedesign');">
+  <area shape="rect" coords="35,162,164,176" href="#" onClick="plugin('http://www.macromedia.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash?Lang=French&P5_Language=French','Macromedia')">
+  <area shape="rect" coords="416,197,478,209" href="thanks.htm" onClick="mywin=openIT('site_a.htm', 725, 383, null, null, 'squareyedesign');">
+  <area shape="rect" coords="36,228,142,241" href="#" onClick="plugin('http://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash','Macromedia')">
+</map>
+</body>
+</html>

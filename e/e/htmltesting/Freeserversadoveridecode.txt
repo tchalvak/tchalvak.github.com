@@ -1,0 +1,6 @@
+<html>
+<noscript><!--<body>
+<!-- </html> -->
+<body bgcolor="#000000" text="#ffffff">Bob
+</body>
+</html>

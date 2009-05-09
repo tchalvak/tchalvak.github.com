@@ -1,0 +1,126 @@
+
+<!-- Start of Text Follow Script -->
+<!-- Have your message follow your visitors pointer around the site. -->
+<!-- Instructions: 
+	1.  Copy the coding into the HEAD of your HTML document
+	2.  Add the last code into the BODY of your HTML document  -->
+<!-- Script supplied with CoffeeCup HTML Editor -->
+<!--             www.coffeecup.com              -->
+<html>
+<head>
+
+
+<script language="JavaScript">
+<!--
+
+var x,y
+var step=20
+var flag=0
+
+var message="THINK!"
+message=message.split("")
+
+var xpos=new Array()
+for (i=0;i<=message.length-1;i++) {
+	xpos[i]=-50
+}
+
+var ypos=new Array()
+for (i=0;i<=message.length-1;i++) {
+	ypos[i]=-50
+}
+
+function handlerMM(e){
+	x = (document.layers) ? e.pageX : event.clientX
+	y = (document.layers) ? e.pageY : event.clientY
+	flag=1
+}
+
+function textfollow() {
+	if (flag==1 && document.all) {
+    	for (i=message.length-1; i>=1; i--) {
+   			xpos[i]=xpos[i-1]+step
+			ypos[i]=ypos[i-1]
+    	}
+		xpos[0]=x+step
+		ypos[0]=y
+	
+		for (i=0; i<message.length-1; i++) {
+    		var thisspan = eval("document.all.span"+(i)+".style")
+    		thisspan.posLeft=xpos[i]
+			thisspan.posTop=ypos[i]
+    	}
+	}
+	
+	if (flag==1 && document.layers) {
+    	for (i=message.length-1; i>=1; i--) {
+   			xpos[i]=xpos[i-1]+step
+			ypos[i]=ypos[i-1]
+    	}
+		xpos[0]=x+step
+		ypos[0]=y
+	
+		for (i=0; i<message.length-1; i++) {
+    		var thisspan = eval("document.span"+i)
+    		thisspan.left=xpos[i]
+			thisspan.top=ypos[i]
+    	}
+	}
+		var timer=setTimeout("textfollow()",10)
+}
+
+//-->
+</script>
+
+<STYLE>
+.spanstyle {
+	position:absolute;
+	visibility:visible;
+	top:-50px;
+	font-size:8pt;
+	font-family:verdana;
+	color:FFFF00
+}
+a { color:FFFFCC; text-decoration:none }
+a:hover { color:FF0000; text-decoration:underline }
+a:visited { color:FF0000 }
+</STYLE>
+
+</HEAD>
+<body background="dblue039.jpg" bgproperties=fixed bgcolor="#000000" onLoad="textfollow()">
+<center><a href="http://www.entercomsys.com/pat/think/index.html">
+Click Here for Thinker's Anon<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<img src="bulb.gif">
+</a>
+</center>
+<script language="JavaScript">
+<!--
+
+for (i=0;i<=message.length-1;i++) {
+    document.write("<span id='span"+i+"' class='spanstyle'>")
+	document.write(message[i])
+    document.write("</span>")
+}
+
+if (document.layers){
+	document.captureEvents(Event.MOUSEMOVE);
+}
+document.onmousemove = handlerMM;
+
+//-->
+</script>
+
+
+
+
+
+</body>
+</html>
+<!-- End of Text Follow Script -->

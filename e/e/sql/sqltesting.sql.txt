@@ -1,0 +1,19 @@
+select spraddr_city, spraddr_user, SPRADDR_REVIEWED_USER from spraddr
+where spraddr_pidm = '341148';
+
+SELECT spriden_first_name from spriden
+ where spriden_pidm = '372619' or where spriden_pidm = '341148';
+
+
+select spriden_
+
+select spriden_pidm from spriden where spriden_change_ind = '';
+
+select *, nvl(*,'null') from spraddr where spraddr_pidm = '341148';
+
+select distinct * from spriden
+where spriden_pidm = '341148' or spriden_pidm = '372619';
+
+select * from <table> where <table>_pidm='341148';
+
+select * from srbrecr where srbrecr_pidm='341148';

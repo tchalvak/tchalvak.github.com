@@ -1,0 +1,7 @@
+PL/SQL operator rankings:
+
+**,NOT		: Exponentation, logical negation
++,-,*,/,||	: Addition, subtraction, multiplication, division, concatenation
+=,!=,<,>,<=,>=,IS,NULL,LIKE,BETWEEN,IN		: Comparison
+AND		: Conjunction
+OR		: Inclusion
