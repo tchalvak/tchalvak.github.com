@@ -1,0 +1,47 @@
+<tr><td>
+<div class = "para2" align = "center">  <p>Classes</p>  </div>
+<div class = "para1" align = "center">  <p>Warrior</p>  </div>
+</tr></td>
+
+<tr><td>
+<pre>
+Warriors live for combat and the thrill of battle.  They are the best
+fighters of all the classes, but lack the subtle skills of thieves and the
+magical talents of mages and priests. Warriors are best for those who don't
+mind taking the direct approach, even when another method might be called
+for.  
+
+  Primary class:  Generic
+  Attribute Adjustments:  +2 Str
+
+  Groups gainable for Warrior: 
+
+      Weaponsmaster                 
+
+  Skills gainable for Warrior: 
+
+   Advanced axe       Advanced dagger    Advanced flail     Advanced mace   
+   Advanced polearm   Advanced spear     Advanced staff     Advanced sword  
+   Advanced whip      Axe                Dagger             Flail           
+   Mace               Polearm            Spear              Staff           
+   Sword              Whip               Expert axe         Expert dagger   
+   Expert flail       Expert mace        Expert polearm     Expert spear    
+   Expert staff       Expert sword       Expert whip        Master axe      
+   Master dagger      Master flail       Master mace        Master polearm  
+   Master spear       Master staff       Master sword       Master whip     
+   Advanced archery   Boxing             Fencing            Lumber work     
+   Unarmed block      Bash               Berserk            Dirt kicking    
+   Disarm             Dual wield         Enhanced damage    Guarding        
+   Hand to hand       Hunt               Kick               Parry           
+   Rescue             Shield block       Set spear          Trip            
+   Crossbow           Leadership         Lore               Quickdraw       
+   Sneak              Scrolls            Staves             Wands           
+
+  Hero gainables for Warrior(including inherited from generic):
+
+   Deadly spin         
+</pre>
+
+
+<center><?php include("includes/classlinks.php");?>
+</td></tr>

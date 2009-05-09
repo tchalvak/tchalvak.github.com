@@ -1,0 +1,40 @@
+<tr><td>
+<div class = "para2" align = "center">  <p>Races</p>  </div>
+<div class = "para1" align = "center">  <p></p>  </div>
+</tr></td>
+
+<tr><td>
+<pre>
+DWARF
+
+The oldest of the dwarves can tell you of the days before the great wars. 
+They have an unmatched love for creation that shows through the massive
+amounts of work that go into each dwarven building or weapon. Dwarves are
+also known for foul tempers and an uncontrolled burst of emotion, to enrage
+a dwarf is a stiff gamble indeed.  While stocky and lacking dexterity, they
+make up for it with incredible strength and stamina. But any dwarf will tell
+you that they pride not pure force but rather knowledge, which no dwarf is
+without thanks to years of tutorage from the older generations. Being
+underground most of their lives gifts dwarves with the abilities to see into
+the darkest tunnels clearly for several hundred feet.  Dwarves don't
+associate much with the outside world, tending to keep within the complex
+network of caverns they have created over the centuries. They deal with any
+intrusion harshly unless good cause is given. Sworn enemies of the tribes
+and drow, dwarves often fight to the death to keep the hoards from invading.
+    
+See also: help aduniac
+
+Specific traits:
+
+   Size:  medium  Base weight:  185lbs
+  Life Expectancy:  700, age of maturity 90.
+  Digestable groups:  meat vegetable grain
+  Acceptable alignments:   Good Neutral  
+   Slighty vulnerable to magic.
+
+Base stats, str: 20  int: 18  wis: 18  dex: 17  con: 18
+Experience per level base:  1500
+</pre>
+
+<center><?php include("includes/racelinks.php");?>
+</td></tr>

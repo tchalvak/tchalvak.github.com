@@ -1,0 +1,35 @@
+<tr><td>
+<div class = "para2" align = "center">  <p>Races</p>  </div>
+<div class = "para1" align = "center">  <p>Hill Giant</p>  </div>
+</tr></td>
+
+<tr><td>
+<pre>
+The hill giants are a pacifist culture of giants, preferring to live in
+placid harmony with the beings and environment around them. They usually
+live, therefore, in hilly, woodland settings, often near running water. The
+hill giants have ties with the dwarves, but it is not a military alliance. 
+They are famed for their neutrality, tending never to engage other groups,
+and even in these times of great wars and bloodshed would rather be found in
+the peaceful valley in which they have taken up residence, smoking dwarven
+pipe weed and feasting upon the ample harvest of the lands. Indeed, hill
+giants are only rarely compelled to leave their lush realm and travel
+beyond, the reason that few are seen outside of their valley.  However, in
+certain situations, hill giants become fierce warriors, most usually when
+their lands or the lives of the ones that they cherish are threatened. In
+such cases, hill giants are known to show their true and powerful strength,
+demolishing anything that stands in their way, and ignoring all wounds done
+to them, willing to sacrifice themselves for their cause.  
+ 
+<b>Specific traits:</b>
+
+   Size:  huge  Base weight:  950lbs
+   Life Expectancy:  140, age of maturity 20.
+   Digestable groups:  meat vegetable grain
+
+<b>Base stats,</b> str: 21  int: 18  wis: 18  dex: 16  con: 21
+<b>Experience per level base:</b>  3000
+</pre>
+
+<center><?php include("includes/racelinks.php");?>
+</td></tr>

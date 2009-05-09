@@ -1,0 +1,21 @@
+<tr colspan=6><td colspan=6>
+<div class = "para2" align = "center">  <p>Main</p>  </div>
+<div class = "para1" align = "center">  <p></p>Clans</div></tr></td>
+</td></tr>
+
+
+<tr><td align=center valign=top>
+      <font style="font-size:10pt;">
+      <a href="index.php?page=clans/horde">Horde</a><br>
+      <a href="index.php?page=clans/adventurers_guild">Adventurers' Guild</a><br>
+     </td><td align=center valign=top>
+      <a href="index.php?page=clans/merchants_guild">Merchants' Guild</a><br>
+      <a href="index.php?page=clans/agents_of_oblivion">Agents of Oblivion</a><br>
+     </td><td align=center valign=top>
+      <a href="index.php?page=clans/tritower">Tritower</a><br>
+      <a href="index.php?page=clans/circle">Circle</a><br>
+     </td><td align=center valign=top>
+      <a href="index.php?page=clans/vulcanian_prefecture">Vulcanian Prefecture</a><br>
+      <p>
+  </td></tr>
+  

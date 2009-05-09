@@ -1,0 +1,13 @@
+<tr colspan=6><td colspan=6>
+<div class = "para2" align = "center">  <p>Main</p>  </div>
+<div class = "para1" align = "center">  <p></p>Galleries</div></tr></td>
+
+<tr><td align=center>
+      <font style="font-size:10pt;">
+      <a href="playerpics/">Player Picture Gallery</a><br>
+      <a href="http://www.xaos-mud.org/forum/viewforum.php?f=5">The Forum Story, Poem, Character, and Art Archive</a><br>
+      <a href="http://www.xaos-mud.org/forum/viewtopic.php?t=27">The Forum Quote Page</a><br>
+<!-- Not working at this time      <a href="index.php?page=pictures&which=characters">Character Picture Gallery</a><br> -->
+      <p>
+    </td>
+</tr>

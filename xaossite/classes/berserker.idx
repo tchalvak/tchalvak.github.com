@@ -1,0 +1,35 @@
+<tr><td>
+<div class = "para2" align = "center">  <p>Classes</p>  </div>
+<div class = "para1" align = "center">  <p>Berserker</p>  </div>
+</tr></td>
+
+<tr><td>
+<pre>
+The berserker is a warrior specialization that trolls and trolls alone may
+train to become.  The berserkers have many skills that make them a deadly
+opponent who's prowess with weaponry and brutal force crush anything in
+thier blood lusting path.  With a desire to inflict pain above that of the
+already hungry trolls, the berserker in combat may feel charges of extreme
+anger and the following attack is truely devastating.  Also they have
+developed a better understanding of how to manipulate the rubbery skin
+upon thier very bones to infact harden it further into an almost rock like
+state.  Those elements mixed with other primal fighting tactics make them
+a powerful and highly feared enemy.
+
+  Primary class:  Warrior
+  Attribute Adjustments:  +2 Str  +2 Con
+
+  Skills gainable for Berserker: 
+
+   Blood rage         Precise toss       Rockform           Bludgeoning     
+   Chopping           Cleaving           Impaling           Slashing        
+   Smash              Throwing           Warcry             Perception      
+   Percussion      
+
+  Hero gainables for Berserker(including inherited from warrior):
+
+   Legendary axe          Deadly spin            Extreme perception  
+</pre>
+
+<center><?php include("includes/classlinks.php");?>
+</td></tr>

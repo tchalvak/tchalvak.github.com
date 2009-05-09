@@ -1,0 +1,34 @@
+<tr><td>
+<div class = "para2" align = "center">  <p>Races</p>  </div>
+<div class = "para1" align = "center">  <p>Kobold</p>  </div>
+</tr></td>
+
+<tr><td>
+<pre>
+These small humanoid creatures most defining characteristic is their sense
+of comradeship with the rest of their pack. Their most keen attack strategy
+is to attack in swarms of overwhelming number to overtake their prey. 
+Kobolds typically have very pale skin that is mostly covered in shaggy
+matted hair that stands out at random from its frail body.  They are not
+known for their courage or intelligence and are considered the lowest of the
+tribe races, but this does not affect them as their limited grasp of the
+world at large leaves little to desire from life beyond scaring the local
+wildlife. There is a tight social structure among them however, the leaders
+are always the strongest but even they concede to the wisdom of a shaman. 
+With big saucer eyes they skulk through their home territory looking for
+prey to eat and other animals so they can add to their piles of grubby
+half-rotten pelts.  
+ 
+<b>Specific traits:</b>
+
+   Size:  small  Base weight:  64lbs
+   Life Expectancy:  45, age of maturity 3.
+   Digestable groups:  meat vegetable grain
+
+<b>Base stats,</b> str: 15  int: 14  wis: 13  dex: 22  con: 15
+<b>Experience per level base:</b>  1000
+
+</pre>
+
+<center><?php include("includes/racelinks.php");?>
+</td></tr>

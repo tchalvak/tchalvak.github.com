@@ -1,0 +1,47 @@
+<tr><td>
+<div class = "para2" align = "center">  <p>Races</p>  </div>
+<div class = "para1" align = "center">  <p>Avariel</p>  </div>
+</tr></td>
+
+<tr><td>
+<pre>
+Avariel stand at an average of slightly less than six feet tall, and weigh
+between 100 and 140 pounds. Avariel are of necessity light, allowing them to
+fly unhampered. A pair of feathered wings extend from their backs, extending
+in a wingspan from tip to tip of almost twelve feet, when fully extended.
+Avariel skin is a much more bronzed hue than the forest elves, and their
+wings are most often brown to black in color. Their hair and eyes are
+usually the same colors as their surface counterparts. Spoken of from time
+to time in aged tomes from before the great Crystal war, there is myth of a
+race of elves that served as watchers and guardians of their society during
+this time of troubles.  Referred to as the "Avariel" which literally
+translates as "Winged Kin". Once the War was over, the Avariel, displeased
+with their brethren and the dwarves who they fought against, seeing neither
+side was victor, as the the horrific casualties of this battle were common
+to both, A council of Avariel elders deemed the land dwelling elven races
+"Ilaswe": the Shattered Ones, and took it upon themselves to seperate from
+their tainted kin.  The texts do not declare the date, but at some point
+after the war's conclusion, the Avariel mountain city of Arador tore from
+it's roots and hurtled into the heavens, vanishing beyond the cover of the
+clouds. Over the centuries, the Avariel have become more of a myth than a
+memory to the remaining elven nations. Some who witnessed the flight,
+however, believe Arador still exists, and that the Avariel merely wait,
+watching for the proper time to return to Terra.  
+ 
+See also: help sylph
+
+<b>Specific traits:</b>
+   Size:  medium  Base weight:  125lbs
+   Life Expectancy:  250, age of maturity 30.
+   Digestable groups:  meat vegetable grain
+   Slighty vulnerable to bash.
+   Lightly resistant to mental.
+   Lightly resistant to magic.
+
+<b>Base stats</b>, str: 16  int: 18  wis: 19  dex: 20  con: 17
+<b>Experience per level base:</b>  2100
+
+</pre>
+
+<center><?php include("includes/racelinks.php");?>
+</td></tr>

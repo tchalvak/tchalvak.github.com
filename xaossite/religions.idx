@@ -1,0 +1,33 @@
+<tr colspan=6><td colspan=6>
+<div class = "para2" align = "center">  <p>Main</p>  </div>
+<div class = "para1" align = "center">  <p></p>Religions</div></tr></td>
+</td></tr>
+
+
+<tr><td align=center valign=top>
+      <font style="font-size:10pt;">
+          <a href="index.php?page=religions/aaeran">Aaeran</a><br>
+          <a href="index.php?page=religions/aduniac">Aduniac</a><br>
+	  <a href="index.php?page=religions/albach">Albach</a><br>
+  </td><td align=center valign=top>
+        <font style="font-size:10pt;">
+	  <a href="index.php?page=religions/balance">The Balance</a><br>
+          <a href="index.php?page=religions/goddess">The Goddess</a><br>
+          <a href="index.php?page=religions/orcus">Orcus</a><br>
+  </td><td align=center valign=top>
+        <font style="font-size:10pt;">
+	  <a href="index.php?page=religions/shanta">Shanta</a><br>
+	  <a href="index.php?page=religions/sylph">Sylph</a><br>
+          <a href="index.php?page=religions/taurus">Taurus</a><br>
+  </td><td align=center valign=top>
+        <font style="font-size:10pt;">
+	  <a href="index.php?page=religions/varseg">Varseg</a><br>
+          <a href="index.php?page=religions/vulcanism">Vulcanism</a><br>
+	  <a href="index.php?page=religions/war">War</a><br>
+  </td><td align=center valign=top>
+        <font style="font-size:10pt;">
+          <a href="index.php?page=religions/xaos">Xaos</a><p></p>
+
+
+  </td>
+</tr>

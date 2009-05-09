@@ -1,0 +1,36 @@
+<tr><td>
+<div class = "para2" align = "center">  <p>Classes</p>  </div>
+<div class = "para1" align = "center">  <p>Ranger</p>  </div>
+</tr></td>
+
+<tr><td>
+<pre>
+The Ranger is a lone warrior, set forth to wander the lands.  While in the
+woods and deep swamps a ranger has the ability to mask themself from
+detection.  As well, a ranger can call animals to their aid while in the
+wilderness, giving them a useful ally in combat and a loyal companion in
+thier travels.  They can find food almost anywhere, allowing them to be
+completely self-sufficient and visits to a city or settlement are required
+rarely.
+
+  Primary class:  Warrior
+  Attribute Adjustments:  +2 Str  +2 Dex
+
+  Groups gainable for Ranger: 
+
+      Animal calling                      Affinisism                    
+
+  Skills gainable for Ranger: 
+
+   Ambush             Expert archery     Master archery     Dual parry      
+   Guard parry        Bludgeoning        Foraging           Camoflage       
+   Perception         Quarterstaff       Tracking           Taming          
+
+  Hero gainables for Ranger(including inherited from warrior):
+
+   Deadly spin         
+
+</pre>
+
+<center><?php include("includes/classlinks.php");?>
+</td></tr>

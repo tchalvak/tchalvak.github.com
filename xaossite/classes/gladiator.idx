@@ -1,0 +1,40 @@
+<tr><td>
+<div class = "para2" align = "center">  <p>Classes</p>  </div>
+<div class = "para1" align = "center">  <p>Gladiator</p>  </div>
+</tr></td>
+
+<tr><td>
+<pre>
+The Gladiator is a warrior who has decided to spent life as a master of
+single combat, proficient in all weapons and beyond most teachings they can
+utilize any item to its fullest ability. They even gain access to weapons
+that a common warrior has never even heard of yet along practiced with.
+Thier professions as its name implies dominates the arena circuits which
+thrive in many of the major cities on the face of Terra and beyond.  There
+is always a pretty penny to be won and you can be sure a gladiator is there
+collecting it.
+
+  Primary class:  Warrior
+  Attribute Adjustments:  +2 Str  +1 Dex  +1 Con
+
+  Groups gainable for Gladiator:
+
+                                       Dirty tricks
+
+  Skills gainable for Gladiator:
+
+   Advanced extention Advanced nunchaku  Extention          Expert extention
+   Master extention   Nunchaku           Expert nunchaku    Dual parry
+   Guard parry        Pit fighting       Precise toss       Shield bash
+   Blind fighting     Bludgeoning        Due chagi          Chopping
+   Impaling           Lashing            Slashing           Taunt
+   Piercing           Smash              Throwing           Perception
+
+  Hero gainables for Gladiator(including inherited from warrior):
+
+   Blood sports       Deadly spin        Grappling          Extreme perception
+</pre>
+
+
+<center><?php include("includes/classlinks.php");?>
+</td></tr>

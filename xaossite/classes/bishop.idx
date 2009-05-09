@@ -1,0 +1,30 @@
+<tr><td>
+<div class = "para2" align = "center">  <p>Classes</p>  </div>
+<div class = "para1" align = "center">  <p>Bishop</p>  </div>
+</tr></td>
+
+<tr><td>
+<pre>
+The bishop, the most devoted followers a religion could ever have, clerics
+who have decided they shall devote themselves to the religious duties
+of thier patron will probably opt to become bishops at the proper time,
+fore they are the closest link the gods have to the mortal world and will
+often be the first to act on the wihes of thier patron.
+
+  Primary class:  Cleric
+  Attribute Adjustments:  +1 Int  +2 Wis  +1 Con
+
+  Groups gainable for Bishop:
+
+   Divinity                            Channelling
+
+  Hero gainables for Bishop(including inherited from cleric):
+
+   Master mace            Shield bash            Cudgelry
+   Ritual purge           Forlorn                Heretic
+   Holy aura              Sanctuary
+</pre>
+
+
+<center><?php include("includes/classlinks.php");?>
+</td></tr>

@@ -1,0 +1,59 @@
+<tr><td>
+<div class = "para2" align = "center">  <p>Races</p>  </div>
+<div class = "para1" align = "center">  <p>Yeti</p>  </div>
+</tr></td>
+
+<tr><td>
+<pre>
+Yetis are large humanoids, covered entirely with shaggy fur that grows
+throughout their life into graceful long strands of whisping elegance. They
+are not particularly bright but one standing thought prevails their
+misfortunate intelligence, their value of good. Primarily a race of
+fundamentalist values, they are warriors only, the rare cleric appears from
+the midst but is quickly ushered into roles of domestic guidance and tribal
+well being.  Rumours of their besting giants at games of strength are mostly
+true, undoubtedly a result of the mountain climate. They have made one very
+deep bond with a fellow mountain dwelling race.  Chinchillas are well known
+for their fur, it is kept this way by the Yeti who care for them deeply, to
+hurt a Chinchilla is to wound the Yeti, which by custom means the summary
+execution of the evil's life.  Living high over the Desert of Vulcan on a
+bridge of mountains that holds the burning sands from further expansion into
+the grassy plains to the north live these gentle creatures. They eat fruits
+that grow from trees that have undeniably magical properties, giving the
+beasts extraordinary sources of nourishment and quantities that let their
+tribe grow as it wishes.  While settled into the mountain range comfortably,
+they encourage their youth upon reaching adulthood to explore the world,
+seeking friendships and adventure, but above all to seek out evil and meet
+it in battle.  Yetis mainly worship the goddess Shanta, her wisdom has been
+enlightening to their tribe since discovering her ways. Sometimes for brief
+periods of times a yeti will look to another god to experience its ways, but
+often they will revert to the simple wisdoms upon returning home next. The
+birth of the Yeti as a species is a act of Shanta's way.  Her sadness from
+the spread of evil in the lands prompted a glimpse of hope for her vision.  
+The peaks over her hated adversary Vulcan's own burning sand trap met all
+expectations.  Their philosophies are renowned to be a code of conduct, not
+strict in any sense but the lines that are drawn do not get crossed.  
+Corruption to a Yeti is the worst form of evil and undead are the most
+repulsive to their kind.  Few Yetis have ever been taken alive to the Vulcan
+arenas, and it has been rumoured that Yetis attack Fire giants on sight
+because of their evil god.  Vulcan's in turn have put a high price on
+healthy yeti, considering them chic pets.  The Yeti's life is a long one,
+filled with stories to tell the generations which follow and spread the
+wisdom of experience. They travel as strong and simple-minded bastions of
+good, to bring Shanta's dream of paradise to life, no matter the cost.  
+ 
+
+<b>Specific traits:</b>
+
+   Size:  large  Base weight:  600lbs
+   Life Expectancy:  80, age of maturity 9.
+   Digestable groups:  vegetable fabric grain
+   Vulnerable to fire.
+   Resistance to cold.
+
+<b>Base stats,</b> str: 24  int: 10  wis: 10  dex: 17  con: 21
+<b>Experience per level base:</b>  6000
+</pre>
+
+<center><?php include("includes/racelinks.php");?>
+</td></tr>

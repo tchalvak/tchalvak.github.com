@@ -1,0 +1,56 @@
+<tr><td>
+<div class = "para2" align = "center">  <p>Deities</p>  </div>
+<div class = "para1" align = "center">  <p>Shanta</p>  </div>
+</tr></td>
+
+<tr><td>
+<pre>
+In the forests of Terra, there is an ancient religion that has long been 
+shrouded in mystery.  Known as the Shanta, this ancient worship of nature is 
+believed to have started well over twelve thousand years ago.  Shanta is 
+practiced by Druids and Rangers, among others, who construct makeshift 
+shrines in the wilderness to honor the mysterious god of the Shanta, known 
+as Korah.  This female deity is believed once to have been of human descent, 
+which would explain why some of the other races do not hold her high in 
+esteem.  It is said that from time to time she assumes human form, that of a 
+gorgeous human female, perhaps as she was in life, and temps hunters from 
+their paths or their company, and that those who follow her never return.
+ 
+<b>Holy Symbol:</b> A silver leaf, or a silver droplet of water over a gold 
+leaf.
+ 
+<b>Spheres of Influence:</b> Nature, Animals, the Seasons
+ 
+<b>Alignment:</b> Lawful Good
+ 
+<b>Worshipper's Alignment:</b> Any Good
+ 
+<b>Mythos:</b> Followers of Shanta believe in the sanctity of nature, 
+and abhore the expansion of civilization into the unspoiled regions of Terra.
+The faithful of Shanta try to reason with those who would build
+upon the land that Serahn has granted them. Though they detest the
+cutting of the southern forests near Ironhoof, the followers of
+Serahn are pacifistic in most respects, though there are
+chaotic offshoots of her religion which have taken up a sort of
+'natures avenger' attitude in belief that man will not change
+without subtle force. Believers of the Shanta would never knowingly harm
+an animal or destroy a plant unles there was no other option
+available to them.
+ 
+<b>Holy Days:</b> The entire month of the harvest is reveared by
+Shanta followers in the belief that without their vigilant
+upholding of nature's rights Serahn would remove the fertility
+from the lands. During this month, Shanta followers spend much
+of their days in quiet prayer to Serahn to bring about a bountiful
+harvest so that the lands will live, and give rise to new life.
+It is also believed that Serahn has ties to the religion of Xaos,
+as she may be responsible for the harvests that Xaos' religion claims
+to create.
+
+<b>Patron:</b>  Serahn
+<b>Castes:</b>  hunter  huntsman  
+</pre>
+
+
+<center><?php include("includes/religionlinks.php");?>
+</td></tr>

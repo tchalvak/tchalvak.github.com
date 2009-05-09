@@ -1,0 +1,36 @@
+<tr><td>
+<div class = "para2" align = "center">  <p>Classes</p>  </div>
+<div class = "para1" align = "center">  <p>Necromancer</p>  </div>
+</tr></td>
+
+<tr><td>
+<pre>
+The necromancer, the most vile of mage professions, defiling anything they
+see fit, ressurecting anyone they deem useful.  Nothing may rest in peace
+while these terrifying black robed figures exist.  Thier magic focuses
+upon death, and every element of it.  They are the scourge of the living,
+summoning great hordes of undead to serve them and ultimately they often
+choose to become one themselves.  Only black hearted mages have the cold
+will to stomach these teachings.
+
+  Primary class:  Mage
+  Attribute Adjustments:  +2 Int  +2 Wis
+
+  Groups gainable for Necromancer:
+
+      Necromancery                        Condemnation
+      Dark creation                       Undeath
+
+  Skills gainable for Necromancer:
+
+   Preservation
+
+  Hero gainable for Necromancer:
+
+   Death visage           Lifeless pact   Pact of tyrian
+   Searing orb            Starburst
+</pre>
+
+
+<center><?php include("includes/classlinks.php");?>
+</td></tr>

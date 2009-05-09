@@ -1,0 +1,29 @@
+<tr><td>
+<div class = "para2" align = "center">  <p>Classes</p>  </div>
+<div class = "para1" align = "center">  <p>Burglar</p>  </div>
+</tr></td>
+
+<tr><td>
+<pre>
+The burglar is the ultimate thief, in the sense of the word, no trap is too
+challenging, no lock too hard and no treasure too hard to steal.  Every pick
+pocket of the land aspires to become one of these elitely skilled
+professionals.
+
+  Primary class:  Thief
+  Attribute Adjustments:  +1 Str  +3 Dex
+
+  Skills gainable for Burglar:
+
+   Bomb smithing      Nimbleness         Safe cracking      Acrobatics
+   Climbing           Palming
+
+  Hero gainables for Burglar(including inherited from thief):
+
+   Prowl
+
+</pre>
+
+
+<center><?php include("includes/classlinks.php");?>
+</td></tr>

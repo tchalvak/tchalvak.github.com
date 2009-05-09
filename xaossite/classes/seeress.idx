@@ -1,0 +1,39 @@
+<tr><td>
+<div class = "para2" align = "center">  <p>Classes</p>  </div>
+<div class = "para1" align = "center">  <p>Seeress</p>  </div>
+</tr></td>
+
+<tr><td>
+<pre>
+As a true child of Aaeran, the Seeress is a master of her mind and others. 
+The will of her goddess allows her powers to force others to her will, so
+that she may better prove the dominance of drow race. Though all drow
+support the use of slavery, the Seeress takes that support to a new level,
+able to bend the will of those she wishes to do her bidding. If that does
+not work, Aaeran has blessed her with the skills to use whips to better
+convince others of her point of view. She has also become adept in the
+sacrificial arts that are so important to gain and maintain the favour of
+Aaeran, and carries her skills with daggers to the defense of the drow. It
+is through the blending of these skills that makes the Seeress not only one
+to fear with the mind, but with the body.  
+
+  Primary class:  Cleric
+  Attribute Adjustments:  +1 Int  +2 Wis  +1 Dex
+
+  Groups gainable for Seeress: 
+
+      Will of aaeran                
+
+  Skills gainable for Seeress: 
+
+   Advanced dagger    Dagger             Expert dagger      Expert whip     
+   Master whip        Disarm             Lashing         
+
+  Hero gainables for Seeress(including inherited from cleric):
+
+   Flaying                Heretic                Sanctuary           
+</pre>
+
+
+<center><?php include("includes/classlinks.php");?>
+</td></tr>

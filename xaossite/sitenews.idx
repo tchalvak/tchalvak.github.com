@@ -1,0 +1,56 @@
+<tr><td>
+<div class = "para2" align = "center">  <p>Main Page</p>  </div>
+<div class = "para1" align = "center">  <p>Site News</p>  </div>
+</tr></td>
+
+<tr><td>
+! New Player Tutorial and Strategy Guide
+
+!! Connection Tutorial
+* If you're impatient just <a href="telnet://www.xaos-mud.org:5000">use telnet</a> and skip ahead to the "Becoming a Xaos Player" section.
+* Otherwise, <a href="/clients/Gmud.exe">Download Gmud</a> a free mudclient, Mac users <a href = "/index.php?page=mactutorial">click here</a>.
+* Go to Edit>World in the menu, and then click the "Add" button, and name the world "Xaos" or whatever you want.
+* Put in the host and port information as seen in the image below.
+<img src=/images/Gmud_World_Creation.PNG>
+* Now click exit, and go to File>Connect, click the name of the world that you just made, and then click the Connect button.  The login information seen on the screen below should come up.
+!! Becoming A Xaos Player
+<img src=/images/Connecting_to_Xaos.PNG>
+* Choose the "C" for "Creating a new player profile" option, and then follow the instructions onscreen until you come to the character list login screen (which will be empty because you haven't created any characters yet).  
+* Choose the "C" for "Create a new character" option. That'll bring you to the character creation menu.
+!! Creating A Character
+First of all, creating a character on xaos is complex to a large extent because of the sheer number of races, classes, starting locations, and not all the combinations are available, so you have to try out things that work.  The character creation menu is shown below.
+<img src=/images/Example_character_creation.PNG>
+!! Suggested Starting Combinations:
+Suggested Races: Centaur, Minotaur, Dwarf, Elf, Half Elf, Human, Half Giant, Hill Giant, or Storm Giant.
+Suggested Classes: Warrior, Cleric, or Mage, ordered from simplest to most complicated.
+Creation Points (cp): keep your creation points at 40 if you want to just try things out with a test character, but strong characters usually need something more like 80 creation points to be effective.  Luckily, you can always create another character.
+!! Survival Tips
+<img src=/images/Survival_Essentials.PNG>
+One of the major things that you need to be aware of is that **almost every npc is stronger than you when you first start out.**  As a result, attacking **anything** without careful consideration can easily get you killed, or worse.  In the beginning, your best bet is to ask other players where to go nearby to kill defenseless mobs, or just cast spells and try out skills to gain experience.  If you aren't a cleric yourself, find yourself a good temple (The temple to [Xaos] in Visari is the suggested religion for new players), an altar to pray at, and learn to love your healers.  They'll -save- -your- -life- bring you quickly back to life after you've gotten yourself killed.
+!! Skills to Learn First
+The first skills that you should "learn", as a player new to xaos, are as follows:
+**All characters** should immediately learn: dodge, dual wield, unarmed combat, and hand to hand.
+
+**Warriors** should then learn: parry, unarmed block, bash, dirt kick, all of the weapon skills of whatever primary weapon they plan to use (e.g. Sword, Expert Sword, Advanced Sword, etc.), and berserk.
+**Thieves** should then learn: parry, dancing, backstab, hide, dagger, advanced dagger, expert dagger, master dagger, sneak, acrobatics, and sap.
+**Mages** should then learn: spellcraft, the spellgroups combat, protective, enhancement, and transportation, and the spells "acid blast" "lightning bolt" "phase" "stone skin" "magic armor" "globe of force" "fly" "gate" "refresh" and "dark sight", and finally, either the dagger or the staff weapon skills.
+**Clerics** should then learn: mace, advanced mace, expert mace, parry, spellcraft, the spellgroups attack, curative, maladictions, protective, transportation, creation, and the spells "heal" "cure blindness" "refresh" "gate" "fly" "magic armor" "stone skin" "blindness" "continual light" "demonfire" (if evil) or "ray of truth" (if good or neutral).
+**Shaman** should then learn: parry, mace, advanced mace, expert mace, spellcraft, the spellgroups attack, curative, maladictions, protective, creation, and the spells "heal" "cure blindness" "refresh" "magic armor" "blindness" "continual light" "stone skin" "demonfire" (if evil) or "ray of truth" (if good or neutral).
+* After that, you'll have the core skills to keep you alive, and what other things you learn will mostly be a matter of taste.
+
+!! Levelling
+Levelling Suggestions:
+First, ask players where appropriate mobs for you to kill for your level are.  Otherwise, in the beginning, you should just stick to killing "Dummies" (which give experience when you kill them, and don't do damage), or "Training Poles"/"Magic Bubbles" (which let you get experience from raising skills/spells by using the skills/spells on them).  There should be some dummies or a training pole around where you start out.
+Then, as soon as possible, get in the levelling areas that exists in the central area of the Mud, around the human city of Visari, where you should be able to killing mobs in the following order of **areas:**
+* The statues in the Museum of Light (north of visari)
+* Half orcs in the Half Orc Cave (southeast of visari) or Nymphs in the Waterfall (northeast of visari)
+* Crackle Harpies in the Ruin of Static (up the cliffs in the valley of the giants that is directly north of visari)
+* Sentries in the Stronhold of Twenty (west along the road that goes west from Visari)
+* Bebiliths in the Half Orc Cave (southeast of visari)
+Then after that you should be able to join up with hero groups and gain the final levels with them, if you're careful enough not to get killed. See the maps page, especially the world map, to get a general idea of where you should look for these levelling locations.
+
+Maps: <a href="index.php?page=maps">*Maps of places in Xaos*</a>
+Finally, if you have any problems, just ask for help or answers over the ooc channel.
+</td></tr>
+
+</font>

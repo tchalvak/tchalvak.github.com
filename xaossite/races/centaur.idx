@@ -1,0 +1,29 @@
+<tr><td>
+<div class = "para2" align = "center">  <p>Races</p>  </div>
+<div class = "para1" align = "center">  <p>Centaur</p>  </div>
+</tr></td>
+
+<tr><td>
+<pre>
+Centaurs appear to be a mix of horse and human, but are truly only so in
+appearance.  The torso, upper body, head and arms of a centaur are look to
+be the human, where as the lower body is equine or horse-like, the hair
+growing denser and denser at the waist.  They have four hooves as horses do,
+and so they tower over most humans, usually six and half to seven foot to
+the shoulder at least.  The hair upon their head and face usually coincides
+with the body, typically a brown colour, though black, white and grey are
+not unheard of.  Centaurs typically don't wear much clothing, but do wear
+the barding of a horse to protect their hind quarters.  
+
+<b>Specific traits:</b>
+   Size:  large(eq size: medium)  Base weight:  550lbs
+   Life Expectancy:  200, age of maturity 25.
+   Digestable groups:  meat vegetable grain
+   Lightly resistant to poison.
+
+<b>Base stats,</b> str: 18  int: 17  wis: 18  dex: 19  con: 19
+<b>Experience per level base:</b>  2300
+</pre>
+
+<center><?php include("includes/racelinks.php");?>
+</td></tr>

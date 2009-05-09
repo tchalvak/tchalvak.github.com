@@ -1,0 +1,27 @@
+<tr><td>
+<div class = "para2" align = "center">  <p>Races</p>  </div>
+<div class = "para1" align = "center">  <p>Half Giant</p>  </div>
+</tr></td>
+
+<tr><td>
+<pre>
+It was written that a wizard of incredible might once took the massive size
+of a giant and gave it the dexterity and the cunning nature of a human. And
+the writing seems true if you've ever met one of these people. Half-giants
+unlike the other mixes, get along quite well with either culture and could
+easily find a home among them. The humans have no quarrel with having such a
+strong figure around to help out and the hill giants are never very
+aggressive towards outsiders anyways.  
+
+<b>Specific traits:</b>
+
+   Size:  large  Base weight:  350lbs
+   Life Expectancy:  140, age of maturity 17.
+   Digestable groups:  meat vegetable grain
+
+<b>Base stats,</b> str: 19  int: 18  wis: 18  dex: 17  con: 20
+<b>Experience per level base:</b>  1800
+</pre>
+
+<center><?php include("includes/racelinks.php");?>
+</td></tr>

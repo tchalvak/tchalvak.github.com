@@ -1,0 +1,29 @@
+<tr><td>
+<div class = "para2" align = "center">  <p>Classes</p>  </div>
+<div class = "para1" align = "center">  <p>Assassin</p>  </div>
+</tr></td>
+
+<tr><td>
+<pre>
+The Assassin, in every sense of the word it means deadly and quick. A thief
+who desires to sell his prowess of murder to the highest bidder often comes
+in handy during large wars and long standing fueds. The Assassin is the
+perfect tool to eliminate an opponent quietly.
+
+  Primary class:  Thief
+  Attribute Adjustments:  +2 Str  +2 Dex
+
+  Skills gainable for Assassin:
+
+   Assassination      Bomb smithing      Nimbleness         Precise toss
+   Blind fighting     Advanced blowgun   Due chagi          Martial arts
+   Nerve strike       Acrobatics         Climbing           Venom craft
+
+  Hero gainables for Assassin(including inherited from thief):
+
+   Prowl              Knife fighting         Throwing
+</pre>
+
+
+<center><?php include("includes/classlinks.php");?>
+</td></tr>

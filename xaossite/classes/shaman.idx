@@ -1,0 +1,49 @@
+<tr><td>
+<div class = "para2" align = "center">  <p>Classes</p>  </div>
+<div class = "para1" align = "center">  <p>Shaman</p>  </div>
+</tr></td>
+
+<tr><td>
+<pre>
+The shamans are a group of spiritual figures that act as envoys to the gods,
+and they perform the basic ceremonies of religious needs. They share with
+clerics the imbuement of powers by their god to aid their quests and tasks.
+They are often spiritual leaders within their community, though they are
+not always affliated with the rituals of temples and other holy places as a
+cleric would be.  Unlike clerics, they do not organize and are more likely
+to work independantly in service to their diety. There are many differences
+between the shaman and the cleric, the largest of which being that they do
+not subscribe to the same categories of specialization.  They also trade the
+ability to gain access to transportation spells, while they gain the ability
+to gain affinisms.
+
+  Primary class:  Generic
+  Attribute Adjustments:  +2 Wis
+
+  Groups gainable for Shaman:
+
+      Attack                              Benedictions
+      Creation                            Curative
+      Detection                           Maladictions
+      Protective                          Weather
+      Affinisism                          Necrolyte
+      Holistic vestures
+
+  Skills gainable for Shaman:
+
+   Advanced flail     Advanced mace      Advanced spear     Advanced staff
+   Advanced whip      Flail              Mace               Spear
+   Staff              Whip               Expert mace        Alchemy
+   Brew               Draco biology      Dual wield         Hand to hand
+   Kick               Shield block       Link               Leadership
+   Lore               Spellcraft         Scrolls            Staves
+   Wands
+
+  Hero gainable for Shaman:
+
+   Heretic
+</pre>
+
+
+<center><?php include("includes/classlinks.php");?>
+</td></tr>

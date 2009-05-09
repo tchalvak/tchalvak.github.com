@@ -1,0 +1,39 @@
+<tr><td>
+<div class = "para2" align = "center">  <p>Deities</p>  </div>
+<div class = "para1" align = "center">  <p>Sylph</p>  </div>
+</tr></td>
+
+<tr><td>
+<pre>
+For centuries, the avariel race honored and paid respects to those that
+shared the skies with them - the dragons.  Spending the long years under
+the protection of the powerful beings, avariel sought the identity of
+their own Deity.  Having watched over Her chosen children since their
+seperation from the rest of Terra, Sylph made Her presence known to those
+of Arador when finally the ancient sages of the floating isle uncovered
+her name from the holy scrolls in the Royal Archives.  Her kindness and
+benevolence shed a new light upon their purpose in the world. Followers
+of Sylph number few throughout Terra, but tend to be rather faithful and
+loyal.  Those under Her wing often grant their skills and spells freely
+to those in need, choosing to give without need of thanks.
+
+<b>Worshippers Alignment:</b> Any good, any neutral
+
+<b>Religion Alignment:</b> Lawful Good
+
+<b>Holy Symbol:</b> A shimmering silver feather.
+
+<b>Spheres of Influence:</b> Wind, Light, and Avariel
+ 
+<b>Acts of Favour:</b> Objects of beauty and kindness to others attract the Goddess
+of Light's favour most often.  Symbols of gore and slaughter are refused
+upon Her altars, Her power refusing to even allow them to ascend to Her
+haven.
+
+<b>Patron:</b>  Sylph
+<b>Castes:</b>  follower  
+</pre>
+
+
+<center><?php include("includes/religionlinks.php");?>
+</td></tr>

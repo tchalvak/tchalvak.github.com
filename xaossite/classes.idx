@@ -1,0 +1,67 @@
+<tr colspan=6><td colspan=6>
+<div class = "para2" align = "center">  <p>Main</p>  </div>
+<div class = "para1" align = "center">  <p></p>Classes</div></tr></td>
+<font style="font-size:8pt;">
+
+<tr><td valign=top width=116>
+      <font style="font-size:9pt;">
+      <a href="index.php?page=classes/warrior"><b>Warrior</b></a><br>
+      <font style="font-size:8pt;">
+      <b>·</b> <a href="index.php?page=classes/berserker">Berserker<br></a>
+      <b>·</b> <a href="index.php?page=classes/battlerager">Battlerager<br></a>
+      <b>·</b> <a href="index.php?page=classes/bladesinger">Bladesinger<br></a>
+      <b>·</b> <a href="index.php?page=classes/ranger">Ranger<br></a>
+      <b>·</b> <a href="index.php?page=classes/geomancer">Geomancer<br></a>
+      <b>·</b> <a href="index.php?page=classes/gladiator">Gladiator<br></a>
+      <b>·</b> <a href="index.php?page=classes/knight">Knight<br></a>
+      <b>·</b> <a href="index.php?page=classes/paladin">Paladin<br></a>
+      <b>·</b> <a href="index.php?page=classes/shadowdancer">Shadow Dancer<br></a>
+      <b>·</b> <a href="index.php?page=classes/scion">Scion<br></a>
+      </td>
+
+    <td valign=top width=116>
+    <font style="font-size:8pt;">
+      <a href="index.php?page=classes/thief"><b>Thief</a></b><br>
+        <b>·</b> <a href="index.php?page=classes/burglar">Burglar</a><br>
+        <b>·</b> <a href="index.php?page=classes/assassin">Assassin</a><br>
+        <b>·</b> <a href="index.php?page=classes/bard">Bard</a><br>
+        <b>·</b> <a href="index.php?page=classes/rake">Rake</a><br>
+      </td>
+
+    <td valign=top width=116>
+    <font style="font-size:8pt;">
+      <a href="index.php?page=classes/cleric"><b>Cleric</b></a><br>
+      <b>·</b> <a href="index.php?page=classes/bishop">Bishop</a><br>
+      <b>·</b> <a href="index.php?page=classes/monk">Monk</a><br>
+      <b>·</b> <a href="index.php?page=classes/druid">Druid</a><br>
+      <b>·</b> <a href="index.php?page=classes/seeress">Seeress</a><br>
+      </td>
+
+    <td valign=top width=116>
+    <font style="font-size:8pt;">
+    <a href="index.php?page=classes/shaman"><b>Shaman</b></a><br>
+      <b>·</b> <a href="index.php?page=classes/chaoschampion">Chaos Champion</a><br>
+      <b>·</b> <a href="index.php?page=classes/riftbinder">Rift Binder</a><br>
+      </td>
+
+    <td valign=top width=116>
+    <font style="font-size:8pt;">
+    <a href="index.php?page=classes/mage"><b>Mage</b></a><br>
+      <b>·</b> <a href="index.php?page=classes/invoker">Invoker</a><br>
+      <b>·</b> <a href="index.php?page=classes/necromancer">Necromancer</a><br>
+      <b>·</b> <a href="index.php?page=classes/mentalist">Mentalist</a><br>
+      <b>·</b> <a href="index.php?page=classes/transmuter">Transmuter</a><br>
+      <b>·</b> <a href="index.php?page=classes/enchanter">Enchanter</a><br>
+      <b>·</b> <a href="index.php?page=classes/illusionist">Illusionist</a><br>
+      <b>·</b> <a href="index.php?page=classes/elementalist">Elementalist</a><br>
+      </td>
+
+    <td valign=top width=116>
+    <font style="font-size:8pt;">
+    Barbarian<br>
+      <b>·</b> Hunter<br>
+      <b>·</b> Journeyman<br>
+      <b>·</b> Beastmaster<br>
+</tr>
+
+</font>

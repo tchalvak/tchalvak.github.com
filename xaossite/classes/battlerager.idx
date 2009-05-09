@@ -1,0 +1,35 @@
+<tr><td>
+<div class = "para2" align = "center">  <p>Classes</p>  </div>
+<div class = "para1" align = "center">  <p>Battlerager</p>  </div>
+</tr></td>
+
+<tr><td>
+<pre>
+The Battlerager is an insane fighter of dwarven legend, a testament to the
+dwarven kind, these warriors are the most fierce in the lands. The secret to
+a battle rager is thier mastery of the rage, a mythical style of fighting
+which applies absolutely no effort to defend, instead using the simple rule
+of what is dead, cannot hurt you. The 'Rager is of course only a dwarven
+subclass of warrior.
+
+  Primary class:  Warrior
+  Attribute Adjustments:  +3 Str  +1 Con
+
+  Groups gainable for Battlerager: 
+
+      Aduniac devotion              
+
+  Skills gainable for Battlerager: 
+
+   Artillery          Advanced artillery Expert artillery   Master artillery
+   Chopping           Cleaving           Taunt              Rage            
+   Smash              Throwing        
+
+  Hero gainables for Battlerager(including inherited from warrior):
+
+   Legendary axe          Deadly spin            Ultimate rage       
+      
+</pre>
+
+<center><?php include("includes/classlinks.php");?>
+</td></tr>

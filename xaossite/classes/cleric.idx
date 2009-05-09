@@ -1,0 +1,40 @@
+<tr><td>
+<div class = "para2" align = "center">  <p>Classes</p>  </div>
+<div class = "para1" align = "center">  <p>Cleric</p>  </div>
+</tr></td>
+
+<tr><td>
+<pre>
+Clerics are the most defensively orientated of all the classes. Most of
+their spells focus on healing or defending the faithful, with their few
+combat spells being far less powerful than those of mages.  However, clerics
+are the best class by far at healing magics, and they posess an impressive
+area of protective magics, as well as fair combat prowess.
+
+  Primary class:  Generic
+  Attribute Adjustments:  +2 Wis
+
+  Groups gainable for Cleric:
+      Attack                              Benedictions
+      Creation                            Curative
+      Detection                           Maladictions
+      Protective                          Transportation
+      Weather                             Holistic vestures
+
+  Skills gainable for Cleric:
+
+   Advanced flail     Advanced mace      Advancedspear     Advanced staff
+   Advanced whip      Flail              Mace               Spear
+   Staff              Whip               Expert mace        Alchemy
+   Brew               Dual wield         Hand to hand       Kick
+   Shield block       Link               Leadership         Lore
+   Spellcraft         Scrolls            Staves             Wands
+
+  Hero gainable for Cleric:
+
+   Heretic                Sanctuary
+</pre>
+
+
+<center><?php include("includes/classlinks.php");?>
+</td></tr>

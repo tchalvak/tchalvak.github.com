@@ -1,0 +1,32 @@
+<tr><td>
+<div class = "para2" align = "center">  <p>Classes</p>  </div>
+<div class = "para1" align = "center">  <p>Knight</p>  </div>
+</tr></td>
+
+<tr><td>
+<pre>
+The knight is a master of tactical combat, while the code of honour which
+once ruled the actions of this elite group has all but vanished the
+teachings and training to become a one remains. The knight focuses thier
+personal combat with the sword & spear, able to utilize either with greater
+effectiveness then any other class. There is nothing more commanding on the
+field of war then a full suite of knights charging into the thick of combat
+and laying waste to all opposition.
+
+  Primary class:  Warrior
+  Attribute Adjustments:  +2 Str  +2 Con
+
+  Skills gainable for Knight:
+
+   Guard parry        Reaver             Shield bash        Shield deflect
+   Blademaster        Impaling           Jousting           Lancing
+   Tactics            Taming
+
+  Hero gainables for Knight(including inherited from warrior):
+
+   Legendary polearm  Legendary sword    Deadly spin   	    Improved defense
+</pre>
+
+
+<center><?php include("includes/classlinks.php");?>
+</td></tr>

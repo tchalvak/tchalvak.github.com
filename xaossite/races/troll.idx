@@ -1,0 +1,53 @@
+<tr><td>
+<div class = "para2" align = "center">  <p>Races</p>  </div>
+<div class = "para1" align = "center">  <p>Troll</p>  </div>
+</tr></td>
+
+<tr><td>
+<pre>
+
+Trolls are large creatures with only a vaguely humanoid form, long arms and
+four thick digits with strong, blunt nails at the end. Trolls are all
+muscle, though whether this is normal, or just because the only fat troll is
+a dead troll is uncertain. They have short tusks that extend from their
+mouth, sharp teeth, and extremely leathery, hard green skin, which, with
+their quick regeneration, makes them more insensitive to attacks that do not
+break the skin.  However, it is said that the fire god Vulcan forced a curse
+upon their race that makes them cringe at the thought of fire. Trolls almost
+always wear extreme amounts of armor, usually rather plain save for their
+allegiance markings, forged from the strongest metal that they can 'find'
+and leather. They rarely bother with useless cloth, and in the swamps, cloth
+is never needed for warmth, of course.  These large, rubbery skinned
+humanoids breed in harsh swamplands or the broken tundra. Excellent
+warriors, legendary for their savage tenacity and ignorance of the meaning
+of pain, they form the core fighters of the Seven Tribes. They have taken
+leadership of a small section of the Tribes, commonly known as the Horde, in
+an extremely defensible position, the marshy swamps of what is now called
+Gobold.  The few attempts to dislodge them from their swamps were met with
+violent reprise, and quickly discontinued. The trolls fear growing
+complacent with lack of enemy, so the fiercer of their warriors are sent to
+travel the whole continent in search of the most powerful opponents and
+vanquish them.  It is rumored that the 'Horde' was originally led by a small
+group of orcs who were decimated by the more organized forces of the
+Praetorian High-Guard before the survivors could establish themselves in the
+swamps, though everyone knows that a few groups of orcs do remain, holed
+away.  It is conjectured further that those who remain were part of a much
+larger force. Many generations have passed, so even the few old trolls that
+still roam the swamps may not know.  
+
+<b>Specific traits:</b>
+
+   Size:  large  Base weight:  350lbs
+   Life Expectancy:  140, age of maturity 15.
+   Digestable groups:  meat vegetable wood rawmeat grain bone
+   Lightly resistant to bash.
+   Very vulnerable to fire.
+   Slighty vulnerable to acid.
+   Lightly resistant to poison.
+
+<b>Base stats,</b> str: 20  int: 15  wis: 16  dex: 18  con: 20
+<b>Experience per level base:</b>  2000
+</pre>
+
+<center><?php include("includes/racelinks.php");?>
+</td></tr>

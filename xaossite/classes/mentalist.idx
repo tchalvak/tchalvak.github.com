@@ -1,0 +1,33 @@
+<tr><td>
+<div class = "para2" align = "center">  <p>Classes</p>  </div>
+<div class = "para1" align = "center">  <p>Mentalist</p>  </div>
+</tr></td>
+
+<tr><td>
+<pre>
+The mentalist, through great research, ageless study and painful
+consolidation the two schools of magic formally known as beguilery and
+clairvoyance have managed to merge into a powerful new art known as
+mentalism.  The combination results in a potent foe, with absolute knowledge
+and unspeakable psychic abilities.  Retaining the full abilities of both
+schools this new breed of mage is quite capable of bending anything to thier
+undeniable will power.
+
+  Primary class:  Mage
+  Attribute Adjustments:  +3 Int  +1 Wis
+
+  Groups gainable for Mentalist:
+
+      Cerecite                            Fortitude
+      Dominance                           Interlocution
+      Divestment                          Omniscience
+
+  Hero gainables for Mentalist(including inherited from mage):
+
+   Leadership        Searing orb          Sustained vision
+   Starburst
+</pre>
+
+
+<center><?php include("includes/classlinks.php");?>
+</td></tr>

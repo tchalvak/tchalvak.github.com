@@ -1,0 +1,969 @@
+Story: The relative calm of chaos
+
+^RBlood^x.  It is all that We see any more, the world is red.  We scent it forever on Our hands, its warmth burns Us.  That is not why We were here, We were the Devourers, We consume from within, We do not need to lead Us to victory, We simply help them to defeat themselves.  But now it is all blood.
+---
+The spinning color of a mad sky, its cycles of light and darkness coming without rhyme or reason, heralded only by a change in the sounds that spawned from the living flesh of the land below it.  The bodies of the fallen formed the soil, the stones were of bone, and blood was as water.  The living sky, joining without horizon to the land, broiled with a reflection of the madness below, tiny wisps of fleeting clouds whirling through quick bursts of lightning, shattering and whirling in ways that mimic the shapes and movement of wild beasts.
+---
+When the ^GPestilence^x faded, that was the beginning. It left only one coin, spinning on its edge.  What devours within when sickness, strife, and death are gone, and only twisting shadows remain.
+---
+The shapes in the darkness below the swirling clouds approach the slope, dragging themselves like the broken castoffs of a blind toymaker.  They gather together as they come, clambering noisily over the toppled trunks of rotting trees, and sliding clumsily on the flesh of their own brethren.  Groups of them approach from the same side of the slope, as they have no tactics, no sentience, only numbers and the frenzy that drives them.
+---
+And then the ^Tshattering^x, honor bonds and bindings broken, the wound burning again, eyesight fading in pools of blood, slivers of crystal burrowing through bone.
+---
+The beasts throw themselves at the silhouettes of thin, insect-like forms that stand in a tight ring of unnatural ruinic patterns around a small shape in the center.  As each beast touches the edge of the wall of spindly shadows, it is engulfed by one of the branching, warped forms, and both beast and shadow vanish. Soon the sheer number of the monstrosities surrounds the cleared circle, and the dim flashes of muted lightning begin to show gaps left in the ring of shadow runes.
+---
+Now We whisper half-truths at Us from all sides, speak of ^Ydesecration^x and ruins, buried plans and birthed vessels.  So delicate, a glass chalice, easily dropped, and something nameless seeks to pour from it.  But the flesh itself is raw.  So We must build instead of devour.  A twisting, a twisting.
+---
+The shape in the center of the cleared area vanishes in a wisp of shadow, taking the contorted shadows with it, and the circle collapses into a boiling tangle of ravening beasts that tear at each other and themselves in their fury.
+
+
+
+Respond to the "IC gems" idea.
+
+
+Gtell:
+I think that part of the problem that Gtell has is that its obvious and major advantages (no effort required to format the communication or put it in-character, stands out very well from combat spam, allows communication regardless of location, allows communication that others in the same location cannot spy upon) and lack of disadvantages (no cost in any way) is an rp-killer, because gtell is far, far, far superior to using say.
+
+Therefore, I propose that we 
+
+A:  spread some of those advantages around to make gtell less of the best and most efficient choice.  For example, the concept of being able to signal within your group
+requiring an individual priming of the group members, and allowing for detection and understanding of the signals by smart/skilled watchers.
+B:  decrease the lack of clarity of combat that makes says a inefficient alternative  (Efficient assignment of colors is a very important aspect of clarity in combat)
+C:  give gtell disadvantages and a cost that will increase the use of says for the things that are appropriate for says, and 
+
+
+Making spellcasting more interesting:
+
+Even the longest casting-length spell is rediculously short (though I'm not sure exactly how long the longest is).  
+
+Spells( or maybe just call them rituals) that takes increments of game hours.
+
+Material components.  Do they have possibility?
+
+Regen zeroing affects.
+
+
+
+
+Reply to "oath of silence" idea:
+
+Problem 1:  Gtell.  Any "oath of silence" would simply shuttle communication to gtell and that'd be rather weak.
+Problem 2:  Spell duration.  Most spells will carry over for quite a bit.  During that time, the monk is going to get excessively stacked bonuses.  And many of those spells carry over for a very long time.  So you spell yourself up, enter the oath of silence, fight for a bit with grotesque bonuses, and then go idle until the oath wears off.
+Problem 3:  Cancellation is non-verbal, so that would be a method of ending the oath right away.
+
+
+You also have a problem where you proposed compensating for a lack for the active benefit of heal (you have to cast heal each time you want the benefit,  it doesn't have an affect with a duration, and it requires you to sacrifice magic and a command-round to do it) with the passive benefit of an affect (which would operate at all times without taking a command-round or magic beyond the initial 10 seconds of mana regen to replenish).
+
+Think about what the actual disadvantage to the monk is comparative to.  Initially, it's essentially like the monk were hit by a silence spell.  Now, normally when monks are hit by a silence spell, they really aren't all that hard off, 'cause they're freaking masters of melee, so you've really just gotten rid of their spellcasting, not their ability to output damage at all.  After a long time, the continued duration of the oath of silence would be like a slow cancellation of their spells, so towards the end of the duration of the oath it would be as if they were both silenced and dispelled/cancelled.  Even in that situation, monks are going to be as well off as any spellcaster 
+
+
+
+
+
+On the topic of rewards for roleplaying, the referral system.
+
+Request for legion clan mount.
+
+This mob would be purchasable at a clan-only legion store,
+and I'd also like to get one of them as a reset in the clanhall.
+
+Race: nightmare
+short description: a nightmare beast
+in-room description: [Nightmare] A hazy beast made of shadows, smoke, and flame.
+keywords: nightmare beast hazy
+Vague in shape, this creature has burning eyes like coals mounted in an
+hazy, flickering body of shadows that seems to flow and change like water,
+but favor the muted hues of blood and darkness.  It does not appear to be
+flesh and blood, or even solid at all, but four limbs of wavering grey smoke
+extend down from a vaguely equine body and head to fuse with the ground.
+
+I would like to pay to get the nightmare to have "passdoor" and "flying", 
+as high of physical stats as possible (most importantly con), and be level 99.
+
+
+
+
+
+
+
+
+
+
+
+
+As for how you think, scientific research may work like that, people don't.  Their mind makes snap judgements and decides -something- and then they feel that way, even if they don't know what to think rationally.
+
+So I'm really more interested in what you feel about it.  You may not know what to think, yet, but I'm sure that you feel something about it already.
+
+Illusionist ideas:
+
+Mislead other maladiction (hallu, if it worked, would be this)
+Lens:  make it focus illusion and give it to illusionists.
+barrier:  reflects sound and light spells.
+
+make ideas to turn sappers into burglars, and vice versa.
+
+
+
+
+Heh, you didn't get my pregrad check material because it was sent to Robert Simon (and the Bio Department) like everything in the past.  (Evidently the administration can't take a hint.)  So, I dropped by the Bio office and was going to just have Simon do it, but then the Bio secretary said that if you had been my advisor all along, that I could do it with you if that made more sense.
+
+I figured that since I had never talked with the guy before, much less about the classes that I'm taking, that it might be better to just do this stuff with you.
+
+I actually was supposed to have my pregrad. check done last year/semester, and now they're given me some kind of ultimatim that it has to be done by the end of this month.
+
+But I'm open to getting a new perspective on it anyway (and probably having him point out that it doesn't look like I'm going to graduate on time).  Either way is fine by me, so if you want me to talk to Robert Simon instead, I'll just do that.
+
+Roy.
+
+
+Leadership reply idea:
+
+ 1. Ragnar hasn't yet declared himself as to whether he purposefully wants the
+ 2. class with the highest grouping -skills- to automatically have to not only
+ 3. organize the group, but also choose the path that the group follows, or
+ 4. whether, on the other hand, the inability of a leader of a large group to
+ 5. follow anyone who doesn't happen to have certain rather arbitrary skills.  
+ 6. 
+ 7. That doesn't change the fact that as it stands, the situation is complete and utter
+ 8. bullshit.
+ 9.  
+10. The leader of groups almost exclusively becomes whoever has, in order:
+11. leadership, a higher skill in leadership, tactics, and a higher skill with tactics.
+12. The reason that that is bullshit is because when the number in your group
+13. determines your ability to level, -Real- leadership becomes ignored in favor
+14. of the skill.  Real leadership (yes, even on xaos) can't be gained through
+15. the knowledge tree.
+16.  
+17. As far as I see it, the roles in group levelling are:
+18. leader
+19. navigator
+20. tank(s)
+21.  
+22. Tanks should be determined by who can take the damage.
+23. Navigation should be determined by who knows the areas and where to go.
+And leadership should be determined by skills and 
+
+
+
+Legion Charter
+ 
+* Hiring policy on types of Clanguard:
+  No undead, usually only clanguard that are now "tainted" or changed in some way beyond their normal race, with the exception of the priests.
+ 
+* Player recruitment rules:
+  No undead. All who join must follow Albach. None may advance beyond the first rank of the clan without having been marked by Albach, the leader of the clan, or one of those chosen by Albach to give the mark.
+ 
+* Long-term clan goals:
+  Getting a member of the legion inside each of the other most powerful clans.  Having legion members gain power within other clans, preferrably with no knowledge of their membership in the legion.  Feeding information to enemy clans that indicates that other enemy clans are taking hostile action.
+ 
+* Method of choosing a new leader:
+  Tested and Chosen by Albach, in the meantime the highest ranking member of the highest level at the time of the loss of the old leader is the leader.
+ 
+* Races, classes, and other clans the clan would be mainly aligned with:
+  Any clan that is not affiliated directly with another relgion and that opposes the same enemy.  The legion will not take a subservient role in any alliance.  The legion will not align with any predominantly good clan unless it is to use it as a tool in a more broadly reaching plan for evil.  The clan itself will make no alliances with kender, pixies, or avariel.
+ 
+* Any other information on the clan that would be useful for the admin:
+
+[NPCs cannot be tricked, so any light/sound effect that acts upon an NPC is esse
+ntially useless.  PCs can be tricked, but for the most part any intelligent play
+er can simply ignore the trickery and attack the source blindly.  Therefore, the
+ definition of an illusionist as someone who just makes things look and sound di
+fferent is relatively useless as a player class, while the definition of an illu
+sionist as someone who can -control- light, sound, and sometimes even pull subst
+ance out of a shadow material 
+idea + NPCs cannot be tricked, so any light/sound effect that acts upon an NPC i
+s essentially useless.  PCs can be tricked, but for the most part any intelligen
+t player can simply ignore the trickery and attack the source blindly.  Therefor
+e, the definition of an illusionist as someone who just makes things look and so
+und different is relatively useless as a player class, while the definition of a
+n illusionist as someone who can -control- light, sound, and sometimes even pull
+ substance out of a shadow material 
+idea + is useful, because it means that illusionists could potentially make some
+thing substantial.  At present all of their spells, with the notable exception o
+f cloak of shadows, that are useful to them are the ones that create something f
+or them.  mirror image actually creates a duplicate, blur actually helps them do
+dge NPCs.
+
+
+
+
+idea to all
+idea subject Illusionists should get leadership.
+Rationale:  Incessant leading of groups around, and until someone with a better 
+
+idea to all
+idea subject Let control weather show the weather after each cast.
+
+Total: ~250
+True total: 4*100
+
+Dao              Narbo            Thursen          Acid rat         
+
+Aecheon          Aerial guardian  Air elemental    Alligator        
+Amethyst dragon  Anaconda         Ancient statue   Angel            
+Ant              Aphid            Arachnia clockworArcher worm      
+Archon           Arctic fox       Aurak draconian  Avariel          
+
+Baator claw      Badger           Balrog           Balron           
+Basillisk        Bass             Bat              Bear             
+Beasthead giant  Beaver           Bebilith         Beetle           
+Beholder         Bile demon       Bird             Black dragon     
+Black fly        Black manta      Black okee       Blood bat        
+Blood elemental  Blood imp        Blood rat        Blue dragon      
+Blue jay         Blue okee        Boar             Bog rat          
+Bozak draconian  Brass dragon     Bronze dragon    Bronze golem     
+Broodling hive   Brownie          Bugbear          Bulette          
+Bull             Bullfrog         Bumblebee        Butterfly        
+
+Camel            Cardinal         Caribou          Carrion bat      
+Cat              Caterpillar      Catfish          Celestial dragon 
+Centaur          Centipede        Chameleon        Chicken          
+Chimera          Chimpanzee       Chinchilla       Chipmunk         
+Chromatic bunny  Chrystalli       Chuul            Clam             
+Clay golem       Cougar           Cow              Crab             
+Crackle harpy    Crocodile        Cryo imp         Crystal dragon   
+
+Daemon           Dark archon      Death fiend      Decay fiend      
+Deep gnome       Deer             Demon            Demon monkey     
+Desert drake     Dire wolf        Displacer beast  Dog              
+Dong             Donkey           Draconian        Dragonfly        
+Drider           Drone hive       Drow             Duck             
+Duergar          Dust gnome       Dwarf            Eagle            
+
+Earth elemental  Earthen grasp    Earthen mauler   Earthformer      
+Eel              Efreeti          Elf              Emerald dragon   
+Energy golem     Faerie dragon    Falcon           Faun             
+
+Feral            Ferret           Fiend            Fire elemental   
+Fire giant       Fire lizard      Fire rat         Fire widow       
+Firefly          Flame elemental  Flame imp        Flesh golem      
+Floating object  Flounder         Flying squirrel  Forest giant     
+Fox              Frog             Frost fiend      Frost giant      
+Frost golem      Funfur rabbit    Fungus           Game bug         
+
+Gargoyle         Gas drake        Gaseous hufta    Gelatinous cube  
+Giant ant        Giant crocodile  Giant dragonfly  Giant orc        
+Giant scorpion   Githyanki        Glacial demon    Gnoll            
+Gnome            Goat             Goblin           Gold golem       
+Golden clockwork Golem            Goose            Gorilla          
+Grasshopper      Gray slime       Green dragon     Green okee       
+Green slime      Gremlin          Grey bear        Grey okee        
+Grey wolf        Gryphon          Guane            Guardian spider  
+
+Half elf         Half giant       Half orc         Harpy            
+Hawk             Hell hound       Hill giant       Hippogryph       
+Hissing demon    Hobgoblin        Homonculus       Hooded lizard    
+Horse            Huleku           Huludian         Human            
+Hummingbird      Hyboar           Hydra            Ice critter      
+
+Ice elemental    Ice faerie       Ice golem        Ice lizard       
+Ice rat          Ice wolf         Ice worm         Icitros          
+Illithid         Imp              Invisible stalkerIron clockwork   
+Iron golem       Jellyfish        Juggasaur        Jungle lizard    
+
+Kender           Kidden           Kipak draconian  Kissing lotus    
+Kobold           Kraken           Kuo-toan         Leech            
+
+Lemming          Lemure           Lightning claw   Lightning element
+Lightning golem  Lizard           Lobstran         Locust           
+Loon             Maca             Maeklum          Magic bubble     
+
+Magic carpet     Magma worm       Malreth          Mammoth          
+Manticore        Marauder         Mind fog         Minotaur         
+Mithril golem    Mongoose         Monkey           Moon dragon      
+Moon lizard      Mosquito         Mouse            Mudschool dummy  
+Musk ox          Muurgoth         Mycanoid         Myrian           
+
+Naga             Nalfeshnee       Nautilus         Neogi            
+Nightmare        Nova phoenix     Nupperibo        Nymph            
+
+Octopus          Ogre             Orange neogi     Orange okee      
+Orc              Orca             Owl              Oyster           
+
+Panther          Paper golem      Peacock          Pegataur         
+Penguin          Perch            Pheasant         Phoenix          
+Pig              Pigeon           Pike             Piranha          
+Pitfiend         Pixie            Polar bear       Pony             
+Potato beetle    Praying mantis   Prismatic wall   Protoss          
+Puddle           Purple okee      Puundar          Pyroclasm demon  
+Python           Queen hive       Quick vine       Rabbit           
+
+Racoon           Radiant golem    Rainbow bunny    Rat              
+Red dragon       Red okee         Rhinotaur        Roc              
+Rock baboon      Sahaugin         Sahuagin         Salamander       
+
+Salmon           Sand golem       Sand wyrm        Sandman          
+Satyr            Scaen            Scarab           Scorpion         
+Seal             Shadow           Shark            Sheep            
+Shoggoth         Shrieker bush    Silk worm        Silver clockwork 
+Silver dragon    Silver golem     Sindar           Sivak draconian  
+Skrielt          Slaan            Slarecacian      Smoke fiend      
+Snail            Snake            Snapping turtle  Snow golem       
+Snowman          Sotarian         Spark            Spark imp        
+Sparrow          Spawn            Spectral hound   Sphinx           
+Spider           Spidrax          Spinagon         Spotted lizard   
+Sprite           Squid            Squirrel         Starfish         
+Steel clockwork  Steel golem      Stone giant      Stone golem      
+Stone warden     Storm giant      Strangle vine    Sturgeon         
+Succubus         Summit wasp      Sun dragon       Sunfish          
+Surak draconian  Surca            Swamp cobra      Takani           
+
+Tankaton sentinelTaur             Terssym          Thief roots      
+Tiger            Titan            Tlincalli        Training pole    
+Treant           Troglodyte       Troll            Trout            
+Turtle           
+
+Umberhulk        
+
+Velociraptor     Vondoni          
+
+Wall of flesh    Wall of stone    Walrus           Warg             
+Warlhazar        Warrior hive     Wasp             Water elemental  
+Water nymph      Web              Whale            White dragon     
+Wild elf         Will o wisp      Witchlight       Wolf             
+Wood nymph       Worm             Wyvern           
+
+Yellow asp       Yellow beetle    Yellow okee      Yeti             
+
+
+builder to all
+builder reply 36
+builder subject ^TMechanics review of (Nsaris grounds)(27050-27099)(A#291)^x
+builder ++
+Mobs:
+ 
+Numerous behavior alterations, was too tired to catalogue all of them.
+ 
+27061
+powerful religious enforcer/healer mob
+ 
+Objs:
+Numerous objects changed to level 100.
+ 
+27055
+quality high, unable to change to normal
+ 
+27057
+should be type melting_device, unable to change
+ 
+27081
+magic effect needle shards to user
+ 
+27084
+magic effect, unable to change (should strike on wield)
+ 
+27089
+magic effect on block shield, 1 charge of needle strike
+ 
+27092
+magic effect; bone shell, unable to change
+@
+Is room 20377 online?
+
+
+builder to all
+builder reply 36
+builder subject ^TMechanics review of (the fens)(15550-15599)(A#204)^x
+builder ++
+Mobs:
+15551
+movement behavior changed to fast_wander
+combat changed to from displacer_beast to none
+escape changed to blink
+need to add water breathing affect
+
+15554
+detect_magic effect removed
+act tamed removed
+combat behavior changed from none to warrior
+
+15555
+movement changed to none from demonic_goto
+strength +50 affect added
+make this mob able to be bought as a pet
+
+15558
+style changed to normal from dance of blades
+
+15567
+style changed to normal from hurricane
+
+15559
+added flight effect
+
+15565
+made class necromancer to fit behavior
+
+15566
+made class knight to fit behavior
+escape set to basic
+
+15567
+class and behavior changed to shaman from cleric
+escape set to basic
+
+15568
+act illusion
+escape set to basic
+
+15570
+got rid of hiding
+
+15571
+got rid of hiding
+
+Mobs are completed.
+
+Objs:
+
+Many of the objects changed to 100 from lower levels.
+
+15587
+has magic effect that I am unable to remove
+
+
+builder to all
+builder subject Mechanics review of Area 
+builder ++
+Unused simply means that I'm not using the vnums right now,
+though I may find something to replace them with later.  :p
+
+ 
+Mobs:
+24650
+class/behavior both berserker now
+style dragon tactics
+Speech set to silent
+mobprog deleted
+ 
+24658
+class/behavior rift binder now
+ 
+24659
+class/behavior assassin now
+ 
+24673
+no longer hides
+ 
+Many of the mobs were kept purposefully lacking a combat behavior,
+'cause I figure levelling will probably be annoying enough in the
+swamps as it is.
+ 
+Objects:
+ 
+Items marked by ? marks on both sides are ones that I don't think
+are completely unbalanced, but which might need consideration.
+ 
+24652
+?smokable with haste and hallucination and effect_level of 300?
+ 
+24655
+?polearm weapon with single charge 1% chance level 50 needle strike hit effect?
+ 
+24658
+?powder with level 100 blindness, poison, confusion powder effect?
+ 
+24667
+?random_rare 150-200 points?
+ 
+24674
+?random_hero 110-130 points?
+ 
+24676
+?maybe both sharp and poison on a thrower is too much?
+ 
+@
+
+asdfasdfasasdfasdfasasdfasdfasasdfasdfasasdfasdfasasdfasdfasasdfasdfas
+
+Please, give a "resize" spell to transmuters.
+ 
+ 
+Transmuters will love to have it, everyone else will love transmuters
+ having it, and it makes a lot of sense.
+ 
+-The expense and imbalance of hero-point dependent resize-
+ 
+Knowing, every time that you have to resize, that you could have used
+ the points on stats or trains that will never be lost, but you needed
+ a good weapon to wield until the next time someone loots and sacrifices
+ it, is very painful.
+Knowing that the other races of the more represented sizes don't have
+ to, is also painful.
+ 
+For sizes under-represented in equipment power/abundance, PK has the
+ obvious 1 hero point cost, and then it has the more hidden cost of
+ having to resize a whole new set of equipment.  With both theft and
+ PK, it's very easy to burn through piles of hero points in this way.
+ 
+If you sacrifice HP to hero empower a weapon, you are choosing between
+ the weapon, or the weapon just a slight bit better.  Resizing is
+ sacrificing simply to wear or wield the item at all, a choice between
+ an item or nothing at all.
+ 
+-Benefits of a "resize" spell-
+ 
+If resize were made less costly, it would benefit everyone, but it
+ would benefit the sizes that are deficient more than the sizes that
+ aren't, making for a more level playing field.
+ 
+Asking for builders to alleviate the problem is an impossibility.  There
+ will always be one size of item that is more abundant and powerful, no
+ matter which size that is. And there will always be sizes with weak and
+ rare equipment.  There are 11 sizes available. The idea that builders can
+ give each equal power and number is unworkable.  Giving players the access
+ to a source of modification that doesn't cost them the effectiveness of
+ their character, on the other hand, will allow players to provide each
+ equipment size with -EXACTLY- the amount of power and abundance that is
+ called for.
+ 
+-Potential for abuse-
+ 
+You resize items to:
+wear them
+wield them
+two hand them
+have them weigh more
+ 
+So where is there any potential for abuse in those, under the new system?
+ 
+Besides that, just as enchanters are hard to get to work for you, if
+ "resize" were given to transmuters, it would still be a challenge
+ to find and get them to do the resizing.
+ 
+ 
+Please, resize spell for transmuters.
+
+idea subject I think that some of these are rules more than rights.
+idea to Altair Ragnar all
+idea reply 2260
+
+Rules are fine, makes sense for the expansion of the roleplaying rules
+to occur at the same time as the rights, but I think that they would
+go in a different sections.  
+
+For example:
+
+Rules:
+-Newbies are not to be killed without provocation.
+Punishment: HCXP for one day/Freezing for one Week/Perma-Freeze
+
+
+RP rules:
+Eternals are the judges of RP, refer issues with another character's
+roleplaying to them with a tell or in a "note to admin".
+Eternals can invisibly audit your roleplaying at any time if you are HCRP.
+-<aspect of roleplaying broken> (successive punishments)
+-Allying/grouping with racial enemies without reason:  
+(Warning/Warning/day of HCXP/week of HCXP)
+-Hours races allying with racial or clan enemies without good reason:
+(Warning/Warning/Week of HCXP)
+-Drastically breaking alignment and racial RP without good reason:
+e.g. evil troll paladin guarding lawful good fire giant mage
+(Warning/day of HCXP/Week of HCXP)
+-Minor break with alignment or racial RP without good reason:
+(Warning/Warning/Warning/day of HCXP)
+
+Right:
+-The worst punishment that you can receive for a roleplaying
+infraction is HCXP.  (roleplaying infractions do not include:
+abusing bugs, spamkilling, unprovoked newbie killing, or any other
+infrations that are ooc in nature)
+
+-Penalties over (time it takes for penalties to fall off penalty spool) cannot
+be counted against a character's record.
+
+-You have the right to appeal any that is permanent.  All punishments that
+are permanent will 
+
+Builder to all
+builder subject naga/slaan: Inclusion of race naga, alterations, and classes.
+builder ++
+
+I would like Naga to be included in the slaan/naga area because:
+ 
+They are very much -not- human, even more different than slaan are
+and I hope that this will help keep the slaan from becoming green, 
+scaled humans. as well as satisfying my need for uniqueness while
+still allowing the populance to get their almost standard lizard men.
+They'll help make for a hierarchy (e.g. the Drow, Trolls) which can make 
+roleplay more interesting.
+ 
+ 
+ 
+Classes available in the Citadel:
+Base Warrior, Paladin, and Knight trainers.
+Base shaman, and Rift Binder trainers.
+Base thief trainer.
+ 
+Both can be shaman or warrior.
+Only slaan can be theives.
+ 
+Proposed Alterations to races:
+Albach had a good idea, to have the equipment size for naga
+be the same as the slaan, but the overall race size be one larger,
+which fits the idea of transformation well.  I prefer slaan as medium,
+but don't really care which size the slaan actually end up being beyond
+that there is the size difference between the two races.
+
+ 
+Naga still need taillash skill and ridable trait,
+I dislike the way that the "hit" verb for naga occurs in combat, it's really
+not descriptive of where the damage is coming from.  Is there any "crush"
+or "constriction" or other more appropriate damage verb?  If there isn't 
+really any racial damtype more descriptive than "hit", then I'd prefer it be
+"claw" attacks.
+
+
+asdfasdfasasdfasdfasasdfasdfasasdfasdfasasdfasdfasasdfasdfasasdfasdfasasdfasdfas
+idea subject Slaan/Vondonni/Kobold warrior subclass:  Beast or Beastial
+idea to all
+idea ++
+ 
+The following is 1/10th original, and 9/10ths a compilation of things that 
+people have proposed before.
+ 
+Warrior Subclass Beastial
+ 
+Rending: Small, stackable decreases to an opponents hitpoint regen while attacking, from bites.
+ 
+Lockjaw: Attempts to a bite, which if successful, cuts down on opponents dex.
+ 
+Savage Resistance: natural increase to magic resistance and armor class when not
+wearing armor.
+ 
+Pounce: Unmounted charge that extends only one room, possible knockdown.
+ 
+Heightened Senses: Ability to see mobs/pcs regardless of being blinded or invisibility.
+Only mobs, though, not 
+ 
+Pack Style:  increases to the abilities of everyone grouped with user, decrease 
+to the users abilities, two in style harbringer in the same group will give a 
+minor benefit, the more in the same group, the more the benefits stack.
+For example, +2 strength +1 dex to everyone else while they're grouped, user gets a -1 strength and -1 dex, and more users in the group stack benefits.
+ 
+Strike: Using this skill, the beast uses all its weight and effort to bring down 
+and immobilize its prey, then relies upon its pack-mates to finish it.
+(Dependent upon strength, Prey is forced into a resting position, Beast cannot 
+attack while holding it's prey down.)
+ 
+Pre-existing skills:
+Perception + Extreme Perception
+Cannibalism
+Ambush
+Leadership
+
+
+
+idea to all
+idea subject Allowing PC-led clan start locations.
+idea ++
+ 
+Inspiration:
+Tritower, Visari, etc.
+ 
+Premise:
+If a pc-led clan is able to meet a certain set of strict requirements,
+they then have the option of buying a start location for a certain
+race and base class.
+These new start locations then appear in the creation menu in the
+seperate category "Player Controlled Start Locations" and are only
+shown to players that are no longer newbie status.
+ 
+ 
+Requirements:
+No hours races or npc races.  (of course)
+Pre-established clanhall on the prime plane required.
+Clan must have at least one trainer for the base class that they
+request the start location of.
+Clans must have a training pole or magic bubble.
+Clans must purchase a minimum of 10 training dummies.
+And maybe also:
+Clans must be "recognized" status clans to recruit membership
+from the public in this way.
+
+
+
+A hooded demon is using:
+<worn on neck>       [large   ] a Demonknight's cape
+<worn on torso>      [large   ] the nexus platemail
+<worn on head>       [large   ] a demonknight's hood
+<worn on legs>       [medium  ] a black battle skirt
+<worn on hands>      [large   ] the claws of fear
+<held in right hand> [large   ] (Humming) a spiked black leather glove
+<held in left hand>  [large   ] (Humming) the onyx sword
+<floating nearby>    [large   ] the halo of fear
+
+----
+nxs.vze.com
+
+
+
+asdfasdfasasdfasdfasasdfasdfasasdfasdfasasdfasdfasasdfasdfasasdfasdfas
+
+http://www.mudmagic.com/listings/add.php
+
+======================================================================
+
+Style:Roleplaying
+Code base:Xaos 1.0/Rom 2.3
+Born: May 1997
+Implimentor: Ragnar
+Levels: 100 base + 750 level-less
+Classes:5 with 27 subdivisions
+Races: 25 with detailed start locations, 100s of supporting races.
+
+Xaos is a roleplaying mud, pure and simple.  It has dozens of races to
+suit any RPer's needs and is very easy to add another race if there is a
+gap.  Totally custom areas built by the OLC team.  All additions beyond
+what little is left of the base coda and OLC have been built by
+its implimentor, 'patches are for wussies :P'.  We feature the 4 prime
+classes and 25 subclasses split among them to subclass into upon hitting
+50th level.  Xaos has 100 mortal levels, 10 levels of immortality and
+features _no_ remort/reclass system that drops a mortal's level and gives
+the misconceptions that it has more levels then it really does.  We
+feature well over 1000 skills/spells that encompase a full range of catagories from
+pure combat through to the purely entertaining.  We have one global
+channel (OOC) and all mortal communications are
+made through more 'realistic' methods like say, sayto, whisper and
+yell.  We feature a language system without a 'universal' beginner.
+
+======================================================================
+
+
+
+
+
+Narbo            Thursen          Aecheon          Amethyst dragon  
+Ancient statue   Angel            
+Archon           Aurak draconian  Avariel          
+Baator claw      Balrog           Balron           
+Beasthead giant  Bebilith         Beholder         Black dragon     
+Black okee       Blood elemental  
+Blood imp        Blue dragon      Bozak draconian  Brass dragon     
+Bronze dragon    Bronze golem     Broodling hive   Brownie          
+Carrion bat      Catfish          Centaur          
+Chimera          Chuul            Clay golem       
+Crackle harpy    Cryo imp         
+Crystal dragon   Daemon           Dark archon      Death fiend      
+Decay fiend      Deep gnome       Demon            
+Demon monkey     Displacer beast  Dong             Draconian        
+Drider           Drone hive       Drow             
+Duergar          Dwarf            Earth elemental  
+Earthen grasp    Earthen mauler   Earthformer      
+Efreeti          Elf              Emerald dragon        
+Faerie dragon    Faun             Fiend            Fire elemental   
+Fire giant       Fire widow       
+Flame imp        Flesh golem      Floating object       
+Forest giant     Fox              Frost fiend      Frost giant      Frost golem      
+Fungus           Game bug         Gargoyle         
+Gaseous hufta    Giant orc        Githyanki        
+Gnoll            Gnome            Goblin           
+Gold golem       Golden clockwork Golem            
+Gray slime       Green dragon     Green slime      Gremlin          
+Guane            Half elf         Half giant       Half orc         
+Hill giant       Hippogryph       Hissing demon    
+Hobgoblin        Huleku           Human            
+Ice faerie       Ice golem        Illithid         
+Imp              Invisible stalkerIron clockwork   Iron golem       
+Kender           
+Kidden           Kipak draconian  Kissing lotus    Kobold           
+Kuo-toan         Leech            Lemure           
+Lightning claw   Lightning golem  Lobstran         
+Maca             Maeklum          
+Magic bubble     Magic carpet     Malreth                
+Marauder         Minotaur         Mithril golem    
+Moon dragon      Myrian           Nalfeshnee       
+Neogi            Nova phoenix     Nupperibo        Nymph            
+Ogre             Orange neogi     Orc              
+Paper golem      Pegataur         
+Phoenix          Pitfiend         Pixie                
+Prismatic wall   Protoss          Puddle           
+Puundar          Queen hive       Quick vine       
+Radiant golem    Red dragon       Red okee         Rhinotaur        
+Sahaugin         Sahuagin         Salamander       Sand golem           
+Sandman          Satyr            Shoggoth         
+Shrieker bush    Silver clockwork Silver dragon    
+Silver golem     Sivak draconian  Skrielt          Slaan            
+Smoke fiend      Snowman          Sotarian         Spark            Spark imp        
+Spawn            Spectral hound   Spidrax          Spinagon         
+Sprite           Steel clockwork  Steel golem      Stone giant      Stone golem      
+Stone warden     Storm giant      Strangle vine    
+Succubus         Sun dragon       Sunfish          
+Surak draconian  Surca            Takani           Tankaton sentinel
+Taur             Terssym          Thief roots      
+Titan            Tlincalli        Training pole    Treant           
+Troglodyte       Troll            
+Umberhulk        Velociraptor     Vondoni          Wall of flesh    
+Wall of stone    Warrior hive     Water nymph      Web              
+Whale            White dragon     Wild elf         Will o wisp      
+Witchlight       Wood nymph       Wyvern           Yeti 
+
+
+
+  (31 ) 'frost giant'                   (739) sprite                        
+  (651) rsize                           (714) yeti                          
+  (56 ) slaani                          (614) pixies                        
+  (459) 'fire giants' firegiants fire-  (58 ) races                         
+  (255) avariel                                     
+      
+                   
+                      
+  (263) VONDONI                                          
+  (265) GIANT GIANTS                    (266) DRACONIAN DRACONIANS          
+  (267) demons fiends                                  
+                           
+     (560) Drow                          
+  (643) 'hill giants' hillgiants 'hill  (687) gremlins                      
+  (715) Draconicraces                   (108) 'gas drake' drake             
+  (750) kobold                          (440) maca                          
+  (529) brownies                        (544) balron                        
+  (546) treants                         (547) mycanoid                      
+  (164) faerie dragon 
+
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Pixies        A cheerful and honorable race of the Fae.
+Sprites       Cruel and capricious Fae with a dark sense of humor.
+Gremlins      Monsters born of a dark god and darker rituals.
+Maca          Insect-like helpers of the pixies and sprites.
+
+Avariel       The Winged Elves of the floating city.
+Vondoni       The relentless hunters, nicknamed "war hounds".
+Drow          The elves of the subterranean realm and shadows.
+Slaan         The savage lizard-men of the deep swamps.
+Yeti          The snowbeasts, with strength born of the mountain.
+
+Storm Giants  Powerful beings forged of air and lightning.
+Fire Giants   The desert dwellers, worshipers of the Fire god.
+Hill Giants   A neutral race of pacifist giants.
+Frost Giants  The northern giants of ice 
+
+
+
+
+
+Form>Material>Sentience(trait speaks or not)>Flying/Amphibious/Water/Land>Size>
+
+Form Exclusives:
+construct
+intangible
+plant
+animal
+magical
+
+
+
+
+
+		[Beastial Races] material Flesh, sentient
+	Bipeds
+
+	[Draconian Races]
+
+ 
+		[Constructs] form: construct
+
+
+		[Animals] Flesh, nonsentient (no "speaks" trait)
+ 
+		[Plants] form: plant
+
+		[Elementals] form: magical
+	[Spirits] form: intangible
+
+	[Daemonic Races]
+
+
+
+
+
+
+
+
+idea to all
+idea subject Global hero gains, or going to a "points go towards anything" system.
+
+idea to all
+idea subject Slavish fitting of classes to some strange rule.
+
+Nsaris: Objects and levels.
+To: all
+I think that a good way to illustrate what problems we would have with the
+level-less objects is simply to make some examples with objects that are
+around, and then fix the problems that it shows, and then work from there.
+Therefore I give you the scenario of:
+A newbie wielding a demonic cleaver,
+
+
+
+
+
+
+
+asdfasdfasasdfasdfasasdfasdfasasdfasdfasasdfasdfasasdfasdfasasdfasdfasasdfasdfas
+
+Xz's eyes are blind slits lacking pupils, but they blaze with a ^Rcrimson^^ light.
+Most of his face is bound in coarse black cloth, the same material that clothes
+the rest of his body save for a few curved plates of mithril armor. Where visible   
+under the cloth, the skin of the left side of his body is rough, covered with    
+overlapping, angular ebon scales. On the right side, the skin becomes smooth,   
+like a worn stone. His right arm is fluidly muscled, while his left is withered 
+and gaunt, ravaged as if by a burning hunger. Bright, ^Rblood-red^^ tattoos     
+cover the visible parts of his skin, a stylized design that taken in parts      
+resembles nothing more than strange runes, but as a whole form a writhing       
+centipede. Seared above his eyes is an unhealed crescent that forms the jaws of 
+the insectoid beast.  There is the slight scent of seared flesh. His mouth is   
+often twisted into an amused smile, almost a snarl, showing a few sharp white   
+teeth that contrast against his skin.
+
+asdfasdfasasdfasdfasasdfasdfasasdfasdfasasdfasdfasasdfasdfasasdfasdfasasdfasdfas
+________________________________________________________________________________
+|                                                                              |
+|                                                                              |
+|                                                                              |
+|                                                                              |
+|                                                                              |
+|                                                                              |
+|                                                                              |
+|                                                                              |
+|                                                                              |
+|             ,      ,                                                             |
+|             |      |                                                            |
+|             ( \  / )                                                             |
+|              \ \/ /                                                               |
+|              /    \                                                                  |
+|              |
+               \    /
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|_______________________________________________________________________________
+asdfasdfasasdfasdfasasdfasdfasasdfasdfasasdfasdfasasdfasdfasasdfasdfasasdfasdfas
+

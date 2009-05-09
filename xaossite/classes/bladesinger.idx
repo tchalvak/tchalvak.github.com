@@ -1,0 +1,33 @@
+<tr><td>
+<div class = "para2" align = "center">  <p>Classes</p>  </div>
+<div class = "para1" align = "center">  <p>Bladesinger</p>  </div>
+</tr></td>
+
+<tr><td>
+<pre>
+The Bladesinger is the elite of elven warriors, using teachings that have
+been within the culture for as long as time has known, they are a formidable
+opponent and champion of elven virtue. Thier secrets are great and well
+kept, as only Elves may ever train to become one.
+
+  Primary class:  Warrior
+  Attribute Adjustments:  +2 Str  +2 Dex
+
+  Groups gainable for Bladesinger: 
+
+      Enhancement                         Protective                    
+      Blade songs                   
+
+  Skills gainable for Bladesinger: 
+
+   Dual parry         Blade dance        Blademaster        Blind fighting  
+   Slashing           Camoflage          Juggling           Spellcraft      
+
+  Hero gainables for Bladesinger(including inherited from warrior):
+
+   Legendary sword        Deadly spin            Nimbleness          
+   Spell turning          Riposte             
+</pre>
+
+<center><?php include("includes/classlinks.php");?>
+</td></tr>

@@ -1,0 +1,17 @@
+<tr><td>
+<div class = "para2" align = "center">  <p>Main Page</p>  </div>
+<div class = "para1" align = "center">  <p>Mac Connection Guide</p>  </div>
+</tr></td>
+
+<tr><td valign="top">
+<div style="font-size:9pt;margin: 15px; padding: 5px;">
+
+<h2>Connection Tutorial for the Mac</h2>
+- Download<a href="http://www.solidsun.com/cm/"> Cantrip</a>, a free mudclient.<br />
+- Go to File > New > New World (apple + N)<br />
+- Push the connection button.<br />
+- Put in the address and port information in the address box that comes up. (Address: xaos-mud.org | Port: 5000)<br />
+- Connect to xaos.<br />
+Follow the instructions continuing from the "<a href="index.php?page=newbies">Becoming a Xaos Player"</a> section.
+</div>
+</td></tr>

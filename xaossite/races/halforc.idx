@@ -1,0 +1,31 @@
+<tr><td>
+<div class = "para2" align = "center">  <p>Races</p>  </div>
+<div class = "para1" align = "center">  <p>Half Orc</p>  </div>
+</tr></td>
+
+<tr><td>
+<pre>
+The orcs were not pleased with the finding of humans treading on tribal soil
+and when the humans set up townships and it became evident that they just
+weren't going to go away, the orcs lead mass attacks against the villages
+and slaughtered the settlers without pity. Among the most brutal of those
+raids many of the human women were left bearing the children of these orcish
+raiders, and so began the race of half orcs.  Like a constant reminder of
+the humanoid's wrath, the half orcs are not generally accepted into human
+society. Most find life to be very lonely and any chance to make an ally
+they'll take, regardless of the nature.  The orcs on the other hand show no
+mercy at the capture of a half orc.  They believe there is absolutely no
+place for the 'disgusting' creatures.  
+
+<b>Specific traits:</b>
+
+   Size:  medium  Base weight:  165lbs
+   Life Expectancy:  90, age of maturity 17.
+   Digestable groups:  meat vegetable grain
+
+<b>Base stats,</b> str: 19  int: 17  wis: 18  dex: 18  con: 18
+<b>Experience per level base:</b>  1000
+</pre>
+
+<center><?php include("includes/racelinks.php");?>
+</td></tr>

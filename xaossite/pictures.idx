@@ -1,0 +1,75 @@
+<tr colspan=6><td colspan=6>
+<div class = "para2" align = "center">  <p>Galleries</p>  </div>
+<div class = "para1" align = "center">  <p></p><?php echo($which)?></div></tr></td>
+
+<tr><td align=center>
+    <table cellpadding=4 cellspacing=4>
+
+     	
+    <style="filter:shadow(color=black, direction=135, strength=5)">
+    
+
+    <tr align=left width=100%>
+    <font style="font-size:10pt;">
+      
+<?php
+
+   $target = $which."/";
+
+   $bigarray = array();
+   $img=opendir($target);
+
+   $array_size = 0;
+   
+   while ($file=readdir($img)) {
+      if (stristr($file,".jpg") || stristr($file,".gif") || stristr($file,".png")) {
+         $tmp = explode(".",$file);
+         $tmp_title=$tmp[0];
+                  
+
+         $bigarray[$idx] = $file;
+         $idx++; $array_size++;
+         }//end if
+      }//end while
+      
+    if (!$offset) $offet = 0;
+
+    for ($idx = $offset; $idx != $offset+9; $idx++){
+	
+	if ($idx > $array_size-1) break;
+	echo ("<td width = 25% align=center>");
+	$tmp = explode (".",$bigarray[$idx]);
+	echo ("<a href=\"javascript:popImage('".$target. $bigarray[$idx] . "','" . $tmp[0] . "')\">");
+	echo ("<img src=".$target."thumbnails/tn_" . $bigarray[$idx] . " alt = \"" . $tmp[0] . "\">");
+	echo ("</a>");
+	echo ("</td>");
+
+	echo ("\n");
+
+	$tempcount++;
+
+	if ($tempcount == 3){
+	  echo("</tr><tr align = left>");
+	 $tempcount = 0;
+	}
+    }
+
+
+    echo ("</tr></table>");
+
+    if ($offset){
+	if ($offset > 9){
+	  echo ("<font size = -2><a href=\"index.php?page=pictures&which=$which&offset=" . ($offset-9) . "\"><- Prev</a> ");
+	}else{
+  	  echo ("<font size = -2><a href=\"index.php?page=pictures&which=$which\"><- Prev</a> ");
+	}
+    }
+
+
+    if ($idx < $array_size){
+	echo ("<font size = -2><a href=\"?page=pictures&which=$which&offset=" . ($offset+9) . "\">Next -></a>");
+	}
+	?>
+    <p>
+    </td>
+</tr>

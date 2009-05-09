@@ -1,0 +1,29 @@
+<tr><td>
+<div class = "para2" align = "center">  <p>Classes</p>  </div>
+<div class = "para1" align = "center">  <p>Elementalist</p>  </div>
+</tr></td>
+
+<tr><td>
+<pre>
+The elementalist is a mage who has chosen to study the elements, but not
+only to learn from them but to master the four basic blocks of all life.
+Each spell calls upon one or more elements for its effects, and some of
+those effects are truely earth shattering.
+
+  Primary class:  Mage
+  Attribute Adjustments:  +2 Int  +2 Wis
+
+  Groups gainable for Elementalist:
+
+      Water element                       Fire element
+      Earth element                       Air element
+
+  Hero gainable for Elementalist:
+
+   Elemental field        Searing orb     Starburst
+
+</pre>
+
+
+<center><?php include("includes/classlinks.php");?>
+</td></tr>

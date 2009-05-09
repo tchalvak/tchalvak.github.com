@@ -1,0 +1,33 @@
+<tr><td>
+<div class = "para2" align = "center">  <p>Classes</p>  </div>
+<div class = "para1" align = "center">  <p>Scion</p>  </div>
+</tr></td>
+
+<tr><td>
+<pre>
+The Scion is the honored class of avariel warriors whom take up their spears
+to defend all of Arador and its people.  Traditionally, they are the trusted
+guardians of the royalty but their role has expanded to include keeping every
+avariel of Arador safe from harm.  They tend to be loyal and true, holding
+honor and sacred vows above their personal wants.  Any avariel warrior of the
+50th level may select this class.
+
+  Primary class:  Warrior
+  Attribute Adjustments:  +2 Str  +2 Dex
+
+  Groups gainable for Scion:
+
+   Benedictions       Air element        Rites of sylph
+
+  Skills gainable for Scion:
+
+   Precise toss       Solaris            Lancing         Spellcraft
+
+  Hero gainables for Scion(including inherited from warrior):
+
+   Legendary spear    Deadly spin
+</pre>
+
+
+<center><?php include("includes/classlinks.php");?>
+</td></tr>

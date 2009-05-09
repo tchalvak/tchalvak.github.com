@@ -1,0 +1,38 @@
+<tr><td>
+<div class = "para2" align = "center">  <p>Races</p>  </div>
+<div class = "para1" align = "center">  <p>Fire Giant</p>  </div>
+</tr></td>
+
+<tr><td>
+<pre>
+Of all the giant kin, none are more prideful of their stature than the
+chosen of Vulcan, the Fire Giants. A Fire Giant stands an average of twenty
+feet tall and weigh upwards of 14 hundred pounds. Their skin is most often
+an ash grey, and their race was created by Vulcan to be naturally resistant
+to heat and flames, perhaps the one thing that allows them to survive in the
+desert.  A Fire Giant's hair color ranges from a deep crimson or vermilion
+to pale shades of yellow-gold, all of the colors of Vulcan's own fire. A
+Fire Giant's eyes hold the same ranges of hue as their hair, though it is
+not uncommon for each to be different colors. Fire giants usually dress in
+pure white cloth, winding huge swaths of it around themselves in a
+complicated fashion hat has become almost ritual among their people.  Their
+heads are always uncovered in the desert, exposed to Vulcan's might, though,
+of course, the heat does not affect them. They adorn themselves with all
+manner of precious metals and gems, basking in Vulcan's favor, and, strange
+considering their strength, rely upon their ranks of slaves to perform much
+of their labor for them.  
+ 
+<b>Specific traits:</b>
+
+   Size:  huge  Base weight:  950lbs
+   Life Expectancy:  280, age of maturity 30.
+   Digestable groups:  meat vegetable grain
+   Lightly resistant to fire.
+   Vulnerable to cold.
+
+<b>Base stats,</b> str: 21  int: 18  wis: 18  dex: 16  con: 21
+<b>Experience per level base:</b>  3000
+</pre>
+
+<center><?php include("includes/racelinks.php");?>
+</td></tr>

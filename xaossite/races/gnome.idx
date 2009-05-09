@@ -1,0 +1,26 @@
+<tr><td>
+<div class = "para2" align = "center">  <p>Races</p>  </div>
+<div class = "para1" align = "center">  <p>Gnome</p>  </div>
+</tr></td>
+
+<tr><td>
+<pre>
+The average Gnome stands about three and a half feet tall, and weighs about
+as much as a small human child. Their hair ranges a wide myriad of colors
+ranging from the common browns and blondes, to stark whites, brilliant
+lavenders, and deep aqua.  Gnomes have a tendency to dress in Fantastically
+ornate clothing, and wear their hair long and braided, and favor small
+beards such as goatees, or long moustaches.  
+
+<b>Specific traits:</b>
+
+   Size:  small  Base weight:  69lbs
+   Life Expectancy:  100, age of maturity 17.
+   Digestable groups:  meat vegetable grain
+
+<b>Base stats,</b> str: 16  int: 19  wis: 20  dex: 18  con: 17
+<b>Experience per level base:</b>  1500
+</pre>
+
+<center><?php include("includes/racelinks.php");?>
+</td></tr>

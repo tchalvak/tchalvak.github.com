@@ -1,0 +1,20 @@
+Floating Citadels.
+
+Void Beasts disrupt magical energy, most notably gates, when they pass through them.  Possibly wards and other things as well...
+
+Arachs are [werespider]s, shape-changers, spider[Reaver]tospideroid[Werespider]forms.  Their race name when in humanoid form is "werespider" otherwise it's just "Reaver".
+Werespiders go on four legs, and use two sets of arms.
+
+Different currencies for different regions?  What is Tchal economy situation?  A "worth for worth" barter system as well?
+
+Allow players to build the mud offline, and allow the imms to edit with OLC...
+
+Language with other languages interspersed, as in: X says in English and Russian, "Ahah, Vletsug". Etc.  Perhaps by using color...
+
+Combining objects, only one is a combiner, the other just happens to match it's vnum, flag for mob or object, container contains only vnum could be used to choose the "deadweight" object to combine with. Grower objects that fade, containers that fade when emptied, useful for piles.
+Mobs should have a select set of built in mannerisms, even if only one, that they do, perhaps one or so based upon race as well, but at least the possibility of making ones specific to that mob.
+Mob memory through player identification slots.  Perhaps number of slots done by race.
+The admin should always have a certain job that is supposedly their area of expertise, shared only with one or two others, to promote a feeling of self-worth.  Let them work at what they're best at, I say.  Not just from their own perception of what they're best at, but what other admin think they're best at.
+
+Random mob thought: mechanoid Mazelings
+

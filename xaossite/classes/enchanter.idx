@@ -1,0 +1,37 @@
+<tr><td>
+<div class = "para2" align = "center">  <p>Classes</p>  </div>
+<div class = "para1" align = "center">  <p>Enchanter</p>  </div>
+</tr></td>
+
+<tr><td>
+<pre>
+The Enchanter is perhaps the most un adventurous of the many specialist mage
+forms, they would perfer to sit deep within thier tower, working away upon
+some new and ultimately powerful object. Thier spells are completely based
+around taking a material component and making it even better. No army is
+complete without at least one of these tinkering souls in the background
+somewhere enchanting thier arsenal. Do not be fooled however, an enchanter
+is far from defenseless, even a common object could be brought against an
+opponent in a flurry of attacks.
+
+  Primary class:  Mage
+  Attribute Adjustments:  +2 Int  +2 Wis
+
+  Groups gainable for Enchanter:
+
+      Animations                          Magical tampering
+      Magical repair                      Enchanted golems
+      Greater enchantment
+
+  Skills gainable for Enchanter:
+
+   Smooth talk
+
+  Hero gainable for Enchanter:
+
+   Glyph of enchantment   Searing orb     Starburst
+</pre>
+
+
+<center><?php include("includes/classlinks.php");?>
+</td></tr>

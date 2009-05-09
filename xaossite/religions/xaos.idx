@@ -1,0 +1,47 @@
+<tr><td>
+<div class = "para2" align = "center">  <p>Deities</p>  </div>
+<div class = "para1" align = "center">  <p>Xaos</p>  </div>
+</tr></td>
+
+<tr><td>
+<pre>
+As the most prominant and central religion in Terra, Xaos has become widely
+accepted in many cities throughout the lands for its peaceful and prosperous
+philosophies.  The central church of Xaos lies in the city of Visari in the
+lands of Visaria, one of the most frequented lands in all of Terra.  The
+religion of Xaos is represented by the divine avatar Lunitari who is
+believed to be the power of Xaos personified.  
+ 
+<b>Holy Symbol:</b> An open eye over a blue sphere, or a winged eye.
+ 
+<b>Spheres of Influence:</b> Tolerance, Travelers, Currency, Peace
+ 
+<b>Alignment:</b> Lawful Neutral
+ 
+<b>Worshipper's Alignment:</b> Any
+ 
+<b>Mythos:</b> Followers of Xaos are very common in the lands. Xaos bids
+his followers to treat all with open arms and to accept every race and
+faith equally. Priests of Xaos are usually helpers of Travelers and
+Explorers, and have a very adventurous spirit themselves.
+Priests of Xaos are also very generous with their magics, and will
+tend to the wounded wherever they find them. In all, followers of
+Xaos are a kindly bunch who do not looks down on anyone or anything
+without just cause.
+ 
+<b>Holy Days:</b> The first days of the month of Growth and the Month
+of harvest are held in esteem by followers of Xaos as days when
+Xaos' divine aura has blessed the land with fertility to produce crops
+for the faithful and kind. During this day, many followers of Xaos
+help with the harvesting of crops to hasten the festival which
+follows, where the temple of Xaos turned into a festhall and free
+meals are handed out to the poor and unfortunate.
+
+<b>Patron:</b>  Xaos
+<b>Castes:</b>  follower  acolyte  adept  priest  faithless  
+
+</pre>
+
+
+<center><?php include("includes/religionlinks.php");?>
+</td></tr>

@@ -1,0 +1,38 @@
+<tr><td>
+<div class = "para2" align = "center">  <p>Classes</p>  </div>
+<div class = "para1" align = "center">  <p>Rake</p>  </div>
+</tr></td>
+
+<tr><td>
+<pre>
+
+The Rake is a resourceful thief, one who's limits are not where others
+remain. Using the libraries of rogue magicians turned rebellious spreaders
+of knowledge, this breed of thief is unlike any other. Capable of wielding
+magic normally reserved for the nobles in secluded and elitist towers of
+wealthy students, they are a deadly mix and formidable at thier bastard
+craft.
+
+  Primary class:  Thief
+  Attribute Adjustments:  +1 Str  +1 Int  +2 Dex
+
+  Groups gainable for Rake:
+
+   Cantrips               Rake tools            Street magic
+
+  Skills gainable for Rake:
+
+   Bomb smithing          Knife fighting        Piercing        Acrobatics
+   Spellcraft
+
+  Hero gainables for Rake(including inherited from thief):
+
+   Prowl                  Cancellation           Colour spray
+   Energy drain           Invisibility           Invisible stalker
+   Kenetic defense        Lightning bolt         Shadow travel
+
+</pre>
+
+
+<center><?php include("includes/classlinks.php");?>
+</td></tr>

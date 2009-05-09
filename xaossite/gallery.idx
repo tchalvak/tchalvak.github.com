@@ -1,0 +1,13 @@
+<tr colspan=6><td colspan=6>
+<div class = "para2" align = "center">  <p>Main</p>  </div>
+<div class = "para1" align = "center">  <p></p>Galleries</div></tr></td>
+
+<tr><td align=center>
+      <font style="font-size:10pt;">
+      <a href="playerpics/">Player Pictures</a><br>
+      <a href="/forum/viewforum.php?f=5">Stories, Poems, Characters, and Art</a><br>
+      <a href="/forum/viewtopic.php?t=27">Quotes</a><br>
+<!-- Not working at this time      <a href="index.php?page=pictures&which=characters">Character Picture Gallery</a><br> -->
+      <p>
+    </td>
+</tr>

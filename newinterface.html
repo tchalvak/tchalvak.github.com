@@ -1,0 +1,152 @@
+<!DOCTYPE html
+PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+<head>
+<title>NW2 NEW INTERFACE !!!!!!!</title>
+
+<!-- Style sheets -->
+<link rel="stylesheet" type="text/css" href="./overall.css" />
+<style type="text/css">
+</style>
+
+<!-- JavaScripts -->
+<script type="text/javascript" src="js/ajax.js"></script>
+<script type="text/javascript" src="js/chat4.js"></script>
+<script type="text/javascript" src="js/sections.js"></script>
+
+</head>
+<body onload="ac_init(); setSection();">
+<div id="container"> <!-- Container contains everything... go figure -->
+    <div id="header"> <!-- HEADER Start -->
+        <div id="text">
+            <p>"A CatchPhrase Game" or a random catchphrase</p>
+        </div>
+        <div id="pageNavigation"> <!-- Start of links between different groups of Tabs -->
+            <dl id="pageNavigationLinks"> <!-- The list of links for the above -->
+                <a href="javascript:void(0);" id="page_1">Assassination Tabs</a>-<!-- Or Espionage or Fighting, depending -->
+                <a href="javascript:void(0);" id="page_2">Travelling and Questing Tabs</a>-<!-- Town navigation and Questing -->
+                <a href="javascript:void(0);" id="page_3">Clan actions Tabs</a>-<!-- Clan administration, storing items in clan vault, clan chat, -->
+                <a href="javascript:void(0);" id="page_4">Skills and Item Use Tabs</a>- <!-- More in depth interface for skills and items -->
+                <a href="javascript:void(0);" id="page_5">Ninja Information</a>- <!-- More in depth stuff for ninja information and rankings-->
+                <a href="javascript:void(0);" id="page_6">Ninja Renown</a>- <!-- Ninja Rankings and clan information -->
+                <!-- More links that call tabs appear in the MISC out-of-character link section. -->
+            </dl>
+        </div> <!-- End of Tab Navigation list -->
+    </div> 
+<!-- END of the HEADER -->
+<!-- The LEFT column.  Used for charater info and simple item use -->
+    <div id="leftside">
+        <div class="utility">
+            <b>Quick Stats</b>(Diplay/Hide)<br /><!-- Just the stuff about your ninja that will be changing frequently -->
+            Health: 482<br />
+            Magic: 2<br />
+            Strength: 18.7<br />
+            Defense: 10^345<br />
+            Experience: 3234324<br />
+            Status Effects: Frozen, Poisoned, Burning, Pale<br />
+            Koku (ya know, the other name for gold): 0 <br />
+        </div><p />
+        <div class="utility">
+            <b>Quick Skill Usage</b> (Display/Hide)<br />	
+            Use Healing Ninjitsu<br />
+            Hide<br />
+            Conceal self<br />
+            Flip out and kill things<br />
+        </div>
+        <div class="utility">
+            <b>Quick Inventory</b> (Display/Hide)<br /><!-- Optimally, the items with the ability to work via a simple one-click -->
+            Weapon:  ~wooden throwing star of awesomeness~<br />
+            Clothing:  ~Cloak of not camoflaging all that well~<br />
+            Shuriken: 5175<br />
+            Contact Poisons: 2<br />
+            Void Magic Scrolls: 1<br />
+        </div>
+    </div> 
+<!-- END of LEFT column -->
+<!-- The CENTER column, used for the active tabs with their content -->
+    <div id="center"> 
+        <div id="sectionNavigation"><!-- Navigation between the tabs in a tab group -->
+            <ul id="sectionNavigationLinks"> <!-- the list of tabs for the tab group -->
+                <li class="sectNav"><a href="javascript:void(0);" id="section_1" onclick="this.blur(); lastSect=this; lastSect.style.color='#333333'; this.style.color='#999999'; currentSection=switchVisible(currentSection, 'content_1'); return false;">Assassinate</a></li>
+                <li class="sectNav"><a href="javascript:void(0);" id="section_2" onclick="this.blur(); lastSect=this; lastSect.style.color='#333333'; this.style.color='#999999'; currentSection=switchVisible(currentSection, 'content_2'); return false;">Lurk</a></li>
+                <li class="sectNav"><a href="javascript:void(0);" id="section_3" onclick="this.blur(); lastSect=this; lastSect.style.color='#333333'; this.style.color='#999999'; currentSection=switchVisible(currentSection, 'content_3'); return false;">Trail</a></li>
+                <li class="sectNav"><a href="javascript:void(0);" id="section_4" onclick="this.blur(); lastSect=this; lastSect.style.color='#333333'; this.style.color='#999999'; currentSection=switchVisible(currentSection, 'content_4'); return false;">Infiltrate</a></li>
+                <li class="sectNav"><a href="javascript:void(0);" id="section_5" onclick="this.blur(); lastSect=this; lastSect.style.color='#333333'; this.style.color='#999999'; currentSection=switchVisible(currentSection, 'content_5'); return false;">Poison</a></li>
+                <li class="sectNav"><a href="javascript:void(0);" id="section_6" onclick="this.blur(); lastSect=this; lastSect.style.color='#333333'; this.style.color='#999999'; currentSection=switchVisible(currentSection, 'content_6'); return false;">Slice</a></li>
+            </ul>
+        </div> <!-- End of tab navibation -->
+        <div class="content" id="content_1"><!-- Main content that first loads with the page-->
+            <h3>ContentA1, Assassinating some guy</h3>
+            <p>So, who do you want to kill, and how do you want to do it?  Also, do you want fries with that?<br /></p>
+            <form action="javascript:void(0);" id="testform" method="post">
+            <p><input type="text" name="input_1" class="formelement" />
+            <input type="checkbox" name="check_1" class="formelement" />
+            <input type="radio" name="radio_1" class="formelement" /></p>
+            <p><textarea rows="10" cols="50" name="text1" class="formelement">Some stuff</textarea></p>
+            <p><input type="submit" name="submit" value="Submit" class="formelement"/></p>
+            </form>
+        </div>
+        <div class="content" id="content_2">
+            <h3>Hiding around in dark places</h3>
+            <p>Underneath things is usually darker than on top.  Also, white outfits are not good for hiding it.  Orange should not even be considered.</p>
+        </div>
+        <div class="content" id="content_3">
+            <h3>Following people around</h3>
+        </div>
+        <div class="content" id="content_4">
+            <h3>Breaking into Fort Knox</h3>
+        </div>
+        <div class="content" id="content_5">
+            <h3>Deciding which poisony stuff to put on your weapons</h3>
+        </div>
+        <div class="content" id="content_6">
+            <h3>Cutting Bits off people in Non-boring ways</h3>
+        </div>
+        <div id="footer">
+         <a href="mailto:admin@CatchPhrase.com">Admin@CatchPhrase.com</a><br />
+            <div id="logo"><!-- I really really believe that we should have this logo at the bottom of the page, just look at the space that it wastes in NW1 and you can see why viewing space should take precedence.  -->
+            Image: NW2 logo
+            </div>
+            <p>Copyright 2005 CatchPhrase Games - 
+        </div>
+    </div>
+<!-- The END of the CENTER column -->
+<!-- The RIGHT column, used for chat, mail, and misc out-of-game links. -->
+    <div id="rightside">
+        <div class="utility">
+        Friends and Enemies List
+        </div>
+        <!-- Start of Chat -->
+        <div id="chatLink"><!-- Chat on/off toggle -->
+            <a href="javascript:void(0)" id="togglechat" onclick="this.blur(); return toggleChat();">Chat <span id="chatOn">|Display</span>|<span id="chatOff"> Hide|</span></a>
+        </div>
+        <div id="chat"><!-- Start of Chat display-->
+                <div id="chat_output"></div>
+                <div id="chat_input">
+	        <form action="javascript:void(0)" id="chat_form" onsubmit="return false;">
+	        <p><input type="text" size="40" id="userinput" />
+	        <input type="button" value="Send" onclick="return ac_send(document.getElementById(ac_input).value);" /></p>
+                        </form>
+	 </div>
+        </div><!-- End of Chat display-->
+        <!-- End of Chat -->
+        <div class="utility"><!-- Mail Interface, perhaps have the chat on/off toggle be a choice between chat or mail displaying? -->
+            <p>Mail Interface</p> (display/hide)
+        </div>
+        <div class="utility">
+        <b>Outside of the suspension of disbelief links</b><br>
+        <a href="javascript:void(0);" id="page_7">Player Settings</a>- <!-- Information and settings for the player's profile with Catchphrase games as well as Ninjawars player settings in particular. -->
+        <a href="javascript:void(0);" id="page_8">Interface Settings</a> <!-- Stuff for configuring how their interface is going to work  -->
+        Contact Page and Paypal
+        </div>
+    </div>
+<!-- END of RIGHT column -->
+    <div class="utility">
+        <p><a href="http://validator.w3.org/check?uri=referer"><img
+        src="http://www.w3.org/Icons/valid-xhtml10"
+        alt="Valid XHTML 1.0!" height="31" width="88" /></a></p>
+    </div>
+</div>
+</body>
+</html>

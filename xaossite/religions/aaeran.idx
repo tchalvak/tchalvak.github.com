@@ -1,0 +1,37 @@
+<tr><td>
+<div class = "para2" align = "center">  <p>Deities</p>  </div>
+<div class = "para1" align = "center">  <p>Aaeran</p>  </div>
+</tr></td>
+
+<tr><td>
+<pre>
+Aaeran is the Goddess Queen of the Drow, the immortal beauty who protects
+and adores her followers.  Her favourites are those most like her, beautiful
+and cunning.  Her view upon men is that of pawns in the master game to be
+played by her daughters, and therefore refuses men the privilege of working
+as her primary representatives in the priestesshood.  Aaeran rarely, if ever
+even acknoweldges her followers unless they do something that deserves her
+appearance, and she does not look favourably upon those who suggest that she
+appear.  It is best that all of her followers keep favour with her, as she
+is easily angered if she is not fed the blood she craves.  
+ 
+<b>Worshippers Alignment:</b> Any evil, Any Neutral, Drow
+ 
+<b>Religion Alignment:</b> Lawful Evil
+ 
+<b>Holy Symbol:</b> A woman's eye with tears of blood.
+
+<b>Spheres of Influence:</b> Females, Underground, Spiders, Blood, Lust
+ 
+<b>Acts of Favour:</b>  The Mistress of the Underground craves the blood of her
+children's enemies, the blood as fresh as possible.  The highest favour is
+gained when the corpses are sacrificed on her altars, with the blood being
+allowed to drip down the stairs of her temples so that all may see.
+
+<b>Patron:</b>  Aaeran
+<b>Castes:</b>  follower  
+</pre>
+
+
+<center><?php include("includes/religionlinks.php");?>
+</td></tr>

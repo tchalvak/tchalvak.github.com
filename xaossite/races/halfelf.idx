@@ -1,0 +1,28 @@
+<tr><td>
+<div class = "para2" align = "center">  <p>Races</p>  </div>
+<div class = "para1" align = "center">  <p>Half Elf</p>  </div>
+</tr></td>
+
+<tr><td>
+<pre>
+With more meetings between elves and the newly founded human lands there
+have been instances where one of each race would marry. In most cases the
+children of such marriages would be a unique blend of both worlds.  But due
+to various conservative factions from both the human and elven communities
+they are not always welcomed into society with open arms.  Life may be
+difficult for such an enigma to adapt to both cultures, in most cases they
+eventually make a choice as to which society they wish to be part of, that
+is often difficult.  
+
+<b>Specific traits:</b>
+
+   Size:  medium  Base weight:  165lbs
+   Life Expectancy:  200, age of maturity 30.
+   Digestable groups:  meat vegetable grain
+
+<b>Base stats,</b> str: 18  int: 19  wis: 18  dex: 19  con: 17
+<b>Experience per level base:</b>  1000
+</pre>
+
+<center><?php include("includes/racelinks.php");?>
+</td></tr>

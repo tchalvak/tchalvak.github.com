@@ -1,0 +1,40 @@
+<tr><td>
+<div class = "para2" align = "center">  <p>Classes</p>  </div>
+<div class = "para1" align = "center">  <p>Thief</p>  </div>
+</tr></td>
+
+<tr><td>
+<pre>
+Thieves are a marginal class.  They do few things better than any other
+class, but have the widest range of skills available. Thieves are
+specialists at thievery and covert actions, being capable of entering areas
+undetected where more powerful adventurers would fear to tread. They are
+better fighters than clerics, but lack the wide weapon selection of
+warriors.
+
+  Primary class:  Generic
+  Attribute Adjustments:  +2 Dex
+
+  Skills gainable for Thief:
+
+   Advanced dagger    Advanced flail     Advanced mace      Advanced sword
+   Advanced whip      Dagger             Flail              Mace
+   Sword              Whip               Expert dagger      Expert mace
+   Expert sword       Expert whip        Master dagger      Alchemy
+   Backstab           Fencing            Unarmed block      Dirt kicking
+   Disarm             Dual wield         Enhanced damage    Envenom
+   Hand to hand       Hunt               Kick               Parry
+   Sap                Shield block       Trap detection     Trip
+   Blowgun            Crossbow           Cutpurse           Hearing
+   Hide               Leadership         Lore               Pick lock
+   Quickdraw          Smooth talk        Sneak              Steal
+   Scrolls            Staves             Vault wisdom       Wands
+
+  Hero gainables for Thief(including inherited from generic):
+
+   Prowl
+</pre>
+
+
+<center><?php include("includes/classlinks.php");?>
+</td></tr>

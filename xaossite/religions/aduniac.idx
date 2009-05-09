@@ -1,0 +1,18 @@
+<tr><td>
+<div class = "para2" align = "center">  <p>Deities</p>  </div>
+<div class = "para1" align = "center">  <p>Aduniac</p>  </div>
+</tr></td>
+
+<tr><td>
+<pre>
+Currently, religion helpfiles are going through a time of transition.  So,
+if the religion you would like to learn about does not have a helpfile
+available, it is because it is being edited.  We hope to get the files
+back online as soon as possible.
+ 
+Sorry for any inconvenience.
+</pre>
+
+
+<center><?php include("includes/religionlinks.php");?>
+</td></tr>

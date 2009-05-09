@@ -1,0 +1,48 @@
+<tr><td>
+<div class = "para2" align = "center">  <p>Races</p>  </div>
+<div class = "para1" align = "center">  <p>Pixies</p>  </div>
+</tr></td>
+
+<tr><td>
+<pre>
+Pixies can range in size depending on their chosen profession, for
+ones have been seen to wield great magical weapons, while others have
+chosen to increase their power through magical strength rather than
+physical.  Pixies can be any colour imaginable, and their hair, eyes
+and skin often change with their mood.  Because of their wholesome
+nature pixies often leave trails of light coloured pixie dust, the
+most common being gold, silver, pink or pale blue.  Their wings can
+be of any shape or colour, and tend to be the same colour as the 
+trail of faerie dust they leave behind.  There are often four strong
+and very indestructible wings sprouting from their backs, and often
+can be mistaken for dragon or butterflies, though it is not uncommon
+that wings take another form, as faerie creatures have an uncanny 
+ability to change their appearance to suit their needs.
+
+Pixies always lean towards the fulfillment of the greater good, 
+and therefore have naturally come to be very intelligent beings, 
+better known for their magical abilities than their physical prowess.
+However, it is not uncommon that special pixies are able to overcome
+great obstacles and become very powerful in the combative skills.
+
+Pixies make very fine mages of any sort, though they rarely use their
+magic in a malicious nature.  Because of their great dedication to the
+ways of the Goddess, they often play a large role in the dispersion
+of her ways and values.  Those who teach the ways of the Goddess are
+often called her voice.  Many pixies also choose to be thieves, though
+it is often difficult for them to take anything that is not 
+rightfully theirs, and therefore often choose another path.
+
+<b>Specific traits:</b>
+
+   Size:  tiny  Base weight:  35lbs
+   Life Expectancy:  1500, age of maturity 150.
+   Digestable groups:  meat vegetable grain
+   Lightly resistant to magic.
+
+<b>Base stats,</b> str: 15  int: 20  wis: 20  dex: 19  con: 15
+<b>Experience per level base:</b>  3500
+</pre>
+
+<center><?php include("includes/racelinks.php");?>
+</td></tr>

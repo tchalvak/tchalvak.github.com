@@ -1,0 +1,52 @@
+<tr><td>
+<div class = "para2" align = "center">  <p>Races</p>  </div>
+<div class = "para1" align = "center">  <p>Drow</p>  </div>
+</tr></td>
+
+<tr><td>
+<pre>
+Though all drow are able to advance in society, it is the females who are
+dominant, as the goddess queen Aaeran reveres them. This is why only females
+can fulfill the duties of Aaeran, as well as occupy all the high societal
+positions. Their senses have taken the path of the hunter, hearing, smell,
+and taste becoming very acute. Indeed, it is said that Drow can taste the
+fear of their prey...  Their sight, however, has been all but lost by
+influence of the underdark. They rely instead upon their heat-sense to guide
+them in the black. Their eyes, indeed, glow with imperceptible warmth,
+causing them to be able to navigate in the absence of all other sources of
+light and heat.  
+ 
+Drow have pale eyes, hair and skin, as thousands of years living underground has
+left them with very little pigmentation, though often they take on the colours
+of their environment, so their hair can be dark blacks, greys, silvers, purples
+and blues.  Their features are very similar to that of an elf, as they all
+descended from the same species.  Drow women are always very beautiful, and drow
+men are always handsome and do what they can to serve the females of society.
+Drow men are able to perform societal roles, however it is just more difficult
+for them to climb the societal ladder, as women are favoured.
+
+Drow in general do not fancy the others of their species, for not only does
+Aaeran blame men, but the whole of the race blame their ancestral counterparts
+for their underground status.  However, drow have become accustomed to the
+underground, and now quite like it as they have adapted and can use it to their
+best ability.
+
+Drow have names that are elven sounding as they speak elvish, but that does
+mean that they are always so.  However, each drow must identify with their House.
+There are clans for each drow, or "houses."
+ 
+<b>Specific traits:</b>
+
+   Size:  medium  Base weight:  165lbs
+   Life Expectancy:  800, age of maturity 150.
+   Digestable groups:  meat vegetable grain
+   Lightly resistant to mental.
+   Lightly resistant to magic.
+   Slighty vulnerable to light.
+
+<b>Base stats,</b> str: 17  int: 19  wis: 18  dex: 19  con: 17
+<b>Experience per level base:</b>  2000
+</pre>
+
+<center><?php include("includes/racelinks.php");?>
+</td></tr>

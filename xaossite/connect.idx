@@ -1,0 +1,39 @@
+<tr colspan=6><td colspan=6>
+<div class = "para2" align = "center">  <p>Main</p>  </div>
+<div class = "para1" align = "center">  <p></p>Connection Methods</div></tr></td>
+</td></tr>
+
+
+<tr>
+  <td align=left valign=top>
+  <div style="font-size: 9pt;font-weight:bold;">Quick and dirty connection:<p></p>
+  <a href="telnet://xaos-mud.org:5000">telnet://xaos-mud.org:5000</a><p></p>
+  </div>
+  </td>
+  
+  <td align=left valign=top>
+  <div style="font-size: 9pt;font-weight:bold;">Download a free mud client:<p></p>
+  <a href="clients/Gmud.exe">Gmud</a><br>
+  <a href="clients/putty.exe">Putty</a><br>
+  <a href="clients/mushclient345.exe">Mushclient</a><br>
+  <a href="clients/oldfreezmudzipfile.exe">Old free version of Zmud</a><p></p>
+  </div>
+    <div style="font-size:8pt;align:center">server: xaos-mud.org<br> port: 5000</div><p></p>
+  </td>
+  
+  <td align=left valign=top>
+  <div style="font-size: 9pt;font-weight:bold;">Pay 20$ to get:<p></p>
+  <a href="http://forums.zuggsoft.com/index.php?page=4&action=category&cat_id=1">Latest Zmud Version</a><p></p>
+
+    <!-- FOR NOW, THIS WILL BE DEACTIVATED
+    <applet CODEBASE="."
+            ARCHIVE="jta20.jar"
+            CODE="de.mud.jta.Applet" 
+            WIDTH=590 HEIGHT=360>
+            <param name="config" value="applet.conf">
+    </applet>
+    -->
+  </div>
+  </td>
+</tr>
+

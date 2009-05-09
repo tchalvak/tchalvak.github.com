@@ -1,0 +1,38 @@
+<tr><td>
+<div class = "para2" align = "center">  <p>Classes</p>  </div>
+<div class = "para1" align = "center">  <p>Monk</p>  </div>
+</tr></td>
+
+<tr><td>
+<pre>
+Monks are priests who combine the force of their own will with their
+connection to their god concentrate on combat that does not include weapons,
+though some have complimented their hand to hand training with nunchaku.
+Their prayers are used to strengthen their own abilities.  They practice
+martial arts and extreme forms of control of their own mental processes,
+seeking purity. Holy Ritual and meditation are their meat and bread.  They
+usually are very serene and tolerant of others, however, challenging or
+threatening a monk will usually earn one a quick thrashing, if not worse.
+
+  Primary class:  Cleric
+  Attribute Adjustments:  +2 Wis  +2 Dex
+
+  Groups gainable for Monk:
+
+   Zen
+
+  Skills gainable for Monk:
+
+   Advanced nunchaku  Nunchaku           Expert nunchaku    Unarmed block
+   Dirt kicking       Trip               Blind fighting     Capoera
+   Due chagi          Martial arts       Nerve strike       Throwing
+
+  Hero gainables for Monk(including inherited from cleric):
+
+   Master nunchaku        Grappling              Thrashing
+   Heretic                Sanctuary
+</pre>
+
+
+<center><?php include("includes/classlinks.php");?>
+</td></tr>

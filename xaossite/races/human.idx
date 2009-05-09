@@ -1,0 +1,25 @@
+<tr><td>
+<div class = "para2" align = "center">  <p>Races</p>  </div>
+<div class = "para1" align = "center">  <p>Human</p>  </div>
+</tr></td>
+
+<tr><td>
+<pre>
+Humans are the most common race in the world, and make up the majority of
+adventurers.  Although they have no special talents like the other races,
+they are more versatile, being skilled in all four classes.  Though they
+were not among the ancient races, humans soon came to be a dominant feature
+of Xaos, with their great skills in areas of development.  
+
+<b>Specific traits:</b>
+
+   Size:  medium  Base weight:  165lbs
+   Life Expectancy:  100, age of maturity 19.
+   Digestable groups:  meat vegetable grain dairy
+
+<b>Base stats,</b> str: 18  int: 18  wis: 18  dex: 18  con: 18
+<b>Experience per level base:</b>  1000
+</pre>
+
+<center><?php include("includes/racelinks.php");?>
+</td></tr>

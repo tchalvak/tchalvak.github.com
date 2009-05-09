@@ -1,0 +1,38 @@
+<tr><td>
+<div class = "para2" align = "center">  <p>Deities</p>  </div>
+<div class = "para1" align = "center">  <p>War</p>  </div>
+</tr></td>
+
+<tr><td>
+<pre>
+The art of War has existed for all time.  Being a deciding factor in various
+disputes it was bound to take care of those that protect it. Aethos, the god
+of War originated from an unknown location in the astral plane.   Creating
+the very fighting spirit that lives in all creations, he encourages combat
+and knowledge. Finding a close relationship with the Caelic religion, the
+followers of War are also encouraged to not only learn as much as possible
+from any opponent they find themselves in combat with, but also to enhance
+their knowledge and ingenuity through exploration and study.  Any cowardly
+act is strongly frowned upon usually resulting in a loss of favor.   Blindly
+boasting about ones own abilities yet refusing or failing to prove such
+boast true is subjecting ones self to the punishment of another follower of
+War.  
+ 
+<b>Worshippers Alignment:</b> Any
+ 
+<b>Religion Alignment:</b> True Neutral
+
+<b>Holy Symbol:</b> Two swords crossed over a silver shield.
+ 
+<b>Acts of Favour:</b> Fleeing from battle will result in a loss of favour. All
+followers are strongly encouraged to compete with each other as well as
+wel as warriors outside the religion.  Holy days are personal, usually 
+any day a follwer is victorious in battle.  Should a follower refuse a 
+duel, he is bound to be publically humiliated by any other follower.
+
+<b>Patron:</b>  Aethos
+<b>Castes:</b>  follower  warrior  leader  </pre>
+
+
+<center><?php include("includes/religionlinks.php");?>
+</td></tr>

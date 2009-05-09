@@ -1,0 +1,40 @@
+<tr><td>
+<div class = "para2" align = "center">  <p>Classes</p>  </div>
+<div class = "para1" align = "center">  <p>Mage</p>  </div>
+</tr></td>
+
+<tr><td>
+<pre>
+Mages specialize in the casting of spells, offensive ones in particular.
+Mages have the highest-powered magic of any class, and are the only classes
+able to use the enchanting spell groups. They are also very skilled at the
+use of magical items, though their combat skills are the Weakest of any
+class.
+
+  Primary class:  Generic
+  Attribute Adjustments:  +2 Int
+
+  Groups gainable for Mage:
+      Beguiling                           Combat
+      Conjuration                         Detection
+      Enchantment                         Enhancement
+      Illusion                            Maladictions
+      Protective                          Transportation
+      Weather                             Necrolyte
+
+  Skills gainable for Mage:
+
+   Advanced dagger    Advanced staff     Dagger             Staff
+   Whip               Expert dagger      Expert staff       Alchemy
+   Brew               Dual wield         Golem craft        Hand to hand
+   Scribe             Link               Lore               Spellcraft
+   Scrolls            Staves             Wands
+
+  Hero gainable for Mage:
+
+   Searing orb            Starburst
+</pre>
+
+
+<center><?php include("includes/classlinks.php");?>
+</td></tr>

@@ -1,0 +1,41 @@
+<tr><td>
+<div class = "para2" align = "center">  <p>Races</p>  </div>
+<div class = "para1" align = "center">  <p>Vondoni</p>  </div>
+</tr></td>
+
+<tr><td>
+<pre>
+All that is known about this mysterious race of jungle dwellers is that they
+are humanoid like the orcs and their brethren, however unlike the other
+humanoids you will seldom see them on marches of war or conquest.  The
+Vondoni are a tribal race, settling deep within the hottest regions of the
+southern jungles they can reach.  Hunting is their entire existence, and to
+be a hunter within their society means eternal respect from any other
+Vondoni. They are pack hunters, much like the wolves of the artic or the
+domesticated hunting dogs of the other cultures. To be hunted by the Vondoni
+is a death sentence while you reside anywhere within the jungles they have
+marked out as thier own.  The Vondoni are very aggressive fighters who
+refuse to leave a fight until all hope is lost. Because of thier hot
+climate, the infravision they are gifted with works extremely well in
+spotting prey from unheard of distances. As extremely good runners the
+vondoni can travel for days without rest, so long as they have plenty of
+meat available.  
+ 
+The principle characteristics of the vondoni race are large canines, and a
+light coat of fur that covers their othwise human features.  Standing at a
+medium height, they are generally slim, giving the impression of great
+endurance over long distances.  Their fur colour runs a full range of
+browns. 
+ 
+<b>Specific traits:</b>
+
+   Size:  medium  Base weight:  165lbs
+   Life Expectancy:  70, age of maturity 17.
+   Digestable groups:  meat vegetable grain
+
+<b>Base stats,</b> str: 18  int: 17  wis: 16  dex: 19  con: 19
+<b>Experience per level base:</b>  3000
+</pre>
+
+<center><?php include("includes/racelinks.php");?>
+</td></tr>

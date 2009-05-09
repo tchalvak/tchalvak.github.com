@@ -1,0 +1,36 @@
+<tr><td>
+<div class = "para2" align = "center">  <p>Classes</p>  </div>
+<div class = "para1" align = "center">  <p>Bard</p>  </div>
+</tr></td>
+
+<tr><td>
+<pre>
+The bard is a master of story and song, travelling the world as a freely as
+the drink is poured. They specialize in entertainment, and thier skills
+reflect that much, often you'll find one performing at a great ball or
+galla, unless the host knows what happens to the fine jewelry and coin that
+may lie free during the intermissions.
+
+  Primary class:  Thief
+  Attribute Adjustments:  +1 Str  +1 Wis  +2 Dex
+
+  Groups gainable for Bard:
+
+   Songs of heart                      Battle verses
+   Legendary melodies                  Stage art
+
+  Skills gainable for Bard:
+
+   Bomb smithing      Precise toss       Taunt              Acrobatics
+   Entertain          Juggling           Percussion         Strings
+   Wind               Brass              Guitar             Taming
+
+  Hero gainables for Bard(including inherited from thief):
+
+   Prowl                  Vocal projection
+
+</pre>
+
+
+<center><?php include("includes/classlinks.php");?>
+</td></tr>

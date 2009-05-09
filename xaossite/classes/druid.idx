@@ -1,0 +1,35 @@
+<tr><td>
+<div class = "para2" align = "center">  <p>Classes</p>  </div>
+<div class = "para1" align = "center">  <p>Druid</p>  </div>
+</tr></td>
+
+<tr><td>
+<pre>
+
+The druid is a neutral cleric who has found the path to peace through nature
+rather then religion, they of course still practice thier beliefs but put a
+new focus upon the natural world around them. You will often find a druid at
+the heart of any flurishing forest or pacified valley.
+
+  Primary class:  Cleric
+  Attribute Adjustments:  +1 Int  +3 Wis
+
+  Groups gainable for Druid:
+
+      Nature defense                      Nature enhancement
+      Nature power                        Animal calling
+      Affinisism
+
+  Skills gainable for Druid:
+
+   Expert staff       Master staff       Tracking
+   Taming
+
+  Hero gainables for Druid(including inherited from cleric):
+
+   Quarterstaff       Heretic            Sanctuary
+</pre>
+
+
+<center><?php include("includes/classlinks.php");?>
+</td></tr>

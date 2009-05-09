@@ -1,0 +1,33 @@
+<tr><td>
+<div class = "para2" align = "center">  <p>Races</p>  </div>
+<div class = "para1" align = "center">  <p>Gremlin</p>  </div>
+</tr></td>
+
+<tr><td>
+<pre>
+Gremlins are direct offspring of kender, which in the process of a bizarre,
+unholy ritual takes on a twisted shape and harder leathery skin, which
+ranges from a light grey to an olive green in colour.  Many have a long
+"mane" of hair that runs from just above their forehead over their skull and
+as far as halfway down their back.  The colours of that hair often change in
+direct reflection to the moods of the gremlin.  They dye this hair using
+anything on hand, even blood, often.  Rending claws tip each of their
+fingers, almost half as long as the gremlin digits and therefore their most
+primal attack is a slashing one, rather than a punch.  Gremlins also have
+the subtle power to breath out a toxic blast, the victim of which becomes
+confused, their mind clouded by the gremlin magic, and are unable to
+remember who they were fighting and what they were doing.  
+
+<b>Specific traits:</b>
+
+   Size:  small  Base weight:  94lbs
+   Life Expectancy:  500, age of maturity 15.
+   Digestable groups:  meat vegetable fabric wood rawmeat grain bone leather
+   Lightly resistant to mental.
+
+<b>Base stats,</b> str: 17  int: 16  wis: 17  dex: 20  con: 17
+<b>Experience per level base:</b>  8500
+</pre>
+
+<center><?php include("includes/racelinks.php");?>
+</td></tr>

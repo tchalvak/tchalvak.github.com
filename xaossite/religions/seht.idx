@@ -1,0 +1,17 @@
+<tr><td>
+<div class = "para2" align = "center">  <p>Deities</p>  </div>
+<div class = "para1" align = "center">  <p>Seht</p>  </div>
+</tr></td>
+
+<tr><td>
+<pre>
+It is rumored that there is a hidden labyrinth of caves entrenched deep
+in the swamps that is the location of a dark god who watches over strange
+cannibalistic lizard-men. It is further said that these creatures have
+challenged the might of the Horde with sly raids upon Gobold, leaving only
+slaughtered, half-eaten corpses behind.  
+</pre>
+
+
+<center><?php include("includes/religionlinks.php");?>
+</td></tr>

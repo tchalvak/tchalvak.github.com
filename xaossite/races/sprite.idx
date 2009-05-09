@@ -1,0 +1,47 @@
+<tr><td>
+<div class = "para2" align = "center">  <p>Races</p>  </div>
+<div class = "para1" align = "center">  <p>Sprite</p>  </div>
+</tr></td>
+
+<tr><td>
+<pre>
+Sprites tend to have darker skin, hair and eyes than their good winged
+counterparts, though there are no limitations as any pixie or sprite
+can be any colour they desire.  Because of their evil nature, sprites
+tend to leave trails of faerie dust that are red or other dark colours,
+which differentiates them from their wholesome counterparts. Their 
+wings can be of any shape or colour, and tend to be the same colour
+as the trail of faerie dust they leave behind.  There are often four
+strong and very indestructible wings sprouting from their backs, and
+often can be mistaken for dragon or butterflies, though it is not 
+uncommon that wings take another form, as faerie creatures have an 
+uncanny ability to change their appearance to suit their needs.
+
+Sprites always have themselves in mind before others, and as a result
+the natural intelligence of their faerie nature is sometimes 
+overshadowed by a heightened awareness of their physical being.  In 
+this respect, it is more likely that a sprite will use its physical
+prowess than it is for a pixie to do the same.
+
+They are still very intelligent creatures, and for that reason they
+make excellent mages, though it is not uncommon for them to strive
+to follow the ways of the Goddess as clerics.  Those who choose to
+teach the ways of the Goddess are called her Voice. It is common to 
+see a sprite thief, and they tend to be the most mischievous of all
+the sprites.  It is rare that a sprite decide to be a warrior, for 
+they do not like the stereotype often associated with those who choose
+battle over the skills of the mind.
+
+<b>Specific traits:</b>
+
+   Size:  tiny  Base weight:  35lbs
+   Life Expectancy:  1500, age of maturity 150.
+   Digestable groups:  meat vegetable grain
+   Lightly resistant to magic.
+
+<b>Base stats,</b> str: 16  int: 19  wis: 20  dex: 19  con: 15
+<b>Experience per level base:</b>  3500
+</pre>
+
+<center><?php include("includes/racelinks.php");?>
+</td></tr>

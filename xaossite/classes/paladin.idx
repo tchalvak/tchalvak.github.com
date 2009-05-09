@@ -1,0 +1,35 @@
+<tr><td>
+<div class = "para2" align = "center">  <p>Classes</p>  </div>
+<div class = "para1" align = "center">  <p>Paladin</p>  </div>
+</tr></td>
+
+<tr><td>
+<pre>
+Paladins are warriors who have been inducted into a special order of
+religious fighters, sworn to protect thier religion and defend its honour.
+They in turn are imbued with magic normally reserved for the cleric caste
+aswell as a few spells that even the clerics haven't access to.  Warriors of
+either of good or evil are capable of becoming a paladin for thier cause, as
+Paladins drive to further thier cause and by nature must be zealous in thier
+passion neutrality is unacceptable.
+
+  Primary class:  Warrior
+  Attribute Adjustments:  +2 Str  +1 Wis  +1 Con
+
+  Groups gainable for Paladin:
+    Piety                 Vindication
+
+  Skills gainable for Paladin:
+
+    Shield bash           Cudgelry           Jousting           Spellcraft   
+    Zeal
+
+  Hero gainables for Paladin(including inherited from warrior):
+
+   Deadly spin            Archon light           Archonic flare
+   Holy aura              Remove curse
+</pre>
+
+
+<center><?php include("includes/classlinks.php");?>
+</td></tr>

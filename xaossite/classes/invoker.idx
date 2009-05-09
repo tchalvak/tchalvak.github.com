@@ -1,0 +1,32 @@
+<tr><td>
+<div class = "para2" align = "center">  <p>Classes</p>  </div>
+<div class = "para1" align = "center">  <p>Invoker</p>  </div>
+</tr></td>
+
+<tr><td>
+<pre>
+The invoker, a mage who has trained for the purpose of battle, these warrior
+hearted wizards seek not the dark confines of a lair, nor the stuffy
+libraries, but the open field of war, where they shall wrack thier opponents
+and annihilate foes with a brutal array of magic.
+
+  Primary class:  Mage
+  Attribute Adjustments:  +2 Int  +2 Wis
+
+  Groups gainable for Invoker:
+
+      Evocation                           Abjuration
+      Invocation
+
+  Skills gainable for Invoker:
+
+   Warcraft
+
+  Hero gainable for Invoker:
+
+   Searing orb            Starburst
+</pre>
+
+
+<center><?php include("includes/classlinks.php");?>
+</td></tr>

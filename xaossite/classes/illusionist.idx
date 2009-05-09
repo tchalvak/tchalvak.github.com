@@ -1,0 +1,30 @@
+<tr><td>
+<div class = "para2" align = "center">  <p>Classes</p>  </div>
+<div class = "para1" align = "center">  <p>Illusionist</p>  </div>
+</tr></td>
+
+<tr><td>
+<pre>
+Masters of deception and the ability to make reality seem what it is not,
+illusionists mix both magical trickery which deludes other's senses and true
+magic, which creates a deadly combination. They, of course, can alter their
+appearance at will and assume other's forms, other's voices, or they can
+choose not to exist at all in other's eyes.
+
+  Primary class:  Mage
+  Attribute Adjustments:  +2 Int  +2 Wis
+
+  Groups gainable for Illusionist:
+
+      Masking                             Masquerade
+      Reality warps                       Shadow mastery
+
+  Hero gainable for Illusionist:
+
+   Searing orb            Starburst
+
+</pre>
+
+
+<center><?php include("includes/classlinks.php");?>
+</td></tr>

@@ -1,0 +1,42 @@
+<tr><td>
+<div class = "para2" align = "center">  <p>Races</p>  </div>
+<div class = "para1" align = "center">  <p>Maca</p>  </div>
+</tr></td>
+
+<tr><td>
+<pre>
+The maca are a short resembling insects, and are only about two feet tall.  
+Created by the fae they serve the sprites and pixies in the Lost Woods as
+personal servants and forest keepers.  The maca have three different skin
+tones which are light green, dark green, and light brown. Their eyes can be
+any hue and look surprisingly human. They have a mouth like a grasshopper
+but their mandibles are small therefore they are unable to bite.  Their legs
+are short and stubby to support the weight of their upper body which juts
+forward and are quite thick to support the four strong arms they have.  
+Though they are not particularly strong in any specific respect, they have
+the intelligence of the fae to guide them. They have been known to adventure
+for many reasons: the call of the Goddess whom they adore, the sprites or pixies
+calling on them, or simply the strange wanderlust that inflicts a small
+number of their kind.  To suit the needs of the fae people, the maca have
+become divided and serve the different sides of the fae accordingly.   All
+good maca train as warriors and will follow pixies willingly and loyally
+once their trust has been earned, evil maca will train as thieves and help
+the sprites in their mischief to no end.  
+ 
+*Maca are mute and unable to use the IC channel.>
+
+<b>Specific traits:</b>
+
+   Size:  small  Base weight:  79lbs
+   Life Expectancy:  1500, age of maturity 150.
+   Digestable groups:  meat vegetable rawmeat grain
+   Lightly resistant to slash.
+   Lightly resistant to bash.
+   Slighty vulnerable to lightning.
+
+<b>Base stats,</b> str: 20  int: 18  wis: 14  dex: 20  con: 18
+<b>Experience per level base:</b>  6000
+</pre>
+
+<center><?php include("includes/racelinks.php");?>
+</td></tr>

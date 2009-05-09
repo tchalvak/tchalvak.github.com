@@ -1,0 +1,27 @@
+<tr><td>
+<div class = "para2" align = "center">  <p>Classes</p>  </div>
+<div class = "para1" align = "center">  <p>Transmuter</p>  </div>
+</tr></td>
+
+<tr><td>
+<pre>
+Changing one thing to another, manipulating the very nature of an object or
+person. That is the power of Transmuters. Anything is possible with the
+spells they research, they can be anything they want to, and more potently
+they can make something else what they want it to be.
+
+  Primary class:  Mage
+  Attribute Adjustments:  +2 Int  +1 Wis  +1 Con
+
+  Groups gainable for Transmuter:
+
+      Alteration                          Manipulation
+
+  Hero gainable for Transmuter:
+
+   Polymorph other        Searing orb     Starburst
+</pre>
+
+
+<center><?php include("includes/classlinks.php");?>
+</td></tr>

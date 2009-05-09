@@ -1,0 +1,46 @@
+<tr colspan=6><td colspan=6>
+<div class = "para2" align = "center">  <p>Main</p>  </div>
+<div class = "para1" align = "center">  <p></p>Races</div></tr></td>
+</td></tr>
+
+
+<tr><td align=center valign=top>
+      <font style="font-size:9pt;">
+	<div style="font-weight:bold;">Tiny</div><p></p>
+        <a href="index.php?page=races/brownie">Brownie</a><br>
+        <a href="index.php?page=races/pixie">Pixie</a><br>
+        <a href="index.php?page=races/sprite">Sprite</a><br>
+  </td><td align=center valign=top>
+        <font style="font-size:9pt;">
+	  <div style="font-weight:bold;">Small</div><p></p>
+          <a href="index.php?page=races/kender">Kender</a><br>
+          <a href="index.php?page=races/kobold">Kobold</a><br>
+          <a href="index.php?page=races/goblin">Goblin</a><br>
+          <a href="index.php?page=races/gnome">Gnome</a><br>
+          <a href="index.php?page=races/gremlin">Gremlin</a><br>
+          <a href="index.php?page=races/maca">Maca</a><br>
+  </td><td align=center valign=top>
+        <font style="font-size:9pt;">
+          <div style="font-weight:bold;">Medium</div><p></p>
+          <a href="index.php?page=races/avariel">Avariel</a><br>
+          <a href="index.php?page=races/drow">Drow</a><br>
+          <a href="index.php?page=races/dwarf">Dwarf</a><br>
+          <a href="index.php?page=races/elf">Elf</a><br>
+          <a href="index.php?page=races/halfelf">Half elf</a><br>
+          <a href="index.php?page=races/halforc">Half Orc</a><br>
+          <a href="index.php?page=races/human">Human</a><br>
+          <a href="index.php?page=races/vondoni">Vondoni</a><br>
+  </td><td align=center valign=top>
+        <font style="font-size:9pt;">
+	  <div style="font-weight:bold;">Large</div><p></p>
+          <a href="index.php?page=races/centaur">Centaur</a><br>
+          <a href="index.php?page=races/halfgiant">Half giant</a><br>
+          <a href="index.php?page=races/minotaur">Minotaur</a><br>
+          <a href="index.php?page=races/troll">Troll</a><br>
+          <a href="index.php?page=races/yeti">Yeti</a><br>
+  </td><td align=center valign=top>
+        <font style="font-size:9pt;">
+	  <div style="font-weight:bold;">Huge</div><p></p>
+          <a href="index.php?page=races/firegiant">Fire giant</a><br>
+          <a href="index.php?page=races/hillgiant">Hill Giant</a><br>
+</td></tr>

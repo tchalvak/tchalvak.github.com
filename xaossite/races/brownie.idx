@@ -1,0 +1,45 @@
+<tr><td>
+<div class = "para2" align = "center">  <p>Races</p>  </div>
+<div class = "para1" align = "center">  <p>Brownie</p>  </div>
+</tr></td>
+
+<tr><td>
+<pre>
+Brownies are the same size as the sprites and the pixies, and the only
+characteristic they lack is the natural ability to fly.  Their skin,
+hair and eyes are often varying shades of brown, which is best for 
+them to camouflage themselves within the forest, though it is not
+uncommon to have yellow or green eyes or varying natural shades of
+hair.  They also lack the characteristic trail of faerie dust that
+their winged cousins leave, however they have the innate knowledge of
+how to produce and use the dust and powders best in battle.  There
+are very rarely any brownies who choose to be voices of the Goddess,
+and for that reason it is likely that there will be representation
+of the pixies and the sprites within their holy shrines.
+ 
+As with their winged friends, the brownies are resistant towards
+magic.  In the respect of education, the brownies tend to leave the
+more intelligent positions to their winged cousins and make excellent
+warriors or thieves.  The most esteemed position within the brownie
+rank goes to the ranger, who has the ability to tame the woodland
+creatures best and bring them back to the outpost to provide mounts,
+winged and otherwise, to the rest of the community.  Other, less
+industrious brownies choose other paths as warriors or thieves, all
+in the name of protection of the lost woods and its inhabitants.
+Though all brownies possess the basic knowledge of the preparation of
+different powders and other magical concoctions, brownie thieves are
+revered for their talents in the usage of powders and bombs in battle.
+ 
+
+<b>Specific traits:</b>
+   Size:  tiny  Base weight:  35lbs
+   Life Expectancy:  1500, age of maturity 150.
+   Digestable groups:  meat vegetable rawmeat grain dairy
+   Lightly resistant to magic.
+
+<b>Base stats,</b> str: 19  int: 17  wis: 18  dex: 20  con: 16
+<b>Experience per level base:</b>  3500
+</pre>
+
+<center><?php include("includes/racelinks.php");?>
+</td></tr>

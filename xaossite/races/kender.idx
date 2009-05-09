@@ -1,0 +1,34 @@
+<tr><td>
+<div class = "para2" align = "center">  <p>Races</p>  </div>
+<div class = "para1" align = "center">  <p>Kender</p>  </div>
+</tr></td>
+
+<tr><td>
+<pre>
+Kender are a race of endless curiosity, unmatchable bravery and extreme
+innocence. Descendants of an elven tribe long before the first of the great
+cities was even thought of, the Kender have evolved as a culture full of
+colourful humour and peacefulness. It's almost unheard of that any Kender
+would knowingly act in an aggressive manner unless it was to defend a fellow
+Kender or dear friend.  Smaller then your average adventurer, they stand at
+about a human's waist, with this smaller size comes the usual agility and
+dexterity, however the Kender have one aspect of quickness which the world
+will forever watch them for. Kender are the master thieves, however they'll
+be the last to know.  Compulsive curiosity curses them with an uncanny
+ability of palming any object in sight. While they are do this out of good
+intentions alone, many of the land's shop keeps fail to understand or
+tolerate it and thus a Kender is branded a thief, regardless of their
+training or goals.  
+
+<b>Specific traits:</b>
+
+   Size:  small  Base weight:  84lbs
+   Life Expectancy:  100, age of maturity 17.
+   Digestable groups:  meat vegetable grain dairy
+
+<b>Base stats,</b> str: 16  int: 18  wis: 18  dex: 20  con: 16
+<b>Experience per level base:</b>  2000
+</pre>
+
+<center><?php include("includes/racelinks.php");?>
+</td></tr>

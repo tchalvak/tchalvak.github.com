@@ -1,0 +1,38 @@
+<tr><td>
+<div class = "para2" align = "center">  <p>Races</p>  </div>
+<div class = "para1" align = "center">  <p>Elf</p>  </div>
+</tr></td>
+
+<tr><td>
+<pre>
+Arguably the oldest race, they have a long and colourful history that has
+spawned many myths and legends. Deeply rooted within their own culture elves
+rarely associate with the other demi-humans and only visit the other pockets
+of the land in search of sport or adventure.  All elves possess and innate
+mastery of magic, while not always evident through spells they are capable
+of harnessing the magic around them better then most other races.   Some
+argue that an elven warrior can out-do a human mage in a duel of spells.
+Most people however know better then to focus on that single power, as it is
+only one of the many talents the elves hold.  Because of their secretive
+nature, elves have adapted to being unseen and unheard.   Also elves are
+noted for being resilient to their own natural attractiveness a swell as
+most others, even magical means of controlling suffer problems when an elf
+is the target.  The physical appearance of elves is very similar to humans,
+although slightly taller, they possess a lighter frame and are generally
+more agile. Lastly, never expect to have an elf to a disadvantage in the
+dark corners of the realm, fore they share keen night vision with dwarves. 
+
+<b>Specific traits:</b>
+
+   Size:  medium  Base weight:  145lbs
+   Life Expectancy:  800, age of maturity 150.
+   Digestable groups:  meat vegetable grain dairy
+   Lightly resistant to mental.
+   Lightly resistant to magic.
+
+<b>Base stats,</b> str: 17  int: 19  wis: 18  dex: 19  con: 17
+<b>Experience per level base:</b>  1500
+</pre>
+
+<center><?php include("includes/racelinks.php");?>
+</td></tr>

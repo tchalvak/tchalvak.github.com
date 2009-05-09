@@ -1,0 +1,18 @@
+	body,td,input	{ font-family: tahoma, helvetica; font-size: 11px; color: #dedede; line-height: 12px; }
+	body		{ background-image: url('i/a38.jpg'); }
+	form		{ margin: 0px; }
+	.mhead		{ font-size: 10px; font-weight: bold; }
+	.rhead		{ font-size: 10px; font-weight: bold; color: #ffffff; }
+	.marea		{ color: #444444; }
+	br.short	{ line-height: 5px; }
+	.inarea		{ text-align: justify; }
+	a		{ color: #98E532; font-weight: bold; text-decoration: none; }
+	a.rlink		{ font-weight: normal; }
+	a:hover		{ text-decoration: underline; }
+	a.blink		{ color: #ffffff; }
+	.greenMore	{ color: #a0d235; font-weight: bolder; font-size: 10pt }
+	.whitetext	{ color: #f5f5f7; font-weight: bolder; font-size: 10pt; text-transform: uppercase }
+	.ksStaffHead	{ color: #202932; font-family: tahoma, helvetica; font-size: 125%; font-weight: bolder }
+	.ksStaffText	{ color: #202932; font-family: tahoma, helvetica; font-size: 90% }
+	.ksStaffMore	{ color: #a0d235; font-weight: bolder; }
+	.memberText	{ color: #28345c }

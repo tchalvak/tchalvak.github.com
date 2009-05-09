@@ -1,0 +1,40 @@
+<tr><td>
+<div class = "para2" align = "center">  <p>Deities</p>  </div>
+<div class = "para1" align = "center">  <p>Varseg</p>  </div>
+</tr></td>
+
+<tr><td>
+<pre>
+In the harsh jungles far south of the human lands, the race of vondoni 
+dogmen have thrived for long generations. Throughout this time of deep 
+isolation, the Vondoni have created a religion that devotes itself to the
+will and benefit of the tribe. As such, only a vondoni may be a member of
+the tribe, and any vondoni outcast from the tribe cannot rejoin the tribe. 
+A tale was once told of a mageling transmuter who changed his race to
+vondoni, this transmuter did then wander into the tribes and was accepted. 
+The tribes learned from this mistake. The decietful transmuter then stole
+from the Tribe and was outcast. Because of this, the Tribe has become
+distrustful of mages, especially transmuters, a member of the Tribe who sees
+a transmuter change into the form of a vondoni, will never associate
+themselves with that person.  The religion of Varseg has always centered
+around the tribe. Varseg is a religion speaking of the blood, and the hunt
+necessary for tribal survival. The tribe is all important in the eyes of the
+Vondoni.    
+
+<b>Worshippers Alignment:</b> Any, Vondoni
+
+<b>Religion Alignment:</b> Chaotic neutral
+ 
+<b>Holy Symbol:</b> The blood stained skull of a jungle cat
+ 
+<b>Spheres of Influence:</b> War, Sport, Hunting, Vondoni
+ 
+<b>Acts of Favour:</b> Uphold the honour and power of the Tribe.
+
+<b>Patron:</b>  Jervato
+<b>Castes:</b>  tribesman  hunter  shaman  elder  chief  
+</pre>
+
+
+<center><?php include("includes/religionlinks.php");?>
+</td></tr>

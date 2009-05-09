@@ -1,0 +1,117 @@
+<!--
+
+	A.hoverMenu {
+		display: block;
+		padding: 4px;
+		border: none;
+		font-family: verdana, tahoma, arial, helvetica, sans-serif;
+		font-size: .7em;
+		color: black;
+		text-decoration: none;
+
+		/* Hack (err, workaround ;) for IE box model problems... */
+		width: 100%; /* Width for IE */
+		voice-family: "\"}\""; /* IE stops process any rules after this */
+	  	voice-family:inherit;
+		width: auto;	/* Width for "good" browsers */
+	}
+	A.hoverMenu:link {
+		/* A:link style is for IE5; redundant for newer browsers */
+		color: black;
+		text-decoration: none;
+	}
+	A.hoverMenu:hover {
+		padding: 3px;
+		border: solid 1px #333333;
+		background-color: #DDDDDD;
+		color: black;
+	}
+
+
+.menuTable {
+	background-color: "#EEEEEE";
+	border: solid 1px #666666;
+}
+
+.menuHeading {
+	font-family: verdana, arial, helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: black;
+}
+
+.menuItem {
+	font-family: verdana, arial, helvetica, sans-serif;
+	font-size: 11px;
+  text-align: center;
+	padding-left: 12px;
+  padding-right: 12px;
+	color: black;
+	border: solid 1px #F1F1F1;
+}
+.menuItem A:link    { color:black; text-decoration: none; background-color: transparent;}
+.menuItem A:visited { color:black; text-decoration: none; background-color: transparent;}
+.menuItem A:active  { color:black; text-decoration: none; background-color: transparent;}
+.menuItem A:hover   { color:black; text-decoration: none; background-color: transparent;}
+
+
+.contentTable {  
+   border: 1px #5a7bad solid; 
+   background-color: #FFFFFF; 
+   /*background-image: url(/images/xaosheader.jpg);*/
+   background-repeat: repeat-x;
+   
+	font-family: verdana, arial, helvetica, sans-serif;
+	font-size: 11px;
+   color: black;
+   
+   padding-left: 11px;
+   padding-right: 11px;
+  }
+.contentTable A:link    {color:#5a7bad; text-decoration:none;}
+.contentTable A:visited {color:#5a7bad; text-decoration:none;}
+.contentTable A:active  {color:#5a7bad; text-decoration:none;}
+.contentTable A:hover   {color:blue; text-decoration:underline;}
+
+
+.skillTable A:link       {color:#000000; text-decoration:none;}
+.skillTable A:hover      {color:#000000; text-decoration:none;}
+
+
+.pageFooter {
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 9px;
+  }
+
+.breadTrail {
+  border: 1px black solid; 
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 10px;
+  color: black;
+  }
+
+.breadTrail A:link    { color:blue; text-decoration: none; background-color: transparent;}
+.breadTrail A:visited { color:blue; text-decoration: none; background-color: transparent;}
+.breadTrail A:active  { color:blue; text-decoration: none; background-color: transparent;}
+.breadTrail A:hover   { color:blue; text-decoration: none; background-color: transparent;}
+
+.helpFile {
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 11px;
+  color: black;
+  }  
+
+
+body {
+  background-position: left top; 
+  background-color: #FFFFFF; 
+  background-image: none; 
+  font-size: 10pt;
+  }
+
+a:hover {  color: #CAD6FF; text-decoration: none}
+
+.smallbody {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 8pt; color: #B0B8F9}
+a {  font-family: Verdana, Arial, Helvetica, sans-serif; color: #859CFA}
+
+-->

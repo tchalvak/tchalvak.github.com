@@ -1,0 +1,35 @@
+<tr><td align = "right">
+<div class = "para2" align = "center">  <p>Classes</p>  </div>
+<div class = "para1" align = "center">  <p>Geomancer</p>  
+</div>
+</tr></td>
+
+<tr><td align = center>
+<pre>
+The Geomancer is a warrior who has undergone extreme training at the hands
+of mages to be able to cast many, but not necessarily all of the basic
+spells available to a mage. In effect they become a spell casting warrior,
+however they have the draw back that thier training is not of course as
+rigorous as a beginning mage so thier spells do tend to cost them much more
+mana, which they inherently don't have as much as a mage to start.
+
+  Primary class:  Warrior
+  Attribute Adjustments:  +2 Str  +1 Int  +1 Con
+
+  Groups gainable for Geomancer: 
+
+      Combat                              Enhancement                   
+      Protective                          Conjured arsenal              
+
+  Skills gainable for Geomancer: 
+
+   Spell turning      Shield bash        Spellcraft         Warcraft        
+
+  Hero gainables for Geomancer(including inherited from warrior):
+
+   Deadly spin    
+
+   
+</pre>
+<center><?php include("includes/classlinks.php");?>
+</td></tr>

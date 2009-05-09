@@ -1,0 +1,32 @@
+<tr><td>
+<div class = "para2" align = "center">  <p>Classes</p>  </div>
+<div class = "para1" align = "center">  <p>Chaos Champion</p>  </div>
+</tr></td>
+
+<tr><td>
+<pre>
+The Champions of Chaos are a particularly blood thirsty sect of the shaman
+castes.  There is never any peace in thier minds, as battle is all they
+seek.   Usually followers of an equally war mongering diety or demon they
+serve the purpose of front line spiritual emmesaries.
+
+  Primary class:  Shaman
+  Attribute Adjustments:  +1 Int  +2 Wis  +1 Con
+
+  Groups gainable for Chaos champion:
+
+      Chaos wrath         Chaos fusion
+      War tactics
+
+  Skills gainable for Chaos champion:
+
+   Master mace            Disarm             Parry
+
+  Hero gainables for Chaos champion(including inherited from shaman):
+
+   Cudgelry               Heretic
+</pre>
+
+
+<center><?php include("includes/classlinks.php");?>
+</td></tr>

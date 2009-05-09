@@ -1,0 +1,30 @@
+<tr><td>
+<div class = "para2" align = "center">  <p>Classes</p>  </div>
+<div class = "para1" align = "center">  <p>Shadow Dancer</p>  </div>
+</tr></td>
+
+<tr><td>
+<pre>
+The shadow dancer is a proposed subclass for the drow warrior population,
+thier finest warriors being granted elements of the mage's knowledge.
+
+  Primary class:  Warrior
+  Attribute Adjustments:  +2 Str  +2 Dex
+
+  Groups gainable for Shadow dancer:
+
+   Combat             Illusion           Transportation
+
+  Skills gainable for Shadow dancer:
+
+   Ambush             Knife fighting     Blind fighting     Martial arts
+   Acrobatics         Hide               Spellcraft
+
+  Hero gainables for Shadow dancer(including inherited from warrior):
+
+   Deadly spin        Darkness
+</pre>
+
+
+<center><?php include("includes/classlinks.php");?>
+</td></tr>

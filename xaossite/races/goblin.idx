@@ -1,0 +1,29 @@
+<tr><td>
+<div class = "para2" align = "center">  <p>Races</p>  </div>
+<div class = "para1" align = "center">  <p>Goblin</p>  </div>
+</tr></td>
+
+<tr><td>
+<pre>
+Goblins are a small race, the smallest of the humanoids, and they make up
+for it with malicious evil acts and pack killing. They tend to live in
+swamps and get along perfectly with trolls. They don't have quite the mental
+mastery for becoming mages but the other professions suit their needs just
+fine. They also have a venomous spit that the most acute goblins can not
+only blind someone with a spit, but release a venom at the same time.    
+
+<b>Specific traits:</b>
+
+   Size:  small  Base weight:  84lbs
+   Life Expectancy:  60, age of maturity 10.
+   Digestable groups:  meat vegetable grain
+   Vulnerable to mental.
+   Resistance to poison.
+   Lightly resistant to disease.
+
+<b>Base stats,</b> str: 17  int: 18  wis: 18  dex: 19  con: 17
+<b>Experience per level base:</b>  1600
+</pre>
+
+<center><?php include("includes/racelinks.php");?>
+</td></tr>

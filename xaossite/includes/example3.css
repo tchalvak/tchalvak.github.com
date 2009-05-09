@@ -1,0 +1,27 @@
+.menuTable {
+	border: solid 1px #999999;
+	background-color: #F1F1F1;
+}
+
+.menuHeading {
+	font-family: verdana, arial, helvetica, sans-serif;
+	font-size: 15px;
+	font-weight: bold;
+	color: #000080;
+}
+
+.menuItem {
+	font-family: tahoma,verdana, arial, helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	text-align: center;
+	color: white;
+	/*border: solid 1px #FFFFFF;*/
+	padding-left: 25px;
+	padding-right: 25px;
+	background-color: #000080;
+}
+.menuItem A:link    { color:white; text-decoration: none; }
+.menuItem A:visited { color:white; text-decoration: none; }
+.menuItem A:active  { color:white; text-decoration: none; }
+.menuItem A:hover   { color:white; text-decoration: none; }
