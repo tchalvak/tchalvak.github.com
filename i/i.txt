@@ -1,0 +1,19 @@
+<html>
+<head>
+<title>Visuals</title>
+<link type="text/css" href="../e/css/css.htm" rel="stylesheet">
+</head>
+<body text="#cccccc" link="#00cc00" vlink="#666666" alink="#ff0000" bgcolor="#000000">
+<div class="defrag"><a href="..">DEFRAGMENT</a></div>
+<p>
+<a href=".">Image Directory</a><p>
+<a href="./creations/">Creations</a><br>
+<a href="./entities/">Entities</a><br>
+<a href="./scene/">Scene</a><br>
+<a href="./tech/">Tech</a><br>
+<a href="./viscera/">Viscera</a><br>
+<img src="creations/nexusbeing.jpg">
+<p>
+<div class="defrag"><a href="..">DEFRAGMENT</a></div>
+</body>
+</html>
