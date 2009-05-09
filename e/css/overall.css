@@ -1,0 +1,129 @@
+BODY {
+	FONT-SIZE: 8pt; COLOR: #ffffff; FONT-FAMILY: sans-serif; BACKGROUND-COLOR: #000000; TEXT-ALIGN: center
+}
+A:link {
+	COLOR: #999999; BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; TEXT-DECORATION: none; BORDER-BOTTOM-STYLE: none
+}
+A:active {
+	COLOR: #999999; BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; TEXT-DECORATION: none; BORDER-BOTTOM-STYLE: none
+}
+A:visited {
+	COLOR: #999999; BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; TEXT-DECORATION: none; BORDER-BOTTOM-STYLE: none
+}
+DIV {
+	MARGIN: 0px
+}
+DIV#container {
+	MARGIN: 0px auto; WIDTH: 800px
+}
+DIV.utility {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; PADDING-BOTTOM: 5px; PADDING-TOP: 5px
+}
+DIV.utility P {
+	
+}
+DIV#container DIV#header {
+	WIDTH: 800px
+}
+DIV#container DIV#header DIV#logo {
+	BORDER-RIGHT: #333333 1px solid; BORDER-TOP: #333333 1px solid; BORDER-LEFT: #333333 1px solid; WIDTH: 798px; BORDER-BOTTOM: #333333 1px solid; HEIGHT: 100px
+}
+DIV#container DIV#header DIV#text {
+	BORDER-RIGHT: #333333 1px solid; BORDER-TOP: #333333 1px solid; MARGIN: 3px 0px; BORDER-LEFT: #333333 1px solid; WIDTH: 798px; BORDER-BOTTOM: #333333 1px solid; TEXT-ALIGN: center
+}
+DIV#container DIV#header DIV#text P {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+DIV#container DIV#leftside {
+	BORDER-RIGHT: #333333 1px solid; BORDER-TOP: #333333 1px solid; FLOAT: left; BORDER-LEFT: #333333 1px solid; WIDTH: 158px; BORDER-BOTTOM: #333333 1px solid; TEXT-ALIGN: left
+}
+DIV#container DIV#leftside DIV#pageNavigation {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; WIDTH: 158px; PADDING-TOP: 0px
+}
+DIV#container DIV#leftside DIV#pageNavigation DL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; WIDTH: 158px; PADDING-TOP: 0px; LIST-STYLE-TYPE: none
+}
+DIV#container DIV#leftside DIV#pageNavigation DL DT {
+	MARGIN: 0px; WIDTH: 158px
+}
+DIV#container DIV#leftside DIV#pageNavigation DL DT A {
+	PADDING-RIGHT: 0px; DISPLAY: block; PADDING-LEFT: 5px; PADDING-BOTTOM: 5px; WIDTH: 153px; PADDING-TOP: 5px
+}
+DIV#container DIV#leftside DIV#pageNavigation DL DT A:hover {
+	BACKGROUND-COLOR: #333333
+}
+DIV#container DIV#leftside DIV#pageNavigation DL DD {
+	DISPLAY: none; MARGIN: 0px; WIDTH: 158px
+}
+DIV#container DIV#leftside DIV#pageNavigation DL DD UL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; WIDTH: 158px; PADDING-TOP: 0px; LIST-STYLE-TYPE: none
+}
+DIV#container DIV#leftside DIV#pageNavigation DL DD UL LI {
+	MARGIN: 0px; WIDTH: 158px
+}
+DIV#container DIV#leftside DIV#pageNavigation DL DD UL LI A {
+	PADDING-RIGHT: 0px; DISPLAY: block; PADDING-LEFT: 28px; PADDING-BOTTOM: 2px; WIDTH: 130px; PADDING-TOP: 2px
+}
+DIV#container DIV#leftside DIV#pageNavigation DL DD UL LI A:hover {
+	BACKGROUND-COLOR: #333333
+}
+DIV#container DIV#leftside DIV#chatLink {
+	TEXT-ALIGN: center
+}
+DIV#container DIV#leftside DIV#chatLink A SPAN#chatOn {
+	DISPLAY: none
+}
+DIV#container DIV#center {
+	FLOAT: left; MARGIN: 0px 2%; WIDTH: 440px; TEXT-ALIGN: center
+}
+DIV#container DIV#center DIV#sectionNavigation {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 5px; MARGIN: 0px auto; WIDTH: 440px; PADDING-TOP: 5px; TEXT-ALIGN: center
+}
+DIV#container DIV#center DIV#sectionNavigation UL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 5px; WIDTH: 440px; PADDING-TOP: 0px; BORDER-BOTTOM: #333333 1px solid; LIST-STYLE-TYPE: none
+}
+DIV#container DIV#center DIV#sectionNavigation UL LI {
+	BORDER-RIGHT: #333333 1px solid; PADDING-RIGHT: 0px; BORDER-TOP: #333333 1px solid; DISPLAY: inline; PADDING-LEFT: 0px; PADDING-BOTTOM: 5px; MARGIN: 0px; BORDER-LEFT: #333333 1px solid; PADDING-TOP: 5px; BORDER-BOTTOM: #333333 1px solid
+}
+DIV#container DIV#center DIV#sectionNavigation UL LI A {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; PADDING-BOTTOM: 10px; MARGIN: 10px 0px 0px; PADDING-TOP: 10px
+}
+DIV#container DIV#center DIV.content {
+	PADDING-RIGHT: 2px; DISPLAY: none; PADDING-LEFT: 2px; PADDING-BOTTOM: 2px; WIDTH: 396px; PADDING-TOP: 2px; TEXT-ALIGN: left
+}
+DIV#container DIV#center DIV.content H3 {
+	PADDING-RIGHT: 2px; PADDING-LEFT: 2px; PADDING-BOTTOM: 2px; PADDING-TOP: 2px
+}
+DIV#container DIV#center DIV.content P {
+	
+}
+DIV#container DIV#center DIV#chat {
+	BORDER-RIGHT: #333333 1px solid; BORDER-TOP: #333333 1px solid; DISPLAY: block; BORDER-LEFT: #333333 1px solid; WIDTH: 440px; BORDER-BOTTOM: #333333 1px solid; TEXT-ALIGN: center
+}
+DIV#container DIV#center DIV#chat DIV#chat_output {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; PADDING-BOTTOM: 5px; MARGIN: 0px; OVERFLOW: auto; WIDTH: 430px; PADDING-TOP: 5px; FONT-FAMILY: monospace; HEIGHT: 200px; TEXT-ALIGN: left
+}
+DIV#container DIV#center DIV#chat DIV#chat_output SPAN.user {
+	COLOR: #cc0000
+}
+DIV#container DIV#center DIV#chat DIV#chat_output SPAN.msg {
+	COLOR: #ffffff
+}
+DIV#container DIV#center DIV#chat DIV#chat_output SPAN.emote {
+	COLOR: #cc0000
+}
+DIV#container DIV#center DIV#chat DIV#chat_output SPAN.away {
+	COLOR: #009900
+}
+DIV#container DIV#center DIV#chat DIV#chat_output SPAN.back {
+	COLOR: #009900
+}
+DIV#container DIV#center DIV#chat DIV#chat_input {
+	MARGIN: 0px; WIDTH: 440px
+}
+DIV#container DIV#center DIV#footer {
+	FONT-SIZE: 8pt; WIDTH: 440px; FONT-FAMILY: monospace; TEXT-ALIGN: center
+}
+DIV#container DIV#rightside {
+	BORDER-RIGHT: #333333 1px solid; BORDER-TOP: #333333 1px solid; FLOAT: right; MARGIN: 0px; BORDER-LEFT: #333333 1px solid; WIDTH: 158px; BORDER-BOTTOM: #333333 1px solid; TEXT-ALIGN: center
+}

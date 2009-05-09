@@ -1,0 +1,479 @@
+<!DOCTYPE html
+PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+<head>
+<title>NW2 Interface Mockup</title>
+
+<!-- Style sheets -->
+<!-- <link rel="stylesheet" type="text/css" href="http://www.cs.geneseo.edu/~rjk2/NinjaWars/overall.css" /> -->
+<style type="text/css">
+
+body {
+    background-color: #000000;
+    color: #FFFFFF;
+    font-family: sans-serif;
+    font-size: 10pt;
+    text-align: center;
+}
+
+a:link, a:active, a:visited {
+    color: #999999;
+    text-decoration: none;
+    border: none;
+}
+
+div {
+    margin: 0;
+}
+
+div#container {
+    width: 800px;
+    margin: 0px auto 0px auto;
+}
+
+div.utility {
+    padding: 5px;
+}
+
+div.utility p {
+}
+
+/* Header styles */
+div#container div#header {
+    width: 900px;
+    float: center;
+}
+
+div#container div#header div#logo {
+    width: 798px;
+    height: 100px;
+    border: solid #333333 1px;
+}
+
+div#container div#header div#text {
+    text-align: center;
+    width: 898px;
+    border: solid #333333 1px;
+    margin: 3px 0 3px 0;
+}
+
+div#container div#header div#text p {
+    padding: 0;
+    margin: 0;
+}
+
+
+
+/* Left column styles*/
+div#container div#leftside {
+    width: 120px;
+    float: left;
+    border: solid #333333 1px;
+    text-align: left;
+}
+
+div#container div#leftside div#pageNavigation {
+    width: 118px;
+    padding: 0px;
+}
+
+div#container div#leftside div#pageNavigation dl {
+    width: 158px;
+    list-style-type: none;
+    padding: 0px;
+}
+
+div#container div#leftside div#pageNavigation dl dt {
+    width: 158px;
+    margin: 0px;
+}
+
+div#container div#leftside div#pageNavigation dl dt a {
+    display: block;
+    width: 153px;
+    padding: 5px 0px 5px 5px;
+}
+
+div#container div#leftside div#pageNavigation dl dt a:hover {
+    background-color: #333333;
+}
+
+div#container div#leftside div#pageNavigation dl dd {
+    display: none;
+    width: 158px;
+    margin: 0px;
+}
+
+div#container div#leftside div#pageNavigation dl dd ul {
+    list-style-type: none;
+    width: 158px;
+    padding: 0px;
+}
+
+div#container div#leftside div#pageNavigation dl dd ul li {
+    width: 158px;
+    margin: 0px;
+}
+
+div#container div#leftside div#pageNavigation dl dd ul li a {
+    display: block;
+    width: 130px;
+    padding: 2px 0px 2px 28px;
+}
+
+div#container div#leftside div#pageNavigation dl dd ul li a:hover {
+    background-color: #333333;
+}
+
+div#container div#leftside div#chatLink {
+    text-align: center;
+}
+
+div#container div#leftside div#chatLink a span#chatOff {
+    display: none;
+}
+
+
+/* Center column styles */
+div#container div#center {
+    width: 440px;
+    float: left;
+    text-align: center;
+    margin: 0 2% 0 2%;
+}
+
+div#container div#center div#sectionNavigation {
+    width: 440px;
+    padding: 5px 0px 5px 0px;
+    text-align: center;
+    margin: 0 auto 0 auto;
+}
+
+div#container div#center div#sectionNavigation ul {
+    list-style-type: none;
+    width: 440px;
+    padding: 0px;
+    padding-bottom: 5px;
+    border-bottom: solid #333333 1px;
+}
+
+div#container div#center div#sectionNavigation ul li {
+    display: inline;
+    padding: 5px 0px 5px 0px;
+    margin: 0px;
+    border: solid #333333 1px;
+}
+
+div#container div#center div#sectionNavigation ul li a {
+    padding: 10px;
+    margin: 10px 0px 0px 0px;
+}
+
+div#container div#center div.content {
+    width: 396px;
+    padding: 2px;
+    display: none;
+    text-align: left;
+}
+
+div#container div#center div.content h3 {
+    padding: 2px;
+}
+
+div#container div#center div.content p {
+}
+
+/* Chat window styles */
+div#container div#center div#chat {
+    width: 440px;
+    float: center;
+    text-align: center;
+    border: solid #333333 1px;
+    display: none;
+}
+
+div#container div#center div#chat div#chat_output {
+    width: 430px;
+    height: 200px;
+    float: center;
+    font-family: monospace;
+    text-align: left;
+    padding: 5px;
+    overflow: auto;
+    margin: 0;
+}
+
+div#container div#center div#chat div#chat_output span.user {
+    color: #CC0000;
+}
+
+div#container div#center div#chat div#chat_output span.msg {
+    color: #FFFFFF;
+}
+
+div#container div#center div#chat div#chat_output span.emote {
+    color: #CC0000;
+}
+
+div#container div#center div#chat div#chat_output span.away,
+div#container div#center div#chat div#chat_output span.back {
+    color: #009900;
+}
+
+div#container div#center div#chat div#chat_input {
+    width: 440px;
+    margin: 0;
+}
+    
+
+/* Footer styles */
+div#container div#center div#footer {
+    width: 440px;
+    float: center;
+    font-size: 8pt;
+    font-family: monospace;
+    text-align: center;
+}
+
+
+/* Right column styles */
+div#container div#rightside {
+    width: 200px;
+    float: right;
+    border: solid #333333 1px;
+    text-align: center;
+    margin: 0;
+}
+
+
+div#container div#center div#content_1 {
+	display: block;
+}
+</style>
+
+<!-- JavaScripts -->
+<!-- <script type="text/javascript" src="http://www.cs.geneseo.edu/~rjk2/NinjaWars/js/ajax.js"></script> -->
+<script type="text/javascript" src="http://www.cs.geneseo.edu/~rjk2/NinjaWars/js/chat4.js"></script>
+<!-- <script type="text/javascript" src="http://www.cs.geneseo.edu/~rjk2/NinjaWarsjs/sections.js"></script> -->
+
+</head>
+<body onload="ac_init(); setSection();">
+<div id="container"> <!-- Container contains everything... go figure -->
+    <div id="header"> <!-- Header contains the catchphrase -->
+        <div id="text">
+            <p>"A CatchPhrase Game" or a random catchphrase</p>
+        </div>
+    </div> <!-- End header -->
+    <div id="leftside"> <!-- The left column.  Used for page navigation and misc stuff -->
+        <div class="utility">
+            +++Navigation+++
+        </div>
+		<div id="pageNavigation"> <!-- Link between different pages -->
+            <dl id="pageNavigationLinks"> <!-- The list of links for the above -->
+                <dt><a href="javascript:void(0);" id="page_1">Combat</a></dt>
+                <dt><a href="javascript:void(0);" id="page_2">Travelling/Questing</a></dt>
+                <dt><a href="javascript:void(0);" id="page_3">Skills/Tactics</a></dt>
+                <dt><a href="javascript:void(0);" id="page_4">Inventory</a></dt>
+                <dt><a href="javascript:void(0);" id="page_5">Clan Actions</a></dt>
+                <dt><a href="javascript:void(0);" id="page_6">Player Profile</a></dt>
+                <dt><a href="javascript:void(0);" id="page_7">Interface Settings</a></dt>
+                <dt><a href="javascript:void(0);" id="page_8">Everything Else</a></dt>
+            </dl>
+        </div><!-- End of page links -->
+        <div class="utility">
+		 ++Communication++<p />
+		<div id="chatLink">
+            <script type="text/javascript">
+                <!--
+                document.write("<a href=\"javascript:void(0)\" id=\"togglechat\" onclick=\"this.blur(); return toggleChat();\">Turn Chat <span id=\"chatOn\">On</span><span id=\"chatOff\">Off</span></a>");
+                -->
+            </script>
+        </div>
+			  Chat                   <br />
+              Mail                         <br />              
+        </div>
+    </div> <!-- end of left column -->
+    <div id="center"> <!-- The center column -->
+        <div id="sectionNavigation"> 
+            <!-- Navigation between sections within a page -->
+            <ul id="sectionNavigationLinks"> <!-- the list of links for the above -->
+                <!-- if the page navigation links are expandable, then
+                    this section is redundant.  Which, of course,
+                    isn't all bad.  In fact, it may be argued that it is
+                    good, as it provides navigation directly above
+                    the place where all the action takes place -->
+                <li class="sectNav"><a href="http://www.cs.geneseo.edu/~rjk2/NinjaWars/interface.php?section=content_1" id="section_1" onclick="this.blur(); lastSect=this; lastSect.style.color='#333333'; this.style.color='#999999'; currentSection=switchVisible(currentSection, 'content_1'); return false;">do</a></li>
+                <li class="sectNav"><a href="http://www.cs.geneseo.edu/~rjk2/NinjaWars/interface.php?section=content_2" id="section_2" onclick="this.blur(); lastSect=this; lastSect.style.color='#333333'; this.style.color='#999999'; currentSection=switchVisible(currentSection, 'content_2'); return false;">not</a></li>
+                <li class="sectNav"><a href="http://www.cs.geneseo.edu/~rjk2/NinjaWars/interface.php?section=content_3" id="section_3" onclick="this.blur(); lastSect=this; lastSect.style.color='#333333'; this.style.color='#999999'; currentSection=switchVisible(currentSection, 'content_3'); return false;">click</a></li>
+                <li class="sectNav"><a href="http://www.cs.geneseo.edu/~rjk2/NinjaWars/http://www.cs.geneseo.edu/~rjk2/NinjaWars/interface.php?section=content_4" id="section_4" onclick="this.blur(); lastSect=this; lastSect.style.color='#333333'; this.style.color='#999999'; currentSection=switchVisible(currentSection, 'content_4'); return false;">these</a></li>
+                <li class="sectNav"><a href="http://www.cs.geneseo.edu/~rjk2/NinjaWars/interface.php?section=content_5" id="section_5" onclick="this.blur(); lastSect=this; lastSect.style.color='#333333'; this.style.color='#999999'; currentSection=switchVisible(currentSection, 'content_5'); return false;">links</a></li>
+                <li class="sectNav"><a href="http://www.cs.geneseo.edu/~rjk2/NinjaWars/interface.php?section=content_6" id="section_6" onclick="this.blur(); lastSect=this; lastSect.style.color='#333333'; this.style.color='#999999'; currentSection=switchVisible(currentSection, 'content_6'); return false;">here</a></li>
+            </ul>
+        </div> <!-- end of section navigation -->
+        <div class="content" id="content_1">
+            <h3><b>+++Combat+++</b></h3>
+			Key:<br />
+			{denote images of the elements} <br />
+			+++++++++++++++++++++++++++++++++++ denotes a section of options for the player to choose from<br />
+			(denotes an option for the player to click and choose)<br />
+			[denotes which option the player choose to continue combat with]<br />
+			End of Key.
+			<pre style="font-size:12px;font-family:courier new;">
+
+You attack Ninjabob.
+
++++++++++++++++++++++++++++++++++++++++++++++++
+Throw:  (Shuriken) or [(Knife)] or (Smoke Bomb) 
+OR Slice with: (Gold Katana) or (Dragon Wakizashi) 
+OR Sap with: (Club)
+
+You throw a knife at Ninjabob, but it misses!
+Ninjabob breaks a smoke bomb and vanishes into smoke!
+Execute~~~~~ Press~~~~~ Engage~~~~~ Elude~~[X]~~ Escape~~~~~
++++++++++++++++Choose Combo+++++++++++++++++++++
+[(1st)]    (2nd)    (3rd)    (4th)    OR     (Choose skill)
+
+ 97% Ninjabob's {Fire} Punch overcomes your {Earth} Throw. 100%
+ 97% Your {Water} kick overcomes Ninjabob's {Fire} Punch.   95%
+ 96% Ninjabob's {Fire} Punch overcomes your {Void} Poison.  95%
+ 96% Your {Fire} Shield blocks Ninjabob's {Fire} Punch.     95%
+ 96% Your {Air} Leap overcomes Ninjabob's {Fire} Punch.     95%
+Execute~~~~~ Press~~~~~ Engage~~~~~ Elude[X]~~~~ Escape~~~~~
++++++++++++++++Choose Combo+++++++++++++++++++++
+[(1st)]    (2nd)    (3rd)    (4th)    OR     (Choose skill)
+
++++++++++++++++Choose Skill:+++++++++++++++++++++
+(Fire Punch)(Water Kick)(Fire Shield)[(Water Shield)](Void Poison)
+
+ 96% Your {Water} Shield negates Ninjabob's {Fire} Punch.    95%
+
+Execute~~~~~ Press~~~~~ Engage~~[X]~~ Elude~~~~~ Escape~~~~~
++++++++++++++++Choose Combo+++++++++++++++++++++
+[(1st)]    (2nd)    (3rd)    (4th)    OR     (Choose skill)
+
+ 97% Ninjabob's {Fire} Punch overcomes your {Earth} Throw. 100%
+ 97% Your {Water} kick overcomes Ninjabob's {Fire} Punch.   95%
+ 96% Ninjabob's {Fire} Punch overcomes your {Void} Poison.  95%
+               You are now burning!
+ 96% Your {Fire} Shield blocks Ninjabob's {Fire} Punch.     95%
+ 96% Your {Air} Leap overcomes Ninjabob's {Fire} Punch.     95%
+You're burning!
+Execute~~~~~ Press~~~~~ Engage~~~~[X] Elude~~~~~ Escape~~~~~
++++++++++++++++Choose Combo+++++++++++++++++++++
+(1st)    (2nd)    [(3rd)]    (4th)    OR     (Choose skill)
+ 
+ 96% Your Water Kick overcomes Ninjabob's Fire Punch.   90%
+
+
+/\/\/\/\/\/\/\More stuff happens here/\/\/\/\/\/\/\/\/\/\/\
+
+
+Execute[X]~~~~ Press~~~~~ Engage~~~~~ Elude~~~~~ Escape~~~~~
++++++++++++++++Choose Combo+++++++++++++++++++++
+(1st)    (2nd)    (3rd)    (4th)    OR     (Choose skill)
++++++++++++++++Choose Skill:+++++++++++++++++++++
+(Fire Punch)(Water Kick)(Fire Shield)[(Water Shield)](Void Poison)
+
+ 40% Your Water Shield negates Ninjabob's Fire Punch.    25%
+
+You have defeated Ninjabob!
+++++++++++++Choose Execution++++++++++++++++
+(Hamstring)[(Poison)](Blind)(Silence)(Mince)
+
+You slice NinjaBob with your poisoned blade!
+Ninjabob desperately tries to escape!
+
+/\/\/\More of Ninjabob purely trying to escape happens here/\/\/\
+
+Ninjabob has fled in desperation!
+You defeated Ninjabob!
+As he fled, Ninjabob dropped:
+50 gold
+a knife
+
+From the battle you get 43 experience, and gain 7 renown!
+			</pre>
+         </div>
+        <div class="content" id="content_2">
+            <h3>More content</h3>
+            <p>Just another content section.  Invisible to begin with.</p>
+			<form action="javascript:void(0);" id="testform" method="post">
+            <p><input type="text" name="input_1" class="formelement" />
+            <input type="checkbox" name="check_1" class="formelement" />
+            <input type="radio" name="radio_1" class="formelement" /></p>
+            <p><textarea rows="10" cols="50" name="text1" class="formelement">Some stuff</textarea></p>
+            <p><input type="submit" name="submit" value="Submit" class="formelement"/></p>
+            </form>
+        </div>
+        <div class="content" id="content_3">
+            <h3>Content 3</h3>
+        </div>
+        <div class="content" id="content_4">
+            <h3>Content 4</h3>
+        </div>
+        <div class="content" id="content_5">
+            <h3>Content 5</h3>
+        </div>
+        <div class="content" id="content_6">
+            <h3>Content 6</h3>
+        </div>
+        <div id="chat">
+            <div id="chat_output"></div>
+            <div id="chat_input">
+                <form action="javascript:void(0)" id="chat_form" onsubmit="return false;">
+                    <p><input type="text" size="40" id="userinput" />
+                    <input type="button" value="Send" onclick="return ac_send(document.getElementById(ac_input).value);" /></p>
+                </form>
+            </div>
+        </div>
+        <div id="footer">
+            <p>Copyright 2005 CatchPhrase Games - <a href="mailto:admin@CatchPhrase.com">Admin@CatchPhrase.com</a></p>
+        </div>
+    </div>
+    <div id="rightside">
+		<div class="utility">
+		<div id="utility">
+			<b>+++Character_Stats+++</b><br />
+				Health  :  150                <br />
+				Movement:  100               <br />
+				Stamina :  67                    <br />
+				Strength:  32                <br />   
+		</div>
+		</div>
+		<div class="utility">
+            <b>+++Tactical_Interface+++</b>
+				<div style="font-size:13px">
+				<br>Modify combo:  [1st] 2nd 3rd 4th OR skills</br>
+				Modifying [1st Combo]
+				</div>
+				<div style="font-family:courier new,courier,westminster,vt100,fixedsys;font-size:11px;text-align:left;">
+				<br>_________________Sequence__</br>
+				<br>{Fire} Kick---[&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]</br>
+				<br>{Water} Punch-[&nbsp;&nbsp;&nbsp;X&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]</br>
+				<br>{Earth} Throw-[XX&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]</br>
+				<br>{Air} Leap----[&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;X&nbsp;&nbsp;&nbsp;]</br>
+				<br>{Void} Poison-[&nbsp;&nbsp;&nbsp;&nbsp;XX&nbsp;&nbsp;&nbsp;&nbsp;]</br>
+				<br>{Fire} Shield-[&nbsp;&nbsp;X&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]</br>
+				<br>{Water} Shield[&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]</br>
+				<br>{Earth} Shield[&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]</br>
+				<br>{Air} Shield--[&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]</br>
+				<br>Etc-----------[&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]</br>
+				<br>Etc-----------[&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]</br>
+				<p></p>
+				</div>
+		</div>
+		<div class="utility">
+            <p><a href="http://validator.w3.org/check?uri=referer"><img
+            src="http://www.w3.org/Icons/valid-xhtml10"
+            alt="Valid XHTML 1.0!" height="31" width="88" /></a></p>
+        </div>
+	</div>
+</div>
+<div id="footer">
+	<div id="logo">
+		Image: NW2 logo
+	</div>
+</div>
+</body>
+</html>
