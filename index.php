@@ -268,6 +268,11 @@
       <a class="fade" href="#mirrorimagedir" onclick="window.open('./i/entities/','Images','status=2');">Mirror /Dir</a><br />
       <a href="http://www.shorturl.com/ref/in.cgi?nxs.vze.com" target="_blank" class="fade">ShortURL.com</a><br />
       <a href="http://validator.w3.org/check?uri=referer" target="_blank" class="fade">Check Page Code</a><br />
+      
+    <ul id="repos"> <!-- GITHUB REPOS -->
+      <li><h3>repositories</h3></li>
+    </ul>
+    
     </div>
     
     
@@ -282,16 +287,13 @@
       <li id='ninja'><a href="ninjawars.net">Ninjawars.net</a></li>
     </ul>
     <div id='css-test'>
-        Currrazy CSS
+        Currrazy CSS Testing
         <p>Bugzhunta</p>
         <p>Kzqai</p>
         <p>You probably don't want to fork this on github.</p>
-    </div>
-    <ul id="repos">
-      <li><h3>repositories</h3></li>
-    </ul>
-    <div id='j'>
-        Pile 'o jQuery! <a href=''>jsified link</a>
+	    <div id='j'>
+	        Pile 'o jQuery! <a href=''>jsified link</a>
+	    </div>
     </div>
     
     </div> <!-- End of tchalvak.github.com type content -->
