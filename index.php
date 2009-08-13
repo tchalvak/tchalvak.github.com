@@ -55,6 +55,11 @@
         color:green;
         }
 
+	ul {
+	  list-style-type: none;
+	  margin: .5em 0 0 0;
+	}
+
       .github ul {
         position: absolute;
         left: 850px;
@@ -269,24 +274,22 @@
       <a href="http://www.shorturl.com/ref/in.cgi?nxs.vze.com" target="_blank" class="fade">ShortURL.com</a><br />
       <a href="http://validator.w3.org/check?uri=referer" target="_blank" class="fade">Check Page Code</a><br />
       
+      <div>
+      	<a href='http://github.com/tchalvak'>github.com/tchalvak</a>
+      </div>
     <ul id="repos"> <!-- GITHUB REPOS -->
       <li><h3>repositories</h3></li>
     </ul>
-    
     </div>
     
     
     
     <div id='tchalvak github com content' style=''>
     <a href="http://github.com/tchalvak/tchalvak.github.com"><img style="position:absolute; top: 0; left: 0; border: 0;" src="http://s3.amazonaws.com/github/ribbons/forkme_left_gray_6d6d6d.png" alt="Fork me on GitHub" /></a>            
+    <div id='css-test'>
     <ul>
       <li id='crazy'><a href="crazyIndex.html">JSified Version of 3n's start page</a><li> 
-      <!--<li><a href="http://twitter.com/defunkt">twitter.com/defunkt</a></li>-->
-      <li><a href="http://github.com/tchalvak">github.com/tchalvak</a></li>
-      <li><a href="mailto:tchalvakspam@gmail.com">tchalvakspam</a>@gmail.com</li>
-      <li id='ninja'><a href="ninjawars.net">Ninjawars.net</a></li>
     </ul>
-    <div id='css-test'>
         Currrazy CSS Testing
         <p>Bugzhunta</p>
         <p>Kzqai</p>
