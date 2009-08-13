@@ -141,33 +141,33 @@
  	/* PRE-EXISTING NXS.VZE.COM STYLES */
     
 	div.left {
-	width:33%;text-align:left:position:relative;float:left;background-image:url('./i/orange-storm-corner.jpg');background-repeat:no-repeat;
+		width:33%;text-align:left:position:relative;float:left;background-image:url('./i/orange-storm-corner.jpg');background-repeat:no-repeat;
 	margin-top:6em;
 	}
 	div.subtitle {
-	margin-left:auto;margin-right:auto;width:100%;text-align:center;
+		margin-left:auto;margin-right:auto;width:100%;text-align:center;
 	}
 	div.core {
-	width:33%;text-align:center;position:relative;float:left;background-image:url('./i/orange-storm-corner.jpg');background-repeat:no-repeat;
+		width:33%;text-align:center;position:relative;float:left;background-image:url('./i/orange-storm-corner.jpg');background-repeat:no-repeat;
 	}
 	div.right {
-	position:relative;width:33%;text-align:right;float:left;background-image:url('./i/orange-storm-corner.jpg');background-repeat:no-repeat;
+		position:relative;width:33%;text-align:right;float:left;background-image:url('./i/orange-storm-corner.jpg');background-repeat:no-repeat;
 	}
 	div.bottom {
-	margin-left:auto;margin-right:auto;width:100%;text-align:center
+		margin-left:auto;margin-right:auto;width:100%;text-align:center
 	}
 
 	div.github {
-	width: 100%;
-	clear:both;
-	margin: 3em 0 0 1em;
+		width: 100%;
+		clear:both;
+		margin: 3em 0 0 1em;
 	}
       
       
     </style>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.2.6/jquery.min.js" type="text/javascript"></script>
     <script type="text/javascript">
-      $(function() {
+      function repositoryLoad() {
         var limit = 10        // how many repos to list
         var login = 'tchalvak' // your username
 
@@ -183,14 +183,24 @@
           $.each(repos.slice(0, limit), function() {
             $('#repos').append('<li><a href="' + this.url + '">' + this.name + '</a></li>')
           })
-        })        
-      });
+        })
+
+		$("#waiting").hide(); // Hide the not yet loaded message.
+        
+      }
+      
        $(document).ready(function() {
+       		$("#repos").append("<div id='waiting'>Repositories not yet loaded.</div>");
            $("#j a").click(function() { // Just for the special jquery testing link.
              alert("Hello world!");
            });
-         });
+           
+           
+			setTimeout("repositoryLoad()", 10000); // Only load the repositories after a delay.
 
+           
+           
+         });
     </script>
     
   </head>
