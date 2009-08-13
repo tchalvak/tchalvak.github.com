@@ -1,0 +1,167 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <meta http-equiv="content-type" content="text/html;charset=UTF-8"  />
+    <title>roy ronalds</title>
+    <link rel="icon" type="image/png" href="favicon.ico">
+    <style type="text/css">
+      * {
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        /* http://flickr.com/photos/cgstopgo/2199917653/ */
+        background: url(digitalcentipede.jpg) repeat;
+        height: 1024px;
+        color:green;
+      }
+      
+      body::first-letter{
+        background-color:red;
+        color:green;
+        }
+
+      ul {
+        position: absolute;
+        left: 850px;
+        top: 30px;
+        list-style-type: none;
+    }
+    
+
+    #crazy {
+        color:teal;
+        background-color:darkred;
+    }
+
+      #repos {
+        top: 130px;
+      }
+
+      a {
+        color: maroon;
+        background-color:blue;
+        padding: .2em;
+        font-family: Lucida Grande;
+        line-height: 18px;
+      }
+      
+      body>a+img {
+        padding: 0;
+        background-color:transparent;
+      }
+
+      h3 {
+        font-family: Lucida Grande;      
+      }
+      
+      #ninja {
+        content: "ninjawars";
+      }
+      
+      li:before
+        {
+          content: "Listzors: ";
+          font-family: Arial;
+          font-size: 1.1em; 
+          color: white;  
+          background-color: blue;
+        } 
+        
+        li::after
+        {
+          content: " >>>?<<<";
+          font-family: Arial;
+          font-size: 1.1em;
+          color: darkblue;
+          background-color: tan;
+        } 
+        
+        
+    #css-test::first-line{
+        color:crimson;
+        background-color:purple;
+        margin: 3em;
+        padding: 2em;
+        z-index:50;
+    }
+    
+    p+p::first-line, li+li+li+li+li+li::first-line{
+        color:crimson;
+        background-color:purple;
+        margin: 3em;
+        padding: 2em;
+        z-index:50;
+    }
+    
+    p:first-child
+    {
+      font-size:x-large;
+      font-weight:bold;
+    } 
+    
+    ul > li:first-child
+    {
+        font-weight:bold
+    } 
+    
+    .blue {
+        color:blue;
+        background-color:black;
+    }
+      
+      
+    </style>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.2.6/jquery.min.js" type="text/javascript"></script>
+    <script type="text/javascript">
+      $(function() {
+        var limit = 10        // how many repos to list
+        var login = 'tchalvak' // your username
+
+        $.getJSON('http://github.com/api/v1/json/' + login + '?callback=?', function(data) {
+          var repos = $.grep(data.user.repositories, function() {
+            return !this.fork
+          })
+
+          repos.sort(function(a, b) {
+            return b.watchers - a.watchers
+          })
+
+          $.each(repos.slice(0, limit), function() {
+            $('#repos').append('<li><a href="' + this.url + '">' + this.name + '</a></li>')
+          })
+        })        
+      });
+       $(document).ready(function() {
+           $("#j.a").click(function() {
+             alert("Hello world!");
+           });
+         });
+
+    </script>
+  </head>
+  <body>
+    <a href="http://github.com/tchalvak/tchalvak.github.com"><img style="position:absolute; top: 0; left: 0; border: 0;" src="http://s3.amazonaws.com/github/ribbons/forkme_left_gray_6d6d6d.png" alt="Fork me on GitHub" /></a>            
+    <ul>
+      <li id='crazy'><a href="crazyIndex.html">JSified Version of 3n's start page</a><li> 
+      <!--<li><a href="http://twitter.com/defunkt">twitter.com/defunkt</a></li>-->
+      <li><a href="http://github.com/tchalvak">github.com/tchalvak</a></li>
+      <li><a href="mailto:tchalvakspam@gmail.com">tchalvakspam</a>@gmail.com</li>
+      <li id='ninja'><a href="ninjawars.net">Ninjawars.net</a></li>
+    </ul>
+    <div id='css-test'>
+        Currrazy CSS
+        <p>Bugzhunta</p>
+        <p>You probably don't want to fork this on github.</p>
+    </div>
+    <ul id="repos">
+      <li><h3>repositories</h3></li>
+    </ul>
+    <div id='j'>
+        Pile 'o jQuery! <a href=''>jsified link</a>
+    </div>
+  </body>
+</html>

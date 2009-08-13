@@ -1,0 +1,347 @@
+/*
+Copyright (c) 2007, Yahoo! Inc. All rights reserved.
+Code licensed under the BSD License:
+http://developer.yahoo.net/yui/license.txt
+version: 2.3.1
+*/
+body {color:#000;background:#FFF;}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote{margin:0;padding:0;}
+table{border-collapse:collapse;border-spacing:0;}
+fieldset,img{border:0;}
+address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal;}
+li {list-style:none;}
+caption,th {text-align:left;}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}
+q:before,q:after{content:'';}
+abbr,acronym {border:0;font-variant:normal;}
+sup,sub {line-height:-1px;vertical-align: text-top;}
+sub {vertical-align:text-bottom;}
+input, textarea, select{font-family:inherit;font-size:inherit;font-weight:inherit;}
+/**
+ * Percents could work for IE, but for backCompat purposes, we are using keywords.
+ * x-small is for IE6/7 quirks mode.
+ */
+/*body {font:13px/1.22 arial,helvetica,clean,sans-serif;*font-size:small;*font:x-small;}*/
+table {font-size:inherit;font:100%;}
+/**
+ * Bump up IE to get to 13px equivalent
+ */ 
+pre,code,kbd,samp,tt {font-family:monospace;*font-size:108%;line-height:99%;}
+
+
+
+
+
+
+body {
+  font-family      : 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  background-color : #eaeaea;
+  color            : #888;
+  min-height       : 1000px;
+}
+/*body.loading { cursor : wait; }*/
+
+a {
+  text-decoration : none;
+  color           : #8F9EA8;
+  cursor          : pointer;
+  word-wrap       : break-word;
+}
+  a:hover {
+    color            : #658DA8;   
+    background-color : white; 
+  }
+
+.lighter { color:#aaa; }
+.highlighted { 
+  background-color      : #FFFBDA;
+  padding               : 0 4px;
+  -webkit-border-radius : 5px;
+}
+.code {
+  font-family:courier;
+  letter-spacing:0.05em;
+  background-color:#ddd;
+  padding:0 4px;
+}
+
+#wrapper {
+  width    : 780px;
+  margin   : 20px auto;  
+  position : relative;
+}
+  body.iphone #wrapper {
+    width: 540px !important;
+  }
+
+#footer {
+  line-height : 1.4em;
+}
+  #footer .highlighted { background-color: white; }
+  #footer.custom { 
+    text-decoration:line-through; 
+    color:#bbb;
+  }
+  
+#footer p {
+  margin-bottom : 0.8em;
+}
+
+h1 {
+  background        : url(images/3n.png);
+  background-repeat : no-repeat;
+  text-indent       : -10000px;
+  height            : 80px;
+  width             : 150px;
+  z-index           : 1;
+  margin-left       : 8px;
+}
+
+#fun-zone {
+  font-size : 14px;
+  overflow  : hidden;
+  color     : #ccc;    
+  text-transform : uppercase;
+  height    : 79px;
+  left      : 170px;
+  position  : absolute;
+  top       : 0;
+  width     : 610px;
+}  
+  #fun-zone span {
+    float   : left;
+    margin-bottom:2px;
+    margin-right:2px;
+  }
+  #fun-zone span.title { 
+    background-color : #c6c6c6;
+    color            : #f5f5f5;
+    font-size        : 34px;
+    line-height      : 38px;
+    padding          : 0 6px;
+  }
+  #fun-zone span.word { 
+    background-color : #d5d5d5;
+    color            : white;
+    cursor           : pointer;
+    line-height      : 18px;
+    padding          : 0 4px;
+  }
+    #fun-zone span.word:hover { 
+      background-color : #ccc; 
+    }
+    
+  body.iphone #fun-zone { width:330px; }
+  body.iphone #fun-zone span.title {
+    font-size   : 14px;
+    line-height : 18px;
+    color       : white;
+  }
+  body.iphone #fun-zone span {
+    font-weight : bold;
+  }
+
+#main {
+  overflow           : auto;
+  margin             : 20px 0;
+  padding            : 20px 0 10px 20px;
+  width              : 760px;  
+  background-color   : white;
+  -webkit-box-shadow : 0 0 8px rgba(0, 0, 0, 0.1);	
+  -moz-box-shadow    : 0 0 8px rgba(0, 0, 0, 0.1);
+  z-index            : 100;
+}
+  body.iphone #main {
+    width:480px !important;
+  }
+
+
+.cell {
+  float    : left;
+  margin   : 0 10px 10px 0;  
+  overflow : hidden;
+  position : relative;
+  cursor   : pointer;
+}
+  .cell.single-wide {
+    width  : 140px;
+    height : 140px;  
+  }
+  .cell.double-wide {
+    width  : 280px;
+    height : 140px;  
+  }
+  .cell.full-width {
+    width : 780px;
+  }
+  body.iphone .cell.full-width {
+    width : 460px;
+  }
+  .cell .new-icon { display : none;}
+  .cell.new .new-icon {
+    background-color : white;
+    bottom           : -4px;
+    color            : #666;
+    font-size        : 10px;
+    left             : 0;
+    padding-right    : 1px;
+    position         : absolute;
+    width            : 21px;
+    line-height      : 1.5em;
+    display          : block;
+    letter-spacing   : 0.05em;
+  }
+  body.all-new .new-icon { display:none !important;}
+
+.grid-title {
+  clear            : both;
+  background-color : #e0e0e0;
+  color            : white;
+  font-size        : 23px;
+  height           : 120px !important;
+  padding          : 10px;
+  width            : 120px !important;
+  letter-spacing   : -1.5px;
+}
+.grid-title:hover .show-all { display:block; }
+
+.show-all { 
+  display   : none; 
+  font-size : 0.8em;
+}
+  .show-all:hover { color : white !important; }
+
+.flickr    { background-color: #ED3B8B; }
+.twitter   { background-color: #3CBBC7; }  
+.delicious { background-color: #2F6DBA; }  
+.lastfm    { background-color: #ED3B3B; } 
+.github    { background-color: #FFB22E; } 
+.youtube   { background-color: #622FBA; }
+  
+  .flickr    .show-all { color: #FF66AB; }
+  .twitter   .show-all { color: #6CD0D9; }  
+  .delicious .show-all { color: #5C9AE6; }  
+  .lastfm    .show-all { color: #FF6666; }
+  .github    .show-all { color: #FFE0AA; }
+  .youtube   .show-all { color: #8840FF; }
+ 
+
+#grid-nav {
+  padding-top : 20px;  
+  z-index     : 1;
+  cursor      : pointer;
+}
+  #grid-nav:hover li{
+    opacity:1 !important;
+  }
+  #grid-nav li {
+    padding : 10px 12px;
+    color   : white;
+    float   : left;
+    clear   : left;
+    cursor  : pointer;
+    opacity : 0.3;
+  }
+  #grid-nav li.opaque {
+    opacity : 1;
+  }
+  body.all-new #grid-nav li {
+    opacity : 0.3;
+  }
+
+.text {
+  line-height    : 1.3em;
+  letter-spacing : 0.3px;
+  background-color : #F0F0F0;
+}
+  .text.single-wide {
+    font-size        : 15px;
+    height           : 120px;
+    padding          : 10px;
+    width            : 120px;
+  }
+  .text.double-wide {   
+    height           : 120px;
+    padding          : 10px;
+    width            : 270px;
+  }
+  .text a {
+    padding : 2px 2px 0 0;
+  }
+  .text a:hover {
+    background-color:white;
+  }
+
+.tip {
+  width            : 140px;
+  font-size        : 12px;
+  background-color : white;
+  line-height      : 1.3em;
+}
+  .tip .title {
+    font-size   : 15px;
+    color       : #444;
+    display     : block;
+    padding-top : 4px;
+  }
+  .tip .date {
+    color          : #888;
+    font-size      : 12px;
+    letter-spacing : -0.5px;
+  }
+
+
+#delicious-block {
+  font-size        : 14px;
+  line-height      : 1.8em;
+  background-color : #f1f1f1;
+}
+  #delicious-block .delicious-bookmark {
+    background-color : white;
+    float            : left;
+    letter-spacing   : -0.4px;
+    padding          : 0 10px;
+  }
+  #delicious-block .delicious-bookmark.even {
+    float : right;
+  }
+
+
+.lastfm-song {
+  cursor:default;
+}
+.lastfm-song .artist {
+  font-size:20px !important;
+  display:block !important;
+  margin-bottom:5px;
+}
+.lastfm-song .track {
+  color:#a0a0a0;
+}
+.lastfm-song.single-wide .track {
+  font-size:14px;
+}
+.lastfm-song.double-wide .track {
+  font-size:12px;
+}
+.lastfm-song.double-wide .artist {
+  margin-top:3px;
+}
+.lastfm-song.double-wide {
+  line-height:0.7em;
+}
+
+.shits_custom {
+  font-size:1.5em;
+  margin-bottom:0.6em;
+}
+
+#sort-group {
+  color:#CCCCCC;
+  font-size:13px;
+  left:790px;
+  padding:0 3px;
+  position:absolute;
+  top:100px;
+  z-index:100;
+}
