@@ -59,23 +59,12 @@
 	  list-style-type: none;
 	  margin: .5em 0 0 0;
 	}
-
-      .github ul {
-        position: absolute;
-        left: 850px;
-        top: 300px;
-        list-style-type: none;
-    }
     
 
     #crazy {
         color:teal;
         background-color:darkred;
     }
-
-      #repos {
-        top: 130px;
-      }
 
       .github a {
         color: maroon;
@@ -155,19 +144,15 @@
 	width:33%;text-align:left:position:relative;float:left;background-image:url('./i/orange-storm-corner.jpg');background-repeat:no-repeat;
 	margin-top:6em;
 	}
-
 	div.subtitle {
 	margin-left:auto;margin-right:auto;width:100%;text-align:center;
 	}
-
 	div.core {
 	width:33%;text-align:center;position:relative;float:left;background-image:url('./i/orange-storm-corner.jpg');background-repeat:no-repeat;
 	}
-
 	div.right {
 	position:relative;width:33%;text-align:right;float:left;background-image:url('./i/orange-storm-corner.jpg');background-repeat:no-repeat;
 	}
-
 	div.bottom {
 	margin-left:auto;margin-right:auto;width:100%;text-align:center
 	}
@@ -176,7 +161,6 @@
 	width: 100%;
 	clear:both;
 	margin: 3em 0 0 1em;
-
 	}
       
       
@@ -231,7 +215,7 @@
       <a href="#girlgenius" onclick="window.open('http://www.girlgeniusonline.com/comic.php','Tangent','');">GirlGenius</a>-<a href="#schlock" onclick="window.open('http://www.schlockmercenary.com','Tangent','');">Schlock</a>-<a href="#crfh" onclick="window.open('http://www.crfh.net/','Tangent','');">Crfh</a>-<a href="#qwantz" onclick="window.open('http://qwantz.com', 'Tangent','');">Qwantz</a>-<a href="#softer" onclick="window.open('http://www.asofterworld.com/index.php', 'Tangent', '');">Softer</a><br />
       </li>
       <li>
-      <a href="#Ninjawars" onclick="window.open('http://www.ninjawars.net/webgame/','Ninjas','');">Ninja</a>-<a href="#Ninjawarsforum" onclick="window.open('http://ninjawars.proboards19.com/','Forum','');">Forum</a>-<a href="#xaos" onclick="window.open('http://www.xaos-mud.org/forum/','Xaos','');">Xaos</a>-<a href="#gagg" onclick="window.open('http://gagg.geneseo.edu/phpBB2/','Gagg','');">Gagg</a>-<a href="#nwtest" onclick="window.open('http://ninjawars.net/~tchalvak/ninjawars/trunk/webgame/index.php','NWTEST','');">Nwtest</a>-<a href="#nwgithub" onclick="window.open('http://github.com/tchalvak/ninjawars/tree/master', 'NWGitHub', '');">NwGitHub</a><br />
+      <a href="#Ninjawars" onclick="window.open('http://www.ninjawars.net/webgame/','Ninjas','');">Ninja</a>-<a href="#Ninjawarsforum" onclick="window.open('http://ninjawars.proboards19.com/','Forum','');">Forum</a>-<a href="#gagg" onclick="window.open('http://gagg.geneseo.edu/phpBB2/','Gagg','');">Gagg</a>-<a href="#nwtest" onclick="window.open('http://ninjawars.net/~tchalvak/ninjawars/trunk/webgame/index.php','NWTEST','');">Nwtest</a>-<a href="#nwgithub" onclick="window.open('http://github.com/tchalvak/ninjawars/tree/master', 'NWGitHub', '');">NwGitHub</a><br />
       </li>
      </ul>
     </div>
