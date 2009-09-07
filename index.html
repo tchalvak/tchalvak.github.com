@@ -9,6 +9,7 @@
     <link rel="SHORTCUT ICON" href="./favicon.ico"></link>
     <link rel="stylesheet" href="./e/css/css.css" type="text/css"></link>
     <!-- THIS PAGE WITHIN NXS.VZE.COM PARAMETERS.  -->  <!-- Best viewed with: IE, CSS, and westminster font. -->
+    <script language="javascript" type="text/javascript" src="js/debug.js"></script>
     <script language="javascript" type="text/javascript">
       <!--
       //function sf(){document.f.q.focus();}
@@ -176,13 +177,7 @@
             return !this.fork
           })
           
-          $.getJSON('http://github.com/api/v1/json/' + login + '/ninjawars/commit/master/?callback=?', function(data) {
-          var latest_commit = $.grep(commit, function() {
-            return !this.message;
-          })
-          alert(latest_commit);
-          $('#j').append("<span id='latest-commit'>"+latest_commit+"</span>");
-          $('#j').appent("<span id='crazy'>POW</span>");
+
 
           repos.sort(function(a, b) {
             return b.watchers - a.watchers
@@ -195,11 +190,35 @@
 
 		$("#waiting").hide(); // Hide the not yet loaded message.
 		
-		    // Load latest commit message.
-			//$('#latest-commit').load("http://github.com/tchalvak/ninjawars/tree/master #commit .message");
+		
+      } // End of repositoryLoad function.
+      
+      function loadLastCommitMessage(){
+        var login = 'tchalvak' // your username
+              
+         $.getJSON('http://github.com/api/v1/json/' + login + '/ninjawars/commit/master/?callback=?', function(data) {
+            var unknown = $.grep(data.commit, function() {
+                return true;
+          })
+          /*var_dump(unknown);
+          
+          var_dump(data);
+          var_dump(data.commit);
+          var_dump(data.commit.message);
+          var_dump(data.commit.url);
+          var_dump(data.commit.author.name);
+          */
+          
+              // Load latest commit message.
+			$('#latest-commit').html(data.commit.message);
+			$('#latest-commit').append("<div id='commit-author'>--"+data.commit.author.name+"</div>");
 			$('#latest-commit-title').show();        
-			$('#latest-commit').show();        
-      }
+			$('#latest-commit').show();
+          
+          });
+          
+		}        
+      
       
        $(document).ready(function() {
        		$("#repos").append("<div id='waiting'>Repositories not yet loaded.</div>");
@@ -207,18 +226,19 @@
              alert("Hello world!");
            });
            
+           
+           
 			$('#latest-commit').hide();
 			$('#latest-commit-title').hide();
 			           
 			setTimeout("repositoryLoad()", 5000); // Only load the repositories after a delay.
-
 			
 			//$('#latest-commit').load("index.html .subtitle"); //  #commit .message
 			//$('#j').load('http://github.com/tchalvak/ninjawars/tree/master #commit');
 			//$('#latest-commit').show();
 			//$('#latest-commit-title').show();
 
-           
+           			loadLastCommitMessage();
            
          });
     </script>
@@ -267,34 +287,37 @@
 
 
     <div class="right"><!-- RIGHT-->
-      <a target='_blank' href="./i/creations/">Artwork /Dir</a><br />
-      <a target='_blank' href="http://dnaexmosn.deviantart.com/">Deviant Art Gallery</a><br />
+        <ul>
+      <li><a target='_blank' href="./i/creations/">Artwork /Dir</a></li>
+      <li><a target='_blank' href="http://dnaexmosn.deviantart.com/">Deviant Art Gallery</a></li>
       <!-- Remember to change the link href, the link text, the image source, and the image dimensions. -->
-      <a target='_blank' id="latestimage" href="./i/creations/manyeyessmall.gif">Many Eyes, One World<br />
-        <img style="border:0" src="./i/creations/manyeyessmall.gif" width="50" height="50" alt="Many eyes" /> <br />
-      </a>
-      <a class="fade" href="mailto:tchalvakSPAM@gmail.com">tchalvak@</a><br />
-      <b>AIM: Tchalvak</b><br/>
-      <a target='_blank' href="#conceptart" onclick="window.open('http://conceptart.org/forums/','Conceptart','');">Conceptart.org</a>
+      <li><a target='_blank' id="latestimage" href="./i/creations/manyeyessmall.gif">Many Eyes, One World
+        <img style="border:0" src="./i/creations/manyeyessmall.gif" width="50" height="50" alt="Many eyes" />
+      </a></li>
+      <li><a class="fade" href="mailto:tchalvakSPAM@gmail.com">tchalvak@</a></li>
+      <li><b>AIM: Tchalvak</b></li>
+      <li><a target='_blank' href="http://conceptart.org/forums/">Conceptart.org</a></li>
     </div>
     
     
 
     <div class="bottom"><!-- BOTTOM-->
       <!-- Remember to change the link href, the latest date, and the image source. -->
-      <a class="fade" href="./i/entities/unknownalienbugs.jpg">Latest Mirrored Image: July 13th, 2005</a><br />
+      <ul>
+      <li><a class="fade" href="./i/entities/unknownalienbugs.jpg">Latest Mirrored Image: July 13th, 2005</a></li>
       <!-- Image hidden for now <img src="./i/entities/unknownalienbugs.jpg" alt="mirrored image" /><br /> -->
-      <a class="fade" href="./i/entities/">Mirror /Dir</a><br />
-      <a href="http://www.shorturl.com/ref/in.cgi?nxs.vze.com" target="_blank" class="fade">ShortURL.com</a><br />
-      <a href="http://validator.w3.org/check?uri=referer" target="_blank" class="fade">Check Page Code</a><br />
+      <li><a class="fade" href="./i/entities/">Mirror /Dir</a></li>
+      <li><a href="http://www.shorturl.com/ref/in.cgi?nxs.vze.com" target="_blank" class="fade">ShortURL.com</a></li>
+      <li><a href="http://validator.w3.org/check?uri=referer" target="_blank" class="fade">Check Page Code</a></li>
+      <ul>
       
       <div>
       	<a href='http://github.com/tchalvak'>github.com/tchalvak</a>
       </div>
     <ul id="repos"> <!-- GITHUB REPOS -->
-      <li id='latest-commit-title'>NW latest commit</li>
-      <li id='latest-commit'></li>
       <li><h3>repositories</h3></li>
+      <li id='latest-commit-title'>NW latest commit:</li>
+      <li id='latest-commit'></li>
     </ul>
     </div>
     
