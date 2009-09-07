@@ -21,20 +21,20 @@ body {
 }
 
 a:link {
-	color: #006600;
+	color: blue;
 }
 a:visited {
-	color: #006600;
+	color: blue;
 }
 a:hover {
-	color: #009900;
+	color: darkblue;
 }
 a:active {
-	color: #009900;
+	color: darkblue;
 }
 
 h1, h2, h3 {
-	color:darkBlue;
+	color:teal;
 	font-weight:100;
 }
 h1.success {
@@ -47,7 +47,7 @@ h1.error {
 
 #header {
 	width:100%;
-	height:125px;
+	height:133px; /*Added 8 pixels to cover up the space*/
 	background-color:teal;
 	text-align:center;
 	background-image:url(../images/header-background.jpg);
@@ -94,8 +94,8 @@ h1.error {
 	position:relative;
 	display:block;
 	padding:7px 25px 5px 25px;
-	border-left:1px solid #57934F;
-	border-right:1px solid #3E5F3A;
+	border-left:1px solid blue;
+	border-right:1px solid skyblue;
 	float:left;
 }
 
@@ -137,21 +137,21 @@ h1.error {
 #footer {
 float:left;
 	width:100%;
-	height:125px;
+	height:45px;
 	background-color:lightblue;
 	text-align:center;
 	background-image:url(../images/footer-background.jpg);
 	background-position:top left;
 	background-repeat:repeat-x;
-	margin:25px 0 0 0;
+	margin:15px 0 0 0;
 	color:#FFFFFF;
-	border-top:10px solid #397132;
-	border-bottom:10px solid #397132;
+	border-top:10px solid skyblue;
+	border-bottom:10px solid skyblue;
 	clear:both;
 }
 
 #footer ul {
-	margin:35px 0 25px 0;
+	margin:15px 0 25px 0;
 	padding:0;
 }
 
