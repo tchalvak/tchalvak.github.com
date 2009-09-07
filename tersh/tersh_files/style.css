@@ -13,6 +13,7 @@ body {
 	margin-bottom: 0px;
 	background-image: url(../images/sunset-charles-river.jpg);
 	background-repeat: repeat-x;
+	background-color:LightSteelBlue;
 }
 
 .right {
@@ -47,7 +48,7 @@ h1.error {
 #header {
 	width:100%;
 	height:125px;
-	background-color:#418538;
+	background-color:teal;
 	text-align:center;
 	background-image:url(../images/header-background.jpg);
 	background-position:top center;
@@ -137,7 +138,7 @@ h1.error {
 float:left;
 	width:100%;
 	height:125px;
-	background-color:#418538;
+	background-color:lightblue;
 	text-align:center;
 	background-image:url(../images/footer-background.jpg);
 	background-position:top left;
