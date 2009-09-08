@@ -14,15 +14,36 @@ body {
 	background-color:#fff;
 }
 
+#breadcrumbs {
+	margin: 20px 0 0 0;
+	padding: 0 0 0 30px;
+	float:right;
+	width: 625px;
+	text-align:left;
+    background-color: Gainsboro;
+    color: black;
+}
+
+#breacrumbs a:link{
+	text-decoration: none;
+}
+
 .right {
-    background-color: lightBlue;
+	float:right;
+	width:625px;
+	padding:0 15px;
+	margin:20px 0 0 0;
+	text-align:left;
+    background-color: #dae5e7;
 }
 
 a:link {
 	color: blue;
+	text-decoration: none;
 }
 a:visited {
 	color: blue;
+	text-decoration: none;
 }
 a:hover {
 	color: darkblue;
@@ -133,7 +154,7 @@ h1.error {
 }
 
 #footer {
-float:left;
+	float:left;
 	width:100%;
 	height:45px;
 	background-color:lightblue;
@@ -225,12 +246,11 @@ float:left;
 	clear:both;
 }
 
-.right {
-	float:right;
-	width:625px;
-	padding:0 15px;
-	margin:0 0 0 0;
-	text-align:left;
+.box ul{
+	list-style-type: none;
+}
+.box ul ul{
+	list-style-type: triangle;
 }
 
 .pictures {
