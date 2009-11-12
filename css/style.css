@@ -15,11 +15,9 @@ background-color:black;
 a{
 color:#00cc00;
 }
-
 a:hover{
 	color:#ff0000;
 }
-
 a:visited{
 color:#999999;
 }
@@ -114,24 +112,24 @@ content: "ninjawars";
 
 	/* PRE-EXISTING NXS.VZE.COM STYLES */
 
-div.left {
+section#left {
 	width:33%;text-align:left:position:relative;float:left;background-image:url('./i/orange-storm-corner.jpg');background-repeat:no-repeat;
 margin-top:6em;
 }
-div.subtitle {
-	margin-left:auto;margin-right:auto;width:100%;text-align:center;
+.subtitle {
+	margin-left:auto;margin-right:auto;width:100%;text-align:center;color:red;
 }
-div.core {
+section#core {
 	width:33%;text-align:center;position:relative;float:left;background-image:url('./i/orange-storm-corner.jpg');background-repeat:no-repeat;
 }
-div.right {
+section#right {
 	position:relative;width:33%;text-align:right;float:left;background-image:url('./i/orange-storm-corner.jpg');background-repeat:no-repeat;
 }
-div.bottom {
+footer{
 	margin-left:auto;margin-right:auto;width:100%;text-align:center
 }
 
-div.github {
+aside.github {
 	width: 100%;
 	clear:both;
 	margin: 3em 0 0 1em;
