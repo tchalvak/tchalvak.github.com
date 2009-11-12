@@ -1,0 +1,138 @@
+* {
+margin: 0;
+padding: 0;
+}
+
+body {
+/* http://flickr.com/photos/cgstopgo/2199917653/ */
+background: url(./i/creations/digitalcentipede.jpg) repeat;
+height: 1024px;
+color:#cccccc;
+background-color:black;
+
+}
+
+a{
+color:#00cc00;
+}
+
+a:hover{
+	color:#ff0000;
+}
+
+a:visited{
+color:#999999;
+}
+
+body::first-letter{
+background-color:red;
+color:green;
+}
+
+ul {
+  list-style-type: none;
+  margin: .5em 0 0 0;
+}
+
+
+#crazy {
+    color:teal;
+    background-color:darkred;
+}
+
+.github a {
+color: maroon;
+background-color:blue;
+padding: .2em;
+font-family: Lucida Grande;
+line-height: 18px;
+}
+
+body>a+img {
+padding: 0;
+background-color:transparent;
+}
+
+h3 {
+font-family: Lucida Grande;      
+}
+
+#ninja {
+content: "ninjawars";
+}
+
+.github li:before
+{
+    content: "Listzors: ";
+    font-family: Arial;
+    font-size: 1.1em; 
+    color: white;  
+    background-color: blue;
+} 
+
+.github li::after
+{
+    content: " >>>?<<<";
+    font-family: Arial;
+    font-size: 1.1em;
+    color: darkblue;
+    background-color: tan;
+} 
+    
+    
+.github #css-test::first-line{
+    color:crimson;
+    background-color:purple;
+    margin: 3em;
+    padding: 2em;
+    z-index:50;
+}
+
+.github p+p::first-line, li+li+li+li+li+li::first-line{
+    color:crimson;
+    background-color:purple;
+    margin: 3em;
+    padding: 2em;
+    z-index:50;
+}
+
+.github p:first-child
+{
+    font-size:x-large;
+    font-weight:bold;
+} 
+
+.github ul > li:first-child
+{
+    font-weight:bold
+} 
+
+.github .blue {
+    color:blue;
+    background-color:black;
+}
+
+	/* PRE-EXISTING NXS.VZE.COM STYLES */
+
+div.left {
+	width:33%;text-align:left:position:relative;float:left;background-image:url('./i/orange-storm-corner.jpg');background-repeat:no-repeat;
+margin-top:6em;
+}
+div.subtitle {
+	margin-left:auto;margin-right:auto;width:100%;text-align:center;
+}
+div.core {
+	width:33%;text-align:center;position:relative;float:left;background-image:url('./i/orange-storm-corner.jpg');background-repeat:no-repeat;
+}
+div.right {
+	position:relative;width:33%;text-align:right;float:left;background-image:url('./i/orange-storm-corner.jpg');background-repeat:no-repeat;
+}
+div.bottom {
+	margin-left:auto;margin-right:auto;width:100%;text-align:center
+}
+
+div.github {
+	width: 100%;
+	clear:both;
+	margin: 3em 0 0 1em;
+}
