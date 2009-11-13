@@ -3,10 +3,10 @@ margin: 0;
 padding: 0;
 }
 
-body {
+body .main-body {
 /* http://flickr.com/photos/cgstopgo/2199917653/ */
-background: url(./i/creations/digitalcentipede.jpg) repeat;
-height: 1024px;
+background: url('../i/creations/centipedeshattered.jpg') no-repeat;
+height: 100%;
 color:#cccccc;
 background-color:black;
 
@@ -113,17 +113,17 @@ content: "ninjawars";
 	/* PRE-EXISTING NXS.VZE.COM STYLES */
 
 section#left {
-	width:33%;text-align:left:position:relative;float:left;background-image:url('./i/orange-storm-corner.jpg');background-repeat:no-repeat;
+	width:33%;text-align:left:position:relative;float:left;background-image:url('../i/orange-storm-corner.jpg');background-repeat:no-repeat;
 margin-top:6em;
 }
 .subtitle {
 	margin-left:auto;margin-right:auto;width:100%;text-align:center;color:red;
 }
 section#core {
-	width:33%;text-align:center;position:relative;float:left;background-image:url('./i/orange-storm-corner.jpg');background-repeat:no-repeat;
+	width:33%;text-align:center;position:relative;float:left;background-image:url('../i/orange-storm-corner.jpg');background-repeat:no-repeat;
 }
 section#right {
-	position:relative;width:33%;text-align:right;float:left;background-image:url('./i/orange-storm-corner.jpg');background-repeat:no-repeat;
+	position:relative;width:33%;text-align:right;float:left;background-image:url('../i/orange-storm-corner.jpg');background-repeat:no-repeat;
 }
 footer{
 	margin-left:auto;margin-right:auto;width:100%;text-align:center
