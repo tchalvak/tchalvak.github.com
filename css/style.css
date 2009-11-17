@@ -3,7 +3,7 @@ margin: 0;
 padding: 0;
 }
 
-body .main-body {
+body{
 /* http://flickr.com/photos/cgstopgo/2199917653/ */
 background: url('../i/creations/centipedeshattered.jpg') no-repeat;
 height: 100%;
