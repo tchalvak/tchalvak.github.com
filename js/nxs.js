@@ -63,7 +63,7 @@ $(document).ready(function() {
 	           
 	setTimeout(function (){
             repositoryLoad();
-        }, 1500); // Only load the repositories after a delay.
+        }, 800); // Only load the repositories after a delay.
 	
 	//$('#latest-commit').load("index.html .subtitle"); //  #commit .message
 	//$('#j').load('http://github.com/tchalvak/ninjawars/tree/master #commit');
