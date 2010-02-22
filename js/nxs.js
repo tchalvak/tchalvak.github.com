@@ -61,13 +61,15 @@ $(document).ready(function() {
 	$('#latest-commit').hide();
 	$('#latest-commit-title').hide();
 	           
-	setTimeout("repositoryLoad()", 5000); // Only load the repositories after a delay.
+	setTimeout(function (){
+            repositoryLoad();
+        }, 2500); // Only load the repositories after a delay.
 	
 	//$('#latest-commit').load("index.html .subtitle"); //  #commit .message
 	//$('#j').load('http://github.com/tchalvak/ninjawars/tree/master #commit');
 	//$('#latest-commit').show();
 	//$('#latest-commit-title').show();
 
-    			loadLastCommitMessage();
+    loadLastCommitMessage();
 
 });
