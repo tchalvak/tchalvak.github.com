@@ -1,0 +1,6 @@
+<VirtualHost *>
+        ServerName tchalvak.local
+        DocumentRoot /home/tchalvak/sites/tchalvak.github.com/
+        RewriteRule ^([^/]+)/favicon.ico $1/favicon.ico [T=image/x-icon]
+        php_value session.cookie_domain "tchalvak.local"
+</VirtualHost>
