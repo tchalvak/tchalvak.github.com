@@ -51,19 +51,19 @@ var login = 'tchalvak' // your username
 
 
 $(document).ready(function() {
-		$("#repos").append("<div id='waiting'>Repositories not yet loaded.</div>");
-    $("#j a").click(function() { // Just for the special jquery testing link.
-        alert("Hello world!");
-    });
+		//$("#repos").append("<div id='waiting'>Repositories not yet loaded.</div>");
+    //$("#j a").click(function() { // Just for the special jquery testing link.
+        //alert("Hello world!");
+    //});
     
     
     
 	$('#latest-commit').hide();
 	$('#latest-commit-title').hide();
 	           
-	setTimeout(function (){
-            repositoryLoad();
-        }, 800); // Only load the repositories after a delay.
+	//setTimeout(function (){
+        //    repositoryLoad();
+        //}, 800); // Only load the repositories after a delay.
 	
 	//$('#latest-commit').load("index.html .subtitle"); //  #commit .message
 	//$('#j').load('http://github.com/tchalvak/ninjawars/tree/master #commit');
