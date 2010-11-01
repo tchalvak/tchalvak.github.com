@@ -69,7 +69,9 @@ $(document).ready(function() {
 	//$('#j').load('http://github.com/tchalvak/ninjawars/tree/master #commit');
 	//$('#latest-commit').show();
 	//$('#latest-commit-title').show();
-
-    loadLastCommitMessage();
+	if($('#main-body').width() > 500){
+		// Optimally, this should only happen for computer browsers and not handheld. 
+	    loadLastCommitMessage();
+    }
 
 });

@@ -5,12 +5,16 @@ padding: 0;
 
 body{
 /* http://flickr.com/photos/cgstopgo/2199917653/ */
-background: url('../i/creations/centipedeshattered.jpg') no-repeat;
 height: 100%;
 color:#cccccc;
 background-color:black;
-
 }
+
+@media screen and (min-device-width: 800px) body{
+	/* Only add the background on larger, non-mobile devices */
+	background: url('../i/creations/centipedeshattered.jpg') no-repeat;
+}
+
 
 a{
 color:#00cc00;
