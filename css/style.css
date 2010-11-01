@@ -10,13 +10,6 @@ color:#cccccc;
 background-color:black;
 }
 
-@media screen and (min-width: 800px){
-	body{
-		/* Only add the background on larger, non-mobile devices */
-		background: url('../i/creations/centipedeshattered.jpg') no-repeat black;
-	}
-}
-
 
 a{
 color:#00cc00;
@@ -114,37 +107,4 @@ content: "ninjawars";
 .github .blue {
     color:blue;
     background-color:black;
-}
-
-	/* PRE-EXISTING NXS.VZE.COM STYLES */
-
-section#left {
-	width:33%;text-align:left:position:relative;float:left;background-image:url('../i/orange-storm-corner.jpg');background-repeat:no-repeat;
-margin-top:6em;
-}
-.subtitle {
-	margin-left:auto;margin-right:auto;width:100%;text-align:center;color:red;
-}
-section#core {
-	width:33%;text-align:center;position:relative;float:left;background-image:url('../i/orange-storm-corner.jpg');background-repeat:no-repeat;
-}
-section#right {
-	position:relative;width:33%;text-align:right;float:left;background-image:url('../i/orange-storm-corner.jpg');background-repeat:no-repeat;
-}
-footer{
-	margin-left:auto;margin-right:auto;width:100%;text-align:center
-}
-
-aside.github {
-	width: 100%;
-	clear:both;
-	margin: 3em 0 0 1em;
-}
-
-.mobile{
-	border: 2px solid blue;
-	padding: .3em;
-	margin: .1em;
-	display:inline-block;
-	border-radius: 7px;
 }
