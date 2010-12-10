@@ -34,6 +34,9 @@
         .mobile{
         	font-size:1.2em;
         	border: 2px solid whitesmoke;
+        	display:inline-block;
+        	margin: 1em;
+        	padding:1em;
         }
 
 		@media screen and (min-width: 800px){
@@ -81,6 +84,14 @@
 			margin: 3em 0 0 1em;
 		}
 		
+		#important-nav li{
+			width:100%;
+		}
+		#important-nav li a{
+			margin:.2em 1em;
+			display:inline-block;
+		}
+		
 		
     </style>
 
@@ -95,10 +106,10 @@
     </header>
 
 
-    <section id="external">
+    <section id="external" style='width:100%;display:block;'>
     	<!-- As in external links, not a reference to positioning -->
-    	<nav id='important-nav' style='font-size:1.1em;margin-top:1.5em'>
-		    <ul>
+    	<nav id='important-nav' style='font-size:1.1em;margin-top:1.5em;width:100%;text-align:justify; text-justify: newspaper;display:block;font-stretch:ultra-expanded'>
+		    <ul style='width:100%'>
 		      <li>
 		    <a target='_blank' href="https://gmail.google.com/gmail/?shva=1#" class='mobile'> Gmail </a>-<a target='_blank' href="http://www.google.com/calendar/render?pli=1">Calendar</a>-<a target='_blank' href="http://www.thesaurus.com">Dicthesaurus</a>-    <a target='_blank' href="http://en.wikipedia.org/wiki/Main_Page">Wikipedia</a>-<a target='_blank' href="http://www.playlist.com">Music</a>
 		      </li>
