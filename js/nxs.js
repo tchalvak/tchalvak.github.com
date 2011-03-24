@@ -52,7 +52,6 @@ var login = 'tchalvak' // your username
 
 $(document).ready(function() {
 
-$('a[target]').attr('target', '');
 		//$("#repos").append("<div id='waiting'>Repositories not yet loaded.</div>");
     //$("#j a").click(function() { // Just for the special jquery testing link.
         //alert("Hello world!");
@@ -76,6 +75,9 @@ $('a[target]').attr('target', '');
 		// Optimally, this should only happen for computer browsers and not handheld. 
 	    loadLastCommitMessage();
 		main.addClass('large-body');
-    }
+        } else {
+            // For smallscreens, nullify target= attributes.
+            $('a[target]').attr('target', '');
+        }
 
 });
