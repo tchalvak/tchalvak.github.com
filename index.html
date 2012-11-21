@@ -4,7 +4,6 @@
     <meta charset="utf-8">
 	<meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
     <META HTTP-EQUIV="CACHE-CONTROL" CONTENT="PUBLIC">
-    <meta content="width=device-width" name="viewport">
     <title> Tangent Parados</title>
     <!--<link rel="openid.server" href="http://www.myopenid.com/server">
     <link rel="openid.delegate" href="http://tchalvak.myopenid.com/">-->
@@ -17,102 +16,130 @@
     <script type="text/javascript" src="js/debug.js"></script>
     <script type="text/javascript" src='js/nxs.js'></script>
 	   
-	<script type="text/javascript">
+<script type="text/javascript">
 
-	  var _gaq = _gaq || [];
-	  _gaq.push(['_setAccount', 'UA-15570622-2']);
-	  _gaq.push(['_trackPageview']);
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-15570622-2']);
+_gaq.push(['_trackPageview']);
 
-	  (function() {
-		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-	  })();
+(function() {
+	var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
 
-	</script>
+</script>
 
-    <style>
-        #important-nav ul li a{
-             margin-right:10px;
-             margin-left: 10px;
-        }
-        #important-nav, nav ul{
-        	margin:.5em;
-        }
-        section#extekrnal{
-        	margin:.5em;
-        	margin-bottom: 1.5em;
-        }
-        section#external nav{
-        }
-        
-        .mobile{
-        	font-size:1.3em;
-        	border: 5px solid whitesmoke;
-        	display:inline-block;
-        	margin: 1em;
-        	padding:1em;
-        }
+<style>
+section#external{
+	margin:.5em;
+	margin-bottom: 1.5em;
+}
+section#external nav{
+}
 
-		@media screen and (min-width: 1000px){
-			body{
-				/* Only add the background on larger, non-mobile devices */
-				background: url('../i/creations/centipedeshattered.jpg') no-repeat black;
-			}
-		}
-		
-		@media screen and (max-width: 900px), handheld{
-			.mobile{
-				border: 2px solid blue;
-				padding: .3em;
-				margin: .1em;
-				display:inline-block;
-				border-radius: 7px;
-				font-size: 1em;
-			}
+.mobile{
+	font-size:1.3em;
+	border: 5px solid darkgrey;
+	background:darkgrey;
+	color:black;
+	display:inline-block;
+	margin: 1em;
+	padding:1em;
+	border-radius:.5em;
+}
+a.mobile{
+	color:black;
+}
 
-                        nav li {font-size: 2%;}
-		}
+@media screen and (min-width: 1000px){
+	body{
+		/* Only add the background on larger, non-mobile devices */
+		background: url('./i/creations/centipedeshattered.jpg') no-repeat black;
+	}
+}
+
+@media screen and (max-width: 900px), handheld{
+	.mobile{
+		border: 2px solid blue;
+		padding: .3em;
+		margin: .1em;
+		display:inline-block;
+		border-radius: 7px;
+		font-size: 1em;
+	}
+
+                nav li {font-size: 2%;}
+}
 
 
-		section#left {
-			width:33%;text-align:left:position:relative;float:left;
-			margin-top:6em;
-		}
-		.subtitle {
-			margin-left:auto;margin-right:auto;width:100%;text-align:center;color:red;
-		}
-		section#core {
-			width:33%;text-align:center;position:relative;float:left;
-		}
-		section#right {
-			position:relative;width:33%;text-align:right;float:left;
-		}
-		footer{
-			margin-left:auto;margin-right:auto;width:100%;text-align:center
-		}
+section#left {
+	width:33%;text-align:left:position:relative;float:left;
+	margin-top:6em;
+}
+.subtitle {
+	margin-left:auto;margin-right:auto;width:100%;text-align:center;color:red;
+}
+section#core {
+	text-align:center;
+}
+section#tertiary {
+	display:block;
+}
+footer{
+	margin-left:auto;margin-right:auto;width:100%;text-align:center
+}
 
-		aside.github {
-			width: 100%;
-			clear:both;
-			margin: 3em 0 0 1em;
-		}
-		
-		#important-nav li{
-			width:90%;
-		}
-		#important-nav li a{
-			margin:.2em 1em;
-			display:inline-block;
-			width: 13%;
-			height:1em;
-			font-weight:bold;
-			font-size:1.3em;
-max-width: 19%;
-		}
-		
-		
-    </style>
+aside.github {
+	margin: 3em 0 0 1em;
+}
+
+#important-nav{
+	font-size:1.1em;margin-top:1.5em;width:100%;text-align:justify; text-justify: newspaper;display:block;font-stretch:ultra-expanded
+}
+#important-nav ul li a{
+     margin-right:10px;
+     margin-left: 10px;
+}
+#important-nav, nav ul{
+	margin:.5em;
+}
+#important-nav ul{
+	width:100%
+	display:table;
+}
+#important-nav li{
+	width:90%;
+	text-align:center;
+	display:table-row;
+	border-bottom:thick solid rgba(80, 80, 80, .5);
+	margin-bottom:.5em;
+}
+#important-nav li a{
+	display:table-cell;
+	margin:.2em 1em;
+	width: 13%;
+	height:1em;
+	font-weight:bold;
+	font-size:1.3em;
+	max-width: 19%;
+}
+
+ul #art{
+	width:45%;
+	display:inline-block;
+}
+nav #design{
+	width:45%;
+	display:inline-block;
+	vertical-align:top;
+}
+nav #design a{
+	display:block;
+}
+	
+	
+</style>
 
     
   </head>
@@ -120,45 +147,13 @@ max-width: 19%;
 
   <body id='main-body'>
   	<header class="subtitle"> 
-      <h3>Reality Biproducts, Version 6.1.0:</h3><!-- also get a counter that will input here. -->
-      <h4>Thinking about things, so you don't have to.</h4>
+      <h1>Reality Biproducts, Version 6.1.0:</h1>
+      <h2>Thinking about things, so you don't have to.</h2>
     </header>
 
-    <section id="external" style='width:100%;display:block;'>
-    	<!-- As in external links, not a reference to positioning -->
-    	<nav id='important-nav' style='font-size:1.1em;margin-top:1.5em;width:100%;text-align:justify; text-justify: newspaper;display:block;font-stretch:ultra-expanded'>
-		    <ul style='width:100%'>
-		      <li>
-		    <a target='_blank' href="https://gmail.google.com/gmail/?shva=1#" class='mobile'> Gmail </a>-<a target='_blank' href="http://www.google.com/calendar/render?pli=1">Calendar</a>-<a target='_blank' href="http://www.thesaurus.com">Dicthesaurus</a>-    <a target='_blank' href="http://en.wikipedia.org/wiki/Main_Page">Wikipedia</a>-<a target='_blank' href="http://www.playlist.com">Music</a>
-		      </li>
-		      <li>
-		    <a target='_blank' href='http://www.elfquest.com/gallery/OnlineComics3.html'>Elfquest</a>-<a target='_blank' href="http://www.pagebypagebooks.com">Reading</a>-<a target='_blank' href="/e/AGmud.exe">MUD</a>-<a target='_blank' href="http://www.mudconnector.com">Connector</a>-<a target='_blank' href="http://www.facebook.com">Facebook</a>-<a target='_blank' href='http://twitter.com/#list/tchalvak/gagg'>Twitter</a>
-		      </li>
-		      <li>
-		      <a target='_blank' href="http://www.girlgeniusonline.com/comic.php">GirlGenius</a>-<a target='_blank' href="http://www.schlockmercenary.com">Schlock</a>-<a target='_blank' href="http://qwantz.com">Qwantz</a>-<a target='_blank' href="http://www.asofterworld.com/index.php">Softer</a>-<a target='_blank' href="http://www.penny-arcade.com">Penny</a>-<a href='http://www.mspaintadventures.com/?viewpage=archive' target='_blank'>homestuck<a>
-		      </li>
-		      <li>
-              <a target='_blank' href='http://rochester.craigslist.org/web/'>Roc Web Jobs</a>-<a target='_blank' href='http://careers.stackoverflow.com'>StackJobs</a>-<a target='_blank' href='http://newyork.craigslist.org/web/'>NYC</a>-<a target='_blank' href='http://www.odesk.com/jobs/?q=php&amp;c1=Web+Development&c2=Web+Programming&amp;sort=Adjusted+Score&amp;dir=desc'>Odesk Prog</a>-<a target='_blank' href='http://www.chorewars.com'>ChoreWars</a>
-		      </li>
-		      <li>
-		      <a target='_blank' href="http://www.ninjawars.net/webgame/">Ninja</a>-<a target='_blank' class='mobile' href="http://ninjawars.proboards.com/">Forum</a>-<a target='_blank' href="http://gagg.geneseo.edu/phpBB2/">Gagg</a>-<a target='_blank' href="http://test.ninjawars.net/">Nwtest</a>-<a target='_blank' href="http://github.com/tchalvak/ninjawars/tree/master">NwGitHub</a>-<a target='_blank' class='mobile' href="http://www.ninjawars.net/village.php">NwChat</a>
-		      </li>
-		      <li>
-		      <a target='_blank' href="http://shermanbrothers.com/">Sherman</a>-<a target='_blank' href='http://stackoverflow.com'>Stack</a>
-		      </li>
-		     </ul>
-	     </nav>
-    </section>
-
     <section id="core"><!-- CORE-->
-      <header class="title" style='color:red;'>
-        Crystal Cysts
-        <!--
-        <img src="./i/creations/crystalshattering.gif" alt="Crystal Cysts" />
-        -->
-      </header>
       <div class="orange">
-        Shards of:
+        Shards of
       </div>
       <nav>
       <a target='_blank' href="./i/i.html">Light</a>-
@@ -167,11 +162,18 @@ max-width: 19%;
       <a target='_blank' href="./x/x.html">Internet</a>-
       <a target='_blank' href="http://tchalvak.pbwiki.com">Wiki</a>
       </nav>
+      <header class="title" style='color:red;'>
+        Crystal Cysts
+        <!--
+        <img src="./i/creations/crystalshattering.gif" alt="Crystal Cysts" />
+        -->
+      </header>
     </section>
-
-
+    
+    
     <section id="tertiary">
-        <ul>
+    	<h3>Create</h3>
+        <ul id='art'>
       <li><a target='_blank' href="./i/cr eations/">Artwork /Dir</a></li>
       <li><a target='_blank' href="http://dnaexmosn.deviantart.com/">Deviant Art Gallery</a></li>
       <!-- Remember to change the link href, the link text, the image source, and the image dimensions. -->
@@ -182,12 +184,62 @@ max-width: 19%;
           -->
         </figure>
       </a></li>
-      <li><a class="fade" href="mailto:tchalvakSPAM@gmail.com">tchalvak@</a></li>
-      <li><b>AIM: Tchalvak</b></li>
       <li><a target='_blank' href="http://conceptart.org/forums/">Conceptart.org</a></li>
       </ul>
+      <h3>Design</h3>
+      <nav id='design'>
+        <a href='http://cssfontstack.com/'>cssfontstack.com</a>
+        <a href='http://minimalwpthemes.com/'>minimal design inspiration</a>
+        <a href='http://spyrestudios.com/minimalist-design-a-brief-history-and-practical-tips/'>mimimalist design</a>
+        <a href='http://subtlepatterns.com/'>subtlepatterns.com</a>
+      </nav>
+      <h3>Code</h3>
+      <nav>
+      	<a href='http://github.com/tchalvak'>github.com/tchalvak</a>
+      </nav>     
     </section>
     
+    
+
+    <section id="external" style='width:100%;display:block;'>
+    	<!-- As in external links, not a reference to positioning -->
+    	<nav id='important-nav'>
+		    <ul>
+		      <li>
+		      <a target='_blank' href="http://www.ninjawars.net/webgame/">Ninja</a>-<a target='_blank' class='mobile' href="http://ninjawars.proboards.com/">Forum</a>-<a target='_blank' href="http://gagg.geneseo.edu/phpBB2/">Gagg</a>-<a target='_blank' href="http://test.ninjawars.net/">Nwtest</a>-<a target='_blank' href="http://github.com/tchalvak/ninjawars/tree/master">NwGitHub</a>-<a target='_blank' class='mobile' href="http://www.ninjawars.net/village.php">NwChat</a>
+		      </li>
+		      <li>
+		      <a target='_blank' href="http://www.girlgeniusonline.com/comic.php">GirlGenius</a>-<a target='_blank' href="http://www.schlockmercenary.com">Schlock</a>-<a target='_blank' href="http://qwantz.com">Qwantz</a>-<a target='_blank' href="http://www.asofterworld.com/index.php">Softer</a>-<a target='_blank' href="http://www.penny-arcade.com">Penny</a>-<a href='http://www.mspaintadventures.com/?viewpage=archive' target='_blank'>homestuck<a>
+		      </li>
+		      <li>
+		    <a target='_blank' href="https://gmail.google.com/gmail/?shva=1#" class='mobile'> Gmail </a>-<a target='_blank' href="http://www.google.com/calendar/render?pli=1">Calendar</a>-<a target='_blank' href="http://www.thesaurus.com">Dicthesaurus</a>-    <a target='_blank' href="http://en.wikipedia.org/wiki/Main_Page">Wikipedia</a>-<a target='_blank' href="http://www.playlist.com">Music</a>
+		      </li>
+		      <li>
+		    <a target='_blank' href='http://www.elfquest.com/gallery/OnlineComics3.html'>Elfquest</a>-<a target='_blank' href="http://www.pagebypagebooks.com">Reading</a>-<a target='_blank' href="/e/AGmud.exe">MUD</a>-<a target='_blank' href="http://www.mudconnector.com">Connector</a>-<a target='_blank' href="http://www.facebook.com">Facebook</a>-<a target='_blank' href='http://twitter.com/#list/tchalvak/gagg'>Twitter</a>
+		      </li>
+		      <li>
+              <a target='_blank' href='http://rochester.craigslist.org/web/'>Roc Web Jobs</a>-<a target='_blank' href='http://careers.stackoverflow.com'>StackJobs</a>-<a target='_blank' href='http://newyork.craigslist.org/web/'>NYC</a>-<a target='_blank' href='http://www.odesk.com/jobs/?q=php&amp;c1=Web+Development&c2=Web+Programming&amp;sort=Adjusted+Score&amp;dir=desc'>Odesk Prog</a>-<a target='_blank' href='http://www.chorewars.com'>ChoreWars</a>
+		      </li>
+		      <li>
+		      <a target='_blank' href="http://shermanbrothers.com/">Sherman</a>-<a target='_blank' href='http://stackoverflow.com'>Stack</a>
+		      </li>
+		     </ul>
+	     </nav>
+    </section>
+    
+    
+    
+    <aside class='tchalvak github com content' style=''>
+    <div style="position:relative; top: 0; right: 0; border: 0;width:80px;height:80px;float:right;clear:both;"><a href="http://github.com/tchalvak/tchalvak.github.com">Nxs repo on GitHub</a></div>
+    <div id='css-test'>
+    <ul>
+      <li id='crazy'><a href="crazyIndex.html">JSified Version of 3n's start page</a></li> 
+    </ul>
+    	<h6>Other Aliases</h6>
+        <p>Bugzhunta</p>
+        <p>Kzqai</p>
+    </div>
+    </aside> <!-- End of tchalvak.github.com type content -->
     
 
     <footer><!-- BOTTOM-->
@@ -209,7 +261,7 @@ max-width: 19%;
 
         </form>
       </li>
-      <li><a href='http://google.com/search?q=site%3Aroyronalds.com' target='_blank' class='extLink'>Search</a></li>
+      <li><a href='http://google.com/search?q=site%3Atchalvak.github.com' target='_blank' class='extLink'>Search</a></li>
       <li><a class="fade" href="./i/entities/unknownalienbugs.jpg">Latest Mirrored Image: July 13th, 2005</a></li>
       <!-- Image hidden for now <img src="./i/entities/unknownalienbugs.jpg" alt="mirrored image" /> -->
       <li><a class="fade" href="./i/entities/">Image Mirror /Dir</a></li>
@@ -219,28 +271,16 @@ max-width: 19%;
       </ul>
       </nav>
       
-      <div>
-      	<a href='http://github.com/tchalvak'>github.com/tchalvak</a>
-      </div>
+
     <ul id="repos"> <!-- GITHUB REPOS -->
       <li><h3>repositories</h3></li>
       <li id='latest-commit-title'>NW latest commit:</li>
       <li id='latest-commit'></li>
     </ul>
+      <div>
+      	<a href='http://github.com/tchalvak'>github.com/tchalvak</a>
+      </div>
     </footer>
-    
-    
-    
-    <aside class='tchalvak github com content' style=''>
-    <div style="position:relative; top: 0; right: 0; border: 0;width:80px;height:80px;float:right;clear:both;"><a href="http://github.com/tchalvak/tchalvak.github.com">Nxs repo on GitHub</a></div>
-    <div id='css-test'>
-    <ul>
-      <li id='crazy'><a href="crazyIndex.html">JSified Version of 3n's start page</a></li> 
-    </ul>
-    	<h6>Other Aliases</h6>
-        <p>Bugzhunta</p>
-        <p>Kzqai</p>
-    </div>
-    </aside> <!-- End of tchalvak.github.com type content -->
+
   </body>
 </html>
