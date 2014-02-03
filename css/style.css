@@ -17,9 +17,6 @@ color:#00cc00;
 a:hover{
 	color:#ff0000;
 }
-a:visited{
-color:#999999;
-}
 
 body::first-letter{
 background-color:red;
