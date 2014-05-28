@@ -1,28 +1,103 @@
-* {
-margin: 0;
-padding: 0;
+/* ============================ Mobile-first styles ===================================== */
+html, body {
+    background: black; color:#fff; padding: 0; margin: 0;
 }
-
 body{
 /* http://flickr.com/photos/cgstopgo/2199917653/ */
-height: 100%;
-color:#cccccc;
-background-color:black;
+    color:#cccccc; font-family:sans-serif; padding:3px;
 }
-
-
-a{
-color:#00cc00;
+#sidebar, #footer {
+    display: none;
+}
+#content img { 
+    max-width: 250px;
+}
+.center {
+    text-align:center; width: 100% !important;
+}
+a, a:link, a:visited{
+    color:#00cc00;
+}
+a.btn{
+    color:ghostwhite;font-weight:bold; font-size:larger;
+    text-shadow:
+   -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000;
 }
 a:hover{
-	color:#ff0000;
+    color:#ff0000;
+}
+/* Standard css files, bootstrap & normalized included as separate file */
+header.title{
+    margin-left:auto;margin-right:auto;width:96%;text-align:center;color:red;
+}
+header.title .headline{
+    color:red; font-weight:bold;
+}
+section#external{
+  margin:.5em;  border:thin dashed gray;
+}
+section#left {
+    width:33%;text-align:left:position:relative;float:left; margin-top:6em;
+}
+section#core {
+    text-align:center;
+}
+section#tertiary {
+    display:block; font-size:larger;
+}
+footer{
+    margin-left:auto;margin-right:auto;width:96%;text-align:center
+}
+aside.github {
+    margin: 3em 0 0 1em;
 }
 
-body::first-letter{
-background-color:red;
-color:green;
+#important-nav{
+    font-size:xx-large;display:block;margin-top:0.2em;
+}
+#important-nav ul{
+    display:inline-block;
+}
+#important-nav ul li{
+    display:inline-block;
+}
+#important-nav ul li:after{
+    color:gray; color:rgba(100, 100, 100, 0.9); content:"\00BB";
+}
+#important-nav ul li:last-child:after{
+    content:none;
+}
+#important-nav ul li a{
+    padding-left:0.5em; padding-right: 0.5em; margin-right:0.2em; margin-left:0.2em;
+}
+#important-nav ul, nav ul{
+    margin: 0.1em 0.05em; padding-left:0.3em; padding-right: 0.3em;
+}
+ul#art{
+    display:block; text-align:center;
+}
+ul#art li{
+  display:inline-block; padding:.1em .5em;
+}
+nav#design{
+    display:block;   vertical-align:top;
+}
+nav#design a{
+    display:inline-block; padding:.1em .5em;
+}
+#repo-link-box{
+  position:relative; top: 0; right: 0; border: 0;width:80px;height:80px;float:right;clear:both;
+}
+#search-area-box{
+  border:1px solid black;padding:4px;width:20em;
 }
 
+header::first-letter{
+    background-color:red; color:green;
+}
 ul {
   list-style-type: none;
   margin: .5em 0 0 0;
@@ -35,24 +110,44 @@ ul {
 }
 
 .github a {
-color: maroon;
-background-color:blue;
-padding: .2em;
-font-family: Lucida Grande;
-line-height: 18px;
-}
-
-body>a+img {
-padding: 0;
-background-color:transparent;
+    color: maroon;
+    background-color:blue;
+    padding: .2em;
+    font-family: Lucida Grande;
+    line-height: 18px;
 }
 
 h3 {
-font-family: Lucida Grande;      
+    font-family: Lucida Grande;      
 }
 
-#ninja {
-content: "ninjawars";
+/* Functional Widgets */
+
+.glassbox{
+    margin:1em;
+}
+.thick{
+    margin-top:1em; margin-bottom:1em;
+}
+.thin{
+    margin-top:0;margin-bottom:0;
+}
+
+/* Functional visual accents */
+
+.glow, .glow:hover, .glow:focus {
+  text-decoration: none;
+  color: rgb(120, 120, 120);
+  text-shadow: none;
+  -webkit-transition: 500ms linear 0s;
+  -moz-transition: 500ms linear 0s;
+  -o-transition: 500ms linear 0s;
+  transition: 500ms linear 0s;
+  outline: 0 none;
+}
+.glow:hover, .glow:focus {
+  color: #fff;
+  text-shadow: -1px 1px 8px #ffc, 1px -1px 8px #fff;
 }
 
 .github li:before
@@ -66,7 +161,7 @@ content: "ninjawars";
 
 .github li::after
 {
-    content: " >>>?<<<";
+    content: "[]";
     font-family: Arial;
     font-size: 1.1em;
     color: darkblue;
@@ -82,7 +177,7 @@ content: "ninjawars";
     z-index:50;
 }
 
-.github p+p::first-line, li+li+li+li+li+li::first-line{
+.github p+p::first-line, .github li+li+li+li+li+li::first-line{
     color:crimson;
     background-color:purple;
     margin: 3em;
@@ -105,3 +200,54 @@ content: "ninjawars";
     color:blue;
     background-color:black;
 }
+
+
+
+/* =============================================================================
+   Media Queries For Largers Screens
+   ========================================================================== */
+
+/*@media only screen and (min-width: 480px) {
+
+ ====================
+    INTERMEDIATE
+   ==================== 
+  
+}*/
+@media only screen and (min-width: 768px) {
+
+#sidebar, #footer {
+    display: block;
+}
+#content img { 
+    max-width: none;
+}
+.center {
+    width: 100% !important;
+    text-align: center;
+}
+#important-nav{
+    font-size:x-large;display:block;margin-top:1.5em; text-align:center;
+}
+#important-nav, nav ul{
+    margin:0.5em 0.2em;
+}
+#important-nav ul{
+    display:block; margin-bottom:1em;
+}
+ul#art{
+    width:45%; display:inline-block;
+}
+nav#design{
+    width:45%; display:inline-block;
+}
+
+}
+
+/* Very large screens */
+@media screen and (min-width: 1000px){
+    body{
+        background: url('/i/creations/centipedeshattered.jpg') no-repeat black;
+    }
+}
+
