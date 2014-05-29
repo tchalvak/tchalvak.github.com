@@ -13,13 +13,13 @@ body{
     max-width: 250px;
 }
 .center {
-    text-align:center; width: 100% !important;
+    text-align:center; display:block;
 }
 a, a:link, a:visited{
     color:#00cc00;
 }
 a.btn{
-    color:ghostwhite;font-weight:bold; font-size:larger;
+    color:ghostwhite;font-weight:bold; font-size:larger; min-width:40px; min-height:40px;
     text-shadow:
    -1px -1px 0 #000,  
     1px -1px 0 #000,
@@ -59,10 +59,10 @@ aside.github {
     font-size:xx-large;display:block;margin-top:0.2em;
 }
 #important-nav ul{
-    display:inline-block;
+    display:block;
 }
 #important-nav ul li{
-    display:inline-block;
+    display:block;text-align:center;
 }
 #important-nav ul li:after{
     color:gray; color:rgba(100, 100, 100, 0.9); content:"\00BB";
@@ -76,6 +76,14 @@ aside.github {
 #important-nav ul, nav ul{
     margin: 0.1em 0.05em; padding-left:0.3em; padding-right: 0.3em;
 }
+/* Dynamic css accents between the shard nav links */
+#core nav a:after{
+  content:"\00BB"; margin:0 0.5em 0 0.3em; color:#333;
+}
+#core nav a:last-child:after{
+  content:none;
+}
+
 ul#art{
     display:block; text-align:center;
 }
@@ -214,7 +222,7 @@ h3 {
    ==================== 
   
 }*/
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 40.5em) {
 
 #sidebar, #footer {
     display: block;
@@ -233,7 +241,10 @@ h3 {
     margin:0.5em 0.2em;
 }
 #important-nav ul{
-    display:block; margin-bottom:1em;
+    display:inline-block; margin-bottom:1em;
+}
+#important-nav ul li{
+    display:inline-block;text-align:left;
 }
 ul#art{
     width:45%; display:inline-block;
@@ -245,7 +256,7 @@ nav#design{
 }
 
 /* Very large screens */
-@media screen and (min-width: 1000px){
+@media screen and (min-width: 60em){
     body{
         background: url('/i/creations/centipedeshattered.jpg') no-repeat black;
     }
