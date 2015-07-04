@@ -103,7 +103,7 @@ nav#design a{
     display:inline-block; padding:.1em .5em;
 }
 #repo-link-box{
-  position:relative; top: 0; right: 0; border: 0;width:80px;height:80px;float:right;clear:both;
+  position:relative; top: 0; right: 0; border: 0;width:80px;height:80px;float:right;clear:both;font-weight:bold;
 }
 #search-area-box{
   border:1px solid black;padding:4px;width:20em;
@@ -124,9 +124,9 @@ ul {
 }
 
 .github a {
-    color: maroon;
-    background-color:blue;
-    padding: .2em;
+    color: magenta;
+    background-color:lightblue;
+    padding: 0.2em;
     font-family: Lucida Grande;
     line-height: 18px;
 }
@@ -166,7 +166,7 @@ h3 {
 
 .github li:before
 {
-    content: "Listzors: ";
+    content: "List: ";
     font-family: Arial;
     font-size: 1.1em; 
     color: white;  
@@ -254,11 +254,14 @@ section#external{
 #important-nav ul li{
     display:inline-block;text-align:left;
 }
-ul#art{
-    width:45%; display:inline-block;
+section#tertiary{
+    width:33%; display:inline-block;
 }
 nav#design{
-    width:45%; display:inline-block;
+    width:33%; display:inline-block;
+}
+aside{
+  width:31%;display:inline-block;
 }
 header.title h2{
     font-size:x-large;
