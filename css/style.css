@@ -6,6 +6,10 @@ body{
 /* http://flickr.com/photos/cgstopgo/2199917653/ */
     color:#cccccc; font-family:sans-serif; padding:3px;
 }
+.container{
+  padding-left:5px;
+  padding-right:5px;
+}
 #sidebar, #footer {
     display: none;
 }
@@ -58,7 +62,7 @@ footer{
     margin-left:auto;margin-right:auto;width:96%;text-align:center
 }
 aside.github {
-    margin: 3em 0 0 1em;
+    margin: 0;
 }
 
 #important-nav{
@@ -77,10 +81,12 @@ aside.github {
     content:none;
 }
 #important-nav ul li a{
-    padding-left:0.5em; padding-right: 0.5em; margin-right:0.2em; margin-left:0.2em;
+    padding-left:0.1rem; padding-right: 0.1rem; 
+    margin-right:0.1rem; margin-left:0.1rem;
+    margin-bottom:0.1rem;
 }
 #important-nav ul, nav ul{
-    margin: 0.1em 0.05em; padding-left:0.3em; padding-right: 0.3em;
+    padding-left:0.1rem; padding-right: 0.1rem;
 }
 /* Dynamic css accents between the shard nav links */
 #core nav a:after{
@@ -88,6 +94,10 @@ aside.github {
 }
 #core nav a:last-child:after{
   content:none;
+}
+
+nav.jumbotron{
+    padding:0.2rem;margin:0.1rem;
 }
 
 ul#art{
@@ -242,11 +252,12 @@ h3 {
 section#external{
     border:medium gray dashed;
 }
+#important-nav, nav ul{
+    margin-left:0.2rem;
+    margin-right:0.2rem;
+}
 #important-nav{
     font-size:x-large;display:block;margin-top:1.5em; text-align:center;
-}
-#important-nav, nav ul{
-    margin:0.5em 0.2em;
 }
 #important-nav ul{
     display:inline-block; margin-bottom:1em;
@@ -280,6 +291,27 @@ body{
 }
 section#external{
     border:thick rgb(50, 50, 50) dashed;
+}
+.container{
+    padding-right:15px;
+    padding-left:15px;
+}
+#important-nav, nav ul{
+    margin:0.5em 0.2em;
+}
+
+#important-nav ul li a{
+    padding-left:0.5em; padding-right: 0.5em; margin-right:0.2em; margin-left:0.2em;
+}
+#important-nav ul, nav ul{
+    margin: 0.1em 0.05em; padding-left:0.3em; padding-right: 0.3em;
+}
+nav ul{
+    margin:0.5em 0.2em;
+}
+
+aside.github {
+    margin: 3em 0 0 1em;
 }
 
 }
