@@ -156,11 +156,15 @@ ul {
     background-color:#6A123C;
 }
 
+.github {
+    width:5rem;
+    height:5rem;
+}
+
 .github a {
-    color: #552A00;
-    background-color:#AA7139;
+    color: #AA7139;
     padding: 0.2em;
-    font-family: Lucida Grande;
+    font-family: "Lucida Grande";
     line-height: 18px;
 }
 
@@ -213,23 +217,6 @@ ul {
     font-size: 1.1em;
     color: darkblue;
     background-color: tan;
-} 
-    
-    
-.github #css-test::first-line{
-    color:crimson;
-    background-color:purple;
-    margin: 3em;
-    padding: 2em;
-    z-index:50;
-}
-
-.github p+p::first-line, .github li+li+li+li+li+li::first-line{
-    color:crimson;
-    background-color:purple;
-    margin: 3em;
-    padding: 2em;
-    z-index:50;
 }
 
 .github p:first-child
