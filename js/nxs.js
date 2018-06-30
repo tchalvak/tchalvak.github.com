@@ -47,29 +47,32 @@ var login = 'tchalvak' // your username
     
     });
     
-}        
+}
+
+function toggleDialog(el){
+    dialo
+    $(el).siblings().find('button').first().click(function(el){
+        var dialog = $(el).siblings().find('dialog');
+        dialog.attr('open', (dialog.attr('open') === "false"));
+    })
+}
 
 
 $(document).ready(function() {
 
-		//$("#repos").append("<div id='waiting'>Repositories not yet loaded.</div>");
-    //$("#j a").click(function() { // Just for the special jquery testing link.
-        //alert("Hello world!");
-    //});
-    
+    // IIFE to allow dialog elements to work automatically with their sibling buttons
+    $('button[data-control=dialog]').click(function(ev){
+        // Toggle first sibling dialog
+        $dialog = $(this).siblings('dialog').first();
+        console.assert(!!$dialog.get());
+        var next = ($dialog.prop('open') === false);
+        $dialog.prop('open', next);
+    });
     
     
 	$('#latest-commit').hide();
 	$('#latest-commit-title').hide();
 	           
-	//setTimeout(function (){
-        //    repositoryLoad();
-        //}, 800); // Only load the repositories after a delay.
-	
-	//$('#latest-commit').load("index.html .subtitle"); //  #commit .message
-	//$('#j').load('http://github.com/tchalvak/ninjawars/tree/master #commit');
-	//$('#latest-commit').show();
-	//$('#latest-commit-title').show();
 	var main = $('#main-body');
 	if(main.width() > 1000){
 		// Optimally, this should only happen for computer browsers and not handheld. 
