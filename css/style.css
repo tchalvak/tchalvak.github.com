@@ -39,7 +39,8 @@ a.btn:hover{
 }
 
 a:hover{
-    color:#ff0000;
+    color:#006600;
+    background-color: #ccff00;
 }
 /* Standard css files, bootstrap & normalized included as separate file */
 header.title{
@@ -63,11 +64,27 @@ section#left {
 section#core {
     text-align:center;
 }
-section#tertiary {
-    display:block; font-size:larger;
+.extras-grid{
+    display: grid;
+    grid-template-areas:
+    'tertiary' 'quaternary' 'quinary';
+    grid-template-columns: 1fr;
+}
+section#tertiary{
+    grid-area: tertiary;
+}
+nav#design{
+    grid-area: quaternary;
+}
+aside{
+    grid-area: quinary;
 }
 footer{
     margin-left:auto;margin-right:auto;width:96%;text-align:center
+}
+footer a.de-em{
+    font-size:smalller;
+    color:rgb(78, 75, 75);
 }
 aside.github {
     margin: 0;
@@ -91,6 +108,9 @@ aside.github {
 }
 #important-nav .tiny{
     font-size:small;
+}
+#important-nav .many :nth-child(4n) {
+    clear: left;
 }
 
 #unimportant-nav{
@@ -131,11 +151,8 @@ ul#art{
 ul#art li{
   display:inline-block; padding:.1em .5em;
 }
-nav#design{
-    display:block;
-}
 nav#design a{
-    display:inline-block; padding:.1em .5em;
+    padding:.1em .5em;
 }
 #repo-link-box{
   position:relative; top: 0; right: 0; border: 0;width:80px;height:80px;float:right;clear:both;font-weight:bold;
@@ -248,7 +265,7 @@ ul {
    ==================== 
   
 }*/
-@media only screen and (min-width: 40.5em) {
+@media only screen and (min-width: 40.5rem) {
 
     #sidebar, #footer {
         display: block;
@@ -270,16 +287,24 @@ ul {
         font-size:x-large;display:block;margin-top:1.5rem; text-align:center;
     }
     #important-nav ul{
-        display:inline-block; margin-bottom:1rem;
+        margin-bottom:1rem;
     }
-    section#tertiary{
-        width:33%; display:inline-block;
+    #important-nav .many :nth-child(4n) {
+        clear: inherit;
+    }
+    #important-nav .many :nth-child(5n) {
+        clear: left;
     }
     nav#design{
-        width:33%; display:inline-block; min-height:20rem; padding-bottom: 3rem;
+        min-height:20rem; padding-bottom: 3rem;
     }
-    aside{
-    width:31%;display:inline-block;
+    .extras-grid{
+        grid-template-areas:
+        'tertiary quaternary quinary';
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 0.5rem;
+        padding: 0.5rem;
+        margin-bottom: 3rem;
     }
     header.title h2{
         font-size:x-large;
@@ -293,7 +318,7 @@ ul {
 
 
 /* Very large screens */
-@media screen and (min-width: 60em){
+@media screen and (min-width: 60rem){
 
     body{
         background: url('/i/creations/centipedeshattered.jpg') no-repeat black;
@@ -323,5 +348,15 @@ ul {
         margin: 3em 0 0 1em;
     }
 
+}
+
+/* Super large screens */
+@media screen and (min-width: 75rem){
+    #important-nav .many :nth-child(5n) {
+        clear: inherit;
+    }
+    #important-nav .many :nth-child(8n) {
+        clear: left;
+    }
 }
 
