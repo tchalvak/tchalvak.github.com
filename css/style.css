@@ -44,7 +44,7 @@ a:hover{
 }
 /* Standard css files, bootstrap & normalized included as separate file */
 header.title{
-    margin-left:auto;margin-right:auto;width:96%;text-align:center;color:rgb(101, 37, 48);
+    margin-left:auto;margin-right:auto;text-align:center;color:rgb(101, 37, 48);
 }
 header.title h2{
     font-size:medium;
@@ -65,6 +65,7 @@ section#core {
     text-align:center;
 }
 .extras-grid{
+    margin-top: 2rem;
     display: grid;
     grid-template-areas:
     'tertiary' 'quaternary' 'quinary';
@@ -78,6 +79,9 @@ nav#design{
 }
 aside{
     grid-area: quinary;
+}
+nav#design #coding-info-toggle{
+    display: block;
 }
 footer{
     margin-left:auto;margin-right:auto;width:96%;text-align:center
@@ -266,7 +270,6 @@ ul {
   
 }*/
 @media only screen and (min-width: 40.5rem) {
-
     #sidebar, #footer {
         display: block;
     }
@@ -319,7 +322,20 @@ ul {
 
 /* Very large screens */
 @media screen and (min-width: 60rem){
-
+    .page-header {
+        position: absolute;
+        width: 12rem;
+        top: 0;
+        left: 0;
+        margin-top: 0.5rem;
+        background-color: rgba(100, 100, 100, 0.3);
+    }
+    .page-header h1{
+        margin-top:0.5rem;
+    }
+    section#core{
+        margin-top: 3rem;
+    }
     body{
         background: url('/i/creations/centipedeshattered.jpg') no-repeat black;
     }
