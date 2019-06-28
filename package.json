@@ -1,0 +1,21 @@
+{
+  "name": "tchalvak-nxs",
+  "version": "7.1.1",
+  "description": "Personal portal site and code/art/writing depo.",
+  "main": "index.js",
+  "repository": "git@github.com:tchalvak/tchalvak.github.com.git",
+  "author": "Roy R. <tchalvakspam@gmail.com>",
+  "license": "UNLICENSED",
+  "private": true,
+  "dependencies": {
+    "prettier": "^1.18.2"
+  },
+  "scripts": {
+    "start": "serve -s ./ -l 5566 &",
+    "format": "prettier --write \"js/nxs.js\"",
+    "lint": "npx eslint js/nxs.js",
+    "prepush": "CI=true && yarn unit-test && yarn lint",
+    "browse": "xdg-open http://localhost:5555",
+    "browse:prod": "xdg-open http://tchalvak.github.com"
+  }
+}
