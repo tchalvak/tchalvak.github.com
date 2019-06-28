@@ -1,4 +1,5 @@
 /* global $ */
+// eslint-disable-next-line no-unused-vars
 function repositoryLoad() {
     var limit = 20 // how many repos to list
     var login = 'tchalvak' // your username
@@ -33,22 +34,14 @@ function loadLastCommitMessage() {
             login +
             '/ninjawars/commit/master/?callback=?',
         function(data) {
-            var debuggable = $.grep(data.commit, function() {
+            $.grep(data.commit, function() {
                 return true
             })
-            /*var_dump(unknown);
-    
-    var_dump(data);
-    var_dump(data.commit);
-    var_dump(data.commit.message);
-    var_dump(data.commit.url);
-    var_dump(data.commit.author.name);
-    */
 
             // Load latest commit message.
             $('#latest-commit').html(data.commit.message)
             $('#latest-commit').append(
-                "<div id='commit-author'>--" +
+                '<div id=\'commit-author\'>--' +
                     data.commit.author.name +
                     '</div>'
             )
@@ -58,8 +51,8 @@ function loadLastCommitMessage() {
     )
 }
 
+// eslint-disable-next-line no-unused-vars
 function toggleDialog(el) {
-    dialo
     $(el)
         .siblings()
         .find('button')
@@ -74,9 +67,9 @@ function toggleDialog(el) {
 
 $(document).ready(function() {
     // IIFE to allow dialog elements to work automatically with their sibling buttons
-    $('button[data-control=dialog]').click(function(ev) {
+    $('button[data-control=dialog]').click(function() {
         // Toggle first sibling dialog
-        $dialog = $(this)
+        var $dialog = $(this)
             .siblings('dialog')
             .first()
         console.assert(!!$dialog.get())
