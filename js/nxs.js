@@ -1,3 +1,4 @@
+/* global $ */
 function repositoryLoad() {
     var limit = 20 // how many repos to list
     var login = 'tchalvak' // your username
@@ -32,7 +33,7 @@ function loadLastCommitMessage() {
             login +
             '/ninjawars/commit/master/?callback=?',
         function(data) {
-            var unknown = $.grep(data.commit, function() {
+            var debuggable = $.grep(data.commit, function() {
                 return true
             })
             /*var_dump(unknown);

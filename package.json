@@ -7,7 +7,11 @@
   "author": "Roy R. <tchalvakspam@gmail.com>",
   "license": "UNLICENSED",
   "private": true,
+  "please-remember-to-stop-deploy-cleaning-if-loading-deps": false,
   "dependencies": {
+  },
+  "devDependencies": {
+    "eslint": "^6.0.1",
     "prettier": "^1.18.2"
   },
   "scripts": {
