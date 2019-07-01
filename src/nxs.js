@@ -31,11 +31,19 @@ function fixDialogs(){
     //var dialog = document.querySelector('dialog')
     //dialogPolyfill.registerDialog(dialog)
 
-    forEach(document.querySelectorAll('dialog'), function (index, value){
-        dialogPolyfill.registerDialog(value)
+    forEach(document.querySelectorAll('dialog'), function (index, dialog){
+        dialogPolyfill.registerDialog(dialog)
+        var dialogToggler = function(dialog){
+            return function(){
+                dialog.open = !dialog.open
+            }
+        }
+        var toggler = document.querySelector('#'+dialog.dataset.control)
+        toggler.onclick = dialogToggler(dialog)
     })
 
     // IIFE to allow dialog elements to work automatically with their sibling buttons
+    /*
     $('button[data-control=dialog]').click(function() {
         // Toggle first sibling dialog
         var $dialog = $(this)
@@ -46,6 +54,7 @@ function fixDialogs(){
         var next = $dialog.prop('open') === false
         $dialog.prop('open', next)
     })
+    */
 }
 
 // For small screens
