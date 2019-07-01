@@ -11,7 +11,7 @@
   <!-- Hosted at nxs.vze.com or tchalvak.github.io -->
   
   <link rel="stylesheet" type="text/css" media="screen" href="/css/bootstrap.css">
-  <link rel="stylesheet" type="text/css" media="screen" href="/css/dialog-polyfill.css">
+  <link rel="stylesheet" type="text/css" media="screen" href="/dist/dialog-polyfill.css">
   <link rel="stylesheet" type="text/css" media="screen" href="/css/style.css">
   
   <!-- Using jQuery 2.* with no support for ie < 9 -->
@@ -195,7 +195,9 @@
   </aside>
   <section class='portfolio' id='portfolio'>
     <div class='inner-box'>
-      <button id='live-sites' data-control='dialog' class='dialog-control btn btn-default centered'>Live Sites</button>
+      <div class='centered'>
+        <button id='live-sites' data-control='dialog' class='dialog-control btn btn-default centered'>Live Sites</button>
+      </div>
       <dialog data-control='live-sites'>
         <h1>Live Sites</h1>
         <ul>
