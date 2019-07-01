@@ -13,19 +13,26 @@
   },
   "devDependencies": {
     "eslint": "^6.0.1",
+    "husky": "^2.7.0",
     "prettier": "^1.18.2",
     "webpack": "^4.35.0",
     "webpack-cli": "^3.3.5"
   },
   "scripts": {
     "start": "xdg-open http://localhost:5566 && serve ./ -l 5566",
-    "format": "prettier --write \"js/nxs.js\"",
-    "lint": "npx eslint js/nxs.js",
+    "format": "prettier --write \"src/*\"",
+    "lint": "npx eslint src/nxs.js",
     "prepush": "CI=true && yarn unit-test && yarn lint",
     "test": "echo 'no-op for now'",
     "build": "npx webpack",
     "depcleanup": "./depcleanup.sh",
     "browse": "xdg-open http://localhost:5566",
     "browse:prod": "xdg-open http://tchalvak.github.com"
+  },
+  "husky": {
+    "hooks": {
+      "post-commit": "npm run lint && npm test",
+      "pre-push": "npm run lint && npm test"
+    }
   }
 }

@@ -4,8 +4,8 @@ import ready from './ready'
 import { loadLastCommitMessage } from './repository'
 // import dialogPolyfill from 'dialog-polyfill' Keep to polyfill later
 
-// eslint-disable-next-line no-unused-vars
 // Set sibling dialog elements to open 
+// eslint-disable-next-line no-unused-vars
 function toggleableDialog(el) {
     $(el)
         .siblings()
