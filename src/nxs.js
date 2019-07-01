@@ -2,7 +2,7 @@
 /*  Application Core Runner */
 import ready from './ready'
 import { loadLastCommitMessage } from './repository'
-// import dialogPolyfill from 'dialog-polyfill' Keep to polyfill later
+import dialogPolyfill from 'dialog-polyfill'
 
 // Set sibling dialog elements to open 
 // eslint-disable-next-line no-unused-vars
@@ -19,10 +19,21 @@ function toggleableDialog(el) {
         })
 }
 
+// Foreach Hack for now
+var forEach = function (array, callback, scope) {
+    for (var i = 0; i < array.length; i++) {
+        callback.call(scope, i, array[i]) // passes back stuff we need
+    }
+}
+
 function fixDialogs(){
     // Poly-fill the dialog components?
     //var dialog = document.querySelector('dialog')
     //dialogPolyfill.registerDialog(dialog)
+
+    forEach(document.querySelectorAll('dialog'), function (index, value){
+        dialogPolyfill.registerDialog(value)
+    })
 
     // IIFE to allow dialog elements to work automatically with their sibling buttons
     $('button[data-control=dialog]').click(function() {
