@@ -1,17 +1,15 @@
 import _ from 'lodash'
-import dialogPolyfill from 'dialog-polyfill'
+import startApp from './nxs'
 
 function coreComponent() {
     const elem = document.createElement('div')
     elem.className = 'final'
     elem.innerHTML = _.join(['Fin', ''], ' ')
 
-    // Poly-fill the dialog components?
-    //var dialog = document.querySelector('dialog')
-    //dialogPolyfill.registerDialog(dialog)
-
-
     return elem
 }
 
-document.body.appendChild(coreComponent())
+// Start up the app and initialize, with a final callback
+startApp(function(){
+    document.body.appendChild(coreComponent())
+})
