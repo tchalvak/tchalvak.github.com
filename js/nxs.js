@@ -1,4 +1,6 @@
 /* global $ */
+
+
 // eslint-disable-next-line no-unused-vars
 function repositoryLoad() {
     var limit = 20 // how many repos to list
@@ -52,6 +54,7 @@ function loadLastCommitMessage() {
 }
 
 // eslint-disable-next-line no-unused-vars
+// Set sibling dialog elements to open 
 function toggleDialog(el) {
     $(el)
         .siblings()
@@ -65,7 +68,7 @@ function toggleDialog(el) {
         })
 }
 
-$(document).ready(function() {
+function fixDialogs(){
     // IIFE to allow dialog elements to work automatically with their sibling buttons
     $('button[data-control=dialog]').click(function() {
         // Toggle first sibling dialog
@@ -76,17 +79,30 @@ $(document).ready(function() {
         var next = $dialog.prop('open') === false
         $dialog.prop('open', next)
     })
+}
 
+function initSmallScreens(){
+    // For smallscreens, nullify target= attributes.
+    $('a[target]').attr('target', '')
+}
+
+function initNonSmallScreens(){
+    // Optimally, this should only happen for computer browsers and not handheld.
+    loadLastCommitMessage()
+}
+
+$(document).ready(function() {
+    fixDialogs()
+    
+    // Hide commits by default
     $('#latest-commit').hide()
     $('#latest-commit-title').hide()
 
     var main = $('#main-body')
-    if (main.width() > 1000) {
-        // Optimally, this should only happen for computer browsers and not handheld.
-        loadLastCommitMessage()
+    if (main.width() <= 1000) {
         main.addClass('large-body')
-    } else {
-        // For smallscreens, nullify target= attributes.
-        $('a[target]').attr('target', '')
+        initNonSmallScreens()
+    } else { // Default mobile first
+        initSmallScreens()
     }
 })

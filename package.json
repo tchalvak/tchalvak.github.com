@@ -2,24 +2,30 @@
   "name": "tchalvak-nxs",
   "version": "7.1.1",
   "description": "Personal portal site and code/art/writing depo.",
-  "main": "index.js",
   "repository": "git@github.com:tchalvak/tchalvak.github.com.git",
   "author": "Roy R. <tchalvakspam@gmail.com>",
   "license": "UNLICENSED",
   "private": true,
   "please-remember-to-stop-deploy-cleaning-if-loading-deps": false,
   "dependencies": {
+    "dialog-polyfill": "^0.5.0",
+    "lodash": "^4.17.11"
   },
   "devDependencies": {
     "eslint": "^6.0.1",
-    "prettier": "^1.18.2"
+    "prettier": "^1.18.2",
+    "webpack": "^4.35.0",
+    "webpack-cli": "^3.3.5"
   },
   "scripts": {
-    "start": "serve -s ./ -l 5566 &",
+    "start": "xdg-open http://localhost:5566 && serve ./ -l 5566",
     "format": "prettier --write \"js/nxs.js\"",
     "lint": "npx eslint js/nxs.js",
     "prepush": "CI=true && yarn unit-test && yarn lint",
-    "browse": "xdg-open http://localhost:5555",
+    "test": "echo 'no-op for now'",
+    "build": "npx webpack",
+    "depcleanup": "./depcleanup.sh",
+    "browse": "xdg-open http://localhost:5566",
     "browse:prod": "xdg-open http://tchalvak.github.com"
   }
 }

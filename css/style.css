@@ -68,7 +68,10 @@ section#core {
     margin-top: 2rem;
     display: grid;
     grid-template-areas:
-    'tertiary' 'quaternary' 'quinary';
+    'tertiary' 
+    'quaternary' 
+    'quinary'
+    'p-slide';
     grid-template-columns: 1fr;
 }
 section#tertiary{
@@ -79,6 +82,9 @@ nav#design{
 }
 aside{
     grid-area: quinary;
+}
+section#portfolio{
+    grid-area: p-slide;
 }
 nav#design #coding-info-toggle{
     display: block;
@@ -303,11 +309,17 @@ ul {
     }
     .extras-grid{
         grid-template-areas:
-        'tertiary quaternary quinary';
+        'tertiary quaternary quinary'
+        'p-slide p-slide p-slide';
         grid-template-columns: repeat(3, 1fr);
         grid-gap: 0.5rem;
         padding: 0.5rem;
         margin-bottom: 3rem;
+    }
+    .portfolio .inner-box{
+        width: 40%;
+        margin-left: auto;
+        margin-right: auto;
     }
     header.title h2{
         font-size:x-large;

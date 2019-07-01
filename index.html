@@ -11,6 +11,7 @@
   <!-- Hosted at nxs.vze.com or tchalvak.github.io -->
   
   <link rel="stylesheet" type="text/css" media="screen" href="/css/bootstrap.css">
+  <link rel="stylesheet" type="text/css" media="screen" href="/css/dialog-polyfill.css">
   <link rel="stylesheet" type="text/css" media="screen" href="/css/style.css">
   
   <!-- Using jQuery 2.* with no support for ie < 9 -->
@@ -18,7 +19,8 @@
   
   <script src="/js/bootstrap.min.js"></script>
   <script src="/js/debug.js"></script>
-  <script src="/js/nxs.js"></script><!-- Google analytics script at the bottom -->
+  <script type="module" src="/js/nxs.js"></script><!-- Google analytics script at the bottom -->
+  <!-- Bundled main.js script loaded at the bottom -->
 
 </head>
 <body id="main-body">
@@ -180,13 +182,8 @@
 
   <aside class="tchalvak">
     <h3>Run</h3>
-    <div id="repo-link-box" class="github">
-        <a href="https://github.com/tchalvak/tchalvak.github.com/edit/master/index.html" title="edit this page on Nxs repo on GitHub">
-          edit this page
-        </a>
-    </div>
-    <div><a href="https://mycloud.rackspace.com">Manage Rackspace Server</a></div>
     <div><a href="https://s3.console.aws.amazon.com/s3/home?region=us-east-1#">Manage AWS Server</a></div>
+    <div><a href="https://mycloud.rackspace.com">Manage Rackspace Server</a></div>
 
     <div id="css-test">
       <h6>Other Aliases</h6>
@@ -196,9 +193,24 @@
       </ul>
     </div>
   </aside>
-  <div class='portfolio' id='portfolio'>
-    
-  </div>
+  <section class='portfolio' id='portfolio'>
+    <div class='inner-box'>
+      <button id='live-sites' data-control='dialog' class='dialog-control btn btn-default centered'>Live Sites</button>
+      <dialog data-control='live-sites'>
+        <h1>Live Sites</h1>
+        <ul>
+          <li><a href='https://royronalds.com'>royronalds.com : Roy Ronalds Work Site</a></li>
+          <li><a href='https://bitlucid.com'>bitlucid.com : Programming Agency Site</a></li>
+          <li><a href='https://tershronalds.com'>tershronalds.com : Tersh Ronalds Art Portfolio Splash Site</a></li>
+          <li><a href='http://www.ninjawars.net'>ninjawars.net : Ninjawars Live Site</a></li>
+          <li><a href='http://splash.ninjawars.net'>splash.ninjawars.net : Ninjawars Homepage Splash</a></li>
+          <li><a href='http://shell.ninjawars.net'>shell.ninjawars.net : Ninjawars React Shell - NW-R</a></li>
+          <li><a href='https://ai.royronalds.com'>ai.royronalds.com : Roy Ronalds AI Presentation</a></li>
+          <li><a href='https://kchat.bitlucid.com'>kchat.bitlucid.com : Roy Ronalds AI Presentation</a></li>
+        </ul>
+      </dialog>
+    </div>
+  </section>
   </div>
 
 </div>
@@ -223,10 +235,17 @@
     </ul>
 
     <div> <a href="http://github.com/tchalvak">github.com/tchalvak</a> </div>
+    <div> <a href="https://github.com/tchalvak/tchalvak.github.com">this site</a> </div>
+    <div id="repo-link-box" class="github">
+        <a href="https://github.com/tchalvak/tchalvak.github.com/edit/master/index.html" title="edit this page on Nxs repo on GitHub">
+          edit this page
+        </a>
+    </div>
   </nav>
 </footer>
 
-
+</div><!-- End of .container -->
+<script src="/dist/main.js"></script><!-- Bundled script -->
 <script type="text/javascript">
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -237,8 +256,5 @@
   ga('send', 'pageview');
 
 </script>
-
-</div><!-- End of .container -->
-
 </body>
 </html>
