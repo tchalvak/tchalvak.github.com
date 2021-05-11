@@ -28,7 +28,7 @@
     "build": "npx webpack",
     "depcleanup": "./depcleanup.sh",
     "browse": "xdg-open http://localhost:5566",
-    "browse:prod": "xdg-open http://tchalvak.github.com"
+    "browse:prod": "xdg-open http://tchalvak.github.io"
   },
   "husky": {
     "hooks": {
