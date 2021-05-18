@@ -9,7 +9,7 @@
   "please-remember-to-stop-deploy-cleaning-if-loading-deps": false,
   "dependencies": {
     "dialog-polyfill": "^0.5.0",
-    "lodash": "^4.17.19"
+    "lodash": "^4.17.21"
   },
   "devDependencies": {
     "eslint": "^6.0.1",
