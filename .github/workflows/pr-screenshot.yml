@@ -19,7 +19,7 @@ jobs:
   screenshot:
     runs-on: ubuntu-latest
     permissions:
-      contents: read
+      contents: write
       pull-requests: write
 
     steps:
@@ -32,6 +32,7 @@ jobs:
         run: |
           npm init -y
           npm install playwright
+          npx playwright install --with-deps chromium
 
       - name: Start local server for PR branch
         run: |
@@ -92,27 +93,45 @@ jobs:
             artifacts/pr-index.png
             artifacts/base-index.png
 
-      - name: Comment on PR with screenshot links
+      - name: Set release tag
+        id: release_tag
+        run: echo "tag=pr-screenshot-${{ github.event.pull_request.number }}-${{ github.run_id }}" >> "$GITHUB_OUTPUT"
+
+      - name: Publish screenshots to GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ steps.release_tag.outputs.tag }}
+          name: PR Screenshot Preview
+          files: |
+            artifacts/pr-index.png
+            artifacts/base-index.png
+          draft: false
+          prerelease: true
+
+      - name: Comment on PR with embedded screenshot images
         uses: actions/github-script@v7
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           script: |
+            const owner = context.repo.owner;
+            const repo = context.repo.repo;
+            const tag = '${{ steps.release_tag.outputs.tag }}';
+            const prUrl = `https://github.com/${owner}/${repo}/releases/download/${tag}/pr-index.png`;
+            const baseUrl = `https://github.com/${owner}/${repo}/releases/download/${tag}/base-index.png`;
+
             const body = `
             ## 📸 Homepage screenshot comparison
 
-            This PR changed homepage-related assets or HTML, so I captured screenshots for both the PR branch and the base branch.
+            | PR branch | Base branch |
+            | --- | --- |
+            | ![PR branch](${prUrl}) | ![Base branch](${baseUrl}) |
 
-            - PR version: \`artifacts/pr-index.png\`
-            - Base version: \`artifacts/base-index.png\`
-
-            Download the artifacts from the GitHub Actions run for the full-size images.
-
-            _Generated automatically by the PR screenshot workflow._
+            Download the full-size screenshots from the release linked in the workflow run.
             `;
 
             await github.rest.issues.createComment({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
+              owner,
+              repo,
               issue_number: context.issue.number,
               body
             });
