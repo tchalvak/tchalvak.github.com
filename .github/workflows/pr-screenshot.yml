@@ -32,6 +32,7 @@ jobs:
         run: |
           npm init -y
           npm install playwright
+          npx playwright install --with-deps chromium
 
       - name: Start local server for PR branch
         run: |
