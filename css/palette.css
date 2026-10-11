@@ -1,0 +1,71 @@
+/* Color Palette Component */
+
+.color-palette {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    padding: 16px;
+    background: rgba(210, 180, 140, 0.15);
+    border: 2px solid rgba(210, 180, 140, 0.4);
+    border-radius: 16px;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.color-swatch {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    transition: transform 150ms ease, box-shadow 150ms ease;
+    cursor: pointer;
+    /* Create a slightly irregular/organic circle shape */
+    clip-path: polygon(50% 0%,
+            93% 8%,
+            100% 50%,
+            93% 92%,
+            50% 100%,
+            7% 92%,
+            0% 50%,
+            7% 8%);
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    position: relative;
+}
+
+.color-swatch:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+}
+
+/* Define the palette colors */
+.swatch-rose {
+    background: #f4cbd0;
+}
+
+.swatch-mauve {
+    background: #eca6b0;
+}
+
+.swatch-coral {
+    background: #f6908a;
+}
+
+.swatch-magenta {
+    background: #ff9fe8;
+}
+
+.swatch-lavender {
+    background: #f9c0f7;
+}
+
+/* Optional: Add a label for the palette */
+.palette-label {
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--text);
+    text-align: center;
+    width: 100%;
+    margin-bottom: 4px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+}
