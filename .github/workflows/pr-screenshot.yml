@@ -124,7 +124,7 @@ jobs:
 
             | PR branch | Base branch |
             | --- | --- |
-            | ![PR branch](${prUrl}) | ![Base branch](${baseUrl}) |
+            | ![Base branch](${baseUrl}) | ![PR branch](${prUrl}) |
 
             Download the full-size screenshots from the release linked in the workflow run.
             `;
