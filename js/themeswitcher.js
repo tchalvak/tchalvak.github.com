@@ -38,4 +38,22 @@
     });
 
 
+    const swatches = document.querySelectorAll('.color-swatch');
+
+    swatches.forEach(function (swatch) {
+        swatch.addEventListener('click', function () {
+            const color = window.getComputedStyle(swatch).backgroundColor;
+            navigator.clipboard.writeText(color).then(function () {
+                // Optional: Show brief feedback
+                const originalTitle = swatch.title;
+                swatch.title = 'Copied!';
+                setTimeout(function () {
+                    swatch.title = originalTitle;
+                }, 1500);
+            });
+        });
+    });
+
+
+
 })();
